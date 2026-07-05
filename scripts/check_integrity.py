@@ -8,6 +8,8 @@ Checks, each with a readable error:
   - sites.operator / sites.developer reference operators.yml ids
   - every site record has a page stub sites/<id>.md with site_id: <id>,
     and every stub has a record (scripts/gen-pages.sh regenerates)
+  - data/geo/sites.geojson matches what scripts/gen-geo.sh would emit
+    (committed pre-rendered map data must not drift from the records)
 """
 from __future__ import annotations
 
@@ -78,6 +80,16 @@ for stub in sorted(stub_dir.glob("*.md")):
 for rid in sites:
     if rid not in stub_ids:
         errors.append(f"data/sites/{rid}.yml: missing page stub sites/{rid}.md (run scripts/gen-pages.sh)")
+
+# pre-rendered map data ↔ records (drift-checked like the page stubs)
+import gen_geo  # noqa: E402  (same scripts/ dir)
+
+geojson_path = ROOT / "data" / "geo" / "sites.geojson"
+expected = gen_geo.render(gen_geo.build()[0])
+if not geojson_path.exists():
+    errors.append("data/geo/sites.geojson missing (run scripts/gen-geo.sh)")
+elif geojson_path.read_text(encoding="utf-8") != expected:
+    errors.append("data/geo/sites.geojson is stale — drifts from data/sites/ (run scripts/gen-geo.sh)")
 
 if errors:
     for e in errors:

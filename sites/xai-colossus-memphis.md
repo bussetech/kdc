@@ -4,4 +4,5 @@ layout: site-record
 site_id: xai-colossus-memphis
 title: "Colossus / Colossus 2"
 permalink: /sites/xai-colossus-memphis/
+map: true
 ---

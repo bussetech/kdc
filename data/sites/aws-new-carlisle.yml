@@ -7,6 +7,8 @@ location:
   state: IN
   county: St. Joseph
   locality: New Carlisle
+  lat: 41.701
+  lon: -86.502
 metrics:
   capacity_mw: 2200
   capacity_mw_basis: utility

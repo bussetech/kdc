@@ -4,4 +4,5 @@ layout: site-record
 site_id: dc-blox-henrico
 title: "DC BLOX Azalea Data Center"
 permalink: /sites/dc-blox-henrico/
+map: true
 ---

@@ -4,4 +4,5 @@ layout: site-record
 site_id: google-peanut-chesterfield
 title: "Google Project Peanut"
 permalink: /sites/google-peanut-chesterfield/
+map: true
 ---

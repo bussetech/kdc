@@ -4,4 +4,5 @@ layout: site-record
 site_id: chirisa-chesterfield
 title: "Chirisa Technology Parks Richmond Campus (CTP-01/02/03)"
 permalink: /sites/chirisa-chesterfield/
+map: true
 ---

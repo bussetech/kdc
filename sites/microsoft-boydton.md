@@ -4,4 +4,5 @@ layout: site-record
 site_id: microsoft-boydton
 title: "Microsoft Boydton Campus"
 permalink: /sites/microsoft-boydton/
+map: true
 ---

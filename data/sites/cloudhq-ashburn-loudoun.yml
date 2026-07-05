@@ -7,6 +7,8 @@ location:
   state: VA
   county: Loudoun
   locality: Ashburn
+  lat: 39.015
+  lon: -77.465
 metrics:
   capacity_mw: 160
   capacity_mw_basis: it-load

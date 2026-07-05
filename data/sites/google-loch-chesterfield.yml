@@ -8,6 +8,8 @@ location:
   county: Chesterfield
   locality: Midlothian
   address: 750 Watkins Centre Parkway
+  lat: 37.463
+  lon: -77.664
 metrics:
   land_acres: 350
 announced_date: "2025-08-28"

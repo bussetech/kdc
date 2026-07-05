@@ -4,4 +4,5 @@ layout: site-record
 site_id: vantage-ashburn-loudoun
 title: "Vantage Ashburn I (VA1) Campus"
 permalink: /sites/vantage-ashburn-loudoun/
+map: true
 ---

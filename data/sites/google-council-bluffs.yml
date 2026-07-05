@@ -7,6 +7,8 @@ location:
   state: IA
   county: Pottawattamie
   locality: Council Bluffs
+  lat: 41.221
+  lon: -95.856
 metrics:
   building_sqft: 2900000
 announced_date: "2007"

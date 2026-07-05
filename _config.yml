@@ -12,7 +12,7 @@ lang: en
 url: "https://kdc.bussetech.com"
 baseurl: ""
 
-remote_theme: bussetech/theme@v0.2.0
+remote_theme: bussetech/theme@v0.4.1
 plugins:
   - jekyll-remote-theme
 
@@ -31,6 +31,8 @@ studio:
       url: /
     - title: Sites
       url: /sites/
+    - title: Map
+      url: /map/
     - title: Data
       url: /data/
 

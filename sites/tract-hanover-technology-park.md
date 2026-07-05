@@ -4,4 +4,5 @@ layout: site-record
 site_id: tract-hanover-technology-park
 title: "Hanover Technology Park"
 permalink: /sites/tract-hanover-technology-park/
+map: true
 ---

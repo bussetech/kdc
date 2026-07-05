@@ -4,4 +4,5 @@ layout: site-record
 site_id: tract-goochland
 title: "Tuckahoe Technology Park"
 permalink: /sites/tract-goochland/
+map: true
 ---

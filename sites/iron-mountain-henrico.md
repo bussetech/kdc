@@ -4,4 +4,5 @@ layout: site-record
 site_id: iron-mountain-henrico
 title: "Iron Mountain Richmond Campus"
 permalink: /sites/iron-mountain-henrico/
+map: true
 ---

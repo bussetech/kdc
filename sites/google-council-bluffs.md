@@ -4,4 +4,5 @@ layout: site-record
 site_id: google-council-bluffs
 title: "Google Council Bluffs data center campus"
 permalink: /sites/google-council-bluffs/
+map: true
 ---

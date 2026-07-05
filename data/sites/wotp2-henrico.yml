@@ -7,6 +7,8 @@ location:
   state: VA
   county: Henrico
   locality: Varina
+  lat: 37.434
+  lon: -77.286
 metrics:
   land_acres: 622
   buildings: 13

@@ -8,6 +8,8 @@ location:
   county: Henrico
   locality: Henrico
   address: Azalea Avenue (former Azalea Flea Market site)
+  lat: 37.628
+  lon: -77.443
 metrics:
   capacity_mw: 10
   land_acres: 5

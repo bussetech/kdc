@@ -4,4 +4,5 @@ layout: site-record
 site_id: meta-henrico
 title: "Meta Henrico Data Center"
 permalink: /sites/meta-henrico/
+map: true
 ---

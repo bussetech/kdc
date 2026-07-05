@@ -4,4 +4,5 @@ layout: site-record
 site_id: province-group-powhatan
 title: "Province Group Data Center Campus (Page Road)"
 permalink: /sites/province-group-powhatan/
+map: true
 ---

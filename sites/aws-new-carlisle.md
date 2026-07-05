@@ -4,4 +4,5 @@ layout: site-record
 site_id: aws-new-carlisle
 title: "Project Rainier (New Carlisle campus)"
 permalink: /sites/aws-new-carlisle/
+map: true
 ---

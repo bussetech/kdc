@@ -4,4 +4,5 @@ layout: site-record
 site_id: aws-lake-anna-louisa
 title: "Lake Anna Technology Campus (AWS)"
 permalink: /sites/aws-lake-anna-louisa/
+map: true
 ---

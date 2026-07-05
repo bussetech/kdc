@@ -7,6 +7,8 @@ location:
   state: VA
   county: Louisa
   locality: Louisa
+  lat: 37.992
+  lon: -77.958
 metrics:
   land_acres: 374
   building_sqft: 3800000

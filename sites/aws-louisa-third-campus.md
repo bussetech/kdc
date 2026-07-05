@@ -4,4 +4,5 @@ layout: site-record
 site_id: aws-louisa-third-campus
 title: "AWS Third Louisa County Campus (Northeast Creek Reservoir)"
 permalink: /sites/aws-louisa-third-campus/
+map: true
 ---

@@ -7,6 +7,8 @@ location:
   state: VA
   county: Chesterfield
   address: 2700 Bermuda Hundred Rd
+  lat: 37.353
+  lon: -77.351
 metrics:
   land_acres: 307
   building_sqft: 855000
