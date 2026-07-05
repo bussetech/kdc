@@ -1,7 +1,7 @@
 ---
 layout: home
 title: kdc
-description: KDC — agentic data center mapper: tracks US data center projects (announcements, permits, construction) as an open, source-transparent dataset with a browsable site.
+description: "KDC \u2014 agentic data center mapper: tracks US data center projects (announcements, permits, construction) as an open, source-transparent dataset with a browsable site."
 ---
 
 KDC — agentic data center mapper: tracks US data center projects (announcements, permits, construction) as an open, source-transparent dataset with a browsable site.
