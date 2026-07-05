@@ -1,0 +1,394 @@
+{
+  "sources": {
+    "chesterfield-newsflash-rss": {
+      "fail_count": 0,
+      "items": {
+        "07a97b626aca04dd": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "ce9b43379267933224ab3d00f544db82b610077fe3990e8a179da7f3d3a49643"
+        },
+        "2d50417181c84514": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "d0887ab4d961581518423833eb9ac94148f18422a76aa424c75c74d05fc7b481"
+        },
+        "3209d143d655456b": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "9bd3ac0f47d7d4368bcd036f6c96dc23c68a74c03a5afbfb7216ae17a1a59cd3"
+        },
+        "5ad4f73c3ff4ff4d": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "eb466434eeb801af8efa7685fb9d3d6fea1fc30db18bd8f1edfcf255cf233fce"
+        },
+        "709153884422026a": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "0106bb2f90c565d455b913ca164fbe78ab9cc35b4e8f45ea8bc2a5acfdc45f11"
+        },
+        "c96999df82077f7e": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "6893572a2b5aa799fcd9adc4f8a6b855855385aa0fdfb30ac68ea735b5f8c048"
+        },
+        "cb6a84fddc0a098e": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "6670d66a724574955f7c79f16c2f2b457932504e04b7b6e48115fd74ab244aa2"
+        },
+        "fc3a1d807862d2c9": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "843eec3e82d47d2583fb11ddd7167721af092a26cd575c6e3124ea736fece1c5"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "datacenter-news": {
+      "items": {}
+    },
+    "dcd-rss": {
+      "fail_count": 0,
+      "items": {
+        "03e14210645ab224": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "0574980a00c6fd6b2e670328e44a0c2c0bc3b830d6485c3dfb71377a845ed9b6"
+        },
+        "17004dfc6520f081": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "9851e48b30caf3487527775147f37b078d7ac2e962271a0993c1a11a74f64af1"
+        },
+        "18a275cfbacc3b27": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "ad0f3ff287430e4f7758f45da3b5ebf3b30e13e978371e31f4f091e448865b92"
+        },
+        "28f9deee91b3ea13": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "6a38f62e2fec7816925f4fe20afbc215244c76cd59dfb332f181c914f4afa425"
+        },
+        "40f15d65f0ba8cb2": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "d600705cd1f9706f41c317779391e01b8e75f18c6bed39c748db7545eb52338c"
+        },
+        "41cefccd6ea366d1": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "f1bb3e39b8667e6922107810f6b49bd0b581657fcc581044d35c5b47be452a30"
+        },
+        "860d49da236b0d98": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "a736bdd588aebcd57a4754133d4320ef6c9ddfcc353456b4d8e6c8ce53dd005d"
+        },
+        "8c4a2550e97d3321": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "4f83877015bfbb4cc62671b9f966920b87e8d8546d3cd52e416cc811f9eba7ed"
+        },
+        "af57fc5097bd5ff9": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "ade910fdd6d26ae893605b4aa75753e23323f2402a9dc9ad852543c78d345067"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "dcf-news-sitemap": {
+      "fail_count": 0,
+      "items": {},
+      "last_new": null,
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "epoch-ai-datacenters": {
+      "items": {}
+    },
+    "grpva-news-rss": {
+      "fail_count": 0,
+      "items": {
+        "452f77e5cfc45427": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "375223f1ccf39519ce21b19f05db4afe334a3f532e24a7354ddeed8a2b567279"
+        },
+        "8f7c4d5709ff8682": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "eb40108c4912366b9fbd7850e5d7b9df9e8cd7fce205cb1844f92fe2a362fe8f"
+        },
+        "939ecf9584364173": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "2326894323f1958046fade607ba98a8d50378a1b06a159ea6d492d4d0056954c"
+        },
+        "b82e75545abec04a": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "d64f8fab5df47aaf93a69a1ec22140257f1c78bf1923ab172234aac719a0d755"
+        },
+        "dd02d4dfe961328c": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "39bc92442886b1f9f32629fdf0aa80de9cd9118fcfcb09d2d15481cab8547627"
+        },
+        "f27567778a933884": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "eea959cce6fee4e0d5786bca2e451aaefc748f4b111f05668f1f24e2c018d6b0"
+        },
+        "f2a36a454e32dcb7": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "d023c36e7024907414275e547662da07c73fe3b2d4b19ce88c3d7ef55e17fe84"
+        },
+        "f6a042ecc52c8b47": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "14dbb246a7ac539bf1844206e6fe1a9de9018b34d78521e840591e8628dca96e"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "henrico-news-rss": {
+      "fail_count": 0,
+      "items": {
+        "0152695c5d3fba46": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "922d8becb0d4395b23ea3e095b79b1c6c5f23eb9d44d298d3fc31e2fa6fb4685"
+        },
+        "6f8445a5a7c1bfaa": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "2c4e21c60d525bee2431c5155152773ad334b95fd0c076a38ae938f75c02b7e5"
+        },
+        "8049091ce3dba05e": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "f871dc9e7fe58e25607348f68fc0e309f248aaa6a9f5f4b2057290928f59488d"
+        },
+        "98903c7339fd2148": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "cb91e4d8217e70b3250c0c6fb51310e3a955c6289739ba383370bbb89c4ec5c9"
+        },
+        "9f7fb449a68fc605": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "381b194c8182b4da61b3f7974af8fec54753b18b0fec475805f7141a992d6a72"
+        },
+        "abce0077c68059ca": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "696b88280d816e47978f45051d0d252aa8c429567a9b5289eeb664e7e687f1a9"
+        },
+        "cfcec4fc12ff8c03": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "08f887967de1f760033253cef99fe4c06b1f09311da3cb15e3a8d45bdea4a3f8"
+        },
+        "fe376ac6081e5c7e": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "98ac92ac59113044bd8c8da9ecbbb0e6be06d612e9612f1cd0c27fc30e30342b"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "powhatan-newsflash-rss": {
+      "fail_count": 0,
+      "items": {
+        "5b425024bdf2e7dc": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "a5ea9a5b4522097f8168101191e2a5341e9895fbe1972e34fc5556a05e762ba2"
+        },
+        "67ad38a59e39d67e": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "3cf68cfba12b0adb9e9dd055c7905efab81017c06864bb77227fa664a38b599a"
+        },
+        "7c31f5477f7c8194": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "5a49a618134eb488a59f0f00e3ba937661b528f3e62fc355f0407702d97f58af"
+        },
+        "ced54a2aa20b81d2": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "98eed729e63844b0ee8e67ff71a33c65e04a8b331ff26e288c42c0e523f8bb8b"
+        },
+        "dfb63fa99087c5b7": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "24bf7cba2a0d6ea0721dc615c0e3ff2cbfda6c610c7643f859aab52c263bf84f"
+        },
+        "e4c4d9548bc8ee4f": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "8aca802e1cd4736d344a8836527c664ff0add9e41f3b99accf030fa9f037fe28"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "prnewswire-datacenters": {
+      "items": {}
+    },
+    "richmonder-rss": {
+      "fail_count": 0,
+      "items": {
+        "03d52bc9463fd689": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "94710006158b90515df89c437016dffa79b88e6ae9cd0e0bac873714eadab480"
+        },
+        "28fa4835122bc2fb": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "a5ac9de22776c6b5c46c3b1724c29ece71c4cae51ce7a68b99e809561e109f8e"
+        },
+        "4cc723ec7d7dea63": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "4a45f9e91ec4d988d7ec44d1f5f5c121b3c30c52956e8515a5d2459e90fe9176"
+        },
+        "56f0cb11c891dda3": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "fd70f10e37f988dd2ac7fbac1ea386935943d0a288468cc38b004fd89a5ff648"
+        },
+        "aa9300394cbabda0": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "52b0bc8bf8b4908d8620c53cd411e24878ac1cf2a64522efb3ac5a1def4e4e0b"
+        },
+        "c1465687d23f544f": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "7aaf18f5efc84d90a777fed894cd2625392ec90e776a3ee932e1b6f9b9dea130"
+        },
+        "cf197b3b2900de9a": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "9c99da09fe616aadabfba4fb1fb6cb773b71ef174bec9bb44d0d3e047cf84301"
+        },
+        "f320476a1206bb91": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "03d30d405d451fbbb0b552430d08cd58c8ccc7c2a2b9cfbb968d6881291392c1"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "vaco-news-rss": {
+      "items": {}
+    },
+    "virginiabusiness-rss": {
+      "fail_count": 0,
+      "items": {
+        "1d097327d1e254cf": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "3f4719c00c23a70eb2d27eed1b94dc09059f8af6872d94f7bec402a488875e31"
+        },
+        "34a7210677a49db9": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "e433f236189cc3172e191f65892939b3f64a9cd4b2d371a7ecf56111a44fc3d6"
+        },
+        "6ff0390439ac7d1d": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "33a8f8c5e4e395477df0e88f15c46bd8d919e12d968f6f2356c91bc5048c076b"
+        },
+        "78235bd8f8067643": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "7de05c661a5e066f837c44b1df55c3fd556054c4cc125487aa855e817cfe1f61"
+        },
+        "db219a036be4ddb1": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "cf8f0b78412b5d31b088c199a251defdbb16defe9ba42fd9575e3b68273b9a80"
+        },
+        "dbd1b2feeec5bff6": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "37463280542014cf28bf9844b0e2053801815fef501089e87341cb72c8e18633"
+        },
+        "f3f43b9cca006a09": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "fc4d0bcde3ce2e29f082b893bd81e91e93a99560c45a7dceb65754843d103f75"
+        },
+        "f8c06bfd03d3a9ca": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "86863d6225ad412bca003a02127888b037abec725c594c93e03cdbd41ebdc431"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    },
+    "wtvr-local-rss": {
+      "fail_count": 0,
+      "items": {
+        "05e31a1617291780": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "289cd76021a3bae30a09cf6b723317b607ee6159b2b7ac717cf865e80be2a25e"
+        },
+        "0e103334bdfbc5f1": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "0bed9eaa6f861b2e22a0d500f58923a17055282460f01d7b1753edc944502db2"
+        },
+        "2f9327b330eb4874": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "64a2b06a4802ebf4fe681e233be73891132b3adb878f7ae56ea3c236044f5e7a"
+        },
+        "3d8027225a3b9bb2": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "9d3cdcd8c52320fc9d9908391361fd925e59ba463dc040d4e70d9a8d24ce3cc9"
+        },
+        "90fb4e63ae77b1f1": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "8e7abf8a985c1502255f1bc6bb7c70c2610913a146f72c083df8c8724cfb0382"
+        },
+        "c568bbb52b7a4da8": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "73826a2a6f608fd7697249f1c99602446da1fbae285af8c354bf5f673e16adad"
+        },
+        "e52b79e18ddbb264": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "605076747f39114ee896f09f27dd3df2af7ba26e59dee845740d306b339ae743"
+        },
+        "f68a9817cc5a1510": {
+          "first_seen": "2026-07-05",
+          "last_seen": "2026-07-05",
+          "sha": "3062e4ea14148581f2ebab813211430c08b3fda3eb860d13b58bdd1d78aaadd7"
+        }
+      },
+      "last_new": "2026-07-05T19:47:02Z",
+      "last_ok": "2026-07-05T19:47:02Z"
+    }
+  },
+  "version": 1
+}
