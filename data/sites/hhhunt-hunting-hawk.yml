@@ -1,0 +1,44 @@
+id: hhhunt-hunting-hawk
+name: Hunting Hawk Technology Park
+developer: hhhunt
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: Hanover
+  locality: Hanover
+metrics:
+  capacity_mw: 900
+  land_acres: 400
+  building_sqft: 3900000
+  buildings: 10
+announced_date: "2025-09"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/900mw-data-center-campus-plan-withdrawn-in-hanover-county-virginia/
+    title: "900MW data center campus plan withdrawn in Hanover County, Virginia"
+    publisher: Data Center Dynamics
+    date: "2026-02-03"
+  - url: https://www.wtvr.com/news/local-news/hhhunt-withdraws-data-center-application-jan-28-2026
+    title: "Plans withdrawn for 400-acre data center development in Hanover"
+    publisher: WTVR CBS 6
+    date: "2026-01-28"
+signals:
+  - sig-20260705-hunting-hawk-announced-date
+  - sig-20260705-hunting-hawk-building-sqft
+  - sig-20260705-hunting-hawk-buildings
+  - sig-20260705-hunting-hawk-capacity-mw
+  - sig-20260705-hunting-hawk-developer
+  - sig-20260705-hunting-hawk-land-acres
+  - sig-20260705-hunting-hawk-status-dcd
+  - sig-20260705-hunting-hawk-status-wtvr
+notes: >
+  Cancelled path: withdrawn. HHHunt (with partner developers) revealed
+  plans ~Sept 2025; Hanover Planning Commission unanimously recommended
+  denial (Jan 2026) and the application was withdrawn, announced at the
+  Jan 28, 2026 Board of Supervisors meeting by Supervisor Susan Dibble
+  (WTVR); DCD (pub 2026-02-03) corroborates the withdrawal. All metrics
+  (900MW, 3.9M sqft, 10 buildings, 400 acres) are developer-claimed plan
+  figures that were never entitled. capacity_mw basis unspecified.

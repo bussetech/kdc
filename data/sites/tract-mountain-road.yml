@@ -1,0 +1,36 @@
+id: tract-mountain-road
+name: Mountain Road Technology Park
+developer: tract
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: Hanover
+  locality: Hanover
+  address: Route 33 near the Henrico County line
+metrics:
+  land_acres: 430
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://www.12onyourside.com/2026/05/28/hanover-county-officials-vote-down-controversial-data-center-proposal/
+    title: "Hanover County officials vote down a controversial data center proposal"
+    publisher: WWBT NBC12
+    date: "2026-05-28"
+  - url: https://www.wtvr.com/news/local-news/hanover-county/tract-data-center-vote-may-28-2026
+    title: "Hanover Board of Supervisors denies controversial Mountain Road data center development"
+    publisher: WTVR CBS 6
+    date: "2026-05-28"
+signals:
+  - sig-20260705-mountain-road-developer
+  - sig-20260705-mountain-road-land-acres
+  - sig-20260705-mountain-road-location
+  - sig-20260705-mountain-road-status-nbc12
+  - sig-20260705-mountain-road-status-wtvr
+notes: >
+  Cancelled path: denied. Hanover Board of Supervisors voted 4-3 to deny
+  on May 28, 2026 — the rezoning, the CUP for substations, and the height
+  exception were all rejected. Two independent local outlets (NBC12, WTVR)
+  agree on the vote and margin. ~430 acres on Route 33 near the Henrico
+  line. Distinct from Tract's separately approved Hanover Technology Park.

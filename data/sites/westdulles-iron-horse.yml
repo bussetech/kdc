@@ -1,0 +1,44 @@
+id: westdulles-iron-horse
+name: Iron Horse Business Park data center campus
+developer: westdulles
+status: announced
+location:
+  country: US
+  state: VA
+  county: Hanover
+  locality: Ashland
+metrics:
+  land_acres: 230
+announced_date: "2024-05"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/westdulles-properties-files-for-3-million-sq-ft-data-center-park-outside-richmond-virginia/
+    title: "WestDulles Properties files for 3 million sq ft data center park outside Richmond, Virginia"
+    publisher: Data Center Dynamics
+    date: "2024-05-17"
+  - url: https://www.12onyourside.com/2026/06/19/iron-horse-data-center-proposal-deferred-hanover-county/
+    title: "Iron Horse data center proposal deferred in Hanover County"
+    publisher: WWBT NBC12
+    date: "2026-06-19"
+signals:
+  - sig-20260705-iron-horse-announced-date
+  - sig-20260705-iron-horse-building-sqft
+  - sig-20260705-iron-horse-buildings
+  - sig-20260705-iron-horse-developer
+  - sig-20260705-iron-horse-land-acres
+  - sig-20260705-iron-horse-status
+notes: >
+  Still a live/pending application (kept as announced, not cancelled).
+  230-acre site split ~60/40 between Town of Ashland and Hanover County;
+  Ashland approved its portion Oct 2024, Hanover supervisors denied the
+  Hanover portion Dec 2024; WestDulles refiled a revised, scaled-back
+  Hanover-side application in 2025 (Richmond BizSense, fetch blocked).
+  The current rezoning was deferred at the June 2026 Planning Commission
+  and returns July 16, 2026 — outcome unknown as of 2026-07-05.
+  building_sqft and buildings omitted: data-center option was 2.5-3M sqft
+  across 10-12 buildings with an on-site substation, vs an alternative
+  1.9M sqft mixed-industrial plan; ranges/alternatives not reducible to a
+  single number, so left blank. Pending Hanover ask is ~78 acres of the
+  full campus concept.
