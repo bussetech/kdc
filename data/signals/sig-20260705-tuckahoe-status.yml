@@ -1,0 +1,12 @@
+site_id: null
+site_hint: "Tuckahoe Technology Park — Goochland, VA"
+attribute: status
+value: "announced — pre-application for conditional use permit filed; multi-phase data center campus, CUP public process just beginning (not yet permitted)"
+source_url: https://virginiabusiness.com/tract-planning-872-acre-data-center-campus-in-goochland/
+source_title: Tract planning 872-acre data center campus in Goochland
+publisher: Virginia Business
+source_date: 2026-06-30
+observed_date: 2026-07-05
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Corroborated by WTVR (2026-06-11) and Goochland County FAQ; first project under Goochland's Technology Overlay District."
