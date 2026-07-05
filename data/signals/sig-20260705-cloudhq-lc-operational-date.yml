@@ -1,5 +1,5 @@
 id: sig-20260705-cloudhq-lc-operational-date
-site_id: null
+site_id: cloudhq-ashburn-loudoun
 site_hint: "CloudHQ LC Campus (LC1A/LC1B, LC2 and expansion) — Loudoun, VA"
 attribute: operational_date
 value: "built 2019"

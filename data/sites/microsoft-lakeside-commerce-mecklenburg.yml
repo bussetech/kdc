@@ -1,0 +1,27 @@
+id: microsoft-lakeside-commerce-mecklenburg
+name: Microsoft Lakeside Commerce Park Campus
+operator: microsoft
+status: announced
+location:
+  country: US
+  state: VA
+  county: Mecklenburg
+metrics:
+  land_acres: 259
+  buildings: 3
+announced_date: "2022"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/microsoft-files-for-six-building-data-center-campus-in-virginias-mecklenburg-county/
+    title: "Microsoft files for six-building data center campus in Virginia's Mecklenburg County"
+    publisher: Data Center Dynamics
+    date: "2023-04-12"
+    note: "3 buildings on 259 acres (2022 filing)."
+notes: >-
+  2022 Microsoft filing in Mecklenburg County; thin single-source support
+  (low confidence). Distinct from the Boydton campus, the Tunstall Road
+  filing, and the 2023 six-building campus.
+signals:
+  - sig-20260705-ms-lakeside-commerce

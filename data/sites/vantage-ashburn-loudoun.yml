@@ -1,0 +1,45 @@
+id: vantage-ashburn-loudoun
+name: Vantage Ashburn I (VA1) Campus
+operator: vantage
+status: under-construction
+location:
+  country: US
+  state: VA
+  county: Loudoun
+  locality: Sterling
+  address: 45200 Vantage Data Plaza, Sterling, VA 20166 (Data Center Alley)
+metrics:
+  capacity_mw: 206
+  capacity_mw_basis: it-load
+  land_acres: 52
+  building_sqft: 1700000
+  buildings: 6
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://vantage-dc.com/data-center-locations/north-america/ashburn-i-virginia/
+    title: "Ashburn I, Virginia Data Center Campus"
+    publisher: Vantage Data Centers (operator page)
+    note: "Six multi-story buildings up to 300W/SF; 206MW critical IT load at full build-out; 52 acres; 1.7M sq ft campus total; 45200 Vantage Data Plaza."
+  - url: https://www.datacenterdynamics.com/en/news/vantage-tops-out-fifth-building-of-206mw-data-center-in-ashburn-virginia/
+    title: "Vantage tops out fifth building of 206MW data center in Ashburn, Virginia"
+    publisher: Data Center Dynamics
+    date: "2025-07-24"
+    note: "Fifth building (VA15, five-story) topped out July 19 2025; 'more than 1 million sq ft' of data center space."
+notes: >-
+  Multi-phase six-building campus, mixed operational/under-construction:
+  the fifth building (VA15) topped out July 19 2025, earlier buildings
+  operational. capacity_mw 206 is operator-stated critical IT load at full
+  build-out (not utility capacity). building_sqft conflict: operator lists
+  1.7M sq ft campus total (kept, primary source) while DCD reports "more
+  than 1 million sq ft" of data center space — recorded the operator's
+  campus-total figure.
+signals:
+  - sig-20260705-vantage-ashburn-buildings
+  - sig-20260705-vantage-ashburn-capacity-mw
+  - sig-20260705-vantage-ashburn-land-acres
+  - sig-20260705-vantage-ashburn-location
+  - sig-20260705-vantage-ashburn-sqft-dcd
+  - sig-20260705-vantage-ashburn-sqft-operator
+  - sig-20260705-vantage-ashburn-status

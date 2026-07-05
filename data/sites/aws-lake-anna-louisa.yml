@@ -1,0 +1,41 @@
+id: aws-lake-anna-louisa
+name: Lake Anna Technology Campus (AWS)
+operator: aws
+status: announced
+location:
+  country: US
+  state: VA
+  county: Louisa
+  locality: Louisa
+  address: Kentucky Springs Rd at Haley Dr (adjacent to North Anna Nuclear Power Station)
+metrics:
+  land_acres: 153
+  building_sqft: 1700000
+  buildings: 7
+announced_date: "2023-09"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/amazon-files-for-38-million-sq-ft-data-center-campus-in-louisa-county-virginia/
+    title: "Amazon files for 3.8 million sq ft data center campus in Louisa County, Virginia"
+    publisher: Data Center Dynamics
+    date: "2024-11-05"
+    note: "Location (Kentucky Springs Rd / North Anna Nuclear) and 1.7M sq ft / up to 7 buildings, filed Sept 2023."
+  - url: https://www.datacenterdynamics.com/en/news/aws-withdraws-plans-for-third-data-center-campus-in-louisa-county-virginia/
+    title: "AWS withdraws plans for third data center campus in Louisa County, Virginia"
+    publisher: Data Center Dynamics
+    date: "2025-07-28"
+    note: "153 acres."
+notes: >-
+  One of the two campuses in AWS's ~$11B Louisa County Technology Overlay
+  District program (announced August 2023, per Data Center Frontier); the
+  per-campus investment split is not disclosed, so no investment_usd is
+  recorded here. Construction milestones not verified in fetched sources —
+  status kept as announced at medium confidence. Distinct from the larger
+  North Creek Technology Campus (aws-north-creek-louisa) and from the
+  withdrawn third Louisa campus (aws-louisa-third-campus).
+signals:
+  - sig-20260705-aws-lakeanna-land-acres
+  - sig-20260705-aws-lakeanna-location
+  - sig-20260705-aws-lakeanna-sqft
