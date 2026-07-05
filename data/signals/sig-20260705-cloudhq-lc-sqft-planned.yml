@@ -1,0 +1,11 @@
+id: sig-20260705-cloudhq-lc-sqft-planned
+site_id: null
+site_hint: "CloudHQ LC Campus (LC1A/LC1B, LC2 and expansion) — Loudoun, VA"
+attribute: building_sqft
+value: "8.5M SF planned at full build (14 buildings)"
+source_url: https://baxtel.com/data-center/cloudhq-ashburn-campus
+source_title: "CloudHQ Ashburn Campus Data Center"
+publisher: Baxtel
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: low

@@ -1,0 +1,11 @@
+id: sig-20260705-vantage-ashburn-buildings
+site_id: null
+site_hint: "Vantage Ashburn I (VA1) Campus — Loudoun, VA"
+attribute: buildings
+value: "six multi-story buildings, up to 300W/SF"
+source_url: https://vantage-dc.com/data-center-locations/north-america/ashburn-i-virginia/
+source_title: "Ashburn I, Virginia Data Center Campus"
+publisher: Vantage Data Centers (operator page)
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

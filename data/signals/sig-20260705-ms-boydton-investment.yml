@@ -1,0 +1,13 @@
+id: sig-20260705-ms-boydton-investment
+site_id: null
+site_hint: "Microsoft Boydton Campus — Mecklenburg, VA"
+attribute: investment_usd
+value: "≈$2B cumulative — $499M (2010), $150M (2011), $348M (2013), $346M (2014), $402M (2015)"
+source_url: https://www.yourgv.com/business/local_business/microsoft-s-2b-investment-in-southern-virginia-fulfills-early-vision/article_862bfb68-1cb2-4701-aad5-0be0ef8ccbe7.html
+source_title: "Microsoft's $2B investment in Southern Virginia fulfills early vision"
+publisher: yourgv.com (SoVaNow / Mecklenburg Sun)
+source_date: "2025-11-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Covers original campus through 2015; post-2015 expansions additional and not included."
