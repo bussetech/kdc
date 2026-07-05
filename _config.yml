@@ -29,6 +29,14 @@ studio:
   nav:
     - title: Home
       url: /
+    - title: Sites
+      url: /sites/
+    - title: Data
+      url: /data/
+
+# Jekyll reads site.data from data/ (not _data/) so the CI-validated record
+# files are also the render source — one copy, no mirroring.
+data_dir: data
 
 markdown: kramdown
 sass:

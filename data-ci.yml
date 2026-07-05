@@ -1,0 +1,15 @@
+# Dataset ↔ schema mapping for studio data CI (bussetech/ci reusable-data-ci).
+# Manifest mode (not convention) because kdc needs the referential-integrity
+# hook: signals.site_id ↔ sites, sites.operator/developer ↔ operators,
+# sites.signals[] ↔ signals, and record-id ↔ filename ↔ page-stub coherence.
+datasets:
+  - name: sites
+    schema: schema/sites.schema.json
+    files: "data/sites/*.yml"
+  - name: signals
+    schema: schema/signals.schema.json
+    files: "data/signals/*.yml"
+  - name: operators
+    schema: schema/operators.schema.json
+    files: "data/operators.yml"
+integrity: scripts/check-integrity.sh

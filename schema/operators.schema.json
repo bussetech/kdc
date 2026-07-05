@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kdc.bussetech.com/schema/operators.schema.json",
+  "title": "kdc operators reference",
+  "description": "Canonical company lookup: operators, developers, REITs. Curated, low churn.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "type"],
+    "additionalProperties": false,
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+      "name": { "type": "string", "minLength": 1 },
+      "type": {
+        "type": "string",
+        "enum": ["hyperscaler", "ai", "reit", "developer", "colo", "utility", "other"]
+      },
+      "aliases": { "type": "array", "items": { "type": "string" } },
+      "url": { "type": "string", "pattern": "^https?://" }
+    }
+  }
+}

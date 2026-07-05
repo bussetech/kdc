@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kdc.bussetech.com/schema/sites.schema.json",
+  "title": "kdc site record",
+  "description": "A resolved data-center project-site record, built by clustering signals. Every value must trace to a source; see docs/founding/schema-sketch.md.",
+  "type": "object",
+  "required": ["id", "name", "status", "location", "first_seen", "last_updated", "confidence", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "description": "Unique slug; must equal the filename stem."
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "operator": {
+      "type": "string",
+      "description": "Ref: data/operators.yml id. Omit when no end operator is known (undisclosed campuses)."
+    },
+    "developer": { "type": "string", "description": "Ref: data/operators.yml id, when distinct from operator." },
+    "status": {
+      "type": "string",
+      "enum": ["announced", "permitted", "under-construction", "operational"],
+      "description": "Dominant lifecycle stage; phase mixes go in notes. Evolving the enum is a schema-promotion decision (orange issue)."
+    },
+    "location": {
+      "type": "object",
+      "required": ["state"],
+      "additionalProperties": false,
+      "properties": {
+        "country": { "type": "string", "default": "US", "enum": ["US"] },
+        "state": { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "county": { "type": "string", "description": "County, parish, or independent city." },
+        "locality": { "type": "string", "description": "Town / CDP / business park / district." },
+        "address": { "type": "string" },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "parcel_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Jurisdiction parcel/GPIN identifiers, only when found in a source. Geometry: data/parcels/<id>.geojson (deferred)."
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Evolving section — promote a new attribute only via an orange needs-human issue (see CLAUDE.md).",
+      "properties": {
+        "capacity_mw": { "type": "number", "exclusiveMinimum": 0 },
+        "capacity_mw_basis": {
+          "type": "string",
+          "enum": ["it-load", "utility", "unspecified"],
+          "description": "What the MW figure measures, when sources say."
+        },
+        "land_acres": { "type": "number", "exclusiveMinimum": 0 },
+        "building_sqft": { "type": "number", "exclusiveMinimum": 0 },
+        "buildings": { "type": "integer", "minimum": 1 },
+        "investment_usd": { "type": "number", "exclusiveMinimum": 0 },
+        "water": { "type": "string", "description": "Free-form until a measurable cluster promotes it." }
+      }
+    },
+    "announced_date": { "$ref": "#/$defs/fuzzyDate" },
+    "operational_date": { "$ref": "#/$defs/fuzzyDate" },
+    "first_seen": { "$ref": "#/$defs/isoDate", "description": "When kdc first recorded this site." },
+    "last_updated": { "$ref": "#/$defs/isoDate" },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Aggregate corroboration level across clustered signals."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string", "pattern": "^https?://" },
+          "title": { "type": "string" },
+          "publisher": { "type": "string" },
+          "date": { "$ref": "#/$defs/fuzzyDate" },
+          "note": { "type": "string", "description": "Which claims this source supports." }
+        }
+      }
+    },
+    "signals": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Refs: data/signals/<id>.yml — the observations this record resolves."
+    },
+    "notes": { "type": "string", "description": "Conflicting reports, phase detail, unit ambiguity — the signal texture." }
+  },
+  "$defs": {
+    "isoDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "fuzzyDate": {
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+      "description": "YYYY, YYYY-MM, or YYYY-MM-DD — as precise as sources allow."
+    }
+  }
+}

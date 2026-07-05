@@ -1,0 +1,78 @@
+# Canonical company lookup for kdc records (schema/operators.schema.json).
+# Curated by hand; gn_kdc_records proposes additions when new companies appear.
+- id: aws
+  name: Amazon Web Services
+  type: hyperscaler
+  aliases: [Amazon, AWS]
+  url: https://aws.amazon.com
+- id: google
+  name: Google
+  type: hyperscaler
+  aliases: [Alphabet, Peanut LLC, Skyward Holdings LLC, Aeris Investments LLC]
+  url: https://datacenters.google
+- id: meta
+  name: Meta
+  type: hyperscaler
+  aliases: [Facebook]
+  url: https://datacenters.atmeta.com
+- id: microsoft
+  name: Microsoft
+  type: hyperscaler
+  url: https://datacenters.microsoft.com
+- id: openai
+  name: OpenAI
+  type: ai
+  aliases: [Stargate]
+- id: xai
+  name: xAI
+  type: ai
+- id: qts
+  name: QTS Data Centers
+  type: colo
+  aliases: [QTS Realty Trust]
+  url: https://www.qtsdatacenters.com
+- id: vantage
+  name: Vantage Data Centers
+  type: colo
+  url: https://vantage-dc.com
+- id: cloudhq
+  name: CloudHQ
+  type: colo
+  url: https://cloudhq.com
+- id: iron-mountain
+  name: Iron Mountain
+  type: reit
+  aliases: [Iron Mountain Data Centers]
+  url: https://www.ironmountain.com
+- id: chirisa
+  name: Chirisa Technology Parks
+  type: colo
+  aliases: [Chirisa Investments, CTP]
+- id: dc-blox
+  name: DC BLOX
+  type: colo
+  url: https://www.dcblox.com
+- id: crusoe
+  name: Crusoe
+  type: developer
+- id: tract
+  name: Tract
+  type: developer
+  url: https://tract.com
+- id: powerhouse
+  name: PowerHouse Data Centers
+  type: developer
+  aliases: [American Real Estate Partners, AREP]
+- id: province-group
+  name: Province Group
+  type: developer
+  aliases: [Newport Equities LLC, LC West LLC]
+- id: hourigan
+  name: Hourigan
+  type: developer
+- id: hhhunt
+  name: HHHunt
+  type: developer
+- id: westdulles
+  name: WestDulles Properties
+  type: developer

@@ -64,9 +64,13 @@ covered. Deeper coverage elsewhere is welcome.
   (theme repo `docs/versioning.md`). Design rules: theme `docs/design.md` —
   Swiss typography, color is wayfinding only.
 - **Data:** text-based stores in `data/`, one JSON Schema per dataset in
-  `schema/` (`schema/<name>.schema.json` ↔ `data/<name>.*` — the studio
-  data CI validates the pair). Published datasets are CC BY 4.0 and must
-  state provenance in `data/index.md`.
+  `schema/` — mapped by the `data-ci.yml` manifest (manifest, not
+  convention, because kdc needs the referential-integrity hook
+  `scripts/check-integrity.sh`). Jekyll reads `data/` directly
+  (`data_dir: data`) so the validated files are also the render source.
+  Per-record pages are generated stubs: run `scripts/gen-pages.sh` after
+  any `data/sites/` change (integrity CI fails on drift). Published
+  datasets are CC BY 4.0 and must state provenance in `data/index.md`.
 - **Feed:** the theme publishes `/feed.json` (JSON Feed 1.1) from `_posts/`.
   The portal aggregates it — writing a post is how this project surfaces on
   the studio homepage.

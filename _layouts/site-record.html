@@ -1,0 +1,82 @@
+---
+layout: default
+---
+{%- assign rec = site.data.sites[page.site_id] -%}
+{%- assign ops = site.data.operators -%}
+<article class="prose">
+  <p class="eyebrow"><a href="/sites/">Sites</a> / {{ rec.location.state }}{% if rec.location.county %} / {{ rec.location.county }}{% endif %}</p>
+  <h1>{{ rec.name }}</h1>
+  <p>
+    <strong>Status:</strong> {{ rec.status }} ·
+    <strong>Confidence:</strong> {{ rec.confidence }}
+    {%- if rec.announced_date %} · <strong>Announced:</strong> {{ rec.announced_date }}{% endif -%}
+    {%- if rec.operational_date %} · <strong>Operational:</strong> {{ rec.operational_date }}{% endif %}
+  </p>
+
+  <h2>Facts</h2>
+  <table>
+    <tbody>
+      {%- if rec.operator -%}
+        {%- assign op = ops | where: "id", rec.operator | first -%}
+        <tr><th>Operator</th><td>{{ op.name | default: rec.operator }}{% if op.type %} <em>({{ op.type }})</em>{% endif %}</td></tr>
+      {%- endif -%}
+      {%- if rec.developer -%}
+        {%- assign dev = ops | where: "id", rec.developer | first -%}
+        <tr><th>Developer</th><td>{{ dev.name | default: rec.developer }}</td></tr>
+      {%- endif -%}
+      <tr><th>Location</th><td>
+        {%- if rec.location.address %}{{ rec.location.address }}, {% endif -%}
+        {%- if rec.location.locality %}{{ rec.location.locality }}, {% endif -%}
+        {%- if rec.location.county %}{{ rec.location.county }}, {% endif -%}
+        {{ rec.location.state }}</td></tr>
+      {%- if rec.location.parcel_ids -%}
+        <tr><th>Parcels</th><td>{{ rec.location.parcel_ids | join: ", " }}</td></tr>
+      {%- endif -%}
+      {%- if rec.metrics.capacity_mw -%}
+        <tr><th>Capacity</th><td>{{ rec.metrics.capacity_mw }} MW{% if rec.metrics.capacity_mw_basis and rec.metrics.capacity_mw_basis != "unspecified" %} ({{ rec.metrics.capacity_mw_basis }}){% endif %}</td></tr>
+      {%- endif -%}
+      {%- if rec.metrics.building_sqft -%}
+        <tr><th>Building area</th><td>{{ rec.metrics.building_sqft }} sq ft</td></tr>
+      {%- endif -%}
+      {%- if rec.metrics.buildings -%}
+        <tr><th>Buildings</th><td>{{ rec.metrics.buildings }}</td></tr>
+      {%- endif -%}
+      {%- if rec.metrics.land_acres -%}
+        <tr><th>Land</th><td>{{ rec.metrics.land_acres }} acres</td></tr>
+      {%- endif -%}
+      {%- if rec.metrics.investment_usd -%}
+        <tr><th>Investment</th><td>${{ rec.metrics.investment_usd }}</td></tr>
+      {%- endif -%}
+      {%- if rec.metrics.water -%}
+        <tr><th>Water</th><td>{{ rec.metrics.water }}</td></tr>
+      {%- endif -%}
+      <tr><th>First recorded</th><td>{{ rec.first_seen }}</td></tr>
+      <tr><th>Last updated</th><td>{{ rec.last_updated }}</td></tr>
+    </tbody>
+  </table>
+
+  {%- if rec.notes %}
+  <h2>Signal notes</h2>
+  <p>{{ rec.notes }}</p>
+  {%- endif %}
+
+  <h2>Sources</h2>
+  <ul>
+    {%- for s in rec.sources %}
+    <li><a href="{{ s.url }}" rel="external nofollow">{{ s.title | default: s.url }}</a>
+      {%- if s.publisher %} — {{ s.publisher }}{% endif %}{% if s.date %}, {{ s.date }}{% endif %}
+      {%- if s.note %}<br><em>{{ s.note }}</em>{% endif %}</li>
+    {%- endfor %}
+  </ul>
+
+  {%- if rec.signals %}
+  <h2>Signals</h2>
+  <p>Raw observations behind this record ({{ rec.signals | size }}):
+    {%- for sg in rec.signals %}
+    <a href="/data/signals/{{ sg }}.yml"><code>{{ sg }}</code></a>{% unless forloop.last %}, {% endunless %}
+    {%- endfor %}</p>
+  {%- endif %}
+
+  <p><a href="/data/sites/{{ rec.id }}.yml">Record file</a> · dataset licensed
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> — see <a href="/data/">provenance</a>.</p>
+</article>

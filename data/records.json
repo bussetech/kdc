@@ -1,8 +1,0 @@
-[
-  {
-    "id": "example-1",
-    "title": "Starter record — replace me",
-    "date": "2026-01-01",
-    "notes": "Factory scaffolding proving the data/ + schema/ + data-CI path. Replace with the project's real datasets (and update schema/, data/index.md, and the provenance note)."
-  }
-]
