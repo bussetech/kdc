@@ -1,5 +1,5 @@
 id: sig-20260705-cloudhq-lc-status
-site_id: null
+site_id: cloudhq-ashburn-loudoun
 site_hint: "CloudHQ LC Campus (LC1A/LC1B, LC2 and expansion) — Loudoun, VA"
 attribute: status
 value: "operational (LC1A/LC1B/LC2); LC3/LC4 under construction as of April 2026"

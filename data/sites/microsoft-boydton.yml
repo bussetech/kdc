@@ -1,0 +1,36 @@
+id: microsoft-boydton
+name: Microsoft Boydton Campus
+operator: microsoft
+status: operational
+location:
+  country: US
+  state: VA
+  county: Mecklenburg
+  locality: Boydton
+metrics:
+  investment_usd: 2000000000
+announced_date: "2010"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/microsoft-files-for-six-building-data-center-campus-in-virginias-mecklenburg-county/
+    title: "Microsoft files for six-building data center campus in Virginia's Mecklenburg County"
+    publisher: Data Center Dynamics
+    date: "2023-04-12"
+    note: "Original Boydton campus announced 2010 at ~$500M; expansions 2011-2016."
+  - url: https://www.yourgv.com/business/local_business/microsoft-s-2b-investment-in-southern-virginia-fulfills-early-vision/article_862bfb68-1cb2-4701-aad5-0be0ef8ccbe7.html
+    title: "Microsoft's $2B investment in Southern Virginia fulfills early vision"
+    publisher: yourgv.com (SoVaNow / Mecklenburg Sun)
+    date: "2025-11-03"
+    note: "≈$2B cumulative through 2015 expansions; operational."
+notes: >-
+  Operational campus. investment_usd ≈$2B is cumulative through 2015
+  expansions ($499M 2010, $150M 2011, $348M 2013, $346M 2014, $402M 2015);
+  post-2015 expansions are additional and not included in this figure.
+  Distinct from Microsoft's later Mecklenburg filings (Lakeside Commerce
+  Park, Tunstall Road, and the 2023 six-building campus ~10 miles away).
+signals:
+  - sig-20260705-ms-boydton-announced
+  - sig-20260705-ms-boydton-investment
+  - sig-20260705-ms-boydton-status

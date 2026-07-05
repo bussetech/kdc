@@ -1,0 +1,47 @@
+id: cloudhq-ashburn-loudoun
+name: CloudHQ LC Campus (Ashburn)
+operator: cloudhq
+status: operational
+location:
+  country: US
+  state: VA
+  county: Loudoun
+  locality: Ashburn
+metrics:
+  capacity_mw: 160
+  capacity_mw_basis: it-load
+  land_acres: 97
+  building_sqft: 8500000
+  buildings: 14
+operational_date: "2019"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/cloudhq-seeks-14-billion-in-abs-funding/
+    title: "CloudHQ seeks $1.4 billion in ABS funding"
+    publisher: Data Center Dynamics
+    date: "2026-04-13"
+    note: "14 buildings at full build-out; LC1A 88MW + LC2 72MW = 160MW leased IT load; full build-out 1.7GW; 403,410 sq ft raised floor (LC1A + LC2); LC1A/LC1B/LC2 operational, LC3/LC4 under construction as of April 2026."
+  - url: https://baxtel.com/data-center/cloudhq-ashburn-campus
+    title: "CloudHQ Ashburn Campus Data Center"
+    publisher: Baxtel
+    note: "97-acre campus (LC1A/LC1B on a 30-acre parcel); built 2019; 8.5M SF planned at full build (14 buildings). Low confidence."
+notes: >-
+  Multi-phase campus: LC1A/LC1B/LC2 operational; LC3/LC4 under construction
+  as of April 2026 (14 buildings at full build-out). Headline capacity_mw
+  is the 160MW currently leased IT load (LC1A 88MW + LC2 72MW, per ABS
+  documentation — not utility MW); full build-out is planned at ~1.7GW.
+  building_sqft is the 8.5M SF planned full-build figure (Baxtel, low
+  confidence); DCD reports 403,410 sq ft of raised floor across LC1A + LC2
+  today — different measure, not a conflict. land_acres (97) and
+  operational_date (2019) are low-confidence Baxtel figures.
+signals:
+  - sig-20260705-cloudhq-lc-buildings
+  - sig-20260705-cloudhq-lc-capacity-mw
+  - sig-20260705-cloudhq-lc-fullbuild-mw
+  - sig-20260705-cloudhq-lc-land-acres
+  - sig-20260705-cloudhq-lc-operational-date
+  - sig-20260705-cloudhq-lc-sqft-planned
+  - sig-20260705-cloudhq-lc-sqft-raisedfloor
+  - sig-20260705-cloudhq-lc-status

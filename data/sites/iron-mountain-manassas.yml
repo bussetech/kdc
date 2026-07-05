@@ -1,0 +1,42 @@
+id: iron-mountain-manassas
+name: Iron Mountain Manassas Campus
+operator: iron-mountain
+status: operational
+location:
+  country: US
+  state: VA
+  county: Prince William
+  locality: Manassas
+  address: 11680 Hayden Road (VA-1)
+metrics:
+  land_acres: 142
+  building_sqft: 2000000
+  buildings: 9
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://investors.ironmountain.com/news/news-details/2024/Iron-Mountain-Expands-Planned-Data-Center-Capacity-in-Virginia-by-more-than-350-Megawatts/default.aspx
+    title: "Iron Mountain Expands Planned Data Center Capacity in Virginia by more than 350 Megawatts"
+    publisher: Iron Mountain (investor press release)
+    date: "2024-11-18"
+    note: "142-acre existing campus; 40-acre Manassas expansion site (announced Nov 2024) adding ~150MW across two buildings."
+  - url: https://www.datacenterfrontier.com/site-selection/article/55268876/data-center-tours-iron-mountain-va-1-manassas-virginia
+    title: "Data Center Tours: Iron Mountain VA-1, Manassas, Virginia"
+    publisher: Data Center Frontier
+    note: "More than 2M sq ft across campus; 5 operational + 2 under construction (9 planned); VA-1 = 167,958 sq ft / 12.4MW at 11680 Hayden Road."
+notes: >-
+  Multi-building campus (VA-1 through VA-7 plus expansion): 5 data centers
+  operational, 2 under construction, 9 planned. land_acres 142 is the
+  existing campus; a 40-acre expansion site announced Nov 2024 adds two
+  buildings (~150MW). Campus-total MW is fuzzy across sources — directories
+  cite ~280MW planned (not independently verified) and the Nov 2024
+  expansion adds ~150MW; VA-1 alone is 12.4MW — so no campus capacity_mw is
+  recorded (blank beats invented).
+signals:
+  - sig-20260705-im-manassas-expansion-acres
+  - sig-20260705-im-manassas-expansion-mw
+  - sig-20260705-im-manassas-land-acres
+  - sig-20260705-im-manassas-sqft
+  - sig-20260705-im-manassas-status
+  - sig-20260705-im-manassas-va1

@@ -1,5 +1,5 @@
 id: sig-20260705-cloudhq-lc-capacity-mw
-site_id: null
+site_id: cloudhq-ashburn-loudoun
 site_hint: "CloudHQ LC Campus (LC1A/LC1B, LC2 and expansion) — Loudoun, VA"
 attribute: capacity_mw
 value: "160MW combined — LC1A 88MW + LC2 72MW"

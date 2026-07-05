@@ -29,6 +29,11 @@ sources:
     publisher: Virginia Business
     date: "2025-02-18"
     note: "$1B+ investment; company 'moving very quickly on the first building'."
+  - url: https://investors.ironmountain.com/news/news-details/2024/Iron-Mountain-Expands-Planned-Data-Center-Capacity-in-Virginia-by-more-than-350-Megawatts/default.aspx
+    title: "Iron Mountain Expands Planned Data Center Capacity in Virginia by more than 350 Megawatts"
+    publisher: Iron Mountain (investor press release)
+    date: "2024-11-18"
+    note: "200MW+ / 66-acre Henrico (Richmond) site confirmed in expansion announcement."
 notes: >-
   Located in White Oak Technology Park, Henrico County. Company reported
   as moving quickly on the first building (Feb 2025); status kept as
@@ -37,6 +42,8 @@ notes: >-
   Richmond BizSense May 2026 summary reportedly describes the four
   buildings as totaling 365,000 sqft (fetch blocked — context only, not
   independently verified) — recorded DCD's 1M+ figure.
+  Iron Mountain's Nov 2024 investor release independently corroborates the
+  66-acre / 200MW+ Henrico site.
 signals:
   - sig-20260705-ironmtn-acres
   - sig-20260705-ironmtn-buildings
@@ -44,3 +51,5 @@ signals:
   - sig-20260705-ironmtn-mw
   - sig-20260705-ironmtn-sqft
   - sig-20260705-ironmtn-status
+  - sig-20260705-iron-mountain-henrico-capacity-mw
+  - sig-20260705-iron-mountain-henrico-land-acres

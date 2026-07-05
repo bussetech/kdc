@@ -1,0 +1,32 @@
+id: aws-louisa-third-campus
+name: AWS Third Louisa County Campus (Northeast Creek Reservoir)
+operator: aws
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: Louisa
+  locality: Louisa
+  address: near Northeast Creek Reservoir
+metrics:
+  land_acres: 1370
+  building_sqft: 7200000
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/aws-withdraws-plans-for-third-data-center-campus-in-louisa-county-virginia/
+    title: "AWS withdraws plans for third data center campus in Louisa County, Virginia"
+    publisher: Data Center Dynamics
+    date: "2025-07-28"
+    note: "1,370 acres / 7.2M sq ft; withdrawn July 23 2025 after community opposition; NOT part of the $11B two-campus program."
+notes: >-
+  Cancelled path: WITHDRAWN. AWS withdrew this third Louisa County campus
+  proposal on July 23 2025 after community opposition. It was explicitly
+  NOT part of AWS's $11B two-campus Louisa program (see
+  aws-north-creek-louisa and aws-lake-anna-louisa). Recorded as a
+  cancelled site so the killed proposal remains a first-class record.
+signals:
+  - sig-20260705-aws-louisa-third-land-acres
+  - sig-20260705-aws-louisa-third-sqft
+  - sig-20260705-aws-louisa-third-status
