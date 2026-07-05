@@ -33,6 +33,13 @@ not launder a single outlet's claim into fact.
   dead proposals are records, not omissions (ruling: platform#52).
 - **`data/operators.yml`** — company lookup (hyperscaler / REIT /
   developer / colo / utility).
+- **`data/sources.yml`** — the source registry AND fetch allowlist
+  (EPIC2-04, platform ADR-0025): every source the scheduled fetch layer
+  may touch, with per-source robots/ToS review. Nothing off it is ever
+  fetched; adding a source is a one-file PR. `status: manual` sources
+  stay hand-carried via research issues. Seen-state + fetch journal live
+  on the `scout-state` branch. Convention: platform
+  `docs/source-registry.md`.
 - **`data/parcels/<id>.geojson`** — GIS parcel geometry, *deferred* until
   the site schema is stable; referenced from `sites.location.parcel_ids`.
 - **Evolving metrics:** `metrics.*` (MW, acreage, sq ft, investment $,
@@ -42,9 +49,12 @@ not launder a single outlet's claim into fact.
   field, a recommendation, a deadline, and the default action.
 
 ### The jobs (gnomes + code)
-- **`gn_kdc_scout`** (project, untrusted, PR-only) — web research.
-  `mode: discover` finds new projects; `mode: verify` re-checks a known
-  site for status change / stale sources. Emits signals as PRs only.
+- **`gn_kdc_scout`** (project, untrusted, PR-only) — web research
+  judgment. `mode: discover` finds new projects; `mode: verify` re-checks
+  known sites (one, or all when no target) for status change / stale
+  sources. Emits signals as PRs only. It NEVER fetches: scheduled runs
+  (weekly discover, monthly verify) are fed by the deterministic fetch
+  layer over `data/sources.yml`.
 - **`gn_kdc_records`** (project, untrusted, PR-only) — clusters signals
   per site, resolves conflicts into the most-likely fact with confidence
   and provenance, opens PRs against `data/sites/`.
