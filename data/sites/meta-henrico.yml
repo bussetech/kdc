@@ -1,0 +1,49 @@
+id: meta-henrico
+name: Meta Henrico Data Center
+operator: meta
+status: operational
+location:
+  country: US
+  state: VA
+  county: Henrico
+  locality: Henrico
+  address: White Oak Technology Park
+metrics:
+  land_acres: 300
+  building_sqft: 970000
+  investment_usd: 750000000
+announced_date: "2017-10-18"
+operational_date: "2023"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.vaco.org/county-connections/henrico-officials-join-governor-announce-plans-facebook-facility/
+    title: "Henrico officials join Governor to announce plans for Facebook facility"
+    publisher: Virginia Association of Counties
+    date: "2017-10"
+    note: "Oct 18, 2017 announcement; 300 acres; 970,000 sqft; $750M data center / $1B+ with solar."
+  - url: https://www.richmonder.org/henrico-became-a-data-center-hub-seemingly-overnight-how-did-it-happen-and-what-are-the-impacts/
+    title: "Henrico became a data center hub seemingly overnight"
+    publisher: The Richmonder
+    date: "2025-04-06"
+    note: "130-acre developed-site figure; campus completed ~2023."
+notes: >-
+  Meta (Facebook) data center in White Oak Technology Park.
+  Land conflict: 2017 government announcement (high confidence) cites 300
+  acres; The Richmonder (2025) cites a 130-acre developed site — recorded
+  the primary/original 300-acre figure; the 130-acre figure likely reflects
+  the developed footprint.
+  Building sqft: 970,000 from the initial 2017 announcement recorded; a
+  widely-reported full build-out of ~2.4-2.5M sqft across 5 buildings is
+  not independently verified in the signals, so not recorded (blank beats
+  invented).
+  Investment: $750M for the data center, $1B+ including solar.
+signals:
+  - sig-20260705-meta-henrico-acres-richmonder
+  - sig-20260705-meta-henrico-acres
+  - sig-20260705-meta-henrico-announced
+  - sig-20260705-meta-henrico-investment
+  - sig-20260705-meta-henrico-operational
+  - sig-20260705-meta-henrico-sqft
+  - sig-20260705-meta-henrico-status

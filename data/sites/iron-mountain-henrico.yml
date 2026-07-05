@@ -1,0 +1,46 @@
+id: iron-mountain-henrico
+name: Iron Mountain Richmond Campus
+operator: iron-mountain
+status: announced
+location:
+  country: US
+  state: VA
+  county: Henrico
+  locality: Henrico
+  address: 6110 Technology Creek Drive (White Oak Technology Park)
+metrics:
+  capacity_mw: 200
+  capacity_mw_basis: unspecified
+  land_acres: 66
+  building_sqft: 1000000
+  buildings: 4
+  investment_usd: 1000000000
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/iron-mountain-acquires-66-acres-outside-richmond-for-200mw-data-center-campus/
+    title: "Iron Mountain acquires 66 acres outside Richmond for 200MW data center campus"
+    publisher: Data Center Dynamics
+    date: "2024-11-13"
+    note: "66-acre purchase from Henrico EDA for just over $8M (Nov 2024); 4 buildings / 1M+ sqft; 200MW+."
+  - url: https://virginiabusiness.com/iron-mountain-plans-1b-data-center-campus-in-henrico/
+    title: "Iron Mountain plans $1B data center campus in Henrico"
+    publisher: Virginia Business
+    date: "2025-02-18"
+    note: "$1B+ investment; company 'moving very quickly on the first building'."
+notes: >-
+  Located in White Oak Technology Park, Henrico County. Company reported
+  as moving quickly on the first building (Feb 2025); status kept as
+  announced pending construction confirmation.
+  Building sqft conflict: DCD (Nov 2024) reports 4 buildings / 1M+ sqft; a
+  Richmond BizSense May 2026 summary reportedly describes the four
+  buildings as totaling 365,000 sqft (fetch blocked — context only, not
+  independently verified) — recorded DCD's 1M+ figure.
+signals:
+  - sig-20260705-ironmtn-acres
+  - sig-20260705-ironmtn-buildings
+  - sig-20260705-ironmtn-investment
+  - sig-20260705-ironmtn-mw
+  - sig-20260705-ironmtn-sqft
+  - sig-20260705-ironmtn-status
