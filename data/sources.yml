@@ -1,0 +1,230 @@
+# Source registry — the fetch allowlist for gn_kdc_scout (EPIC2-04).
+#
+# Schema: schema/sources.schema.json (validated by data CI). Convention:
+# platform docs/source-registry.md; decision: platform ADR-0025.
+#
+# THE RULES
+#   - This registry IS the allowlist: the deterministic fetch layer
+#     (platform scripts/source_fetch.py) requests exactly these URLs (plus
+#     each host's robots.txt) and nothing else. The gnome never fetches.
+#   - Adding a source is a one-file PR here: pick an id, verify robots.txt
+#     and ToS compatibility yourself, record the findings under robots:,
+#     and set the cadence. Sysop- or gnome-proposed; humans merge.
+#   - status: manual sources are NEVER fetched — they exist to document
+#     why (robots/ToS or no machine-readable surface). Their material
+#     reaches the scout as hand-assembled research issues, as in the pilot.
+#   - No headless browsers (EPIC2-04 guardrail): a source that needs one
+#     stays manual until that decision is re-opened.
+#
+# Every active source below was probed live on 2026-07-05: robots.txt read,
+# feed URL fetched, payload confirmed parseable.
+
+version: 1
+
+defaults:
+  cadence: weekly
+  rate_limit_s: 10
+  max_items_per_fetch: 40
+
+sources:
+  # ---- trade press (national) --------------------------------------------
+  - id: dcd-rss
+    type: rss
+    url: https://www.datacenterdynamics.com/rss/
+    cadence: weekly
+    parser: rss
+    publisher: Data Center Dynamics
+    scope: "National/global data-center trade press — the pilot's dominant source (80/180 signals)."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: >-
+        robots.txt allows User-agent: * (Allow: /); Cloudflare Content-Signals
+        declare search=yes, ai-train=no, use=reference. kdc's use is reference
+        with per-claim attribution and links back — compatible. No model
+        training. Feed-level fetch only (title + summary); full articles are
+        read by humans via the recorded source_url.
+    added: "2026-07-05"
+
+  - id: dcf-news-sitemap
+    type: filing-index
+    url: https://www.datacenterfrontier.com/sitemap-google-news.xml
+    cadence: weekly
+    parser: news-sitemap
+    publisher: Data Center Frontier
+    scope: "National data-center trade press; no public RSS — the news sitemap (advertised in robots.txt) is the machine-readable index."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: >-
+        robots.txt allows User-agent: * except /print, /admin, /api, and
+        advertises this sitemap. Sitemap yields URL + title + date only
+        (headline-level signals); article bodies stay human-read.
+    added: "2026-07-05"
+
+  # ---- Virginia / Greater Richmond press ----------------------------------
+  - id: virginiabusiness-rss
+    type: rss
+    url: https://virginiabusiness.com/feed/
+    cadence: weekly
+    parser: rss
+    publisher: Virginia Business
+    scope: "Statewide VA business press; strong on data-center economic development."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "robots.txt allows all; publishes Crawl-delay: 10 — honored via rate_limit_s."
+    rate_limit_s: 10
+    added: "2026-07-05"
+
+  - id: richmonder-rss
+    type: rss
+    url: https://www.richmonder.org/rss/
+    cadence: weekly
+    parser: rss
+    publisher: The Richmonder
+    scope: "Richmond metro nonprofit newsroom; covered Henrico's data-center boom in the pilot."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "Ghost site; robots.txt allows all except admin/member paths. /rss/ is the published feed."
+    added: "2026-07-05"
+
+  - id: wtvr-local-rss
+    type: rss
+    url: https://www.wtvr.com/news/local-news.rss
+    cadence: weekly
+    parser: rss
+    publisher: WTVR CBS 6
+    scope: "Richmond local TV news — second-largest pilot source; board votes and rezonings."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "robots.txt allows all UAs except a few internal paths; station publishes section RSS feeds."
+    added: "2026-07-05"
+
+  # ---- Greater Richmond economic development & county government ----------
+  - id: grpva-news-rss
+    type: rss
+    url: https://www.grpva.com/feed/
+    cadence: weekly
+    parser: rss
+    publisher: Greater Richmond Partnership
+    scope: "Regional econ-dev announcements (Henrico, Hanover, Chesterfield approvals)."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "robots.txt: Allow / for all UAs (only /cdn-cgi/ and vCards excluded). WordPress feed."
+    added: "2026-07-05"
+
+  - id: henrico-news-rss
+    type: rss
+    url: https://henrico.gov/feed/
+    cadence: weekly
+    parser: rss
+    publisher: Henrico County government
+    scope: "Henrico County news — the deepest-coverage county in the dataset."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "robots.txt allows all except /wp-admin/. County WordPress feed; government primary source."
+    added: "2026-07-05"
+
+  - id: chesterfield-newsflash-rss
+    type: rss
+    url: https://www.chesterfield.gov/RSSFeed.aspx?ModID=1&CID=All-0
+    cadence: weekly
+    parser: rss
+    publisher: Chesterfield County government
+    scope: "Chesterfield County News Flash (CivicPlus) — county press releases incl. data-center cases."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "CivicPlus robots.txt disallows only interactive paths (e.g. /actioncenter); RSSFeed.aspx is the published feed. Government primary source."
+    added: "2026-07-05"
+
+  - id: powhatan-newsflash-rss
+    type: rss
+    url: https://www.powhatanva.gov/RSSFeed.aspx?ModID=1&CID=All-0
+    cadence: weekly
+    parser: rss
+    publisher: County of Powhatan, Virginia
+    scope: "Powhatan County News Flash — pilot source for the Province Group case."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "Same CivicPlus platform and robots posture as Chesterfield; feed verified live."
+    added: "2026-07-05"
+
+  # ---- statewide associations (lower churn) -------------------------------
+  - id: vaco-news-rss
+    type: rss
+    url: https://www.vaco.org/feed/
+    cadence: monthly
+    parser: rss
+    publisher: Virginia Association of Counties
+    scope: "County-government association news; used in the pilot for Henrico/Meta history."
+    status: active
+    robots:
+      checked: "2026-07-05"
+      notes: "robots.txt allows all (Yoast default). WordPress feed."
+    added: "2026-07-05"
+
+  # ---- documented manual sources (never fetched) ---------------------------
+  - id: datacenter-news
+    type: rss
+    url: https://datacenter.news/sitemap-news.xml
+    cadence: weekly
+    parser: news-sitemap
+    publisher: datacenter.news
+    scope: "TechDay data-center vertical; three pilot signals."
+    status: manual
+    robots:
+      checked: "2026-07-05"
+      notes: >-
+        MUST STAY MANUAL: robots.txt/ToS (techday.com/our-terms) prohibit
+        automated collection, text/data mining, AI/LLM use, and commercial
+        reuse without written permission. Material from this outlet reaches
+        the scout only via hand-assembled research issues.
+    added: "2026-07-05"
+
+  - id: prnewswire-datacenters
+    type: html-page
+    url: https://www.prnewswire.com/news/data-centers/
+    cadence: weekly
+    parser: link-list
+    publisher: PR Newswire
+    scope: "Developer/operator press releases (Chirisa, DC BLOX in the pilot)."
+    status: manual
+    robots:
+      checked: "2026-07-05"
+      notes: >-
+        MUST STAY MANUAL: no stable public per-topic feed without an account;
+        aggressive bot management makes deterministic fetch unreliable, and a
+        headless browser is out of scope this epic (EPIC2-04 guardrail).
+        Releases are hand-carried into research issues when relevant.
+    added: "2026-07-05"
+
+  - id: epoch-ai-datacenters
+    type: html-page
+    url: https://epoch.ai/data/data-centers
+    cadence: monthly
+    parser: link-list
+    publisher: Epoch AI
+    scope: "AI data-center tracker (Colossus/Stargate capacity estimates in the pilot)."
+    status: manual
+    robots:
+      checked: "2026-07-05"
+      notes: >-
+        MUST STAY MANUAL: dataset pages are JS-rendered (no static content to
+        parse without a headless browser, which is out of scope this epic).
+        Epoch publishes downloadable datasets under permissive terms — a
+        proper dataset-ingest (code, not a gnome) is the right future path.
+    added: "2026-07-05"
+
+  # Operator newsrooms (datacenters.atmeta.com, datacenters.google,
+  # aboutamazon.com, blogs.microsoft.com, vantage-dc.com, Iron Mountain IR,
+  # Greater Memphis Chamber, Baxtel) also stay manual this epic: mostly
+  # feed-less marketing/IR surfaces the pilot cited for corroboration. Add
+  # any of them here individually (one-file PR) if a feed shows up or a
+  # specific page earns link-list tracking.
