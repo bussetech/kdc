@@ -7,6 +7,8 @@ location:
   state: VA
   county: Mecklenburg
   locality: Boydton
+  lat: 36.665
+  lon: -78.375
 metrics:
   investment_usd: 2000000000
 announced_date: "2010"

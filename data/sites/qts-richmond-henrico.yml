@@ -8,6 +8,8 @@ location:
   county: Henrico
   locality: Henrico
   address: White Oak Technology Park
+  lat: 37.432
+  lon: -77.288
 metrics:
   building_sqft: 3000000
 operational_date: "2017"

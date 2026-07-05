@@ -4,4 +4,5 @@ layout: site-record
 site_id: cloudhq-ashburn-loudoun
 title: "CloudHQ LC Campus (Ashburn)"
 permalink: /sites/cloudhq-ashburn-loudoun/
+map: true
 ---

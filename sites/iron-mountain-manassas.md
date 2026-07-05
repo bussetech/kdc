@@ -4,4 +4,5 @@ layout: site-record
 site_id: iron-mountain-manassas
 title: "Iron Mountain Manassas Campus"
 permalink: /sites/iron-mountain-manassas/
+map: true
 ---

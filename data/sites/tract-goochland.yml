@@ -7,6 +7,8 @@ location:
   state: VA
   county: Goochland
   locality: Goochland
+  lat: 37.722
+  lon: -77.902
 metrics:
   capacity_mw: 900
   capacity_mw_basis: unspecified

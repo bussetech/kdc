@@ -6,6 +6,8 @@ location:
   country: US
   state: VA
   county: Mecklenburg
+  lat: 36.632
+  lon: -78.402
 metrics:
   land_acres: 259
   buildings: 3

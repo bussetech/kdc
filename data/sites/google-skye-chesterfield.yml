@@ -8,6 +8,8 @@ location:
   county: Chesterfield
   locality: Moseley
   address: 4200 Moseley Rd
+  lat: 37.43
+  lon: -77.76
 metrics:
   land_acres: 887.7
   buildings: 5

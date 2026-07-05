@@ -4,4 +4,5 @@ layout: site-record
 site_id: microsoft-mount-pleasant
 title: "Fairwater (Mount Pleasant campus)"
 permalink: /sites/microsoft-mount-pleasant/
+map: true
 ---

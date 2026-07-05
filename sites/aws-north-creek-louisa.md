@@ -4,4 +4,5 @@ layout: site-record
 site_id: aws-north-creek-louisa
 title: "North Creek Technology Campus (AWS)"
 permalink: /sites/aws-north-creek-louisa/
+map: true
 ---

@@ -8,6 +8,8 @@ location:
   county: Loudoun
   locality: Sterling
   address: 45200 Vantage Data Plaza, Sterling, VA 20166 (Data Center Alley)
+  lat: 39.005
+  lon: -77.455
 metrics:
   capacity_mw: 206
   capacity_mw_basis: it-load

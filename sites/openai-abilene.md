@@ -4,4 +4,5 @@ layout: site-record
 site_id: openai-abilene
 title: "Stargate Abilene (Lancium Clean Campus)"
 permalink: /sites/openai-abilene/
+map: true
 ---

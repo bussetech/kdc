@@ -4,4 +4,5 @@ layout: site-record
 site_id: qts-ric45-henrico
 title: "QTS RIC4/RIC5 Expansion"
 permalink: /sites/qts-ric45-henrico/
+map: true
 ---

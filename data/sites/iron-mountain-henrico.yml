@@ -8,6 +8,8 @@ location:
   county: Henrico
   locality: Henrico
   address: 6110 Technology Creek Drive (White Oak Technology Park)
+  lat: 37.438
+  lon: -77.279
 metrics:
   capacity_mw: 200
   capacity_mw_basis: unspecified

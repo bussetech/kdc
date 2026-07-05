@@ -6,6 +6,8 @@ location:
   country: US
   state: LA
   county: Richland Parish
+  lat: 32.47
+  lon: -91.75
 metrics:
   capacity_mw: 2000
   land_acres: 3650

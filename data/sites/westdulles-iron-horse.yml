@@ -7,6 +7,8 @@ location:
   state: VA
   county: Hanover
   locality: Ashland
+  lat: 37.755
+  lon: -77.47
 metrics:
   land_acres: 230
 announced_date: "2024-05"

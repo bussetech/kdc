@@ -8,6 +8,8 @@ location:
   county: Shelby
   locality: Memphis
   address: Frank C. Pidgeon Industrial Park, Southwest Memphis
+  lat: 35.061
+  lon: -90.162
 metrics:
   capacity_mw: 946
   capacity_mw_basis: it-load

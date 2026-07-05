@@ -4,4 +4,5 @@ layout: site-record
 site_id: google-skye-chesterfield
 title: "Google Project Skye"
 permalink: /sites/google-skye-chesterfield/
+map: true
 ---

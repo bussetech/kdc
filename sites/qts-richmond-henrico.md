@@ -4,4 +4,5 @@ layout: site-record
 site_id: qts-richmond-henrico
 title: "QTS Richmond Campus (White Oak Technology Park)"
 permalink: /sites/qts-richmond-henrico/
+map: true
 ---

@@ -55,6 +55,14 @@ layout: default
     </tbody>
   </table>
 
+  {%- if rec.location.lat and rec.location.lon %}
+  <h2>Location</h2>
+  {% include map-locator.html
+     lat=rec.location.lat lon=rec.location.lon
+     status=rec.status label=rec.name zoom=10
+     caption="Approximate — geocoded from the sourced location; see coverage. © OpenStreetMap contributors." %}
+  {%- endif %}
+
   {%- if rec.notes %}
   <h2>Signal notes</h2>
   <p>{{ rec.notes }}</p>
