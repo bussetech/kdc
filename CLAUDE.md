@@ -102,6 +102,11 @@ covered. Deeper coverage elsewhere is welcome.
 - Decisions a human must make become orange `needs-human` issues (with a
   recommendation, a deadline, and a default action). Status flows through
   the site feed and the portal, never through issues.
+- **Project-scoped issues live here, publicly** (ruling platform#64):
+  research batches for `gn_kdc_scout` (`type:gnome-task` issue bodies on
+  this repo), data corrections, record reviews. They are the surface
+  outside humans can read and contribute to. Only studio-level concerns
+  (registry, machinery, cross-repo decisions) go to the control repo.
 - Don't hardcode org/domain/branding beyond what the factory stamped into
   `_config.yml` — if those facts change, the studio re-stamps them.
 
