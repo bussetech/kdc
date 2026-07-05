@@ -1,0 +1,34 @@
+id: google-loch-chesterfield
+name: Google Project Loch
+operator: google
+status: announced
+location:
+  country: US
+  state: VA
+  county: Chesterfield
+  locality: Midlothian
+  address: 750 Watkins Centre Parkway
+metrics:
+  land_acres: 350
+announced_date: "2025-08-28"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
+    title: "In Google, Chesterfield landed the 'Rolls-Royce of data center operators'"
+    publisher: Chesterfield County government
+    date: "2025-08-28"
+  - url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-virginia-data-centers-plans-new-campus-in-chesterfield-county/
+    title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
+    publisher: Data Center Dynamics
+    date: "2025-08-28"
+notes: >
+  350-acre section of Watkins Centre South near Route 288, held for future
+  development. Google stated it had no plans to develop Loch (or the adjacent
+  Skye) "right now" as of the Aug 2025 announcement. Loch + Skye (~1,200 acres)
+  were bought for ~$60M in 2025.
+signals:
+  - sig-20260705-loch-acres
+  - sig-20260705-loch-location
+  - sig-20260705-loch-status

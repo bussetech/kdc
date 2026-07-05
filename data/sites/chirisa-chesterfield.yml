@@ -1,0 +1,44 @@
+id: chirisa-chesterfield
+name: Chirisa Technology Parks Richmond Campus (CTP-01/02/03)
+operator: chirisa
+developer: powerhouse
+status: operational
+location:
+  country: US
+  state: VA
+  county: Chesterfield
+metrics:
+  land_acres: 350
+announced_date: "2024-09-26"
+operational_date: "2013"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/chirisa-and-powerhouse-plan-1gw-campus-outside-richmond-virginia/
+    title: "Chirisa and PowerHouse plan 1GW campus outside Richmond, Virginia"
+    publisher: Data Center Dynamics
+    date: "2024-09-27"
+  - url: https://www.prnewswire.com/news-releases/chirisa-technology-parks-and-powerhouse-data-centers-to-launch-next-generation-hyperscale-campus-in-chesterfield-county-302259869.html
+    title: "Chirisa Technology Parks and PowerHouse Data Centers to Launch Next-Generation Hyperscale Campus in Chesterfield County"
+    publisher: PR Newswire (Chirisa/PowerHouse release)
+    date: "2024-09-26"
+signals:
+  - sig-20260705-chirisa-acres
+  - sig-20260705-chirisa-developer
+  - sig-20260705-chirisa-mw
+  - sig-20260705-chirisa-opdate
+  - sig-20260705-chirisa-status
+notes: >
+  Mixed-status, multi-phase campus developed by the first PowerHouse–Chirisa JV
+  for CoreWeave. Phases: CTP-01 operational (ex-Capital One facility, CoreWeave
+  tenant); CTP-02/CTP-03 under construction under a Blue Owl JV for delivery
+  2025-2026. Status set to operational because CTP-01 is live; construction of
+  CTP-02/03 tracked here.
+  Capacity omitted as a single number: DCD gives CTP-01 28MW while Baxtel reports
+  6MW upgraded to 18MW (2024); CTP-02/03 cited at 120MW. No source gives a single
+  campus total, so no aggregate figure is asserted.
+  Operational_date reflects the original build; DCD says 2013, Baxtel says opened
+  early 2014.
+  Tenant CoreWeave has no operators.yml entry (tenant, not operator/developer).
+  developer set to powerhouse and operator to chirisa to represent the JV.
