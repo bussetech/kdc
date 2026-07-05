@@ -1,0 +1,42 @@
+id: wotp2-henrico
+name: White Oak Technology Park 2 (Hourigan Rezoning)
+developer: hourigan
+status: permitted
+location:
+  country: US
+  state: VA
+  county: Henrico
+  locality: Varina
+metrics:
+  land_acres: 622
+  buildings: 13
+announced_date: "2024-05-14"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://www.grpva.com/news/henrico-approves-622-acre-varina-technology-park/
+    title: "Henrico approves rezoning request for 622-acre technology park"
+    publisher: Greater Richmond Partnership
+    date: "2024-05"
+    note: "622-acre Varina rezoning approved."
+  - url: https://www.datacenterdynamics.com/en/news/henrico-county-approves-622-acre-rezoning-request-for-data-centers-in-virginia/
+    title: "Henrico County approves 622-acre rezoning request for data centers in Virginia"
+    publisher: Data Center Dynamics
+    date: "2024-05-15"
+    note: "Unanimous rezoning approval May 14, 2024 (agricultural-to-light-industrial); up to 13 data centers; 93-ft height cap; ~65% developable."
+notes: >-
+  622-acre agricultural-to-light-industrial rezoning developed by Hourigan,
+  unanimously approved May 14, 2024; entitles up to 13 data centers with a
+  93-ft height cap and ~65% of the site developable. Status recorded as
+  permitted (land entitlement/rezoning approved; no specific building
+  operator identified here).
+  Site includes portions of two Civil War battlefields.
+  Dedupe caution: QTS's RIC5 expansion is reported on this Hourigan-rezoned
+  land (see qts-ric45-henrico); kept separate as the entitlement/developer
+  record vs. the QTS operator project.
+signals:
+  - sig-20260705-wotp2-acres
+  - sig-20260705-wotp2-buildings
+  - sig-20260705-wotp2-developer
+  - sig-20260705-wotp2-status

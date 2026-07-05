@@ -1,0 +1,56 @@
+id: dc-blox-henrico
+name: DC BLOX Azalea Data Center
+operator: dc-blox
+status: announced
+location:
+  country: US
+  state: VA
+  county: Henrico
+  locality: Henrico
+  address: Azalea Avenue (former Azalea Flea Market site)
+metrics:
+  capacity_mw: 10
+  land_acres: 5
+  building_sqft: 65000
+  investment_usd: 100000000
+announced_date: "2024-08-15"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/dc-blox-expands-into-virginia-plans-two-building-campus-in-richmond/
+    title: "DC Blox expands into Virginia, plans two-building campus in Richmond"
+    publisher: Data Center Dynamics
+    date: "2024-08-15"
+    note: "Original two-building plan; 27 acres, building 1 = 10MW/70,000 sqft, building 2 = 40MW/125,000 sqft."
+  - url: https://www.datacenterfrontier.com/site-selection/article/55269118/amid-shifting-regional-data-center-policies-iron-mountain-and-dc-blox-both-expand-in-virginias-henrico-county
+    title: "Amid Shifting Regional Data Center Policies, Iron Mountain and DC Blox Both Expand in Virginia's Henrico County"
+    publisher: Data Center Frontier
+    date: "2025-03-05"
+    note: "Revised by-right plan; ~5 acres of a 30-acre property, 65,000 sqft, $60M initial / ~$100M full build."
+notes: >-
+  DC BLOX's first Virginia facility. The rezoning request was WITHDRAWN in
+  early 2025 after the Planning Commission recommended denial, following
+  community negotiations; the project is live and proceeding by-right on
+  ~5 acres of the 30-acre property — NOT cancelled. Status kept as
+  announced pending construction confirmation.
+  Land conflict: DCD (Aug 2024) reports 27 acres; DCF (Mar 2025) reports
+  ~5 acres used of a 30-acre property — recorded the newer/current by-right
+  footprint (5).
+  Building sqft conflict: DCD building 1 = 70,000 sqft (two-building plan)
+  vs DCF revised by-right 65,000 sqft — recorded the newer figure.
+  Capacity: DCD gives building 1 = 10MW and building 2 = 40MW; the 40MW
+  building 2 was part of the withdrawn rezoning plan, so only ~10MW
+  by-right retained — recorded 10.
+  Investment conflict: DCF (Mar 2025) $60M initial / ~$100M full build vs
+  DCD (Aug 2024) $100M building 1 / $400M building 2 for the withdrawn
+  two-building plan — recorded the newer ~$100M full-build figure.
+signals:
+  - sig-20260705-dcblox-acres-dcd
+  - sig-20260705-dcblox-acres-dcf
+  - sig-20260705-dcblox-investment-dcf
+  - sig-20260705-dcblox-mw-dcd
+  - sig-20260705-dcblox-sqft-dcd
+  - sig-20260705-dcblox-sqft-dcf
+  - sig-20260705-dcblox-status-plan
+  - sig-20260705-dcblox-status-withdrawn

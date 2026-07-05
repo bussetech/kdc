@@ -1,0 +1,46 @@
+id: qts-ric45-henrico
+name: QTS RIC4/RIC5 Expansion
+operator: qts
+status: announced
+location:
+  country: US
+  state: VA
+  county: Henrico
+  locality: Varina
+metrics:
+  land_acres: 1100
+  building_sqft: 8000000
+  buildings: 17
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.wtvr.com/news/local-news/henrico-county/qts-data-center-expansion-may-18-2026
+    title: "Company looks to add 17 data center buildings to Henrico hub"
+    publisher: WTVR CBS 6
+    date: "2026-05-18"
+    note: "17 new buildings across two campus expansions in Varina; 1,100 acres; ~8M sqft; pre-construction."
+  - url: https://www.wtvr.com/news/local-news/henrico-county/residents-push-back-qts-data-center-expansion-may-19-2026
+    title: "Henrico residents push back on data center expansion near White Oak Technology Park"
+    publisher: WTVR CBS 6
+    date: "2026-05-19"
+    note: "17 buildings; 300+ diesel backup generators and 11 cooling towers anticipated; community opposition."
+notes: >-
+  QTS's two campus expansions (RIC4/RIC5) in Varina, distinct from QTS's
+  existing operational White Oak campuses (see qts-richmond-henrico).
+  Status recorded as announced (pre-construction); much of the project is
+  reportedly approved under pre-2025 zoning.
+  Building sqft is ambiguous: WTVR describes ~8M sqft of NEW space, while
+  BizSense phrasing (fetch blocked) suggests 8M sqft TOTAL after expansion
+  — recorded 8M with this caveat.
+  Dedupe caution: RIC5 is reported on Hourigan-rezoned land, overlapping
+  the White Oak Technology Park 2 entitlement (see wotp2-henrico); kept as
+  a separate operator-specific project record.
+  Community opposition reported; 300+ diesel backup generators and 11
+  cooling towers anticipated.
+signals:
+  - sig-20260705-qts-ric45-acres
+  - sig-20260705-qts-ric45-buildings-2
+  - sig-20260705-qts-ric45-buildings
+  - sig-20260705-qts-ric45-sqft
+  - sig-20260705-qts-ric45-status

@@ -1,0 +1,36 @@
+id: qts-richmond-henrico
+name: QTS Richmond Campus (White Oak Technology Park)
+operator: qts
+status: operational
+location:
+  country: US
+  state: VA
+  county: Henrico
+  locality: Henrico
+  address: White Oak Technology Park
+metrics:
+  building_sqft: 3000000
+operational_date: "2017"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.richmonder.org/henrico-became-a-data-center-hub-seemingly-overnight-how-did-it-happen-and-what-are-the-impacts/
+    title: "Henrico became a data center hub seemingly overnight"
+    publisher: The Richmonder
+    date: "2025-04-06"
+    note: "QTS Richmond NAP opened 2017."
+  - url: https://www.wtvr.com/news/local-news/henrico-county/qts-data-center-expansion-may-18-2026
+    title: "Company looks to add 17 data center buildings to Henrico hub"
+    publisher: WTVR CBS 6
+    date: "2026-05-18"
+    note: "Over 3 million sqft built at White Oak; three existing campuses (Richmond homebase)."
+notes: >-
+  QTS's existing operational campuses at White Oak Technology Park
+  (Richmond homebase); over 3M sqft built across three campuses, NAP
+  opened 2017. Distinct from the new RIC4/RIC5 Varina expansion (see
+  qts-ric45-henrico). building_sqft (3M+) is the existing built total.
+signals:
+  - sig-20260705-qts-richmond-operational-date
+  - sig-20260705-qts-richmond-sqft
+  - sig-20260705-qts-richmond-status
