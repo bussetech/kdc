@@ -1,0 +1,12 @@
+id: sig-20260705-microsoft-texas-capacity
+site_id: null
+site_hint: "2GW Microsoft data center (Joulent gas plant) — Texas"
+attribute: capacity_mw
+value: "gas plant powering 2GW Microsoft data center in Texas"
+source_url: https://www.datacenterdynamics.com/en/news/national-grid-ventures-invests-175bn-in-joulent-for-35-stake-to-develop-large-load-power-solutions-national-grid-ventures-ngv-the-commercial-arm-of-national-grid-has-agreed-to-invest-175-billion-for-a-35-stake-in-us-power-infrastructure-develope/
+source_title: "National Grid Ventures invests $1.75bn in Joulent for construction of gas plant powering 2GW Microsoft data center in Texas"
+publisher: Data Center Dynamics
+source_date: "2026-07-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
