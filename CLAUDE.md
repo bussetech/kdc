@@ -29,7 +29,8 @@ not launder a single outlet's claim into fact.
 - **`data/sites/<id>.yml`** — resolved project records, built by
   `gn_kdc_records` from clustered signals. Every value traces back to a
   signal and thence to a source. Status is one of
-  announced/permitted/under-construction/operational.
+  announced/permitted/under-construction/operational/cancelled —
+  dead proposals are records, not omissions (ruling: platform#52).
 - **`data/operators.yml`** — company lookup (hyperscaler / REIT /
   developer / colo / utility).
 - **`data/parcels/<id>.geojson`** — GIS parcel geometry, *deferred* until

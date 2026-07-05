@@ -15,7 +15,7 @@ per-source signals — see [the datasets](/data/) for license and provenance.
 
 ## By status
 
-{% assign statuses = "announced,permitted,under-construction,operational" | split: "," %}
+{% assign statuses = "announced,permitted,under-construction,operational,cancelled" | split: "," %}
 {% for st in statuses %}
 {% assign group = records | where: "status", st %}
 {% if group.size > 0 %}

@@ -20,8 +20,8 @@
     "developer": { "type": "string", "description": "Ref: data/operators.yml id, when distinct from operator." },
     "status": {
       "type": "string",
-      "enum": ["announced", "permitted", "under-construction", "operational"],
-      "description": "Dominant lifecycle stage; phase mixes go in notes. Evolving the enum is a schema-promotion decision (orange issue)."
+      "enum": ["announced", "permitted", "under-construction", "operational", "cancelled"],
+      "description": "Dominant lifecycle stage; phase mixes go in notes. cancelled covers denied/withdrawn/abandoned — the distinction stays in notes until it clusters (ruling: platform#52). Evolving the enum is a schema-promotion decision (orange issue)."
     },
     "location": {
       "type": "object",
