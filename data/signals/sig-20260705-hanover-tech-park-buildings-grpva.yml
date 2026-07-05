@@ -1,0 +1,13 @@
+id: sig-20260705-hanover-tech-park-buildings-grpva
+site_id: null
+site_hint: "Hanover Technology Park (Tract) — Hanover, VA"
+attribute: buildings
+value: "~30 buildings"
+source_url: https://www.grpva.com/news/tract-approved-for-1200-acre-data-center-campus-in-hanover/
+source_title: "Tract approved for 1,200-acre data center campus in Hanover"
+publisher: Greater Richmond Partnership (GRPVA)
+source_date: "2025-05-23"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Building-count conflict: ~30 (GRPVA) vs up to 46 (DCD)"

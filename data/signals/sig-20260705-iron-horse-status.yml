@@ -1,0 +1,13 @@
+id: sig-20260705-iron-horse-status
+site_id: null
+site_hint: "Iron Horse Business Park data center campus (WestDulles Properties) — Hanover, VA"
+attribute: status
+value: "current (scaled-back) rezoning deferred at June 2026 Planning Commission; returns July 16, 2026; 2024 version approved by Ashland but rejected by Hanover supervisors"
+source_url: https://www.12onyourside.com/2026/06/19/iron-horse-data-center-proposal-deferred-hanover-county/
+source_title: "Iron Horse data center proposal deferred in Hanover County"
+publisher: WWBT NBC12
+source_date: "2026-06-19"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Split-jurisdiction; Ashland approved its portion Oct 2024, Hanover supervisors denied Hanover portion Dec 2024; WestDulles refiled revised Hanover-side application 2025 (Richmond BizSense, fetch blocked); July 16 2026 outcome unknown as of 2026-07-05"

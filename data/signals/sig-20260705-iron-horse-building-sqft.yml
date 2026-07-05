@@ -1,0 +1,12 @@
+id: sig-20260705-iron-horse-building-sqft
+site_id: null
+site_hint: "Iron Horse Business Park data center campus (WestDulles Properties) — Hanover, VA"
+attribute: building_sqft
+value: "data center option of 2.5-3M sqft across 10-12 buildings with on-site substation (alternative 1.9M sqft mixed industrial plan)"
+source_url: https://www.datacenterdynamics.com/en/news/westdulles-properties-files-for-3-million-sq-ft-data-center-park-outside-richmond-virginia/
+source_title: "WestDulles Properties files for 3 million sq ft data center park outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-05-17"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium

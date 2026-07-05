@@ -1,0 +1,12 @@
+id: sig-20260705-mountain-road-developer
+site_id: null
+site_hint: "Mountain Road Technology Park (Tract) — Hanover, VA"
+attribute: developer
+value: "Tract"
+source_url: https://www.12onyourside.com/2026/05/28/hanover-county-officials-vote-down-controversial-data-center-proposal/
+source_title: "Hanover County officials vote down a controversial data center proposal"
+publisher: WWBT NBC12
+source_date: "2026-05-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: high

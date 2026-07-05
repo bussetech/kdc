@@ -1,0 +1,12 @@
+id: sig-20260705-mountain-road-location
+site_id: null
+site_hint: "Mountain Road Technology Park (Tract) — Hanover, VA"
+attribute: location
+value: "~430 acres on Route 33 near the Henrico line"
+source_url: https://www.wtvr.com/news/local-news/hanover-county/tract-data-center-vote-may-28-2026
+source_title: "Hanover Board of Supervisors denies controversial Mountain Road data center development"
+publisher: WTVR CBS 6
+source_date: "2026-05-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: high
