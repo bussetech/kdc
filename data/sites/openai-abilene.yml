@@ -1,0 +1,46 @@
+id: openai-abilene
+name: Stargate Abilene (Lancium Clean Campus)
+operator: openai
+developer: crusoe
+status: under-construction
+location:
+  country: US
+  state: TX
+  county: Taylor
+  locality: Abilene
+metrics:
+  capacity_mw: 1200
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/openai-and-oracle-to-deploy-450000-gb200-gpus-at-stargate-abilene-data-center/
+    title: "OpenAI and Oracle to deploy 450,000 GB200 GPUs at Stargate data center in Abilene, Texas"
+    publisher: Data Center Dynamics
+    date: "2025-10-15"
+  - url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+    title: "OpenAI Stargate: where the US sites stand"
+    publisher: Epoch AI
+    date: "2026-04-17"
+  - url: https://www.tomshardware.com/tech-industry/oracle-and-openai-scrap-planned-600mw-abilene-expansion
+    title: "Oracle and OpenAI's Abilene expansion saga detailed: 600MW expansion gets scrapped, as larger 4.5GW agreement remains on track"
+    publisher: Tom's Hardware
+    date: "2026"
+signals:
+  - sig-20260705-stargate-abilene-capacity-dcd
+  - sig-20260705-stargate-abilene-capacity-epoch
+  - sig-20260705-stargate-abilene-developer
+  - sig-20260705-stargate-abilene-expansion-scrapped
+  - sig-20260705-stargate-abilene-operational-date
+  - sig-20260705-stargate-abilene-operator
+  - sig-20260705-stargate-abilene-status
+notes: >
+  Under construction: first two of eight buildings operational Sept 2025;
+  ~0.3 GW / 4 of 8 buildings operational as of April 2026 (Epoch); full
+  8-building / 1.2 GW build projected Q4 2026 (capacity_mw shown is the 1.2 GW
+  committed campus, which conflicts by frame with the ~0.3 GW operational
+  figure). Oracle leases and operates capacity for OpenAI — Oracle needs an
+  operators.yml entry (operator field set to openai). A 600 MW Abilene
+  expansion was scrapped in 2026 while the broader 4.5 GW Oracle-OpenAI
+  agreement remains on track (Tom's Hardware, headline-level support only,
+  article body truncated at fetch).

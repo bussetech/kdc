@@ -1,0 +1,38 @@
+id: microsoft-mount-pleasant
+name: Fairwater (Mount Pleasant campus)
+operator: microsoft
+status: operational
+location:
+  country: US
+  state: WI
+  county: Racine
+  locality: Mount Pleasant
+metrics:
+  building_sqft: 1200000
+  buildings: 3
+  investment_usd: 7000000000
+operational_date: "2026-05"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/
+    title: "Microsoft completes first data center in Mount Pleasant"
+    publisher: The Daily Reporter
+    date: "2026-06-24"
+  - url: https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/
+    title: "Made in Wisconsin: The world's most powerful AI datacenter"
+    publisher: Microsoft
+    date: "2025-09-18"
+signals:
+  - sig-20260705-fairwater-building-sqft
+  - sig-20260705-fairwater-investment
+  - sig-20260705-fairwater-location
+  - sig-20260705-fairwater-operational-date
+  - sig-20260705-fairwater-status
+notes: >
+  First facility (1,200,000 sqft across three buildings) fully operational
+  May 2026 — equipment online spring 2026, publicly announced complete
+  June 23-24 2026. Second facility under construction, completion expected 2028.
+  Investment $3.3B first facility + $4B second (=$7B+). MW not disclosed
+  ('hundreds of thousands' of Nvidia GPUs, closed-loop liquid cooling).

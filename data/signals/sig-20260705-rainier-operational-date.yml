@@ -1,5 +1,5 @@
 id: sig-20260705-rainier-operational-date
-site_id: null
+site_id: aws-new-carlisle
 site_hint: "Project Rainier (New Carlisle campus) — St. Joseph, IN"
 attribute: operational_date
 value: "~500k Trainium2 chips live October 2025; construction started Sept 2024"

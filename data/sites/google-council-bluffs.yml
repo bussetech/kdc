@@ -1,0 +1,41 @@
+id: google-council-bluffs
+name: Google Council Bluffs data center campus
+operator: google
+status: operational
+location:
+  country: US
+  state: IA
+  county: Pottawattamie
+  locality: Council Bluffs
+metrics:
+  building_sqft: 2900000
+announced_date: "2007"
+operational_date: "2007"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://datacenters.google/locations/iowa/
+    title: "Iowa - Google Data Center Location"
+    publisher: Google
+    date: "2026"
+  - url: https://www.datacenterdynamics.com/en/news/google-pledges-7bn-to-expand-iowa-data-center-footprint/
+    title: "Google pledges $7bn to expand Iowa data center footprint"
+    publisher: Data Center Dynamics
+    date: "2025-06-02"
+signals:
+  - sig-20260705-google-cb-announced
+  - sig-20260705-google-cb-building-sqft
+  - sig-20260705-google-cb-investment-dcd
+  - sig-20260705-google-cb-investment-google
+  - sig-20260705-google-cb-location
+  - sig-20260705-google-cb-status
+notes: >
+  Operating since 2007 ($600M initial investment); exact first-building
+  operational year not verified beyond 'established 2007' (operational ~2009 is
+  approximate). Two sites: near Lake Manawa, and the Southlands campus (four
+  buildings / 2.9M sqft) on the southern edge of Council Bluffs, with active
+  2025 expansion. investment_usd omitted: figures conflict by scope and none is
+  cleanly Council-Bluffs-specific — $7B over two years covers both the CB
+  expansion and a separate Cedar Rapids campus; ~$6.8B prior Iowa spend (DCD);
+  >$20B statewide cumulative since 2007 (Google).

@@ -1,5 +1,5 @@
 id: sig-20260705-rainier-operator
-site_id: null
+site_id: aws-new-carlisle
 site_hint: "Project Rainier (New Carlisle campus) — St. Joseph, IN"
 attribute: operator
 value: "Amazon Web Services (built for Anthropic / Claude, sole customer)"

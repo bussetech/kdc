@@ -1,5 +1,5 @@
 id: sig-20260705-colossus-capacity-epoch
-site_id: null
+site_id: xai-colossus-memphis
 site_hint: "Colossus / Colossus 2 — Shelby, TN"
 attribute: capacity_mw
 value: "946 MW IT power (Colossus 2); ~110k B200 + ~220k B300 (~1,112k H100-equivalents)"

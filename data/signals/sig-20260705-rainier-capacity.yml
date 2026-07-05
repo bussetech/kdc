@@ -1,5 +1,5 @@
 id: sig-20260705-rainier-capacity
-site_id: null
+site_id: aws-new-carlisle
 site_hint: "Project Rainier (New Carlisle campus) — St. Joseph, IN"
 attribute: capacity_mw
 value: "2.2 GW ultimate draw"

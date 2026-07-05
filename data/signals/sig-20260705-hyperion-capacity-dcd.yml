@@ -1,5 +1,5 @@
 id: sig-20260705-hyperion-capacity-dcd
-site_id: null
+site_id: meta-richland-parish
 site_hint: "Hyperion (Richland Parish Data Center) — Richland Parish, LA"
 attribute: capacity_mw
 value: "2 GW scaling to 5 GW"

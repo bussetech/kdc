@@ -1,0 +1,46 @@
+id: xai-colossus-memphis
+name: Colossus / Colossus 2
+operator: xai
+status: operational
+location:
+  country: US
+  state: TN
+  county: Shelby
+  locality: Memphis
+  address: Frank C. Pidgeon Industrial Park, Southwest Memphis
+metrics:
+  capacity_mw: 946
+  capacity_mw_basis: it-load
+  land_acres: 552
+  investment_usd: 35800000000
+announced_date: "2024-06-05"
+operational_date: "2024-08-08"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://memphischamber.com/economic-development/xai/
+    title: "xAI - Greater Memphis Chamber"
+    publisher: Greater Memphis Chamber
+  - url: https://epoch.ai/data/ai-data-centers/directory/colossus-2
+    title: "Colossus 2 | AI Data Centers | Epoch AI"
+    publisher: Epoch AI
+    date: "2026-07-03"
+signals:
+  - sig-20260705-colossus-capacity-chamber
+  - sig-20260705-colossus-capacity-epoch
+  - sig-20260705-colossus-investment
+  - sig-20260705-colossus-land-acres
+  - sig-20260705-colossus-location
+  - sig-20260705-colossus-operational-date
+  - sig-20260705-colossus-status
+  - sig-20260705-colossus2-operational-date
+notes: >
+  Multi-phase campus, one record. Colossus 1 operational 2024-08-08 (122 days
+  after 2024-06-05 announcement); Colossus 2 clusters coming online Oct 2025 /
+  Apr 2026 / Jul 2026. Capacity conflicts widely by phase and basis: Colossus 1
+  ~300 MW (Chamber) vs Colossus 2 946 MW IT power (Epoch, the value used here);
+  unverified Jan 2026 press claimed 2 GW / 555k GPUs / $18B. Investment
+  ~$35.8B is an Epoch estimate for Colossus 2 and conflicts with unverified
+  press figures. Colossus 1 reported at the former Electrolux plant;
+  552 acres leased at Frank C. Pidgeon Industrial Park.
