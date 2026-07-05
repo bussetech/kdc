@@ -1,0 +1,12 @@
+id: sig-20260705-wotp2-acres
+site_id: null
+site_hint: "White Oak Technology Park 2 (Hourigan 622-acre rezoning) — Henrico, VA"
+attribute: land_acres
+value: "622-acre Varina rezoning approved"
+source_url: https://www.grpva.com/news/henrico-approves-622-acre-varina-technology-park/
+source_title: "Henrico approves rezoning request for 622-acre technology park"
+publisher: Greater Richmond Partnership
+source_date: "2024-05"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

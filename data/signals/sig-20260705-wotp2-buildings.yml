@@ -1,0 +1,13 @@
+id: sig-20260705-wotp2-buildings
+site_id: null
+site_hint: "White Oak Technology Park 2 (Hourigan 622-acre rezoning) — Henrico, VA"
+attribute: buildings
+value: "up to 13 data centers; 93-ft height cap; ~65% of site developable"
+source_url: https://www.datacenterdynamics.com/en/news/henrico-county-approves-622-acre-rezoning-request-for-data-centers-in-virginia/
+source_title: "Henrico County approves 622-acre rezoning request for data centers in Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-05-15"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Site includes portions of two Civil War battlefields."
