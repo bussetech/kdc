@@ -1,0 +1,13 @@
+id: sig-20260705-tuckahoe-announced-date-vb
+site_id: null
+site_hint: "Tuckahoe Technology Park — Goochland, VA"
+attribute: announced_date
+value: "pre-application for conditional use permit filed June 10, 2026"
+source_url: https://virginiabusiness.com/tract-planning-872-acre-data-center-campus-in-goochland/
+source_title: "Tract planning 872-acre data center campus in Goochland"
+publisher: Virginia Business
+source_date: "2026-06-30"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Date conflicts with WTVR, which reports the initial application submitted June 11, 2026."
