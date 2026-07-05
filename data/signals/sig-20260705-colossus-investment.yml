@@ -1,0 +1,13 @@
+id: sig-20260705-colossus-investment
+site_id: null
+site_hint: "Colossus / Colossus 2 — Shelby, TN"
+attribute: investment_usd
+value: "~$35.8B estimated capital cost (Colossus 2)"
+source_url: https://epoch.ai/data/ai-data-centers/directory/colossus-2
+source_title: "Colossus 2 | AI Data Centers | Epoch AI"
+publisher: Epoch AI
+source_date: "2026-07-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Epoch AI estimate; investment/GPU figures conflict widely with unverified press claims"

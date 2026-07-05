@@ -1,0 +1,12 @@
+id: sig-20260705-colossus2-operational-date
+site_id: null
+site_hint: "Colossus / Colossus 2 — Shelby, TN"
+attribute: operational_date
+value: "Colossus 2 clusters online Oct 2025 / Apr 2026 / Jul 2026"
+source_url: https://epoch.ai/data/ai-data-centers/directory/colossus-2
+source_title: "Colossus 2 | AI Data Centers | Epoch AI"
+publisher: Epoch AI
+source_date: "2026-07-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

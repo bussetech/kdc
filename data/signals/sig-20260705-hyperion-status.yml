@@ -1,0 +1,12 @@
+id: sig-20260705-hyperion-status
+site_id: null
+site_hint: "Hyperion (Richland Parish Data Center) — Richland Parish, LA"
+attribute: status
+value: "Under construction; 3,700+ workers on site, nine buildings phased through 2030"
+source_url: https://www.datacenterdynamics.com/en/news/meta-purchases-additional-1400-acres-for-hyperion-mega-data-center-expansion/
+source_title: "Meta purchases additional 1,400 acres for Hyperion mega-data center expansion"
+publisher: Data Center Dynamics
+source_date: "2026-02-09"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

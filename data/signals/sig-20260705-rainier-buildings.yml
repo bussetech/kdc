@@ -1,0 +1,12 @@
+id: sig-20260705-rainier-buildings
+site_id: null
+site_hint: "Project Rainier (New Carlisle campus) — St. Joseph, IN"
+attribute: buildings
+value: "7 of ~30 planned buildings operational (each exceeds 200,000 sqft)"
+source_url: https://datacenter.news/story/aws-s-11bn-indiana-data-centre-powers-anthropic-s-ai-growth
+source_title: "AWS's $11bn Indiana data centre powers Anthropic's AI growth"
+publisher: datacenter.news
+source_date: "2025-11-02"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

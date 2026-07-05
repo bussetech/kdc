@@ -1,0 +1,13 @@
+id: sig-20260705-fairwater-operational-date
+site_id: null
+site_hint: "Fairwater (Mount Pleasant campus) — Racine, WI"
+attribute: operational_date
+value: "First facility fully operational May 2026"
+source_url: https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/
+source_title: "Microsoft completes first data center in Mount Pleasant"
+publisher: The Daily Reporter
+source_date: "2026-06-24"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Operational-date nuance: equipment online spring 2026, 'fully operational' May 2026, publicly announced complete June 23-24 2026 (search-level)"

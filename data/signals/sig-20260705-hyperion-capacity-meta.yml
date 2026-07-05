@@ -1,0 +1,12 @@
+id: sig-20260705-hyperion-capacity-meta
+site_id: null
+site_hint: "Hyperion (Richland Parish Data Center) — Richland Parish, LA"
+attribute: capacity_mw
+value: "2+ GW"
+source_url: https://datacenters.atmeta.com/richland-parish-data-center/
+source_title: "The largest Meta data center yet brings big impact to Louisiana"
+publisher: Meta Data Centers
+source_date: "2024-12"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

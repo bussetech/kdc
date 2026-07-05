@@ -1,0 +1,13 @@
+id: sig-20260705-google-cb-investment-google
+site_id: null
+site_hint: "Google Council Bluffs data center campus — Pottawattamie, IA"
+attribute: investment_usd
+value: ">$20B invested in Iowa since 2007"
+source_url: https://datacenters.google/locations/iowa/
+source_title: "Iowa - Google Data Center Location"
+publisher: Google
+source_date: "2026"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Statewide cumulative figure, likely counts newer commitments; conflicts by scope with DCD's ~$6.8B prior spend"
