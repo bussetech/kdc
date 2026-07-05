@@ -18,11 +18,18 @@
 #
 # Every active source below was probed live on 2026-07-05: robots.txt read,
 # feed URL fetched, payload confirmed parseable.
+#
+# CADENCE (sysop directive 2026-07-05: daily dataset updates):
+#   daily   — press feeds; fetched by the daily discover run (09:17 UTC,
+#             after the full US news day + DCD's UK-morning publishing)
+#   weekly  — county-government feeds (low churn, polite to gov servers;
+#             Monday 07:23 UTC)
+#   monthly — association news; the monthly verify sweep fetches ALL.
 
 version: 1
 
 defaults:
-  cadence: weekly
+  cadence: daily
   rate_limit_s: 10
   max_items_per_fetch: 40
 
@@ -31,7 +38,7 @@ sources:
   - id: dcd-rss
     type: rss
     url: https://www.datacenterdynamics.com/rss/
-    cadence: weekly
+    cadence: daily
     parser: rss
     publisher: Data Center Dynamics
     scope: "National/global data-center trade press — the pilot's dominant source (80/180 signals)."
@@ -49,7 +56,7 @@ sources:
   - id: dcf-news-sitemap
     type: filing-index
     url: https://www.datacenterfrontier.com/sitemap-google-news.xml
-    cadence: weekly
+    cadence: daily
     parser: news-sitemap
     publisher: Data Center Frontier
     scope: "National data-center trade press; no public RSS — the news sitemap (advertised in robots.txt) is the machine-readable index."
@@ -66,7 +73,7 @@ sources:
   - id: virginiabusiness-rss
     type: rss
     url: https://virginiabusiness.com/feed/
-    cadence: weekly
+    cadence: daily
     parser: rss
     publisher: Virginia Business
     scope: "Statewide VA business press; strong on data-center economic development."
@@ -80,7 +87,7 @@ sources:
   - id: richmonder-rss
     type: rss
     url: https://www.richmonder.org/rss/
-    cadence: weekly
+    cadence: daily
     parser: rss
     publisher: The Richmonder
     scope: "Richmond metro nonprofit newsroom; covered Henrico's data-center boom in the pilot."
@@ -93,7 +100,7 @@ sources:
   - id: wtvr-local-rss
     type: rss
     url: https://www.wtvr.com/news/local-news.rss
-    cadence: weekly
+    cadence: daily
     parser: rss
     publisher: WTVR CBS 6
     scope: "Richmond local TV news — second-largest pilot source; board votes and rezonings."
@@ -107,7 +114,7 @@ sources:
   - id: grpva-news-rss
     type: rss
     url: https://www.grpva.com/feed/
-    cadence: weekly
+    cadence: daily
     parser: rss
     publisher: Greater Richmond Partnership
     scope: "Regional econ-dev announcements (Henrico, Hanover, Chesterfield approvals)."
@@ -220,6 +227,25 @@ sources:
         parse without a headless browser, which is out of scope this epic).
         Epoch publishes downloadable datasets under permissive terms — a
         proper dataset-ingest (code, not a gnome) is the right future path.
+    added: "2026-07-05"
+
+  - id: datacenterknowledge-rss
+    type: rss
+    url: https://feeds.feedburner.com/datacenterknowledge
+    cadence: daily
+    parser: rss
+    publisher: Data Center Knowledge
+    scope: "National data-center trade press (Informa) — coverage-expansion candidate."
+    status: manual
+    robots:
+      checked: "2026-07-05"
+      notes: >-
+        MUST STAY MANUAL for now: robots.txt disallows a long list of named
+        AI crawlers (Anthropic-ai, ClaudeBot, GPTBot, CCBot, ...) with no
+        reference-use carve-out (contrast DCD's use=reference content
+        signal). The FeedBurner feed is public syndication, but the site's
+        posture reads as blanket AI exclusion — the studio errs polite.
+        Revisit if Informa publishes content signals or grants permission.
     added: "2026-07-05"
 
   # Operator newsrooms (datacenters.atmeta.com, datacenters.google,
