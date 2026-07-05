@@ -1,12 +1,12 @@
-# CLAUDE.md — __PROJECT_NAME__
+# CLAUDE.md — kdc
 
-__PROJECT_DESCRIPTION__
+KDC — agentic data center mapper: tracks US data center projects (announcements, permits, construction) as an open, source-transparent dataset with a browsable site.
 
-This is a project repo of the **__STUDIO_NAME__** — an agentic system that
+This is a project repo of the **Bussetech Software Studio** — an agentic system that
 manages a GitHub org, its repos, and their web presence with minimal human
-touch. The studio's control repo is `__ORG__/platform`; its front door is the
-portal at `https://__DOMAIN__`. This repo publishes a static site to
-`https://__PROJECT_NAME__.__DOMAIN__`.
+touch. The studio's control repo is `bussetech/platform`; its front door is the
+portal at `https://bussetech.com`. This repo publishes a static site to
+`https://kdc.bussetech.com`.
 
 > Founding note: this file was created from the studio's project template.
 > The founding PR replaces this preamble with project-specific guidance
@@ -25,15 +25,15 @@ portal at `https://__DOMAIN__`. This repo publishes a static site to
 - **Feed:** the theme publishes `/feed.json` (JSON Feed 1.1) from `_posts/`.
   The portal aggregates it — writing a post is how this project surfaces on
   the studio homepage.
-- **Visibility:** `__VISIBILITY__` (declared in the control repo's
+- **Visibility:** `public` (declared in the control repo's
   `platform.yml`, the single source of truth). All machinery keys off that
   entry — do not contradict it here. For `private-published`: the site is
   public while the repo stays private; never emit repo URLs or source maps
   into the built site (the theme enforces this off `studio.visibility`).
 - **CI:** `.github/workflows/ci.yml` calls the studio's shared reusable
-  workflows (`__ORG__/ci@v1` — site build/link/leak checks + data schema
+  workflows (`bussetech/ci@v1` — site build/link/leak checks + data schema
   validation). `deploy.yml` builds and publishes to GitHub Pages, then pings
-  the portal (`repository_dispatch: studio-content-updated` on `__ORG__/www`)
+  the portal (`repository_dispatch: studio-content-updated` on `bussetech/www`)
   so it re-aggregates promptly.
 - **Gnomes** (studio agents): check the central registry
   (`platform/gnomes.yml`) and the reuse protocol (`platform/docs/gnome-reuse.md`)
@@ -55,16 +55,16 @@ portal at `https://__DOMAIN__`. This repo publishes a static site to
 
 This repo must keep working without the studio; its only bindings are:
 
-1. **Registry entry** in `__ORG__/platform` `platform.yml` — gone means the
+1. **Registry entry** in `bussetech/platform` `platform.yml` — gone means the
    studio stops managing DNS/portal/UAT for it. Nothing in this repo breaks.
 2. **Shared CI callers** (`ci.yml`): both jobs are guarded by
-   `if: github.repository_owner == '__ORG__'` and skip green outside the
+   `if: github.repository_owner == 'bussetech'` and skip green outside the
    org. To keep real CI after detaching, replace them with a plain
    `jekyll build` job (and any schema validation you want to keep).
 3. **Deploy workflow** (`deploy.yml`): same owner guard. After detaching,
    remove the guard, drop the `ping-portal` job (the dispatch secrets and
    target are studio-specific), and wire GitHub Pages (or any static host)
-   for the new home. The custom domain `__PROJECT_NAME__.__DOMAIN__` is
+   for the new home. The custom domain `kdc.bussetech.com` is
    studio DNS and does not travel.
 4. **Theme**: `remote_theme: bussetech/theme@<tag>` is a public repo — it
    keeps working detached. To cut the last tie, vendor the theme or switch

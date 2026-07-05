@@ -1,11 +1,11 @@
 ---
 layout: home
-title: __PROJECT_NAME__
-description: __PROJECT_DESCRIPTION__
+title: kdc
+description: KDC — agentic data center mapper: tracks US data center projects (announcements, permits, construction) as an open, source-transparent dataset with a browsable site.
 ---
 
-__PROJECT_DESCRIPTION__
+KDC — agentic data center mapper: tracks US data center projects (announcements, permits, construction) as an open, source-transparent dataset with a browsable site.
 
-This is a [__STUDIO_NAME__](https://__DOMAIN__) project. Its data lives in
+This is a [Bussetech Software Studio](https://bussetech.com) project. Its data lives in
 this repo as text — see [the datasets](/data/) — and the site is rebuilt
 from it on every change.

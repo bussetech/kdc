@@ -4,11 +4,11 @@
 blank_issues_enabled: true
 contact_links:
   - name: Gnome brief (studio-level)
-    url: https://github.com/__ORG__/platform/issues/new?template=gnome-brief.yml
+    url: https://github.com/bussetech/platform/issues/new?template=gnome-brief.yml
     about: "Request a gnome or agentic behavior — filed on the platform repo, where gnomes register."
   - name: New project brief (studio-level)
-    url: https://github.com/__ORG__/platform/issues/new?template=new-project.yml
+    url: https://github.com/bussetech/platform/issues/new?template=new-project.yml
     about: "Found a new studio project — the factory listens on the platform repo."
   - name: Comms charter
-    url: https://github.com/__ORG__/platform/blob/main/docs/comms.md
+    url: https://github.com/bussetech/platform/blob/main/docs/comms.md
     about: "How the sysop and the workers communicate: channels, templates, severity rubric."

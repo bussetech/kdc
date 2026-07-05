@@ -23,7 +23,7 @@ jobs:
     if: ${{ github.repository_owner == 'bussetech' }}
     uses: bussetech/ci/.github/workflows/reusable-site-ci.yml@v1
     with:
-      visibility: public # factory:visibility — new-project.sh stamps the real tier
+      visibility: public # factory:visibility — stamped by new-project.sh
   data:
     if: ${{ github.repository_owner == 'bussetech' }}
     uses: bussetech/ci/.github/workflows/reusable-data-ci.yml@v1

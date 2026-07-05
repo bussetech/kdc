@@ -2,7 +2,7 @@
 layout: page
 title: Datasets
 eyebrow: Data
-description: The datasets behind __PROJECT_NAME__ — text-based, versioned, schema-validated.
+description: The datasets behind kdc — text-based, versioned, schema-validated.
 permalink: /data/
 ---
 
@@ -26,6 +26,6 @@ ADR-0002). The project's code is MIT-licensed (see the repo's LICENSE).
 <!-- Required for every published dataset (studio conventions): where the
      data came from, when it was collected, what transformations were
      applied. The founding PR should replace this placeholder. -->
-__PROJECT_NAME__ has not yet documented provenance for its datasets — the
+kdc has not yet documented provenance for its datasets — the
 starter `records.json` is factory scaffolding, hand-written, applied
 transformations: none.
