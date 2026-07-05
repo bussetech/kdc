@@ -1,0 +1,13 @@
+id: sig-20260705-tuckahoe-announced-date-wtvr
+site_id: null
+site_hint: "Tuckahoe Technology Park — Goochland, VA"
+attribute: announced_date
+value: "initial application submitted June 11, 2026"
+source_url: https://www.wtvr.com/news/local-news/data-center-goochland-june-11-2026
+source_title: "Data center developer Tract proposes Goochland campus near West Creek"
+publisher: WTVR CBS 6 (Richmond)
+source_date: "2026-06-11"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Date conflicts with Virginia Business, which reports pre-application filed June 10, 2026."
