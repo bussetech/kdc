@@ -1,0 +1,12 @@
+# Dependabot — studio baseline (EPIC1-03): keep pinned Actions and the
+# Jekyll gem set fresh. Proposals arrive as PRs; humans merge.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly

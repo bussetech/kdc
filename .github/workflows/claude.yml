@@ -1,0 +1,135 @@
+# @claude — in-thread agent responses (studio comms charter; platform
+# ADR-0019). Mentioning @claude in any issue/PR comment on this project gets
+# an agent response in the thread. Optional machinery: the charter works
+# without it; outside the studio org this workflow skips (detach procedure
+# in CLAUDE.md — delete this file on detach, it is platform-bound).
+#
+# Cost controls (ADR-0019): write-access actors only (action default),
+# claude-sonnet-5, 15-turn cap, one run per thread. Runs journal to the
+# studio cost ledger as pseudo-gnome `at_claude` via the gnome App token;
+# without the App secrets the journal step skips harmlessly.
+name: claude
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+  issues:
+    types: [opened]
+  pull_request_review:
+    types: [submitted]
+
+concurrency:
+  group: claude-${{ github.event.issue.number || github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  claude:
+    if: |
+      github.repository_owner == 'bussetech' &&
+      github.event.repository.name != 'project-template' &&
+      ((github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
+       (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+       (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
+       (github.event_name == 'issues' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude'))))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # respond with commits on claude/* branches
+      issues: write        # in-thread replies
+      pull-requests: write
+      actions: read        # let it read CI results on PRs
+    steps:
+      - name: Detect gnome App credentials
+        id: creds
+        env:
+          APP_ID: ${{ secrets.GNOME_APP_ID }}
+          APP_KEY: ${{ secrets.GNOME_APP_PRIVATE_KEY }}
+        run: |
+          if [ -n "$APP_ID" ] && [ -n "$APP_KEY" ]; then
+            echo "have=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "have=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::gnome App secrets not available — @claude replies as github-actions[bot], run not journaled"
+          fi
+
+      # @claude acts as the studio's own gnome App (ADR-0005 identity): no
+      # third-party App install; replies/PRs attributable + CI-triggering.
+      # Needs this repo (respond) and platform (ledger append).
+      - name: Mint gnome App token
+        id: app-token
+        if: steps.creds.outputs.have == 'true'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.GNOME_APP_ID }}
+          private-key: ${{ secrets.GNOME_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude Code
+        id: claude
+        uses: anthropics/claude-code-action@558b1d6cab4085c7753fe402c10bef0fbb92ac7a # v1.0.165
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ steps.app-token.outputs.token || github.token }}
+          claude_args: "--model claude-sonnet-5 --max-turns 15"
+
+      - name: Journal to the cost ledger (pseudo-gnome at_claude)
+        if: always() && steps.creds.outputs.have == 'true' && steps.claude.outputs.execution_file != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          EXECUTION_FILE: ${{ steps.claude.outputs.execution_file }}
+          TRIGGER: ${{ github.event_name }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          CLAUDE_MODEL: claude-sonnet-5
+          GN_LEDGER_REPO: ${{ github.repository_owner }}/platform
+        run: |
+          # The append helper lives in the control repo's runner (bin/gn_run.py)
+          git clone --depth 1 \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY_OWNER}/platform.git" control
+          python3 -m pip install --quiet 'pyyaml>=6,<7'
+          python3 - <<'PY'
+          import datetime, json, os, sys
+          sys.path.insert(0, "control/bin")
+          import gn_run  # append_ledger_record: same CAS append every gnome run uses
+
+          result = {}
+          try:
+              for entry in json.load(open(os.environ["EXECUTION_FILE"])):
+                  if isinstance(entry, dict) and entry.get("type") == "result":
+                      result = entry
+          except Exception as exc:  # journaling is best-effort, never fails the run
+              print(f"::warning::could not parse execution file: {exc}")
+          usage = result.get("usage") or {}
+          record = {
+              "type": "gnome_run",
+              "ts": datetime.datetime.now(datetime.timezone.utc)
+                    .isoformat(timespec="seconds").replace("+00:00", "Z"),
+              "gnome": "at_claude",
+              "version": None,
+              "level": None,
+              "repo": os.environ["GITHUB_REPOSITORY"].split("/")[1],
+              "runtime": "actions",
+              "run_id": os.environ["RUN_ID"],
+              "run_url": os.environ["RUN_URL"],
+              "model": os.environ["CLAUDE_MODEL"],
+              "mode": "live",
+              "trigger": os.environ["TRIGGER"],
+              "outcome": "ok" if result.get("subtype") == "success" else "error",
+              "input_tokens": usage.get("input_tokens") or 0,
+              "output_tokens": usage.get("output_tokens") or 0,
+              "cache_creation_input_tokens": usage.get("cache_creation_input_tokens") or 0,
+              "cache_read_input_tokens": usage.get("cache_read_input_tokens") or 0,
+              # Claude Code's own accounting, not pricing.yml — still an estimate.
+              "est_cost_usd": result.get("total_cost_usd"),
+              "duration_s": round((result.get("duration_ms") or 0) / 1000, 1),
+          }
+          err = gn_run.append_ledger_record(record, os.environ["GITHUB_REPOSITORY_OWNER"])
+          print(f"::warning::ledger append failed: {err}" if err
+                else f"journaled at_claude run (${record['est_cost_usd']})")
+          PY

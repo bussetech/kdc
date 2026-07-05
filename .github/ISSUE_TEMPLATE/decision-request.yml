@@ -1,0 +1,49 @@
+# Decision request — the worker → sysop channel (studio comms charter:
+# platform/docs/comms.md). Four required parts: context, options,
+# recommendation, deadline + default action. An unanswered decision degrades
+# into its default, never a deadlock. Rulings on project-repo decisions are
+# distilled into studio guidance from the console (the platform repo's
+# gn-guidance-distill workflow takes any repo via workflow_dispatch).
+name: Decision request
+description: "Ask the sysop for a ruling. Comes with a recommendation and a default action so silence never deadlocks the studio."
+title: "decision: <topic>"
+labels: [needs-human, by:human]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: "What happened and why a ruling is needed. Link runs, PRs, files."
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: "The real alternatives, honestly costed (money, time, risk)."
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: "Which option the requester would pick, and why. A worker that cannot recommend isn't ready to ask."
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: "Date (YYYY-MM-DD) after which the default action executes."
+    validations:
+      required: true
+  - type: textarea
+    id: default-action
+    attributes:
+      label: Default action
+      description: "What happens at the deadline if the sysop hasn't ruled."
+    validations:
+      required: true

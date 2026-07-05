@@ -1,0 +1,29 @@
+# ci — thin callers into the studio's shared CI (EPIC1-06, ADR-0010/0011).
+#
+# site: Jekyll build + link check + HTML validation + discoverability +
+#       source-leak check (for private-published).
+# data: JSON Schema validation of data/ against schema/ (convention:
+#       schema/<name>.schema.json ↔ data/<name>.*), plus an optional
+#       repo-provided integrity hook.
+#
+# Both jobs skip (green) outside the studio org — detach procedure in
+# CLAUDE.md. Pin @v1 (moving major tag), never @main.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  site:
+    if: ${{ github.repository_owner == 'bussetech' }}
+    uses: bussetech/ci/.github/workflows/reusable-site-ci.yml@v1
+    with:
+      visibility: public # factory:visibility — new-project.sh stamps the real tier
+  data:
+    if: ${{ github.repository_owner == 'bussetech' }}
+    uses: bussetech/ci/.github/workflows/reusable-data-ci.yml@v1

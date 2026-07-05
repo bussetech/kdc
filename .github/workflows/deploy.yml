@@ -1,0 +1,97 @@
+# deploy — build the site and publish to GitHub Pages, then ping the portal.
+#
+# Pages is wired by the factory (platform scripts/pages-wire.sh, ADR-0008):
+# build_type: workflow, custom domain, HTTPS enforced. This workflow is the
+# build half. After a successful deploy it fires the studio convention
+# `repository_dispatch: studio-content-updated` at the portal repo so the
+# portal re-aggregates this site's feed promptly (platform docs/feeds.md);
+# without the gnome-App secrets that step skips harmlessly.
+#
+# Guards: skips on the template repo itself (nothing to publish) and outside
+# the studio org (detach procedure in CLAUDE.md).
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: ${{ github.repository_owner == 'bussetech' && github.event.repository.name != 'project-template' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1.316.0
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+
+  ping-portal:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      # The `secrets` context is invalid in step-level `if:` — detect first
+      # (EPIC1-03 gotcha), then skip quietly when the App creds are absent.
+      - name: Detect gnome App credentials
+        id: creds
+        env:
+          APP_ID: ${{ secrets.GNOME_APP_ID }}
+          APP_KEY: ${{ secrets.GNOME_APP_PRIVATE_KEY }}
+        run: |
+          if [ -n "$APP_ID" ] && [ -n "$APP_KEY" ]; then
+            echo "have=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "have=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::gnome App secrets not available — portal ping skipped (portal still rebuilds on its daily cron)"
+          fi
+
+      - name: Mint portal-dispatch token
+        id: app-token
+        if: steps.creds.outputs.have == 'true'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.GNOME_APP_ID }}
+          private-key: ${{ secrets.GNOME_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: www
+          permission-contents: write
+
+      - name: Ping portal (studio-content-updated)
+        if: steps.creds.outputs.have == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api "repos/${{ github.repository_owner }}/www/dispatches" \
+            -f event_type=studio-content-updated
+          echo "portal pinged: studio-content-updated"

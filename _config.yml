@@ -1,0 +1,51 @@
+# __PROJECT_NAME__ — a Bussetech Software Studio project site.
+#
+# Created from <org>/project-template by the studio factory (EPIC1-08).
+# Double-underscore placeholders are filled by scripts/new-project.sh in
+# the platform repo; if you can still see any, the fill step didn't run.
+#
+# Theme: pinned tag, never a branch (theme docs/versioning.md). Bump
+# canary-first when a new theme version ships.
+title: __PROJECT_NAME__
+description: __PROJECT_DESCRIPTION__
+lang: en
+url: "https://__PROJECT_NAME__.__DOMAIN__"
+baseurl: ""
+
+remote_theme: bussetech/theme@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+studio:
+  logotype: "__LOGOTYPE__"
+  org: __ORG__
+  domain: __DOMAIN__
+  # public | private | private-published — must match this repo's entry in
+  # the control repo's platform.yml. The theme keys its leak rule off it.
+  visibility: __VISIBILITY__
+  # Cloudflare Web Analytics token, minted per live hostname by the DNS
+  # steward into platform.yml (EPIC1-04). Backfill from there; not secret.
+  analytics_beacon: ""
+  nav:
+    - title: Home
+      url: /
+
+markdown: kramdown
+sass:
+  style: compressed
+  # Never emit source maps: for private-published sites a .map file is a
+  # source leak (ADR-0006) and shared site CI fails on it; for public sites
+  # it is dead weight. First proven live by test-factory's CI (EPIC1-08).
+  sourcemap: never
+
+# data/ and schema/ are deliberately NOT excluded: the published site serves
+# the datasets and their schemas verbatim (research outputs are the point —
+# and for private-published repos they are the shareable part).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - CLAUDE.md
+  - README.md
+  - LICENSE
+  - gnomes/

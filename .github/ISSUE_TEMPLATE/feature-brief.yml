@@ -1,0 +1,34 @@
+# Feature brief — the work-request channel for this project (studio comms
+# charter: platform/docs/comms.md flow 3). Project work stays on the
+# project's repo; work lands as PRs referencing this issue; merge = approval.
+# If the work needs a gnome, file a gnome brief on the platform repo instead
+# (gnomes register centrally).
+name: Feature brief
+description: "Request a new capability on this project. Work lands as PRs referencing this issue; merging them is the approval."
+title: "feat: <capability>"
+labels: [type:feature, by:human]
+body:
+  - type: input
+    id: outcome
+    attributes:
+      label: Outcome
+      description: "One line: what exists when this is done."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: "The problem or opportunity. What breaks or stays manual without it."
+    validations:
+      required: true
+  - type: textarea
+    id: shape
+    attributes:
+      label: Shape and constraints
+      description: "Anything known about the how: data touched, conventions to honor, hard constraints, non-goals."
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: "How a reviewer knows it works — observable behavior, not implementation detail."
