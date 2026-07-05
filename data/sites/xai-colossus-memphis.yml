@@ -10,7 +10,7 @@ location:
   address: Frank C. Pidgeon Industrial Park, Southwest Memphis
 metrics:
   capacity_mw: 946
-  capacity_mw_basis: IT
+  capacity_mw_basis: it-load
   land_acres: 552
   investment_usd: 35800000000
 announced_date: "2024-06-05"
