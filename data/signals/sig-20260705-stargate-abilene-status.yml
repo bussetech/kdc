@@ -1,0 +1,12 @@
+id: sig-20260705-stargate-abilene-status
+site_id: null
+site_hint: "Stargate Abilene (Lancium Clean Campus) — Taylor, TX"
+attribute: status
+value: "Under construction: ~0.3 GW / 4 of 8 buildings operational as of April 2026; 1.2 GW planned; Q4 2026 completion; 2.1 GW expansion reversed"
+source_url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+source_title: "OpenAI Stargate: where the US sites stand"
+publisher: Epoch AI
+source_date: "2026-04-17"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

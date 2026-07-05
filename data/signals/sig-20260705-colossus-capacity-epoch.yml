@@ -1,0 +1,13 @@
+id: sig-20260705-colossus-capacity-epoch
+site_id: null
+site_hint: "Colossus / Colossus 2 — Shelby, TN"
+attribute: capacity_mw
+value: "946 MW IT power (Colossus 2); ~110k B200 + ~220k B300 (~1,112k H100-equivalents)"
+source_url: https://epoch.ai/data/ai-data-centers/directory/colossus-2
+source_title: "Colossus 2 | AI Data Centers | Epoch AI"
+publisher: Epoch AI
+source_date: "2026-07-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "MW basis is IT power (Epoch); Jan 2026 press claimed '2 GW / 555k GPUs / $18B' (unverified) vs Epoch's measured 946 MW"

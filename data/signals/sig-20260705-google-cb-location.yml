@@ -1,0 +1,12 @@
+id: sig-20260705-google-cb-location
+site_id: null
+site_hint: "Google Council Bluffs data center campus — Pottawattamie, IA"
+attribute: location
+value: "Two sites — near Lake Manawa, and the Southlands campus on the southern edge of Council Bluffs"
+source_url: https://www.datacenterdynamics.com/en/news/google-pledges-7bn-to-expand-iowa-data-center-footprint/
+source_title: "Google pledges $7bn to expand Iowa data center footprint"
+publisher: Data Center Dynamics
+source_date: "2025-06-02"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

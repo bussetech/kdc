@@ -1,0 +1,12 @@
+id: sig-20260705-rainier-status
+site_id: null
+site_hint: "Project Rainier (New Carlisle campus) — St. Joseph, IN"
+attribute: status
+value: "Operational — fully operational under a year after announcement; nearly 500k Trainium2 chips online"
+source_url: https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster
+source_title: "AWS activates Project Rainier: One of the world's largest AI compute clusters comes online"
+publisher: Amazon (About Amazon)
+source_date: "2025-10"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

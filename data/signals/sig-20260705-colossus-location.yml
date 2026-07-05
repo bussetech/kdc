@@ -1,0 +1,11 @@
+id: sig-20260705-colossus-location
+site_id: null
+site_hint: "Colossus / Colossus 2 — Shelby, TN"
+attribute: location
+value: "Frank C. Pidgeon Industrial Park, Southwest Memphis (Colossus 1 at former Electrolux plant)"
+source_url: https://memphischamber.com/economic-development/xai/
+source_title: "xAI - Greater Memphis Chamber"
+publisher: Greater Memphis Chamber
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

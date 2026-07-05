@@ -1,0 +1,12 @@
+id: sig-20260705-stargate-abilene-operational-date
+site_id: null
+site_hint: "Stargate Abilene (Lancium Clean Campus) — Taylor, TX"
+attribute: operational_date
+value: "First two of eight buildings operational September 2025; full 8-building/1.2 GW build projected Q4 2026"
+source_url: https://www.datacenterdynamics.com/en/news/openai-and-oracle-to-deploy-450000-gb200-gpus-at-stargate-abilene-data-center/
+source_title: "OpenAI and Oracle to deploy 450,000 GB200 GPUs at Stargate data center in Abilene, Texas"
+publisher: Data Center Dynamics
+source_date: "2025-10-15"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

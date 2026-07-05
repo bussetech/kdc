@@ -1,0 +1,12 @@
+id: sig-20260705-fairwater-location
+site_id: null
+site_hint: "Fairwater (Mount Pleasant campus) — Racine, WI"
+attribute: operator
+value: "Microsoft (closed-loop liquid cooling, hundreds of thousands of Nvidia GPUs)"
+source_url: https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/
+source_title: "Made in Wisconsin: The world's most powerful AI datacenter"
+publisher: Microsoft
+source_date: "2025-09-18"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
