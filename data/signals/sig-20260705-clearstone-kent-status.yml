@@ -1,0 +1,12 @@
+id: sig-20260705-clearstone-kent-status
+site_id: null
+site_hint: "Clearstone data center campus (near Dartford) — Kent, UK"
+attribute: status
+value: "campus proposed (looks to build)"
+source_url: https://www.datacenterdynamics.com/en/news/300mw-data-center-campus-proposed-in-kent-uk/
+source_title: "300MW data center campus proposed in Kent, UK"
+publisher: Data Center Dynamics
+source_date: "2026-07-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
