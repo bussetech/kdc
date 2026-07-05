@@ -1,0 +1,12 @@
+id: sig-20260705-peanut-acres
+site_id: null
+site_hint: "Google Project Peanut data center campus — Chesterfield, VA"
+attribute: land_acres
+value: "307 acres"
+source_url: https://www.wtvr.com/news/local-news/google-chesterfield-data-center-update-nov-11-2025
+source_title: "New details emerge as Google files Chesterfield data center plan"
+publisher: WTVR CBS 6
+source_date: "2025-11-11"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

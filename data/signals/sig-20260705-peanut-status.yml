@@ -1,0 +1,13 @@
+id: sig-20260705-peanut-status
+site_id: null
+site_hint: "Google Project Peanut data center campus — Chesterfield, VA"
+attribute: status
+value: "announced; county says construction to begin by end of 2025 with 18-24 month build"
+source_url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
+source_title: "In Google, Chesterfield landed the 'Rolls-Royce of data center operators'"
+publisher: Chesterfield County government
+source_date: "2025-08-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "No fetch-verified source confirms groundbreaking; status kept at announced despite Nov 2025 site-plan filing."

@@ -1,0 +1,13 @@
+id: sig-20260705-province-status-approved
+site_id: null
+site_hint: "Province Group data center campus (Newport Equities LLC), Page Road — Powhatan, VA"
+attribute: status
+value: "Board unanimously approved rezoning of 61.8 acres (following 120 acres in 2024) creating 181-acre campus; CUP for 75-ft buildings"
+source_url: https://www.powhatanva.gov/DocumentCenter/View/9122/10292025-Press-Release---Data-Center
+source_title: "Powhatan Board Approves Rezoning for Data Center Development on Page Road"
+publisher: County of Powhatan, Virginia (press release)
+source_date: "2025-10-29"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Planning Commission recommended denial both times (utility-proffer concerns, later resolved)."

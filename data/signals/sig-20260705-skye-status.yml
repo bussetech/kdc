@@ -1,0 +1,13 @@
+id: sig-20260705-skye-status
+site_id: null
+site_hint: "Google Project Skye data center campus — Chesterfield, VA"
+attribute: status
+value: "announced; in USACE regulatory / wetlands permitting as of June 2026"
+source_url: https://www.datacenterdynamics.com/en/news/details-revealed-for-googles-project-skye-data-center-campus-in-chesterfield-county-virginia/
+source_title: "Details revealed for Google's Project Skye data center campus in Chesterfield County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-06-29"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "USACE public notice NAO-2026-00282 referenced but usace.army.mil blocked automated fetch."

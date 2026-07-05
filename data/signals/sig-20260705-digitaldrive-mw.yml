@@ -1,0 +1,12 @@
+id: sig-20260705-digitaldrive-mw
+site_id: null
+site_hint: "Digital Drive campus (PowerHouse/Chirisa, former Cartograf site) — Chesterfield, VA"
+attribute: capacity_mw
+value: "300MW from Meadowville substation; goal of 1GW+ across broader park"
+source_url: https://www.prnewswire.com/news-releases/chirisa-technology-parks-and-powerhouse-data-centers-to-launch-next-generation-hyperscale-campus-in-chesterfield-county-302259869.html
+source_title: "Chirisa Technology Parks and PowerHouse Data Centers to Launch Next-Generation Hyperscale Campus in Chesterfield County"
+publisher: PR Newswire (developer release)
+source_date: "2024-09-26"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

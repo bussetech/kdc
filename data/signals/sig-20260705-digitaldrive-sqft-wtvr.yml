@@ -1,0 +1,13 @@
+id: sig-20260705-digitaldrive-sqft-wtvr
+site_id: null
+site_hint: "Digital Drive campus (PowerHouse/Chirisa, former Cartograf site) — Chesterfield, VA"
+attribute: building_sqft
+value: "two buildings totaling 380,000 sqft at 1600 Digital Drive"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-data-centers-jan-5-2026
+source_title: "New information about two new Chesterfield data centers"
+publisher: WTVR CBS 6
+source_date: "2026-01-05"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Likely first phase of larger 600,000+ sqft announced program."

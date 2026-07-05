@@ -1,0 +1,13 @@
+id: sig-20260705-digitaldrive-opdate-pr
+site_id: null
+site_hint: "Digital Drive campus (PowerHouse/Chirisa, former Cartograf site) — Chesterfield, VA"
+attribute: operational_date
+value: "first delivery 2026, completion 2028"
+source_url: https://www.prnewswire.com/news-releases/chirisa-technology-parks-and-powerhouse-data-centers-to-launch-next-generation-hyperscale-campus-in-chesterfield-county-302259869.html
+source_title: "Chirisa Technology Parks and PowerHouse Data Centers to Launch Next-Generation Hyperscale Campus in Chesterfield County"
+publisher: PR Newswire (developer release)
+source_date: "2024-09-26"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Timeline slipped: Jan 2026 filing says first building operational 2027 vs this 2026 first delivery."

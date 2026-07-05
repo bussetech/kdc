@@ -1,0 +1,12 @@
+id: sig-20260705-province-status-deferred
+site_id: null
+site_hint: "Province Group data center campus (Newport Equities LLC), Page Road — Powhatan, VA"
+attribute: status
+value: "original Aug 2024 proposal (LC West LLC / Province Group, 'Powhatan Technology Park') deferred by Powhatan Planning Commission"
+source_url: https://www.datacenterdynamics.com/en/news/proposals-for-two-data-center-projects-in-richmond-virginia-deferred-by-local-officials/
+source_title: "Proposals for two data center projects in Richmond, Virginia, deferred by local officials"
+publisher: Data Center Dynamics
+source_date: "2024-08-19"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

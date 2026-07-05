@@ -1,0 +1,12 @@
+id: sig-20260705-peanut-sqft-dcd
+site_id: null
+site_hint: "Google Project Peanut data center campus — Chesterfield, VA"
+attribute: building_sqft
+value: "three buildings of ~285,000 sqft each, ~855,000 sqft total"
+source_url: https://www.datacenterdynamics.com/en/news/google-details-plans-for-project-peanut-data-center-development-outside-richmond-virginia/
+source_title: "Google details plans for Project Peanut data center development outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2025-11-12"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
