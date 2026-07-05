@@ -1,5 +1,5 @@
 id: sig-20260705-stargate-abilene-operator
-site_id: null
+site_id: openai-abilene
 site_hint: "Stargate Abilene (Lancium Clean Campus) — Taylor, TX"
 attribute: operator
 value: "OpenAI / Oracle (Oracle leases and operates capacity for OpenAI)"

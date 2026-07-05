@@ -1,5 +1,5 @@
 id: sig-20260705-stargate-abilene-capacity-epoch
-site_id: null
+site_id: openai-abilene
 site_hint: "Stargate Abilene (Lancium Clean Campus) — Taylor, TX"
 attribute: capacity_mw
 value: "~0.3 GW / 4 of 8 buildings operational as of April 2026; 1.2 GW planned"

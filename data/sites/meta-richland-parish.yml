@@ -1,0 +1,42 @@
+id: meta-richland-parish
+name: Hyperion (Richland Parish Data Center)
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: LA
+  county: Richland Parish
+metrics:
+  capacity_mw: 2000
+  land_acres: 3650
+  building_sqft: 4000000
+  buildings: 9
+  investment_usd: 27000000000
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://datacenters.atmeta.com/richland-parish-data-center/
+    title: "The largest Meta data center yet brings big impact to Louisiana"
+    publisher: Meta Data Centers
+    date: "2024-12"
+  - url: https://www.datacenterdynamics.com/en/news/meta-purchases-additional-1400-acres-for-hyperion-mega-data-center-expansion/
+    title: "Meta purchases additional 1,400 acres for Hyperion mega-data center expansion"
+    publisher: Data Center Dynamics
+    date: "2026-02-09"
+signals:
+  - sig-20260705-hyperion-building-sqft
+  - sig-20260705-hyperion-buildings
+  - sig-20260705-hyperion-capacity-dcd
+  - sig-20260705-hyperion-capacity-meta
+  - sig-20260705-hyperion-investment-dcd
+  - sig-20260705-hyperion-investment-meta
+  - sig-20260705-hyperion-land-acres
+  - sig-20260705-hyperion-status
+notes: >
+  Under construction; 3,700+ workers on site, nine buildings phased through
+  2030. Capacity 2+ GW (Meta) scaling to 5 GW (DCD) — value shown is the firm
+  2 GW; 5 GW is the long-run plan. Investment conflicts by scope: $10B+ original
+  announcement (Meta) vs $27B Blue Owl Capital JV financing (DCD, the value
+  used); larger long-run press figures not fetch-verified. Land: 2,250 + 1,400
+  acres (3,650 total).

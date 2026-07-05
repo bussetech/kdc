@@ -1,5 +1,5 @@
 id: sig-20260705-rainier-status
-site_id: null
+site_id: aws-new-carlisle
 site_hint: "Project Rainier (New Carlisle campus) — St. Joseph, IN"
 attribute: status
 value: "Operational — fully operational under a year after announcement; nearly 500k Trainium2 chips online"

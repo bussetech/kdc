@@ -1,0 +1,46 @@
+id: aws-new-carlisle
+name: Project Rainier (New Carlisle campus)
+operator: aws
+status: operational
+location:
+  country: US
+  state: IN
+  county: St. Joseph
+  locality: New Carlisle
+metrics:
+  capacity_mw: 2200
+  capacity_mw_basis: utility
+  land_acres: 1200
+  buildings: 7
+  investment_usd: 11000000000
+announced_date: "2024-09"
+operational_date: "2025-10"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://datacenter.news/story/aws-s-11bn-indiana-data-centre-powers-anthropic-s-ai-growth
+    title: "AWS's $11bn Indiana data centre powers Anthropic's AI growth"
+    publisher: datacenter.news
+    date: "2025-11-02"
+  - url: https://www.datacenterdynamics.com/en/news/aws-activates-project-rainier-cluster-of-nearly-500000-trainium2-chips/
+    title: "AWS activates Project Rainier cluster of nearly 500,000 Trainium2 chips"
+    publisher: Data Center Dynamics
+    date: "2025-10-30"
+  - url: https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster
+    title: "AWS activates Project Rainier: One of the world's largest AI compute clusters comes online"
+    publisher: Amazon (About Amazon)
+    date: "2025-10"
+signals:
+  - sig-20260705-rainier-buildings
+  - sig-20260705-rainier-capacity
+  - sig-20260705-rainier-investment
+  - sig-20260705-rainier-land-acres
+  - sig-20260705-rainier-operational-date
+  - sig-20260705-rainier-operator
+  - sig-20260705-rainier-status
+notes: >
+  Built by AWS for Anthropic (Claude) as sole customer. Construction started
+  Sept 2024; ~500k Trainium2 chips live October 2025, fully operational under a
+  year after announcement. 7 of ~30 planned buildings operational, each exceeds
+  200,000 sqft. capacity_mw 2.2 GW described as ultimate power draw.
