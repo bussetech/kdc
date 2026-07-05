@@ -1,0 +1,13 @@
+id: sig-20260705-meta-henrico-sqft
+site_id: null
+site_hint: "Meta Henrico Data Center (White Oak Technology Park) — Henrico, VA"
+attribute: building_sqft
+value: "970,000 sqft"
+source_url: https://www.vaco.org/county-connections/henrico-officials-join-governor-announce-plans-facebook-facility/
+source_title: "Henrico officials join Governor to announce plans for Facebook facility"
+publisher: Virginia Association of Counties
+source_date: "2017-10"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Figure from initial 2017 announcement; widely-reported full build-out ~2.4-2.5M sqft across 5 buildings is not independently verified in notes."

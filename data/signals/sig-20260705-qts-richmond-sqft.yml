@@ -1,0 +1,12 @@
+id: sig-20260705-qts-richmond-sqft
+site_id: null
+site_hint: "QTS Richmond campus (White Oak Technology Park) — Henrico, VA"
+attribute: building_sqft
+value: "over 3 million sqft built at White Oak"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/qts-data-center-expansion-may-18-2026
+source_title: "Company looks to add 17 data center buildings to Henrico hub"
+publisher: WTVR CBS 6
+source_date: "2026-05-18"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

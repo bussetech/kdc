@@ -1,0 +1,13 @@
+id: sig-20260705-dcblox-acres-dcd
+site_id: null
+site_hint: "DC BLOX Azalea data center (former Azalea Flea Market site) — Henrico, VA"
+attribute: land_acres
+value: "27 acres (former flea market)"
+source_url: https://www.datacenterdynamics.com/en/news/dc-blox-expands-into-virginia-plans-two-building-campus-in-richmond/
+source_title: "DC Blox expands into Virginia, plans two-building campus in Richmond"
+publisher: Data Center Dynamics
+source_date: "2024-08-15"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Conflicts with DCF's 30-acre property figure."

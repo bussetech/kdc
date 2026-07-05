@@ -1,0 +1,13 @@
+id: sig-20260705-qts-ric45-sqft
+site_id: null
+site_hint: "QTS RIC4/RIC5 expansion — Henrico, VA"
+attribute: building_sqft
+value: "~8M sqft"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/qts-data-center-expansion-may-18-2026
+source_title: "Company looks to add 17 data center buildings to Henrico hub"
+publisher: WTVR CBS 6
+source_date: "2026-05-18"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Ambiguous: WTVR describes ~8M sqft of NEW space; BizSense phrasing (fetch blocked) suggests 8M sqft TOTAL after expansion."

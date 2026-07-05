@@ -1,0 +1,13 @@
+id: sig-20260705-dcblox-sqft-dcf
+site_id: null
+site_hint: "DC BLOX Azalea data center (former Azalea Flea Market site) — Henrico, VA"
+attribute: building_sqft
+value: "65,000 sqft"
+source_url: https://www.datacenterfrontier.com/site-selection/article/55269118/amid-shifting-regional-data-center-policies-iron-mountain-and-dc-blox-both-expand-in-virginias-henrico-county
+source_title: "Amid Shifting Regional Data Center Policies, Iron Mountain and DC Blox Both Expand in Virginia's Henrico County"
+publisher: Data Center Frontier
+source_date: "2025-03-05"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Revised by-right plan; conflicts with DCD's Aug 2024 building-1 70,000 sqft figure."

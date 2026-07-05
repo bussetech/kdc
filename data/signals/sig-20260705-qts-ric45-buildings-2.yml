@@ -1,0 +1,13 @@
+id: sig-20260705-qts-ric45-buildings-2
+site_id: null
+site_hint: "QTS RIC4/RIC5 expansion — Henrico, VA"
+attribute: buildings
+value: "17 buildings; 300+ diesel backup generators and 11 cooling towers anticipated"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/residents-push-back-qts-data-center-expansion-may-19-2026
+source_title: "Henrico residents push back on data center expansion near White Oak Technology Park"
+publisher: WTVR CBS 6
+source_date: "2026-05-19"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Much of the project reportedly approved under pre-2025 zoning; community opposition."

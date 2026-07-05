@@ -1,0 +1,13 @@
+id: sig-20260705-dcblox-sqft-dcd
+site_id: null
+site_hint: "DC BLOX Azalea data center (former Azalea Flea Market site) — Henrico, VA"
+attribute: building_sqft
+value: "building 1 = 70,000 sqft; building 2 = 125,000 sqft"
+source_url: https://www.datacenterdynamics.com/en/news/dc-blox-expands-into-virginia-plans-two-building-campus-in-richmond/
+source_title: "DC Blox expands into Virginia, plans two-building campus in Richmond"
+publisher: Data Center Dynamics
+source_date: "2024-08-15"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Original two-building plan; conflicts with DCF's revised by-right 65,000 sqft."

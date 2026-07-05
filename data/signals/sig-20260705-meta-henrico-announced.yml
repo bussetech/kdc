@@ -1,0 +1,12 @@
+id: sig-20260705-meta-henrico-announced
+site_id: null
+site_hint: "Meta Henrico Data Center (White Oak Technology Park) — Henrico, VA"
+attribute: announced_date
+value: "Oct 18, 2017 announcement"
+source_url: https://www.vaco.org/county-connections/henrico-officials-join-governor-announce-plans-facebook-facility/
+source_title: "Henrico officials join Governor to announce plans for Facebook facility"
+publisher: Virginia Association of Counties
+source_date: "2017-10"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

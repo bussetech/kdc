@@ -1,0 +1,12 @@
+id: sig-20260705-ironmtn-investment
+site_id: null
+site_hint: "Iron Mountain Richmond campus (White Oak Technology Park) — Henrico, VA"
+attribute: investment_usd
+value: "$1B+ investment"
+source_url: https://virginiabusiness.com/iron-mountain-plans-1b-data-center-campus-in-henrico/
+source_title: "Iron Mountain plans $1B data center campus in Henrico"
+publisher: Virginia Business
+source_date: "2025-02-18"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
