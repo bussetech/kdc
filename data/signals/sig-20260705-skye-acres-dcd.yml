@@ -1,0 +1,13 @@
+id: sig-20260705-skye-acres-dcd
+site_id: null
+site_hint: "Google Project Skye data center campus — Chesterfield, VA"
+attribute: land_acres
+value: "887.7 acres"
+source_url: https://www.datacenterdynamics.com/en/news/details-revealed-for-googles-project-skye-data-center-campus-in-chesterfield-county-virginia/
+source_title: "Details revealed for Google's Project Skye data center campus in Chesterfield County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-06-29"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Acreage reported as both ~880 (county) and 887.7 (DCD)."

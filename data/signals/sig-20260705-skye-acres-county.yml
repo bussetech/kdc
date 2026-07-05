@@ -1,0 +1,13 @@
+id: sig-20260705-skye-acres-county
+site_id: null
+site_hint: "Google Project Skye data center campus — Chesterfield, VA"
+attribute: land_acres
+value: "~880-acre property at Upper Magnolia Green for future development"
+source_url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
+source_title: "In Google, Chesterfield landed the 'Rolls-Royce of data center operators'"
+publisher: Chesterfield County government
+source_date: "2025-08-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Acreage reported as both ~880 (county) and 887.7 (DCD)."

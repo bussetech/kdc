@@ -1,0 +1,13 @@
+id: sig-20260705-peanut-investment
+site_id: null
+site_hint: "Google Project Peanut data center campus — Chesterfield, VA"
+attribute: investment_usd
+value: "$9B"
+source_url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-virginia-data-centers-plans-new-campus-in-chesterfield-county/
+source_title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
+publisher: Data Center Dynamics
+source_date: "2025-08-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "$9B is Google's total Virginia investment through 2026 (also covers Loudoun/Prince William); site-specific figure not disclosed."

@@ -1,0 +1,13 @@
+id: sig-20260705-chirisa-status
+site_id: null
+site_hint: "Chirisa Technology Parks Richmond campus (CTP-01/CTP-02/CTP-03) — Chesterfield, VA"
+attribute: status
+value: "CTP-01 operational (CoreWeave tenant); CTP-02/03 under construction for delivery 2025-2026"
+source_url: https://www.datacenterdynamics.com/en/news/chirisa-and-powerhouse-plan-1gw-campus-outside-richmond-virginia/
+source_title: "Chirisa and PowerHouse plan 1GW campus outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-09-27"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Mixed-status campus: CTP-01 operational, CTP-02/03 in delivery."

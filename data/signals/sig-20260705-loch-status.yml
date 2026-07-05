@@ -1,0 +1,12 @@
+id: sig-20260705-loch-status
+site_id: null
+site_hint: "Google Project Loch data center site — Chesterfield, VA"
+attribute: status
+value: "announced; Google said no plans to develop Loch and Skye 'right now'"
+source_url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-virginia-data-centers-plans-new-campus-in-chesterfield-county/
+source_title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
+publisher: Data Center Dynamics
+source_date: "2025-08-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

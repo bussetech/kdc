@@ -1,0 +1,12 @@
+id: sig-20260705-digitaldrive-developer
+site_id: null
+site_hint: "Digital Drive campus (PowerHouse/Chirisa, former Cartograf site) — Chesterfield, VA"
+attribute: developer
+value: "PowerHouse Data Centers (American Real Estate Partners) and Chirisa Technology Parks JV"
+source_url: https://www.datacenterdynamics.com/en/news/chirisa-and-powerhouse-plan-1gw-campus-outside-richmond-virginia/
+source_title: "Chirisa and PowerHouse plan 1GW campus outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-09-27"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
