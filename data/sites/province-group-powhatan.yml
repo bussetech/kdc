@@ -1,0 +1,55 @@
+id: province-group-powhatan
+name: Province Group Data Center Campus (Page Road)
+developer: province-group
+status: permitted
+location:
+  country: US
+  state: VA
+  county: Powhatan
+  address: Page Road
+metrics:
+  capacity_mw: 300
+  land_acres: 181
+  building_sqft: 2000000
+  buildings: 3
+  investment_usd: 2700000000
+announced_date: "2024-08-19"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.powhatanva.gov/DocumentCenter/View/9122/10292025-Press-Release---Data-Center
+    title: "Powhatan Board Approves Rezoning for Data Center Development on Page Road"
+    publisher: County of Powhatan, Virginia (press release)
+    date: "2025-10-29"
+  - url: https://virginiabusiness.com/powhatan-approves-2-7b-data-center-campus/
+    title: "Powhatan approves $2.7B data center campus"
+    publisher: Virginia Business
+    date: "2024-10-30"
+  - url: https://www.datacenterdynamics.com/en/news/proposals-for-two-data-center-projects-in-richmond-virginia-deferred-by-local-officials/
+    title: "Proposals for two data center projects in Richmond, Virginia, deferred by local officials"
+    publisher: Data Center Dynamics
+    date: "2024-08-19"
+signals:
+  - sig-20260705-province-acres
+  - sig-20260705-province-investment
+  - sig-20260705-province-mw
+  - sig-20260705-province-sqft-county
+  - sig-20260705-province-sqft-vb
+  - sig-20260705-province-status-approved
+  - sig-20260705-province-status-deferred
+  - sig-20260705-province-status-initial
+notes: >
+  Newport Equities LLC / Province Group (also filed as LC West LLC, originally
+  "Powhatan Technology Park") — all mapped to province-group.
+  Status permitted: Board approved rezoning + CUP (75-ft buildings). Approval
+  path: Aug 2024 original proposal deferred by Powhatan Planning Commission;
+  initial 119.9-acre rezoning/CUP approved 3-2 on 2024-10-28; further 61.8 acres
+  approved unanimously 2025-10-29, creating a 181-acre campus. Planning Commission
+  recommended denial both times (utility-proffer concerns, later resolved).
+  land_acres 181 = 61.8 (2025) + 119.9-120 (2024).
+  building_sqft conflict: county (Oct 2025) says "2-million-square-foot"; Virginia
+  Business (2024) cites 1.525M sqft filed across three data centers (plus six
+  support structures). County (government, newer) figure used; minority claim
+  noted.
+  investment_usd 2.7B per county; developer estimate $3B.

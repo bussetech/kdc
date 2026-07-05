@@ -1,5 +1,5 @@
 id: sig-20260705-loch-status
-site_id: null
+site_id: google-loch-chesterfield
 site_hint: "Google Project Loch data center site — Chesterfield, VA"
 attribute: status
 value: "announced; Google said no plans to develop Loch and Skye 'right now'"

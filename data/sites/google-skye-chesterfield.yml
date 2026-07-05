@@ -1,0 +1,44 @@
+id: google-skye-chesterfield
+name: Google Project Skye
+operator: google
+status: announced
+location:
+  country: US
+  state: VA
+  county: Chesterfield
+  locality: Moseley
+  address: 4200 Moseley Rd
+metrics:
+  land_acres: 887.7
+  buildings: 5
+announced_date: "2025-08-28"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
+    title: "In Google, Chesterfield landed the 'Rolls-Royce of data center operators'"
+    publisher: Chesterfield County government
+    date: "2025-08-28"
+  - url: https://www.datacenterdynamics.com/en/news/details-revealed-for-googles-project-skye-data-center-campus-in-chesterfield-county-virginia/
+    title: "Details revealed for Google's Project Skye data center campus in Chesterfield County, Virginia"
+    publisher: Data Center Dynamics
+    date: "2026-06-29"
+  - url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-virginia-data-centers-plans-new-campus-in-chesterfield-county/
+    title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
+    publisher: Data Center Dynamics
+    date: "2025-08-28"
+signals:
+  - sig-20260705-skye-acres-county
+  - sig-20260705-skye-acres-dcd
+  - sig-20260705-skye-buildings
+  - sig-20260705-skye-location
+  - sig-20260705-skye-status
+notes: >
+  Upper Magnolia Green property. Acreage reported as 887.7 (DCD, June 2026, used
+  here as more specific/newer) and ~880 (county). Planned as five data center
+  buildings plus three substations; buildings=5 records the DC count.
+  Skye + Loch (~1,200 acres) bought for ~$60M in 2025. As of June 2026 the site
+  is in USACE regulatory/wetlands permitting (public notice NAO-2026-00282,
+  referenced but usace.army.mil blocked automated fetch); status kept at
+  announced since permits are in process, not granted.

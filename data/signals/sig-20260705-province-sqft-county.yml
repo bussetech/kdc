@@ -1,5 +1,5 @@
 id: sig-20260705-province-sqft-county
-site_id: null
+site_id: province-group-powhatan
 site_hint: "Province Group data center campus (Newport Equities LLC), Page Road — Powhatan, VA"
 attribute: building_sqft
 value: "planned 2M sqft data center"

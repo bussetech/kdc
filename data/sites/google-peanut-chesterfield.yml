@@ -1,0 +1,51 @@
+id: google-peanut-chesterfield
+name: Google Project Peanut
+operator: google
+status: announced
+location:
+  country: US
+  state: VA
+  county: Chesterfield
+  address: 2700 Bermuda Hundred Rd
+metrics:
+  land_acres: 307
+  building_sqft: 855000
+  buildings: 3
+announced_date: "2025-08-28"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: high
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-virginia-data-centers-plans-new-campus-in-chesterfield-county/
+    title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
+    publisher: Data Center Dynamics
+    date: "2025-08-28"
+  - url: https://www.datacenterdynamics.com/en/news/google-details-plans-for-project-peanut-data-center-development-outside-richmond-virginia/
+    title: "Google details plans for Project Peanut data center development outside Richmond, Virginia"
+    publisher: Data Center Dynamics
+    date: "2025-11-12"
+  - url: https://www.wtvr.com/news/local-news/google-chesterfield-data-center-update-nov-11-2025
+    title: "New details emerge as Google files Chesterfield data center plan"
+    publisher: WTVR CBS 6
+    date: "2025-11-11"
+  - url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
+    title: "In Google, Chesterfield landed the 'Rolls-Royce of data center operators'"
+    publisher: Chesterfield County government
+    date: "2025-08-28"
+signals:
+  - sig-20260705-peanut-acres
+  - sig-20260705-peanut-investment
+  - sig-20260705-peanut-location
+  - sig-20260705-peanut-sqft-dcd
+  - sig-20260705-peanut-sqft-wtvr
+  - sig-20260705-peanut-status
+notes: >
+  Site bought via Peanut LLC (a Google alias) for $18.1M in 2020; ~300-acre site,
+  WTVR gives 307 acres (used here). Three buildings; DCD ~855,000 sqft (~285,000
+  each), WTVR ~856,000 sqft — agree within rounding.
+  investment_usd omitted: the widely-cited $9B is Google's total Virginia
+  investment through 2026 (also Loudoun/Prince William), not a site-specific
+  figure, which was not disclosed.
+  Status held at announced: county said construction to begin by end of 2025 with
+  an 18-24 month build, but no fetch-verified source confirms groundbreaking
+  despite the Nov 2025 site-plan filing.

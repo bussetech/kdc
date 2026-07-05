@@ -1,0 +1,55 @@
+id: digital-drive-chesterfield
+name: Digital Drive Campus (former Cartograf site)
+operator: chirisa
+developer: powerhouse
+status: announced
+location:
+  country: US
+  state: VA
+  county: Chesterfield
+  address: 1600 Digital Drive
+metrics:
+  capacity_mw: 300
+  land_acres: 104
+  building_sqft: 600000
+  buildings: 5
+operational_date: "2027"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.prnewswire.com/news-releases/chirisa-technology-parks-and-powerhouse-data-centers-to-launch-next-generation-hyperscale-campus-in-chesterfield-county-302259869.html
+    title: "Chirisa Technology Parks and PowerHouse Data Centers to Launch Next-Generation Hyperscale Campus in Chesterfield County"
+    publisher: PR Newswire (developer release)
+    date: "2024-09-26"
+  - url: https://www.datacenterdynamics.com/en/news/chirisa-and-powerhouse-plan-1gw-campus-outside-richmond-virginia/
+    title: "Chirisa and PowerHouse plan 1GW campus outside Richmond, Virginia"
+    publisher: Data Center Dynamics
+    date: "2024-09-27"
+  - url: https://www.wtvr.com/news/local-news/chesterfield-data-centers-jan-5-2026
+    title: "New information about two new Chesterfield data centers"
+    publisher: WTVR CBS 6
+    date: "2026-01-05"
+signals:
+  - sig-20260705-digitaldrive-acres
+  - sig-20260705-digitaldrive-developer
+  - sig-20260705-digitaldrive-mw
+  - sig-20260705-digitaldrive-opdate-pr
+  - sig-20260705-digitaldrive-sqft-pr
+  - sig-20260705-digitaldrive-sqft-wtvr
+  - sig-20260705-digitaldrive-status
+notes: >
+  PowerHouse (AREP) / Chirisa JV on the demolished Cartograf site; developer set
+  to powerhouse and operator to chirisa to represent the JV.
+  Distinct from the Chirisa CTP-01/02/03 campus (104 acres / former Cartograf vs
+  350 acres / ex-Capital One) — kept as separate records.
+  Scope conflict: announced as five AI-ready facilities / 600,000+ sqft (PR
+  Newswire); Jan 2026 WTVR filing covers two buildings / 380,000 sqft at 1600
+  Digital Drive, likely the first phase. building_sqft carries the announced
+  600,000+ floor and buildings the announced five; first-phase filing is two
+  buildings / 380,000 sqft.
+  Timeline slipped: PR release said first delivery 2026 / completion 2028; Jan
+  2026 filing says first building operational 2027 (used here, newer). Completion
+  2028 per PR.
+  capacity_mw 300 is from the Meadowville substation; developers cite a broader
+  1GW+ park goal.
