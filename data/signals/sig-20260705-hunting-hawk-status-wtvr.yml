@@ -1,0 +1,13 @@
+id: sig-20260705-hunting-hawk-status-wtvr
+site_id: null
+site_hint: "Hunting Hawk Technology Park (HHHunt) — Hanover, VA"
+attribute: status
+value: "application withdrawn (announced at Jan 28, 2026 Board of Supervisors meeting by Supervisor Susan Dibble)"
+source_url: https://www.wtvr.com/news/local-news/hhhunt-withdraws-data-center-application-jan-28-2026
+source_title: "Plans withdrawn for 400-acre data center development in Hanover"
+publisher: WTVR CBS 6
+source_date: "2026-01-28"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: high
+notes: "Withdrawal reported Jan 28 (WTVR) vs Feb 3 DCD pub date; Planning Commission unanimously recommended denial Jan 2026"

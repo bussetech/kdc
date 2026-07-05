@@ -1,0 +1,13 @@
+id: sig-20260705-hanover-tech-park-buildings-dcd
+site_id: null
+site_hint: "Hanover Technology Park (Tract) — Hanover, VA"
+attribute: buildings
+value: "up to 46 buildings"
+source_url: https://www.datacenterdynamics.com/en/news/tract-announces-24gw-data-center-park-outside-richmond-virginia/
+source_title: "Tract announces 2.4GW data center park outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-05-08"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Building-count conflict: up to 46 (DCD) vs ~30 (GRPVA)"

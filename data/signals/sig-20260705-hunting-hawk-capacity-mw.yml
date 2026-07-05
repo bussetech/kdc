@@ -1,0 +1,13 @@
+id: sig-20260705-hunting-hawk-capacity-mw
+site_id: null
+site_hint: "Hunting Hawk Technology Park (HHHunt) — Hanover, VA"
+attribute: capacity_mw
+value: "900MW claimed"
+source_url: https://www.datacenterdynamics.com/en/news/900mw-data-center-campus-plan-withdrawn-in-hanover-county-virginia/
+source_title: "900MW data center campus plan withdrawn in Hanover County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-02-03"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Developer-claimed plan figure, never entitled"

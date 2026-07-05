@@ -1,0 +1,13 @@
+id: sig-20260705-iron-horse-land-acres
+site_id: null
+site_hint: "Iron Horse Business Park data center campus (WestDulles Properties) — Hanover, VA"
+attribute: land_acres
+value: "230-acre site split ~60/40 between Town of Ashland and Hanover County"
+source_url: https://www.datacenterdynamics.com/en/news/westdulles-properties-files-for-3-million-sq-ft-data-center-park-outside-richmond-virginia/
+source_title: "WestDulles Properties files for 3 million sq ft data center park outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-05-17"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.1
+confidence: medium
+notes: "Full two-jurisdiction campus concept; pending Hanover ask is 78 acres"
