@@ -23,7 +23,7 @@
     }
   },
   "$defs": {
-    "cadence": { "enum": ["weekly", "monthly"] },
+    "cadence": { "enum": ["daily", "weekly", "monthly"] },
     "source": {
       "type": "object",
       "required": ["id", "type", "url", "cadence", "parser", "publisher", "status", "robots", "added"],

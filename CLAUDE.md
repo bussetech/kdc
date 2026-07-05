@@ -53,8 +53,9 @@ not launder a single outlet's claim into fact.
   judgment. `mode: discover` finds new projects; `mode: verify` re-checks
   known sites (one, or all when no target) for status change / stale
   sources. Emits signals as PRs only. It NEVER fetches: scheduled runs
-  (weekly discover, monthly verify) are fed by the deterministic fetch
-  layer over `data/sources.yml`.
+  (daily discover over press feeds, weekly county-feed sweep, monthly
+  verify) are fed by the deterministic fetch layer over
+  `data/sources.yml`.
 - **`gn_kdc_records`** (project, untrusted, PR-only) — clusters signals
   per site, resolves conflicts into the most-likely fact with confidence
   and provenance, opens PRs against `data/sites/`.
