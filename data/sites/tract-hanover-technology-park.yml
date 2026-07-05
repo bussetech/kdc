@@ -1,0 +1,48 @@
+id: tract-hanover-technology-park
+name: Hanover Technology Park
+developer: tract
+status: permitted
+location:
+  country: US
+  state: VA
+  county: Hanover
+  locality: Hanover
+metrics:
+  capacity_mw: 2400
+  capacity_mw_basis: utility
+  land_acres: 1200
+  buildings: 30
+announced_date: "2024"
+operational_date: "2028"
+first_seen: "2026-07-05"
+last_updated: "2026-07-05"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/tract-announces-24gw-data-center-park-outside-richmond-virginia/
+    title: "Tract announces 2.4GW data center park outside Richmond, Virginia"
+    publisher: Data Center Dynamics
+    date: "2024-05-08"
+  - url: https://www.grpva.com/news/tract-approved-for-1200-acre-data-center-campus-in-hanover/
+    title: "Tract approved for 1,200-acre data center campus in Hanover"
+    publisher: Greater Richmond Partnership (GRPVA)
+    date: "2025-05-23"
+signals:
+  - sig-20260705-hanover-tech-park-announced-date
+  - sig-20260705-hanover-tech-park-buildings-dcd
+  - sig-20260705-hanover-tech-park-buildings-grpva
+  - sig-20260705-hanover-tech-park-capacity-mw
+  - sig-20260705-hanover-tech-park-developer
+  - sig-20260705-hanover-tech-park-land-acres
+  - sig-20260705-hanover-tech-park-operational-date
+  - sig-20260705-hanover-tech-park-status
+notes: >
+  Tract is master developer; end-user operators not yet announced.
+  Building-count conflict: took ~30 (GRPVA, 2025-05-23) as the newer,
+  economic-development-partner figure over "up to 46" (DCD, 2024-05-08);
+  DCD's higher figure is not dropped and is recorded here. capacity_mw
+  2400 is the full-build campus power capacity (GW-scale master plan),
+  not built capacity. Unanimous Planning Commission + Board approval in
+  early 2024; permitted with horizontal development reportedly to begin
+  2025 — arguably transitioning to under-construction, held at permitted
+  pending confirmation of active construction. VPM reportedly dates a
+  supervisors' vote to 2026-03-28 but VPM blocks fetch.
