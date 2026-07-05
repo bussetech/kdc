@@ -13,4 +13,4 @@ into committed GeoJSON (no runtime service, no API key), and it is progressive
 enhancement over the existing tables — with JavaScript off, the tables are
 still the record. Markers are approximate, geocoded from each record's sourced
 location; exact parcel geometry is a later layer. See
-[coverage](/coverage/#geo-completeness) for precision and completeness.
+[coverage](/coverage/) for precision and completeness.

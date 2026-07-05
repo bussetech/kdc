@@ -15,7 +15,7 @@ Every tracked project-site, plotted from the same records as the
 [registry](/sites/). Markers are **status-coloured** (colour is wayfinding);
 cancelled proposals stay on the map as a hollow ring — a dead project is a
 record, not an omission. Coordinates are approximate — geocoded from each
-record's sourced location; see [coverage](/coverage/#geo-completeness) for
+record's sourced location; see [coverage](/coverage/) for
 precision and completeness.
 
 {% include map-legend.html %}
