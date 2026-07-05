@@ -1,0 +1,11 @@
+id: sig-20260705-iron-mountain-henrico-capacity-mw
+site_id: iron-mountain-henrico
+attribute: capacity_mw
+value: "200MW+ Henrico (Richmond) site"
+source_url: https://investors.ironmountain.com/news/news-details/2024/Iron-Mountain-Expands-Planned-Data-Center-Capacity-in-Virginia-by-more-than-350-Megawatts/default.aspx
+source_title: "Iron Mountain Expands Planned Data Center Capacity in Virginia by more than 350 Megawatts"
+publisher: Iron Mountain (investor press release)
+source_date: "2024-11-18"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high

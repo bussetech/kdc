@@ -1,0 +1,12 @@
+id: sig-20260705-cloudhq-lc-sqft-raisedfloor
+site_id: null
+site_hint: "CloudHQ LC Campus (LC1A/LC1B, LC2 and expansion) — Loudoun, VA"
+attribute: building_sqft
+value: "403,410 sq ft raised floor (LC1A + LC2)"
+source_url: https://www.datacenterdynamics.com/en/news/cloudhq-seeks-14-billion-in-abs-funding/
+source_title: "CloudHQ seeks $1.4 billion in ABS funding"
+publisher: Data Center Dynamics
+source_date: "2026-04-13"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

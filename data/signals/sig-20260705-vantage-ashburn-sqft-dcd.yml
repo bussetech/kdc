@@ -1,0 +1,13 @@
+id: sig-20260705-vantage-ashburn-sqft-dcd
+site_id: null
+site_hint: "Vantage Ashburn I (VA1) Campus — Loudoun, VA"
+attribute: building_sqft
+value: "more than 1 million sq ft of data center space"
+source_url: https://www.datacenterdynamics.com/en/news/vantage-tops-out-fifth-building-of-206mw-data-center-in-ashburn-virginia/
+source_title: "Vantage tops out fifth building of 206MW data center in Ashburn, Virginia"
+publisher: Data Center Dynamics
+source_date: "2025-07-24"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Conflicts with operator page figure of 1.7M sq ft campus total."

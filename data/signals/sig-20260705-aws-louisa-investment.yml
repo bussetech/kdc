@@ -1,0 +1,12 @@
+id: sig-20260705-aws-louisa-investment
+site_id: null
+site_hint: "AWS Louisa County Technology Overlay District campuses — Louisa, VA"
+attribute: investment_usd
+value: "$11B by 2040 across two campuses in Louisa's Technology Overlay District"
+source_url: https://www.datacenterfrontier.com/hyperscale/article/33010712/aws-plans-11b-investment-for-2-data-center-campuses-in-louisa-county-va-by-2040
+source_title: "AWS Plans $11B Investment For 2 Data Center Campuses In Louisa County, VA by 2040"
+publisher: Data Center Frontier
+source_date: "2023-08-31"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

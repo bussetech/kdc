@@ -1,0 +1,12 @@
+id: sig-20260705-ms-mecklenburg-newcampus
+site_id: null
+site_hint: "Microsoft six-building Mecklenburg campus (2023 filing) — Mecklenburg, VA"
+attribute: buildings
+value: "six buildings on 369 acres, ~10 miles from existing Boydton campus (2023 filing)"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-files-for-six-building-data-center-campus-in-virginias-mecklenburg-county/
+source_title: "Microsoft files for six-building data center campus in Virginia's Mecklenburg County"
+publisher: Data Center Dynamics
+source_date: "2023-04-12"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium

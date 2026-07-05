@@ -1,0 +1,13 @@
+id: sig-20260705-im-manassas-expansion-mw
+site_id: null
+site_hint: "Iron Mountain Manassas Campus (VA-1 through VA-7 + expansion) — Prince William, VA"
+attribute: capacity_mw
+value: "~150MW added across two buildings on the 40-acre expansion site"
+source_url: https://investors.ironmountain.com/news/news-details/2024/Iron-Mountain-Expands-Planned-Data-Center-Capacity-in-Virginia-by-more-than-350-Megawatts/default.aspx
+source_title: "Iron Mountain Expands Planned Data Center Capacity in Virginia by more than 350 Megawatts"
+publisher: Iron Mountain (investor press release)
+source_date: "2024-11-18"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: high
+notes: "Campus-total MW is fuzzy across sources; directories cite ~280MW planned but that is not independently verified."

@@ -1,0 +1,13 @@
+id: sig-20260705-aws-northcreek-land-acres
+site_id: null
+site_hint: "North Creek Technology Campus (AWS) — Louisa, VA"
+attribute: land_acres
+value: "374 acres"
+source_url: https://www.datacenterdynamics.com/en/news/amazon-files-for-38-million-sq-ft-data-center-campus-in-louisa-county-virginia/
+source_title: "Amazon files for 3.8 million sq ft data center campus in Louisa County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2024-11-05"
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Named 'North Creek Technology Campus' locally but 'Northeast Creek' in some DCD coverage."

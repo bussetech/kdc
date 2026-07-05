@@ -1,0 +1,12 @@
+id: sig-20260705-im-manassas-va1
+site_id: null
+site_hint: "Iron Mountain Manassas Campus (VA-1 through VA-7 + expansion) — Prince William, VA"
+attribute: capacity_mw
+value: "VA-1 = 167,958 sq ft / 12.4MW at 11680 Hayden Road"
+source_url: https://www.datacenterfrontier.com/site-selection/article/55268876/data-center-tours-iron-mountain-va-1-manassas-virginia
+source_title: "Data Center Tours: Iron Mountain VA-1, Manassas, Virginia"
+publisher: Data Center Frontier
+observed_date: "2026-07-05"
+collected_by: gn_kdc_scout/0.1.0
+confidence: medium
+notes: "Per-building figure (VA-1), not campus total."
