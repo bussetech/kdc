@@ -1,0 +1,11 @@
+id: sig-20260706-diode-kuna-status
+site_id: null
+site_hint: "Second Kuna data center project (Diode Ventures) — Ada, ID"
+attribute: status
+value: "announced (April 2025)"
+source_url: https://www.constructconnect.com/construction-economic-news/small-idaho-city-announces-1-billion-data-center-project-their-second-in-three-years
+publisher: ConstructConnect
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "operator not yet determined per source"
