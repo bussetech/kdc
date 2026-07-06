@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sources.schema.json",
+  "title": "Source registry",
+  "description": "The fetch allowlist for this project's research gnome (EPIC2-04, platform ADR-0025). Nothing off this registry is ever fetched; adding a source is a one-file PR against this registry. Reference implementation of the studio source-registry convention (platform docs/source-registry.md).",
+  "type": "object",
+  "required": ["version", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "const": 1 },
+    "defaults": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cadence": { "$ref": "#/$defs/cadence" },
+        "rate_limit_s": { "type": "integer", "minimum": 0 },
+        "max_items_per_fetch": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    }
+  },
+  "$defs": {
+    "cadence": { "enum": ["daily", "weekly", "monthly"] },
+    "source": {
+      "type": "object",
+      "required": ["id", "type", "url", "cadence", "parser", "publisher", "status", "robots", "added"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$",
+          "description": "Stable slug; scratch files and seen-state key off it."
+        },
+        "type": {
+          "enum": ["rss", "html-page", "filing-index"],
+          "description": "What the source is: a syndication feed, a page whose links/content change, or a machine-readable index of filings/articles."
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://",
+          "description": "The exact URL the fetch layer requests. The registry is the allowlist — the fetcher requests this URL (plus the host's robots.txt) and nothing else."
+        },
+        "cadence": { "$ref": "#/$defs/cadence" },
+        "parser": {
+          "enum": ["rss", "news-sitemap", "link-list"],
+          "description": "How the fetch layer itemizes the response (rss covers RSS 2.0 and Atom)."
+        },
+        "publisher": {
+          "type": "string",
+          "description": "Publisher name as it should appear on signals extracted from this source."
+        },
+        "scope": {
+          "type": "string",
+          "description": "What this source covers (region, beat) — for humans reviewing the registry."
+        },
+        "status": {
+          "enum": ["active", "manual", "retired"],
+          "description": "active = fetched on schedule; manual = never fetched (robots/ToS or no machine-readable surface — material arrives via research issues); retired = kept for provenance, never fetched."
+        },
+        "robots": {
+          "type": "object",
+          "required": ["checked", "notes"],
+          "additionalProperties": false,
+          "properties": {
+            "checked": { "type": "string", "format": "date", "description": "When robots.txt/ToS were last reviewed." },
+            "notes": { "type": "string", "description": "robots/ToS findings and the compatibility judgment; for manual sources, why they must stay manual." }
+          }
+        },
+        "rate_limit_s": { "type": "integer", "minimum": 0, "description": "Per-host politeness delay; honor any published Crawl-delay." },
+        "max_items": { "type": "integer", "minimum": 1 },
+        "added": { "type": "string", "format": "date" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

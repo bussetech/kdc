@@ -4,4 +4,5 @@ layout: site-record
 site_id: microsoft-lakeside-commerce-mecklenburg
 title: "Microsoft Lakeside Commerce Park Campus"
 permalink: /sites/microsoft-lakeside-commerce-mecklenburg/
+map: true
 ---

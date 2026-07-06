@@ -8,6 +8,8 @@ location:
   county: Prince William
   locality: Manassas
   address: 11680 Hayden Road (VA-1)
+  lat: 38.79
+  lon: -77.52
 metrics:
   land_acres: 142
   building_sqft: 2000000

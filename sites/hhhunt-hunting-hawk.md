@@ -4,4 +4,5 @@ layout: site-record
 site_id: hhhunt-hunting-hawk
 title: "Hunting Hawk Technology Park"
 permalink: /sites/hhhunt-hunting-hawk/
+map: true
 ---

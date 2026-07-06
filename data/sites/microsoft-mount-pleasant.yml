@@ -7,6 +7,8 @@ location:
   state: WI
   county: Racine
   locality: Mount Pleasant
+  lat: 42.72
+  lon: -87.9
 metrics:
   building_sqft: 1200000
   buildings: 3

@@ -4,4 +4,5 @@ layout: site-record
 site_id: westdulles-iron-horse
 title: "Iron Horse Business Park data center campus"
 permalink: /sites/westdulles-iron-horse/
+map: true
 ---

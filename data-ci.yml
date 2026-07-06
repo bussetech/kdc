@@ -12,4 +12,7 @@ datasets:
   - name: operators
     schema: schema/operators.schema.json
     files: "data/operators.yml"
+  - name: sources
+    schema: schema/sources.schema.json
+    files: "data/sources.yml"
 integrity: scripts/check-integrity.sh

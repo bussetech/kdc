@@ -1,0 +1,671 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -77.789,
+          38.06
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Louisa",
+        "id": "aws-lake-anna-louisa",
+        "location": "Louisa, VA",
+        "name": "Lake Anna Technology Campus (AWS)",
+        "operator": "Amazon Web Services",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/aws-lake-anna-louisa/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.905,
+          38.0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Louisa",
+        "id": "aws-louisa-third-campus",
+        "location": "Louisa, VA",
+        "name": "AWS Third Louisa County Campus (Northeast Creek Reservoir)",
+        "operator": "Amazon Web Services",
+        "state": "VA",
+        "status": "cancelled",
+        "url": "/sites/aws-louisa-third-campus/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -86.502,
+          41.701
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 2200,
+        "county": "St. Joseph",
+        "id": "aws-new-carlisle",
+        "location": "St. Joseph, IN",
+        "name": "Project Rainier (New Carlisle campus)",
+        "operator": "Amazon Web Services",
+        "state": "IN",
+        "status": "operational",
+        "url": "/sites/aws-new-carlisle/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.958,
+          37.992
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Louisa",
+        "id": "aws-north-creek-louisa",
+        "location": "Louisa, VA",
+        "name": "North Creek Technology Campus (AWS)",
+        "operator": "Amazon Web Services",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/aws-north-creek-louisa/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.345,
+          37.365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Chesterfield",
+        "id": "chirisa-chesterfield",
+        "location": "Chesterfield, VA",
+        "name": "Chirisa Technology Parks Richmond Campus (CTP-01/02/03)",
+        "operator": "Chirisa Technology Parks",
+        "state": "VA",
+        "status": "operational",
+        "url": "/sites/chirisa-chesterfield/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.465,
+          39.015
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 160,
+        "county": "Loudoun",
+        "id": "cloudhq-ashburn-loudoun",
+        "location": "Loudoun, VA",
+        "name": "CloudHQ LC Campus (Ashburn)",
+        "operator": "CloudHQ",
+        "state": "VA",
+        "status": "operational",
+        "url": "/sites/cloudhq-ashburn-loudoun/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.443,
+          37.628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 10,
+        "county": "Henrico",
+        "id": "dc-blox-henrico",
+        "location": "Henrico, VA",
+        "name": "DC BLOX Azalea Data Center",
+        "operator": "DC BLOX",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/dc-blox-henrico/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.506,
+          37.378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 300,
+        "county": "Chesterfield",
+        "id": "digital-drive-chesterfield",
+        "location": "Chesterfield, VA",
+        "name": "Digital Drive Campus (former Cartograf site)",
+        "operator": "Chirisa Technology Parks",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/digital-drive-chesterfield/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -95.856,
+          41.221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Pottawattamie",
+        "id": "google-council-bluffs",
+        "location": "Pottawattamie, IA",
+        "name": "Google Council Bluffs data center campus",
+        "operator": "Google",
+        "state": "IA",
+        "status": "operational",
+        "url": "/sites/google-council-bluffs/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.664,
+          37.463
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Chesterfield",
+        "id": "google-loch-chesterfield",
+        "location": "Chesterfield, VA",
+        "name": "Google Project Loch",
+        "operator": "Google",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/google-loch-chesterfield/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.351,
+          37.353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Chesterfield",
+        "id": "google-peanut-chesterfield",
+        "location": "Chesterfield, VA",
+        "name": "Google Project Peanut",
+        "operator": "Google",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/google-peanut-chesterfield/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.76,
+          37.43
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Chesterfield",
+        "id": "google-skye-chesterfield",
+        "location": "Chesterfield, VA",
+        "name": "Google Project Skye",
+        "operator": "Google",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/google-skye-chesterfield/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.548,
+          37.712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 900,
+        "county": "Hanover",
+        "id": "hhhunt-hunting-hawk",
+        "location": "Hanover, VA",
+        "name": "Hunting Hawk Technology Park",
+        "state": "VA",
+        "status": "cancelled",
+        "url": "/sites/hhhunt-hunting-hawk/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.279,
+          37.438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 200,
+        "county": "Henrico",
+        "id": "iron-mountain-henrico",
+        "location": "Henrico, VA",
+        "name": "Iron Mountain Richmond Campus",
+        "operator": "Iron Mountain",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/iron-mountain-henrico/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.52,
+          38.79
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Prince William",
+        "id": "iron-mountain-manassas",
+        "location": "Prince William, VA",
+        "name": "Iron Mountain Manassas Campus",
+        "operator": "Iron Mountain",
+        "state": "VA",
+        "status": "operational",
+        "url": "/sites/iron-mountain-manassas/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.283,
+          37.436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Henrico",
+        "id": "meta-henrico",
+        "location": "Henrico, VA",
+        "name": "Meta Henrico Data Center",
+        "operator": "Meta",
+        "state": "VA",
+        "status": "operational",
+        "url": "/sites/meta-henrico/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -91.75,
+          32.47
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 2000,
+        "county": "Richland Parish",
+        "id": "meta-richland-parish",
+        "location": "Richland Parish, LA",
+        "name": "Hyperion (Richland Parish Data Center)",
+        "operator": "Meta",
+        "state": "LA",
+        "status": "under-construction",
+        "url": "/sites/meta-richland-parish/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.375,
+          36.665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Mecklenburg",
+        "id": "microsoft-boydton",
+        "location": "Mecklenburg, VA",
+        "name": "Microsoft Boydton Campus",
+        "operator": "Microsoft",
+        "state": "VA",
+        "status": "operational",
+        "url": "/sites/microsoft-boydton/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.402,
+          36.632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Mecklenburg",
+        "id": "microsoft-lakeside-commerce-mecklenburg",
+        "location": "Mecklenburg, VA",
+        "name": "Microsoft Lakeside Commerce Park Campus",
+        "operator": "Microsoft",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/microsoft-lakeside-commerce-mecklenburg/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.383,
+          36.658
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Mecklenburg",
+        "id": "microsoft-mecklenburg-six-building",
+        "location": "Mecklenburg, VA",
+        "name": "Microsoft Six-Building Mecklenburg Campus (2023 filing)",
+        "operator": "Microsoft",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/microsoft-mecklenburg-six-building/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.9,
+          42.72
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Racine",
+        "id": "microsoft-mount-pleasant",
+        "location": "Racine, WI",
+        "name": "Fairwater (Mount Pleasant campus)",
+        "operator": "Microsoft",
+        "state": "WI",
+        "status": "operational",
+        "url": "/sites/microsoft-mount-pleasant/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.398,
+          36.602
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Mecklenburg",
+        "id": "microsoft-tunstall-road-mecklenburg",
+        "location": "Mecklenburg, VA",
+        "name": "Microsoft Tunstall Road Campus",
+        "operator": "Microsoft",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/microsoft-tunstall-road-mecklenburg/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -99.752,
+          32.451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 1200,
+        "county": "Taylor",
+        "id": "openai-abilene",
+        "location": "Taylor, TX",
+        "name": "Stargate Abilene (Lancium Clean Campus)",
+        "operator": "OpenAI",
+        "state": "TX",
+        "status": "under-construction",
+        "url": "/sites/openai-abilene/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.878,
+          37.578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 300,
+        "county": "Powhatan",
+        "id": "province-group-powhatan",
+        "location": "Powhatan, VA",
+        "name": "Province Group Data Center Campus (Page Road)",
+        "state": "VA",
+        "status": "permitted",
+        "url": "/sites/province-group-powhatan/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.355,
+          37.505
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Henrico",
+        "id": "qts-ric45-henrico",
+        "location": "Henrico, VA",
+        "name": "QTS RIC4/RIC5 Expansion",
+        "operator": "QTS Data Centers",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/qts-ric45-henrico/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.288,
+          37.432
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Henrico",
+        "id": "qts-richmond-henrico",
+        "location": "Henrico, VA",
+        "name": "QTS Richmond Campus (White Oak Technology Park)",
+        "operator": "QTS Data Centers",
+        "state": "VA",
+        "status": "operational",
+        "url": "/sites/qts-richmond-henrico/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.902,
+          37.722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 900,
+        "county": "Goochland",
+        "id": "tract-goochland",
+        "location": "Goochland, VA",
+        "name": "Tuckahoe Technology Park",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/tract-goochland/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.492,
+          37.762
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 2400,
+        "county": "Hanover",
+        "id": "tract-hanover-technology-park",
+        "location": "Hanover, VA",
+        "name": "Hanover Technology Park",
+        "state": "VA",
+        "status": "permitted",
+        "url": "/sites/tract-hanover-technology-park/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.598,
+          37.662
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Hanover",
+        "id": "tract-mountain-road",
+        "location": "Hanover, VA",
+        "name": "Mountain Road Technology Park",
+        "state": "VA",
+        "status": "cancelled",
+        "url": "/sites/tract-mountain-road/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.455,
+          39.005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 206,
+        "county": "Loudoun",
+        "id": "vantage-ashburn-loudoun",
+        "location": "Loudoun, VA",
+        "name": "Vantage Ashburn I (VA1) Campus",
+        "operator": "Vantage Data Centers",
+        "state": "VA",
+        "status": "under-construction",
+        "url": "/sites/vantage-ashburn-loudoun/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.47,
+          37.755
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Hanover",
+        "id": "westdulles-iron-horse",
+        "location": "Hanover, VA",
+        "name": "Iron Horse Business Park data center campus",
+        "state": "VA",
+        "status": "announced",
+        "url": "/sites/westdulles-iron-horse/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.286,
+          37.434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "county": "Henrico",
+        "id": "wotp2-henrico",
+        "location": "Henrico, VA",
+        "name": "White Oak Technology Park 2 (Hourigan Rezoning)",
+        "state": "VA",
+        "status": "permitted",
+        "url": "/sites/wotp2-henrico/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -90.162,
+          35.061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "capacity_mw": 946,
+        "county": "Shelby",
+        "id": "xai-colossus-memphis",
+        "location": "Shelby, TN",
+        "name": "Colossus / Colossus 2",
+        "operator": "xAI",
+        "state": "TN",
+        "status": "operational",
+        "url": "/sites/xai-colossus-memphis/"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

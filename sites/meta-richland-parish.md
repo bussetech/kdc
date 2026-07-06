@@ -4,4 +4,5 @@ layout: site-record
 site_id: meta-richland-parish
 title: "Hyperion (Richland Parish Data Center)"
 permalink: /sites/meta-richland-parish/
+map: true
 ---

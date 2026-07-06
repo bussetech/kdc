@@ -4,4 +4,5 @@ layout: site-record
 site_id: microsoft-mecklenburg-six-building
 title: "Microsoft Six-Building Mecklenburg Campus (2023 filing)"
 permalink: /sites/microsoft-mecklenburg-six-building/
+map: true
 ---

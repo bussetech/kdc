@@ -4,4 +4,5 @@ layout: site-record
 site_id: google-loch-chesterfield
 title: "Google Project Loch"
 permalink: /sites/google-loch-chesterfield/
+map: true
 ---

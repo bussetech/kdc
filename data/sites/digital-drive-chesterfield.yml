@@ -8,6 +8,8 @@ location:
   state: VA
   county: Chesterfield
   address: 1600 Digital Drive
+  lat: 37.378
+  lon: -77.506
 metrics:
   capacity_mw: 300
   land_acres: 104

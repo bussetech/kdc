@@ -8,6 +8,8 @@ location:
   state: TX
   county: Taylor
   locality: Abilene
+  lat: 32.451
+  lon: -99.752
 metrics:
   capacity_mw: 1200
 first_seen: "2026-07-05"

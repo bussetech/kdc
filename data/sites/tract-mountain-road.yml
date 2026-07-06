@@ -8,6 +8,8 @@ location:
   county: Hanover
   locality: Hanover
   address: Route 33 near the Henrico County line
+  lat: 37.662
+  lon: -77.598
 metrics:
   land_acres: 430
 first_seen: "2026-07-05"

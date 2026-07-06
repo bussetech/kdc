@@ -7,6 +7,8 @@ location:
   state: VA
   county: Powhatan
   address: Page Road
+  lat: 37.578
+  lon: -77.878
 metrics:
   capacity_mw: 300
   land_acres: 181

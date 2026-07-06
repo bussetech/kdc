@@ -4,4 +4,5 @@ layout: site-record
 site_id: digital-drive-chesterfield
 title: "Digital Drive Campus (former Cartograf site)"
 permalink: /sites/digital-drive-chesterfield/
+map: true
 ---

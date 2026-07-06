@@ -4,4 +4,5 @@ layout: site-record
 site_id: microsoft-tunstall-road-mecklenburg
 title: "Microsoft Tunstall Road Campus"
 permalink: /sites/microsoft-tunstall-road-mecklenburg/
+map: true
 ---

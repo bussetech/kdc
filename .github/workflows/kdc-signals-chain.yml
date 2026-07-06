@@ -1,0 +1,71 @@
+# kdc-signals-chain — the Conveyor link that closes #97 (ADR-0030).
+#
+# When gn-kdc-scout's signal PR is merged onto kdc main (data/signals/**),
+# this dispatches platform's gn-kdc-records to resolve them — so scheduled
+# scout signals never strand waiting for a human to remember to run records.
+#
+# Records' wrapper lives in the private platform repo (ADR-0011); this public
+# repo already holds the gnome App creds for deploy/claude, so the dispatch
+# reuses them and adds no new secret surface. Same App-token idiom as
+# deploy.yml's studio-content-updated ping to the portal.
+#
+# Guards: skips outside the studio org, and skips harmlessly without the
+# gnome-App secrets (records can then be dispatched manually).
+name: kdc-signals-chain
+
+on:
+  # class: C (Conveyor) — advances on upstream completion (signals merged to
+  # main), not on a clock. Deliberately no cron: the trigger IS the merge.
+  push:
+    branches: [main]
+    paths:
+      - "data/signals/**"
+  workflow_dispatch: # manual re-fire of the chain
+
+concurrency:
+  group: kdc-signals-chain
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch-records:
+    if: ${{ github.repository_owner == 'bussetech' }}
+    runs-on: ubuntu-latest
+    steps:
+      # The `secrets` context is invalid in step-level `if:` — detect first
+      # (EPIC1-03 gotcha), then skip quietly when the App creds are absent.
+      - name: Detect gnome App credentials
+        id: creds
+        env:
+          APP_ID: ${{ secrets.GNOME_APP_ID }}
+          APP_KEY: ${{ secrets.GNOME_APP_PRIVATE_KEY }}
+        run: |
+          if [ -n "$APP_ID" ] && [ -n "$APP_KEY" ]; then
+            echo "have=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "have=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::gnome App secrets not available — records chain not dispatched (run gn-kdc-records manually)"
+          fi
+
+      - name: Mint records-dispatch token
+        id: app-token
+        if: steps.creds.outputs.have == 'true'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.GNOME_APP_ID }}
+          private-key: ${{ secrets.GNOME_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: platform
+          permission-contents: write
+
+      - name: Dispatch gn-kdc-records (kdc-signals-merged)
+        if: steps.creds.outputs.have == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh api "repos/${OWNER}/platform/dispatches" \
+            -f event_type=kdc-signals-merged
+          echo "dispatched kdc-signals-merged → ${OWNER}/platform gn-kdc-records"

@@ -7,6 +7,8 @@ location:
   state: VA
   county: Hanover
   locality: Hanover
+  lat: 37.712
+  lon: -77.548
 metrics:
   capacity_mw: 900
   land_acres: 400

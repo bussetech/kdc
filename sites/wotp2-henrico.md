@@ -4,4 +4,5 @@ layout: site-record
 site_id: wotp2-henrico
 title: "White Oak Technology Park 2 (Hourigan Rezoning)"
 permalink: /sites/wotp2-henrico/
+map: true
 ---

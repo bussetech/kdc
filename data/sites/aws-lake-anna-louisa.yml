@@ -8,6 +8,8 @@ location:
   county: Louisa
   locality: Louisa
   address: Kentucky Springs Rd at Haley Dr (adjacent to North Anna Nuclear Power Station)
+  lat: 38.06
+  lon: -77.789
 metrics:
   land_acres: 153
   building_sqft: 1700000
