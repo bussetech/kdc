@@ -1,0 +1,11 @@
+id: sig-20260706-aws-calvert-cliffs-capacity
+site_id: null
+site_hint: "Amazon (AWS) Calvert Cliffs data center campus — Calvert, MD"
+attribute: capacity_mw
+value: "~500 MW"
+source_url: https://www.thebanner.com/economy/amazon-data-center-calvert-cliffs-nuclear-IJRONAZSDRDOXP4G6Q7XKKFOI4/
+source_title: "Amazon data center at Calvert Cliffs nuclear site"
+publisher: The Baltimore Banner
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

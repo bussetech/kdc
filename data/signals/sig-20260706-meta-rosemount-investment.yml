@@ -1,0 +1,12 @@
+id: sig-20260706-meta-rosemount-investment
+site_id: null
+site_hint: "Meta Rosemount Data Center (Project Bigfoot) — Dakota, MN"
+attribute: investment_usd
+value: "$800 million"
+source_url: https://www.cbsnews.com/minnesota/news/meta-to-build-800m-data-center-in-rosemount-minnesota/
+source_title: "Meta to build $800M data center in Rosemount, Minnesota"
+publisher: CBS News
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
+notes: "Corroborated by KSTP (walz-to-announce-expansion-of-fortune-500-company-in-rosemount)."

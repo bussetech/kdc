@@ -1,0 +1,12 @@
+id: sig-20260706-aws-madison-ms-investment-10b
+site_id: null
+site_hint: "Amazon (AWS) Madison County Data Center Complexes — Madison, MS"
+attribute: investment_usd
+value: "initial $10 billion investment across two Madison County industrial parks"
+source_url: https://mississippi.org/news/amazon-web-services-to-invest-record-shattering-10-billion/
+source_title: "Amazon Web Services to invest record-shattering $10 billion"
+publisher: Mississippi Development Authority
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
+notes: "Figures differ by source: $10B (this source) vs $25B total state investment (governorreeves.ms.gov)."
