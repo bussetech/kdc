@@ -1,0 +1,11 @@
+id: sig-20260706-qts-blakely-status
+site_id: null
+site_hint: "QTS Project Blue Hole / Blakely — Early, GA"
+attribute: status
+value: "planned; full build-out by end of 2035, closed-loop cooling"
+source_url: https://www.datacenterdynamics.com/en/news/qts-targets-two-data-center-campuses-in-georgia/
+source_title: "QTS targets two data center campuses in Georgia"
+publisher: DataCenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

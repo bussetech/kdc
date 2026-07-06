@@ -1,0 +1,11 @@
+id: sig-20260706-meta-stanton-springs-sqft
+site_id: null
+site_hint: "Meta Stanton Springs / Newton County campus — Newton, GA"
+attribute: building_sqft
+value: "Stanton Springs 2 (Social Circle) initial phase of 900,000 sq ft"
+source_url: https://www.blackridgeresearch.com/blog/latest-list-upcoming-data-centers-in-georgia-ga-united-states-us
+source_title: "Latest list of upcoming data centers in Georgia (GA), United States (US)"
+publisher: Blackridge Research
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

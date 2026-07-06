@@ -1,0 +1,11 @@
+id: sig-20260706-cigna-windsor-investment
+site_id: null
+site_hint: "Cigna Windsor data center upgrade — Hartford, CT"
+attribute: investment_usd
+value: "~$380 million project to upgrade the Windsor data center"
+source_url: https://portal.ct.gov/ceq/decd/scoping-notice/notice-of-scoping-for-former-windsor-street-data-center
+source_title: "Notice of Scoping for Former Windsor Street Data Center"
+publisher: Connecticut CEQ (portal.ct.gov)
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

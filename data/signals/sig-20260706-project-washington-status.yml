@@ -1,0 +1,11 @@
+id: sig-20260706-project-washington-status
+site_id: null
+site_hint: "Project Washington (Starwood Digital Holdings) — New Castle, DE"
+attribute: status
+value: "proposed, facing community opposition; construction could begin Q3 2026, operations Q2 2028"
+source_url: https://technical.ly/civics/delaware-data-center-project-washington-location/
+source_title: "Delaware data center Project Washington location"
+publisher: Technical.ly
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

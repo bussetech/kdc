@@ -1,0 +1,11 @@
+id: sig-20260706-drfortress-honolulu-operator
+site_id: null
+site_hint: "DRFortress Honolulu carrier-neutral data center — Honolulu, HI"
+attribute: operator
+value: "acquired by 1547 Critical Systems Realty and Harrison Street from GI Partners (April 2025)"
+source_url: https://datacentremagazine.com/critical-environments/drfortress-how-the-data-centre-market-in-hawaii-is-growing
+source_title: "DRFortress: how the data centre market in Hawaii is growing"
+publisher: Data Centre Magazine
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
