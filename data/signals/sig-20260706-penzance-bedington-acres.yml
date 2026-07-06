@@ -1,0 +1,10 @@
+id: sig-20260706-penzance-bedington-acres
+site_id: null
+site_hint: "Penzance Bedington Campus — Berkeley County, WV"
+attribute: land_acres
+value: "548 acres"
+source_url: https://westvirginia.gov/4-billion-data-center-campus-planned-for-berkeley-county-positioning-west-virginia-for-the-ai-and-cloud-economy/
+publisher: State of West Virginia
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

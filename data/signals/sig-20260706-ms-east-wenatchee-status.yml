@@ -1,0 +1,10 @@
+id: sig-20260706-ms-east-wenatchee-status
+site_id: null
+site_hint: "Microsoft East Wenatchee Campus — Douglas County, WA"
+attribute: status
+value: "operational/under development"
+source_url: https://local.microsoft.com/blog/understanding-microsoft-datacenters-in-central-washington/
+publisher: Microsoft
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

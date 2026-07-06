@@ -1,0 +1,10 @@
+id: sig-20260706-vantage-quincy-capacity
+site_id: null
+site_hint: "Vantage Data Centers Quincy Campus — Grant County, WA"
+attribute: capacity_mw
+value: "89MW of IT capacity"
+source_url: https://vantage-dc.com/news/vantage-data-centers-completes-development-of-89mw-1billion-quincy-washington-campus/
+publisher: Vantage Data Centers
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
