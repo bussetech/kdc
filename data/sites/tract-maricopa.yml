@@ -1,0 +1,26 @@
+id: tract-maricopa
+name: "Tract Goodyear/Buckeye campus"
+developer: tract
+status: cancelled
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+metrics:
+  investment_usd: 14000000000
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: low
+sources:
+  - url: https://www.datacenterwatch.org/report
+    title: "Data Center Watch report"
+    publisher: Data Center Watch
+    date: "2024-05"
+signals:
+  - sig-20260706-tract-goodyear-investment
+  - sig-20260706-tract-goodyear-status
+notes: >-
+  Status cancelled: withdrawn in May 2024 after residents opposed rezoning.
+  Signals name two localities (Goodyear/Buckeye) with no way to pick between
+  them, so resolved to county Maricopa per place precedence. Single
+  low-confidence Data Center Watch source.
