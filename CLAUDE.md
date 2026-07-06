@@ -63,11 +63,17 @@ not launder a single outlet's claim into fact.
   the change feed, schema validation (studio data CI), GIS ingestion,
   id/slug management. If a task is deterministic, it is code, not a gnome.
 
-### Initial coverage (bootstrap target)
+### Coverage
+US-first, **international as discovered** (decision: `docs/decisions/0001-international-coverage.md`).
 US-wide, broad on major operators, hyperscalers, REITs and developers.
 Go deep on Virginia, deeper on the Greater Richmond Metro Area — Henrico,
 Goochland, Hanover, Chesterfield, New Kent, and Powhatan counties must be
-covered. Deeper coverage elsewhere is welcome.
+covered. Deeper coverage elsewhere is welcome, including non-US sites.
+
+Location model is country-aware: `location.country` is an ISO 3166-1 alpha-2
+code (default `US`). **US sites carry a 2-letter USPS `state`** (required);
+non-US sites omit `state` and locate via `region`/`county`/`locality`
+(`schema/sites.schema.json`).
 
 ## How this repo works
 
