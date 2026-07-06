@@ -1,0 +1,10 @@
+id: sig-20260706-portwashington-capacity
+site_id: null
+site_hint: "Stargate Port Washington — Ozaukee, WI"
+attribute: capacity_mw
+value: "1.3 GW projected"
+source_url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+publisher: Epoch AI
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

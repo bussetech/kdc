@@ -1,0 +1,9 @@
+id: sig-20260706-colossus-building-sqft
+site_id: xai-colossus-memphis
+attribute: building_sqft
+value: "main building covers 785,000 sq ft at a former Electrolux site in South Memphis"
+source_url: https://en.wikipedia.org/wiki/Colossus_(data_center)
+publisher: Wikipedia
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

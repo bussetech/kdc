@@ -1,0 +1,9 @@
+id: sig-20260706-rainier-buildings
+site_id: aws-new-carlisle
+attribute: buildings
+value: "seven of 30 planned buildings operational by October 2025, each exceeding 200,000 sq ft"
+source_url: https://datacenter.news/story/aws-s-11bn-indiana-data-centre-powers-anthropic-s-ai-growth
+publisher: Datacenter.news
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

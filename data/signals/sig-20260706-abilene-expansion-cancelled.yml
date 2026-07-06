@@ -1,0 +1,9 @@
+id: sig-20260706-abilene-expansion-cancelled
+site_id: openai-abilene
+attribute: status
+value: "planned ~600 MW expansion dropped by Oracle/OpenAI (power not ready in time)"
+source_url: https://www.datacenterdynamics.com/en/news/oracleopenai-drop-plans-to-expand-flagship-abilene-stargate-site-meta-in-talks-to-pick-up-crusoe-capacity-with-nvidias-help/
+publisher: DataCenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
