@@ -1,0 +1,28 @@
+id: microsoft-texas
+name: Microsoft data center (Texas)
+operator: microsoft
+status: announced
+location:
+  country: US
+  state: TX
+metrics:
+  capacity_mw: 2000
+announced_date: "2026-07-03"
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/national-grid-ventures-invests-175bn-in-joulent-for-35-stake-to-develop-large-load-power-solutions-national-grid-ventures-ngv-the-commercial-arm-of-national-grid-has-agreed-to-invest-175-billion-for-a-35-stake-in-us-power-infrastructure-develope/
+    title: "National Grid Ventures invests $1.75bn in Joulent for construction of gas plant powering 2GW Microsoft data center in Texas"
+    publisher: Data Center Dynamics
+    date: "2026-07-03"
+signals:
+  - sig-20260705-microsoft-texas-capacity
+notes: >-
+  2GW (2000MW) Microsoft data center in Texas, to be powered by a Joulent
+  gas plant. Signal gives only the state (Texas → TX); no locality or
+  county, so place resolves to state. Power developer Joulent and investor
+  National Grid Ventures have no operators.yml ids; the $1.75bn figure is
+  National Grid Ventures' stake in Joulent (the power infrastructure), not
+  a data-center site metric, so it is not recorded here. Single low-
+  confidence source.
