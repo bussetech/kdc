@@ -1,0 +1,11 @@
+id: sig-20260706-coreweave-lancaster-investment
+site_id: null
+site_hint: "CoreWeave Lancaster campus — Lancaster, PA"
+attribute: investment_usd
+value: "committed up to $6 billion to a new Lancaster data center"
+source_url: https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Multi-Billion-Dollar-Commitment-to-AI-Infrastructure-in-Pennsylvania/default.aspx
+publisher: CoreWeave
+source_date: "2025"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

@@ -1,0 +1,10 @@
+id: sig-20260706-jupiter-developer
+site_id: null
+site_hint: "Stargate Project Jupiter — Doña Ana, NM"
+attribute: developer
+value: "STACK Infrastructure"
+source_url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+publisher: Epoch AI
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

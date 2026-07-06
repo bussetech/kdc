@@ -1,0 +1,10 @@
+id: sig-20260706-colossus-capacity
+site_id: xai-colossus-memphis
+attribute: capacity_mw
+value: "max power increased from 150 MW to 250 MW; April 2025 imagery showed 35 gas turbines at ~422 MW"
+source_url: https://en.wikipedia.org/wiki/Colossus_(data_center)
+publisher: Wikipedia
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "figures conflict: 250 MW stated max vs ~422 MW inferred from 35 gas turbines"

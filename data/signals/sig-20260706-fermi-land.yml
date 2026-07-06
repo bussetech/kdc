@@ -1,0 +1,10 @@
+id: sig-20260706-fermi-land
+site_id: null
+site_hint: "Project Matador / Amarillo campus (Fermi America) — Carson, TX"
+attribute: land_acres
+value: "spans 5,769 acres adjacent to the Pantex Plant; 99-year lease from the Texas Tech University System"
+source_url: https://www.datacenterdynamics.com/en/news/former-texas-governor-and-us-energy-sec-plans-11gw-data-center-campus-outside-amarillo-texas/
+publisher: DataCenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
