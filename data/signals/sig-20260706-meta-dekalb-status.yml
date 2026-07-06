@@ -1,0 +1,10 @@
+id: sig-20260706-meta-dekalb-status
+site_id: null
+site_hint: "Meta DeKalb Data Center — DeKalb, IL"
+attribute: status
+value: "operational (December 2024)"
+source_url: https://baxtel.com/data-center/meta-dekalb-il
+publisher: Baxtel
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

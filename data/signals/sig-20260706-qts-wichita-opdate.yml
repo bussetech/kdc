@@ -1,0 +1,10 @@
+id: sig-20260706-qts-wichita-opdate
+site_id: null
+site_hint: "QTS Wichita data center — Sedgwick, KS"
+attribute: operational_date
+value: "built 2005"
+source_url: https://baxtel.com/data-center/qts-witchita
+publisher: Baxtel
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
