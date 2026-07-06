@@ -1,5 +1,5 @@
 id: sig-20260706-firstlight-bedford-sqft
-site_id: null
+site_id: firstlight-bedford
 site_hint: "FirstLight Bedford data center expansion — Hillsborough, NH"
 attribute: building_sqft
 value: "adding ~25% more data-center space plus power/cooling for up to 100 additional racks"
