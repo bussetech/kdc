@@ -1,0 +1,12 @@
+id: sig-20260706-meta-montgomery-sqft
+site_id: null
+site_hint: "Meta Montgomery data center — Montgomery County, AL"
+attribute: building_sqft
+value: "715,000 sq ft (Meta's 24th global data hub)"
+source_url: https://governor.alabama.gov/newsroom/2024/05/governor-ivey-announces-meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/
+source_title: "Governor Ivey Announces Meta Plans to Build $800 Million Next-Generation Data Center in Montgomery"
+publisher: Office of the Governor of Alabama
+source_date: "2024-05"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

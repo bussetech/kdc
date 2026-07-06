@@ -1,0 +1,12 @@
+id: sig-20260706-imperial-valley-status
+site_id: null
+site_hint: "Imperial County AI campus (Imperial) — Imperial County, CA"
+attribute: status
+value: "proposed, contested; Planning Commission declined the lot merger in December, appealed to the Board of Supervisors for April 2026 amid CEQA challenges"
+source_url: https://inewsource.org/2026/04/05/data-center-developer-imperial-county/
+source_title: "Data center developer Imperial County"
+publisher: inewsource
+source_date: "2026-04-05"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

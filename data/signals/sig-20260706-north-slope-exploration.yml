@@ -1,0 +1,11 @@
+id: sig-20260706-north-slope-exploration
+site_id: null
+site_hint: "North Slope / Alaska data center exploration — AK"
+attribute: status
+value: "early exploration, no hyperscaler committed; governor courted Amazon, Meta, Microsoft; toured Fairbanks/Anchorage sites with operator Switch; Air Force offered land at Clear Space Force Station and Eielson AFB"
+source_url: https://www.datacenterdynamics.com/en/news/alaska-data-center-amazon-meta-microsoft-mike-dunleavy/
+source_title: "Alaska data center Amazon Meta Microsoft Mike Dunleavy"
+publisher: Data Center Dynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
