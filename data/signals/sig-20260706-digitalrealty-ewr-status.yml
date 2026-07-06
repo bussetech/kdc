@@ -1,0 +1,10 @@
+id: sig-20260706-digitalrealty-ewr-status
+site_id: null
+site_hint: "Digital Realty EWR20 / EWR21 (Clifton) — Passaic County, NJ"
+attribute: status
+value: "operational"
+source_url: https://www.datacenters.com/locations/united-states/new-jersey
+publisher: Datacenters.com
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

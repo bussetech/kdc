@@ -1,0 +1,10 @@
+id: sig-20260706-stream-stamp-sqft
+site_id: null
+site_hint: "Stream Data Centers STAMP campus (Alabama town) — Genesee County, NY"
+attribute: building_sqft
+value: "2.2 million sq ft"
+source_url: https://news.constructconnect.com/upstate-ny-data-center-land-rush-tests-grid-limits-communities-and-permitting
+publisher: ConstructConnect
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

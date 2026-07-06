@@ -1,0 +1,11 @@
+id: sig-20260706-applieddigital-eln01-capacity
+site_id: null
+site_hint: "Applied Digital Polaris Forge 1 / ELN01 (Ellendale) — Dickey County, ND"
+attribute: capacity_mw
+value: "ELN01 facility 180 MW"
+source_url: https://www.datacenterdynamics.com/en/news/applied-digital-completes-first-data-center-building-at-north-dakota-campus/
+publisher: DataCenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "ELN01 reported as a distinct 180 MW facility alongside the 400 MW Polaris Forge 1."
