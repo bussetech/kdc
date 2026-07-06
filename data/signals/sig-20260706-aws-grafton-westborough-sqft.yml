@@ -1,0 +1,11 @@
+id: sig-20260706-aws-grafton-westborough-sqft
+site_id: null
+site_hint: "Amazon (AWS) Grafton / Westborough acquisitions — Worcester, MA"
+attribute: building_sqft
+value: "8 Centennial Drive, Grafton ~155,000 sq ft; 600/800 Friberg Parkway, Westborough ~99,150 sq ft"
+source_url: https://www.datacenterdynamics.com/en/news/amazon-acquires-two-data-centers-from-state-street-corp-in-massachusetts/
+source_title: "Amazon acquires two data centers from State Street Corp in Massachusetts"
+publisher: DataCenter Dynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

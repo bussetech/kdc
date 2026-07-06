@@ -1,0 +1,11 @@
+id: sig-20260706-aws-warren-ms-investment
+site_id: null
+site_hint: "Amazon (AWS) Warren County Data Center Campus (Vicksburg) — Warren, MS"
+attribute: investment_usd
+value: "at least $3 billion in a next-generation campus"
+source_url: https://www.aboutamazon.com/news/company-news/amazon-3-billion-mississippi-data-center-investment
+source_title: "Amazon $3 billion Mississippi data center investment"
+publisher: Amazon
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

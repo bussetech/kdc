@@ -1,0 +1,12 @@
+id: sig-20260706-servistar-westfield-buildings
+site_id: null
+site_hint: "Servistar Realties Westfield Data Center Campus — Hampden, MA"
+attribute: buildings
+value: "10 three-story buildings"
+source_url: https://www.nepm.org/regional-news/2025-08-26/westfield-planning-4m-data-center-with-help-from-state-tax-breaks
+source_title: "Westfield planning $4B data center with help from state tax breaks"
+publisher: New England Public Media
+source_date: "2025-08-26"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
