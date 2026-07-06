@@ -6,6 +6,26 @@ description: The datasets behind kdc — text-based, versioned, schema-validated
 permalink: /data/
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "kdc — US data-center project dataset",
+  "description": "An open, source-transparent dataset of US data-center projects (announcements, permits, construction), resolved from cited per-source signals with explicit confidence.",
+  "url": "https://kdc.bussetech.com/data/",
+  "sameAs": "https://kdc.bussetech.com/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": { "@type": "Organization", "name": "Bussetech Software Studio", "legalName": "Eszett, LLC" },
+  "citation": "https://kdc.bussetech.com/cite/",
+  "keywords": ["data centers", "United States", "infrastructure", "hyperscale", "colocation", "open data"],
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "application/x-yaml", "contentUrl": "https://kdc.bussetech.com/data/operators.yml" },
+    { "@type": "DataDownload", "encodingFormat": "application/schema+json", "contentUrl": "https://kdc.bussetech.com/schema/sites.schema.json" }
+  ]
+}
+</script>
+
 Every dataset in this project is a text file in the repo (`data/`), validated
 in CI against a JSON Schema (`schema/`), and served here verbatim. The design
 principle is **signal > canon**: signals are raw per-source claims; sites are
