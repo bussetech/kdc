@@ -1,5 +1,5 @@
 id: sig-20260705-microsoft-texas-capacity
-site_id: null
+site_id: microsoft-texas-joulent
 site_hint: "2GW Microsoft data center (Joulent gas plant) — Texas"
 attribute: capacity_mw
 value: "gas plant powering 2GW Microsoft data center in Texas"
