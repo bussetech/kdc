@@ -1,0 +1,12 @@
+id: sig-20260706-aws-pa-investment
+site_id: null
+site_hint: "Amazon (AWS) Pennsylvania Data Center Campuses — Bucks / Luzerne County, PA"
+attribute: investment_usd
+value: "at least $20 billion; largest private-sector investment in state history"
+source_url: https://www.datacenterdynamics.com/en/news/amazon-to-invest-20bn-in-data-centers-in-pennsylvania/
+source_title: "Amazon to invest $20bn in data centers in Pennsylvania"
+publisher: DatacenterDynamics
+source_date: "2025-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

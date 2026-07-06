@@ -1,0 +1,12 @@
+id: sig-20260706-google-berkeley-status
+site_id: null
+site_hint: "Google Berkeley County Data Center Campus (Moncks Corner) — Berkeley County, SC"
+attribute: status
+value: "operational, expanding; first SC campus established 2007 in Mount Holly Commerce Park"
+source_url: https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion
+source_title: "Google grows South Carolina footprint with new Dorchester County operations, expansion"
+publisher: Office of the Governor of South Carolina
+source_date: "2024-09"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

@@ -1,0 +1,13 @@
+id: sig-20260706-google-stillwater-investment
+site_id: null
+site_hint: "Google Stillwater Campus — Payne County, OK"
+attribute: investment_usd
+value: "$9 billion Oklahoma investment covering new Stillwater campus plus Pryor expansion"
+source_url: https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-oklahoma/
+source_title: "Inside Google: American innovation in Oklahoma"
+publisher: Google
+source_date: "2025-10"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
+notes: "$9B figure spans both Stillwater and Pryor per source"

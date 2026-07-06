@@ -1,0 +1,12 @@
+id: sig-20260706-deuel-status
+site_id: null
+site_hint: "Applied Digital Deuel County Campus (near Toronto) — Deuel County, SD"
+attribute: status
+value: "cancelled/withdrawn; Applied Digital withdrew the proposal after the 2026 legislative session rejected data-center sales-tax exemptions"
+source_url: https://southdakotasearchlight.com/2026/01/30/north-dakota-town-serves-as-an-example-of-the-promise-and-perils-of-data-centers-for-south-dakota/
+source_title: "North Dakota town serves as an example of the promise and perils of data centers for South Dakota"
+publisher: South Dakota Searchlight
+source_date: "2026-01-30"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20260706-smithfield-status-ban
+site_id: null
+site_hint: "Smithfield Data Center (Hanton City Investments) — Providence County, RI"
+attribute: status
+value: "earlier-filed application survives despite Smithfield Town Council approving a data-center ban in May 2025"
+source_url: https://www.oceanstatemedia.org/technology/proposed-data-center-still-looms-over-smithfield-even-after-town-council-enacts-ban
+source_title: "Proposed data center still looms over Smithfield even after town council enacts ban"
+publisher: Ocean State Media
+source_date: "2025-05"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

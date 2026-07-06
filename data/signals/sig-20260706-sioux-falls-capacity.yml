@@ -1,0 +1,12 @@
+id: sig-20260706-sioux-falls-capacity
+site_id: null
+site_hint: "Sioux Falls Hyperscale Project (Gemini Data Center SD LLC) — Minnehaha County, SD"
+attribute: capacity_mw
+value: "planned facility of ~500 megawatts"
+source_url: https://siouxfalls.business/hyperscale-data-center-seeking-city-approvals-to-build-northeast-of-sioux-falls/
+source_title: "Hyperscale data center seeking city approvals to build northeast of Sioux Falls"
+publisher: SiouxFalls.Business
+source_date: "2025-10"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
