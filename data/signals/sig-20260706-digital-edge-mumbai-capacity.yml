@@ -1,0 +1,13 @@
+id: sig-20260706-digital-edge-mumbai-capacity
+site_id: null
+site_hint: "Digital Edge Mumbai data center — near Mumbai, India"
+attribute: capacity_mw
+value: "Digital Edge looking to develop 270MW data center near Mumbai, India"
+source_url: https://www.datacenterdynamics.com/en/news/digital-edge-looking-to-develop-270mw-data-center-near-mumbai-india/
+source_title: "Digital Edge looking to develop 270MW data center near Mumbai, India"
+publisher: Data Center Dynamics
+source_date: "2026-07-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "Headline-only feed item; capacity from title, content does not corroborate."
