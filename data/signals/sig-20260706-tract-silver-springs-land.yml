@@ -1,0 +1,10 @@
+id: sig-20260706-tract-silver-springs-land
+site_id: null
+site_hint: "Silver Springs site (Tract) — Lyon County, NV"
+attribute: land_acres
+value: "~1,060 acres in Lyon County"
+source_url: https://www.tract.com/news/tract-expands-its-greater-reno-portfolio-closing-on-1060-acres-in-silver-springs-nevada-following-successful-rezoning-and-development-agreement-with-lyon-county/
+publisher: Tract
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

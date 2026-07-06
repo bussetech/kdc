@@ -1,0 +1,10 @@
+id: sig-20260706-prime-ord-land
+site_id: null
+site_hint: "ORD campus (Prime Data Centers) — Cook County, IL"
+attribute: land_acres
+value: "30-acre Chicago-area campus"
+source_url: https://www.datacenterdynamics.com/en/news/prime-tops-out-first-chicago-data-center/
+publisher: DatacenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

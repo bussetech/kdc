@@ -1,0 +1,10 @@
+id: sig-20260706-powerhouse-irving-building-sqft
+site_id: null
+site_hint: "PowerHouse Irving — Dallas County, TX"
+attribute: building_sqft
+value: "nearly one million sq ft"
+source_url: https://www.powerhousedata.com/news/powerhouse-data-centers-acquires-land-for-massive-data-center-campus-in-irving
+publisher: PowerHouse Data Centers
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
