@@ -1,0 +1,11 @@
+id: sig-20260706-switch-citadel-sqft
+site_id: null
+site_hint: "Switch Citadel Campus (Tahoe-Reno Industrial Center) — Storey, NV"
+attribute: building_sqft
+value: "more than 7.2 million sq ft"
+source_url: https://baxtel.com/data-center/switch-tahoe-reno-the-citadel-campus
+source_title: "Switch Tahoe Reno The Citadel Campus"
+publisher: Baxtel
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

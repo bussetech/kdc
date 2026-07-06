@@ -1,0 +1,11 @@
+id: sig-20260706-aligned-glendale-status
+site_id: null
+site_hint: "Aligned Phoenix/Glendale campus — Maricopa, AZ"
+attribute: status
+value: "under construction (broke ground on PHX-13)"
+source_url: https://www.constructconnect.com/construction-economic-news/aligned-data-centers-breaks-ground-on-phx-13-facility-expanding-arizona-infrastructure
+source_title: "Aligned Data Centers breaks ground on PHX-13 facility, expanding Arizona infrastructure"
+publisher: ConstructConnect
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

@@ -1,0 +1,11 @@
+id: sig-20260706-cyrusone-fortworth-capacity
+site_id: null
+site_hint: "CyrusOne Fort Worth campus — Tarrant, TX"
+attribute: capacity_mw
+value: "200MW campus enabled via CyrusOne–Eolian power partnership"
+source_url: https://www.prnewswire.com/news-releases/cyrusone-and-eolian-partner-to-enable-rapid-deployment-of-200-megawatt-data-center-campus-in-fort-worth-texas-302658969.html
+source_title: "CyrusOne and Eolian partner to enable rapid deployment of 200-megawatt data center campus in Fort Worth, Texas"
+publisher: PR Newswire
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
