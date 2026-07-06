@@ -24,10 +24,9 @@ Referential integrity across the three (`signals.site_id` ↔ sites,
 `scripts/check-integrity.sh` in data CI.
 
 {%- comment -%}
-  Email capture (platform EPIC3-03, #98). Dormant until the theme pin carries
-  signup.html and studio.signup is enabled with a real provider action (see
-  platform docs/gtm/provider-evaluation.md). The guard keeps the include
-  unresolved — and the build green — while enabled is false.
+  Email capture (platform EPIC3-03, #98). Live once studio.signup.enabled and the
+  theme pin carries signup.html; the guard keeps the include unresolved on any
+  site that has not opted in.
 {%- endcomment -%}
 {%- if site.studio.signup.enabled %}
 {% include signup.html placement="kdc-dataset" %}
