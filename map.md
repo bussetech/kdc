@@ -5,6 +5,7 @@ eyebrow: Registry
 description: "Every tracked data-center project-site on a map — status-coloured, filterable by status, operator, and state."
 permalink: /map/
 map: true
+full_width: true # the map fills the width — no signup rail here
 ---
 
 {% assign records = "" | split: "" %}

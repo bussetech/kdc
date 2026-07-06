@@ -23,15 +23,6 @@ Referential integrity across the three (`signals.site_id` ↔ sites,
 `sites.operator` ↔ operators, `sites.signals[]` ↔ signals) is enforced by
 `scripts/check-integrity.sh` in data CI.
 
-{%- comment -%}
-  Email capture (platform EPIC3-03, #98). Live once studio.signup.enabled and the
-  theme pin carries signup.html; the guard keeps the include unresolved on any
-  site that has not opted in.
-{%- endcomment -%}
-{%- if site.studio.signup.enabled %}
-{% include signup.html placement="kdc-dataset" %}
-{%- endif %}
-
 ## License
 
 The datasets published by this project are licensed under
