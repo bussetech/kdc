@@ -12,7 +12,7 @@ lang: en
 url: "https://kdc.bussetech.com"
 baseurl: ""
 
-remote_theme: bussetech/theme@v0.6.0 # signup capture block (EPIC3-03); fan-out after www canary
+remote_theme: bussetech/theme@v0.7.0 # signup capture + right rail (EPIC3-03)
 plugins:
   - jekyll-remote-theme
 
@@ -31,16 +31,18 @@ studio:
   # this into new sites); kept in sync here for this pre-factory site.
   legal:
     copyright: "© 2026 Eszett, LLC"
-  # Email capture (platform EPIC3-03, #98; ADR-0034). LIVE (fan-out after the www
-  # canary soaks). The form POSTs straight to Buttondown; the provider holds the
-  # PII, this repo holds nothing but the dataset. Double opt-in + tracking-off are
-  # provider-side.
+  # Email capture (platform EPIC3-03, #98; ADR-0034). LIVE, in the right rail on
+  # every page (rail: true) — the form POSTs straight to Buttondown; the provider
+  # holds the PII, this repo holds nothing but the dataset. Double opt-in +
+  # tracking-off are provider-side. The map opts out of the rail (full_width).
   signup:
     enabled: true
+    rail: true
+    rail_placement: "kdc-rail"
     action: "https://buttondown.com/api/emails/embed-subscribe/bussetech"
     email_field: email
-    heading: "Get updates when this dataset changes"
-    value_prop: "The dataset maintains itself; you can watch it do so. An occasional note when kdc adds or resolves records — no spam, no tracking."
+    heading: "KDC + Studio updates"
+    value_prop: "Get a note when KDC adds or resolves data-center records — plus the occasional update on what the studio ships. No spam, no tracking."
     button_label: "Subscribe"
     privacy_note: "We store only your email, to send these updates, under the Eszett, LLC privacy notice. Double opt-in; unsubscribe any time."
     hidden:
