@@ -1,0 +1,10 @@
+id: sig-20260706-databank-red-oak-land
+site_id: null
+site_hint: "Red Oak campus (DataBank) — Ellis County, TX"
+attribute: land_acres
+value: "292-acre mega-development"
+source_url: https://www.databank.com/resources/press-releases/databank-announces-development-of-480mw-data-center-campus-in-south-dallas/
+publisher: DataBank
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

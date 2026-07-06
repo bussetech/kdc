@@ -1,0 +1,10 @@
+id: sig-20260706-sabey-umatilla-investment
+site_id: null
+site_hint: "SDC Umatilla (Sabey Data Centers) — Umatilla, OR"
+attribute: investment_usd
+value: "~$950M"
+source_url: https://sabeydatacenters.com/locations/sdc-umatilla
+publisher: Sabey Data Centers
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
