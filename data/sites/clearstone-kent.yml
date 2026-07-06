@@ -1,0 +1,27 @@
+id: clearstone-kent
+name: Clearstone data center campus (near Dartford)
+status: announced
+location:
+  country: United Kingdom
+  county: Kent
+  locality: Dartford
+metrics:
+  capacity_mw: 300
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/300mw-data-center-campus-proposed-in-kent-uk/
+    title: "300MW data center campus proposed in Kent, UK"
+    publisher: Data Center Dynamics
+    date: "2026-07-03"
+    note: "Renewables firm Clearstone looks to build 300MW campus near Dartford, Kent."
+signals:
+  - sig-20260705-clearstone-kent-capacity
+  - sig-20260705-clearstone-kent-developer
+  - sig-20260705-clearstone-kent-status
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+notes: >-
+  Proposed 300MW campus near Dartford, Kent; status announced ("looks to build").
+  Developer is renewables firm Clearstone, which has no operators.yml entry —
+  developer field omitted; Clearstone needs an operators.yml entry.
+  Single low-confidence trade-press source; capacity basis unspecified.
