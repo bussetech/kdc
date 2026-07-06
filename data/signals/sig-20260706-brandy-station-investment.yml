@@ -1,0 +1,12 @@
+id: sig-20260706-brandy-station-investment
+site_id: null
+site_hint: "Culpeper Acquisitions Brandy Station data center — Culpeper County, VA"
+attribute: investment_usd
+value: "$12 billion"
+source_url: https://www.datacenterwatch.org/report
+source_title: "Data Center Watch report"
+publisher: Data Center Watch
+source_date: "2024-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

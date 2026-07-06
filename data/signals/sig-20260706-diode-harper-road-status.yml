@@ -1,0 +1,12 @@
+id: sig-20260706-diode-harper-road-status
+site_id: null
+site_hint: "Diode Ventures Harper Road data center — Cass County, MO"
+attribute: status
+value: "effectively blocked/cancelled in October 2024 when the local board amended zoning to prohibit data centers"
+source_url: https://www.datacenterwatch.org/report
+source_title: "Data Center Watch report"
+publisher: Data Center Watch
+source_date: "2024-10"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

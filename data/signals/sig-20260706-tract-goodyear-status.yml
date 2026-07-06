@@ -1,0 +1,12 @@
+id: sig-20260706-tract-goodyear-status
+site_id: null
+site_hint: "Tract Goodyear/Buckeye data center campus — Maricopa County, AZ"
+attribute: status
+value: "withdrawn in May 2024 after residents opposed rezoning"
+source_url: https://www.datacenterwatch.org/report
+source_title: "Data Center Watch report"
+publisher: Data Center Watch
+source_date: "2024-05"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
