@@ -1,0 +1,11 @@
+id: sig-20260706-meta-loslunas-power
+site_id: null
+site_hint: "Meta Los Lunas campus — Valencia County, NM"
+attribute: capacity_mw
+value: "885 MW contracted solar/wind plus 100 MW battery storage"
+source_url: https://www.datacenterdynamics.com/en/news/meta-planning-expansion-of-los-lunas-data-center-campus-in-new-mexico/
+publisher: DataCenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "Figure is contracted renewable power/storage, not stated IT load capacity."

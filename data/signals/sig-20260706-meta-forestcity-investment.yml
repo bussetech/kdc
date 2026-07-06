@@ -1,0 +1,11 @@
+id: sig-20260706-meta-forestcity-investment
+site_id: null
+site_hint: "Meta Forest City campus — Rutherford County, NC"
+attribute: investment_usd
+value: "$750 million+ across Meta's three North Carolina data centers"
+source_url: https://www.datacenterfrontier.com/cloud/article/21437740/microsoft-plans-1-billion-campus-in-north-carolina-cloud-cluster
+publisher: Data Center Frontier
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "Figure is aggregate across three NC data centers, not solely Forest City."

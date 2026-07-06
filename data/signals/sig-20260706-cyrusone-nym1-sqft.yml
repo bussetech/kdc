@@ -1,0 +1,10 @@
+id: sig-20260706-cyrusone-nym1-sqft
+site_id: null
+site_hint: "CyrusOne NYM1 Somerset — Somerset County, NJ"
+attribute: building_sqft
+value: "430,000 sq ft"
+source_url: https://www.cyrusone.com/data-centers/north-america/somerset-nj
+publisher: CyrusOne
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

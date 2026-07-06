@@ -1,0 +1,11 @@
+id: sig-20260706-meta-loslunas-ai-status
+site_id: null
+site_hint: "Meta Los Lunas AI expansion — Valencia County, NM"
+attribute: status
+value: "proposed/permitting"
+source_url: https://www.datacenterdynamics.com/en/news/meta-planning-expansion-of-los-lunas-data-center-campus-in-new-mexico/
+publisher: DataCenterDynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "Two-building AI/ML expansion of the Los Lunas campus; first in Meta's portfolio dedicated to AI/ML."
