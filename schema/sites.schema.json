@@ -25,12 +25,13 @@
     },
     "location": {
       "type": "object",
-      "required": ["state"],
+      "required": ["country"],
       "additionalProperties": false,
       "properties": {
-        "country": { "type": "string", "default": "US", "enum": ["US"] },
-        "state": { "type": "string", "pattern": "^[A-Z]{2}$" },
-        "county": { "type": "string", "description": "County, parish, or independent city." },
+        "country": { "type": "string", "pattern": "^[A-Z]{2}$", "default": "US", "description": "ISO 3166-1 alpha-2 country code (US, GB, IE, …)." },
+        "state": { "type": "string", "description": "US: 2-letter USPS code (required for US sites — enforced below). Non-US: omit; use county/locality (or region) for the sub-national area." },
+        "region": { "type": "string", "description": "Non-US first-level subdivision (province / land / nation-within-UK) when relevant and not captured by county/locality." },
+        "county": { "type": "string", "description": "County, parish, independent city, or non-US equivalent." },
         "locality": { "type": "string", "description": "Town / CDP / business park / district." },
         "address": { "type": "string" },
         "lat": { "type": "number", "minimum": -90, "maximum": 90 },
@@ -40,7 +41,17 @@
           "items": { "type": "string" },
           "description": "Jurisdiction parcel/GPIN identifiers, only when found in a source. Geometry: data/parcels/<id>.geojson (deferred)."
         }
-      }
+      },
+      "allOf": [
+        {
+          "$comment": "US sites keep the strict 2-letter USPS state (required); non-US sites omit state and locate via region/county/locality.",
+          "if": { "properties": { "country": { "const": "US" } } },
+          "then": {
+            "required": ["state"],
+            "properties": { "state": { "pattern": "^[A-Z]{2}$" } }
+          }
+        }
+      ]
     },
     "metrics": {
       "type": "object",
