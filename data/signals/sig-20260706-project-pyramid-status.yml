@@ -1,0 +1,12 @@
+id: sig-20260706-project-pyramid-status
+site_id: null
+site_hint: "Google Project Pyramid (West Memphis) — Crittenden County, AR"
+attribute: status
+value: "announced/groundbreaking (Oct 2, 2025)"
+source_url: https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment
+source_title: "Google locating new data center in West Memphis, Arkansas with multi-billion-dollar investment"
+publisher: Arkansas Economic Development Commission
+source_date: "2025-10-02"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high
