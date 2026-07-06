@@ -1,0 +1,10 @@
+id: sig-20260706-google-newflorence-status
+site_id: null
+site_hint: "Google Missouri data center (New Florence) — Montgomery, MO"
+attribute: status
+value: "announced"
+source_url: https://www.komu.com/news/midmissourinews/missouri-governor-and-google-announce-15-billion-data-center-in-montgomery-county/article_a4c5a7f4-de3f-4510-8060-f41fad7433fd.html
+publisher: KOMU
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
