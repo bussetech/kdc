@@ -1,0 +1,11 @@
+id: sig-20260706-novva-westjordan-capacity
+site_id: null
+site_hint: "Novva West Jordan campus — Salt Lake, UT"
+attribute: capacity_mw
+value: "180MW+, 200MW substation"
+source_url: https://www.datacenterdynamics.com/en/news/novva-secures-2bn-loan-to-expand-west-jordan-campus-in-utah/
+source_title: "Novva secures $2bn loan to expand West Jordan campus in Utah"
+publisher: Data Center Dynamics
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

@@ -1,0 +1,11 @@
+id: sig-20260706-vantage-frontier-status
+site_id: null
+site_hint: "Vantage Frontier mega-campus — Shackelford, TX"
+attribute: status
+value: "announced/under development; broke ground 2025 for OpenAI"
+source_url: https://vantage-dc.com/news/vantage-data-centers-unveils-plans-for-frontier-a-25b-mega-campus-in-texas-to-meet-unprecedented-ai-demand/
+source_title: "Vantage Data Centers unveils plans for Frontier, a $25B mega-campus in Texas to meet unprecedented AI demand"
+publisher: Vantage Data Centers
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: high

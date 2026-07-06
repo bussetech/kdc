@@ -1,0 +1,11 @@
+id: sig-20260706-stack-hillsboro-status
+site_id: null
+site_hint: "Stack Portland/Hillsboro campus — Washington, OR"
+attribute: status
+value: "operational + expanding"
+source_url: https://datacentremagazine.com/articles/stack-expands-its-flagship-portland-campus-to-reach-200mw
+source_title: "Stack expands its flagship Portland campus to reach 200MW"
+publisher: Data Centre Magazine
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
