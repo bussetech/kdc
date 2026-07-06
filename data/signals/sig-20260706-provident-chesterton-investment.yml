@@ -1,0 +1,12 @@
+id: sig-20260706-provident-chesterton-investment
+site_id: null
+site_hint: "Provident Chesterton data center — Porter County, IN"
+attribute: investment_usd
+value: "$1.3 billion"
+source_url: https://www.datacenterwatch.org/report
+source_title: "Data Center Watch report"
+publisher: Data Center Watch
+source_date: "2024-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

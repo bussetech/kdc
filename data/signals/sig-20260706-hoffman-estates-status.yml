@@ -1,0 +1,12 @@
+id: sig-20260706-hoffman-estates-status
+site_id: null
+site_hint: "Hoffman Estates data center — Cook County, IL"
+attribute: status
+value: "developer withdrew its rezoning request amid resident opposition after a June 2026 public hearing"
+source_url: https://capitolnewsillinois.com/news/developer-withdraws-rezoning-request-for-controversial-data-center-in-hoffman-estates/
+source_title: "Developer withdraws rezoning request for controversial data center in Hoffman Estates"
+publisher: Capitol News Illinois
+source_date: "2026-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

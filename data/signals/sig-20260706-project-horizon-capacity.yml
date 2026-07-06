@@ -1,0 +1,11 @@
+id: sig-20260706-project-horizon-capacity
+site_id: null
+site_hint: "Project Horizon (Poolside/CoreWeave) — Pecos County, TX"
+attribute: capacity_mw
+value: "2 GW behind-the-meter (eight 250 MW phases)"
+source_url: https://mlq.ai/news/coreweave-ends-2-gw-texas-data-center-deal-with-poolside/
+source_title: "CoreWeave ends 2 GW Texas data center deal with Poolside"
+publisher: MLQ.ai
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

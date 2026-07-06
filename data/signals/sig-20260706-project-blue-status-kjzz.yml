@@ -1,0 +1,13 @@
+id: sig-20260706-project-blue-status-kjzz
+site_id: null
+site_hint: "Project Blue (Beale Infrastructure/AWS) — Pima County, AZ"
+attribute: status
+value: "rejected by Tucson and abandoned by Amazon; project moves forward"
+source_url: https://www.kjzz.org/the-show/2025-12-09/rejected-by-tucson-and-abandoned-by-amazon-project-blue-data-center-moves-forward
+source_title: "Rejected by Tucson and abandoned by Amazon, Project Blue data center moves forward"
+publisher: KJZZ
+source_date: "2025-12-09"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "Headline implies the project continues in some form despite rejection/AWS exit; conflicts with the reject/cancel framing of the Fox Business signal."
