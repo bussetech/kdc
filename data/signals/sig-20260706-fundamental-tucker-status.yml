@@ -1,0 +1,11 @@
+id: sig-20260706-fundamental-tucker-status
+site_id: null
+site_hint: "Fundamental Data LLC Tucker County Data Center — Tucker County, WV"
+attribute: status
+value: "proposed/contested; off-grid natural-gas power plant to power data centers, seeking an air permit from WV DEP"
+source_url: https://mountainstatespotlight.org/2025/07/17/west-virginia-data-centers-explained/
+publisher: Mountain State Spotlight
+source_date: "2025-07-17"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

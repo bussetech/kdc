@@ -1,0 +1,10 @@
+id: sig-20260706-meta-eagle-mountain-investment
+site_id: null
+site_hint: "Meta Eagle Mountain Data Center — Utah County, UT"
+attribute: investment_usd
+value: "expansion raising total investment to over $1.5 billion"
+source_url: https://grist.org/technology/utah-data-center-water-supply-meta-novva/
+publisher: Grist
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
