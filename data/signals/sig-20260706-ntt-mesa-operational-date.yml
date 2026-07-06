@@ -1,0 +1,11 @@
+id: sig-20260706-ntt-mesa-operational-date
+site_id: null
+site_hint: "NTT Mesa campus — Maricopa, AZ"
+attribute: operational_date
+value: "first building online Q1 2028, second Q1 2030"
+source_url: https://www.blackridgeresearch.com/blog/latest-list-upcoming-data-centers-in-arizona-az-united-states-us
+source_title: "Latest list of upcoming data centers in Arizona (AZ), United States (US)"
+publisher: Blackridge Research
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

@@ -1,0 +1,11 @@
+id: sig-20260706-microsoft-licking-operator
+site_id: null
+site_hint: "Microsoft Licking County campuses (New Albany / Heath / Hebron) — Licking, OH"
+attribute: operator
+value: "Microsoft"
+source_url: https://stopohiodatacenters.org/licking-county
+source_title: "Licking County"
+publisher: Stop Ohio Data Centers
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low

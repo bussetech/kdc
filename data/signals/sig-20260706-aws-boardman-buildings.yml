@@ -1,0 +1,12 @@
+id: sig-20260706-aws-boardman-buildings
+site_id: null
+site_hint: "Amazon (AWS) Columbia River / Boardman — Morrow, OR"
+attribute: buildings
+value: "potential campus of up to 20 data center buildings"
+source_url: https://www.geekwire.com/2026/report-amazon-buys-1300-acres-near-columbia-river-that-could-become-a-giant-data-center/
+source_title: "Report: Amazon buys 1,300 acres near Columbia River that could become a giant data center"
+publisher: GeekWire
+source_date: "2026"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
