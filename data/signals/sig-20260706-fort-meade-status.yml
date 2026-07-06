@@ -1,0 +1,11 @@
+id: sig-20260706-fort-meade-status
+site_id: null
+site_hint: "Stonebridge Fort Meade hyperscale campus — Polk, FL"
+attribute: status
+value: "approved — City Commission approved a 20-year development agreement April 15, 2026 (operator undisclosed)"
+source_url: https://floridadatacenters.org/polk-county
+source_title: "Polk County"
+publisher: floridadatacenters.org
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
