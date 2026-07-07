@@ -57,6 +57,8 @@ studio:
       url: /map/
     - title: Data
       url: /data/
+    - title: Case study
+      url: /case-study/
 
 # Jekyll reads site.data from data/ (not _data/) so the CI-validated record
 # files are also the render source — one copy, no mirroring.
