@@ -1,5 +1,5 @@
 id: sig-20260706-meta-prometheus-capacity
-site_id: null
+site_id: meta-new-albany
 site_hint: "Meta Prometheus / New Albany campus — Licking, OH"
 attribute: capacity_mw
 value: "~1 GW AI supercluster (Prometheus)"
