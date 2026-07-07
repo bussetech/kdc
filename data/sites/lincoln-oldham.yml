@@ -1,0 +1,33 @@
+id: lincoln-oldham
+name: Project Lincoln
+status: announced
+location:
+  country: US
+  state: KY
+  county: Oldham
+metrics:
+  land_acres: 267
+  buildings: 8
+  investment_usd: 6000000000
+confidence: medium
+sources:
+  - url: https://www.wdrb.com/in-depth/massive-6-billion-data-center-campus-proposed-for-rural-oldham-county/article_dadd868a-29ed-40a4-b9bb-9573cd525001.html
+    title: Massive $6 billion data center campus proposed for rural Oldham County
+    publisher: WDRB
+    date: "2026-07-06"
+signals:
+  - sig-20260706-project-lincoln-acres
+  - sig-20260706-project-lincoln-buildings
+  - sig-20260706-project-lincoln-developer
+  - sig-20260706-project-lincoln-investment
+  - sig-20260706-project-lincoln-status
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+notes: >-
+  Single-source (WDRB) cluster. Proposed $6B, 267-acre, eight-building
+  campus in rural Oldham County, KY. Status kept as announced: early
+  approval stage (March/April 2025), still requires a land-use change and
+  has drawn local resistance — not yet permitted, not cancelled. Developer
+  reported as Western Hospitality Partners, which needs an operators.yml
+  entry before it can be recorded as a developer id. No locality given in
+  signals, so place resolves to county (Oldham).
