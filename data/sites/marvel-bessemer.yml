@@ -1,0 +1,33 @@
+id: marvel-bessemer
+name: Project Marvel hyperscale campus (Bessemer)
+status: announced
+location:
+  country: US
+  state: AL
+  county: Jefferson County
+  locality: Bessemer
+metrics:
+  land_acres: 700
+  buildings: 18
+  investment_usd: 14500000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.wbrc.com/2026/02/18/alabama-data-centers-multiply-artificial-intelligence-fuels-growth/
+    title: "Alabama data centers multiply as artificial intelligence fuels growth"
+    publisher: WBRC
+    date: "2026-02-18"
+signals:
+  - sig-20260706-project-marvel-acres
+  - sig-20260706-project-marvel-buildings
+  - sig-20260706-project-marvel-investment
+  - sig-20260706-project-marvel-status
+notes: >
+  Operator undisclosed in source — operator field omitted (no
+  operators.yml entry to assign). Land is approximate (~700 acres).
+  Rezoning approved by Bessemer City Council on 2025-11-18; kept as
+  status: announced (a land-use rezoning, not a building permit or start
+  of construction). Single source (WBRC), hence medium confidence. Id
+  slug derived from the distinctive project name "Marvel" (generic
+  "project" dropped) since no known operator/developer.

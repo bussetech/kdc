@@ -1,5 +1,5 @@
 id: sig-20260706-meta-montgomery-sqft
-site_id: null
+site_id: meta-montgomery
 site_hint: "Meta Montgomery data center — Montgomery County, AL"
 attribute: building_sqft
 value: "715,000 sq ft (Meta's 24th global data hub)"

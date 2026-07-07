@@ -1,0 +1,28 @@
+id: google-bridgeport
+name: Google Jackson County campus (Bridgeport)
+operator: google
+status: operational
+location:
+  country: US
+  state: AL
+  county: Jackson County
+  locality: Bridgeport
+metrics:
+  investment_usd: 1500000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://yellowhammernews.com/google-announces-1-5-billion-jackson-county-expansion-one-of-northeast-alabamas-largest-investments/
+    title: "Google announces $1.5 billion Jackson County expansion, one of Northeast Alabama's largest investments"
+    publisher: Yellowhammer News
+    note: "single-source claim; investment for expansion phase"
+signals:
+  - sig-20260706-google-jackson-investment
+  - sig-20260706-google-jackson-status
+notes: >
+  Existing operational campus on the site of the former TVA Widows Creek
+  coal plant, operating since 2019 — hence status: operational. The
+  $1.5B figure is an announced expansion phase scheduled across 2026 and
+  2027 (expansion not yet built). Single source (Yellowhammer News),
+  hence medium confidence.
