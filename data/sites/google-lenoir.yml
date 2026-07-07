@@ -1,0 +1,31 @@
+id: google-lenoir
+name: Google Lenoir data center
+operator: google
+status: operational
+location:
+  country: US
+  state: NC
+  county: Caldwell
+  locality: Lenoir
+announced_date: "2007"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterfrontier.com/cloud/article/21437740/microsoft-plans-1-billion-campus-in-north-carolina-cloud-cluster
+    title: Microsoft Plans $1 Billion Campus in North Carolina Cloud Cluster
+    publisher: Data Center Frontier
+    note: Secondary source; references Google's Lenoir site and its expansions.
+signals:
+  - sig-20260706-google-lenoir-announced
+  - sig-20260706-google-lenoir-investment
+  - sig-20260706-google-lenoir-status
+notes: >-
+  announced_date "2007" from "selected 2007".
+  status "operational/expanding" normalized to operational; the enum has no
+  "expanding" state — ongoing growth captured here: signal reports a $600M
+  expansion in 2024 and a fresh $1B expansion in 2026.
+  investment_usd left blank: the signal gives two expansion figures ($600M in
+  2024, $1B in 2026) rather than a single site investment total; summing would
+  invent a number, so the figures are recorded in notes only.
+  Single reputable secondary source.
