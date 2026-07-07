@@ -8,34 +8,28 @@ location:
   locality: Ellendale
 metrics:
   capacity_mw: 400
-announced_date: null
-first_seen: "2026-07-07"
-last_updated: "2026-07-07"
+first_seen: '2026-07-07'
+last_updated: '2026-07-07'
 confidence: medium
 sources:
-  - url: https://www.datacenterdynamics.com/en/news/applied-digital-completes-first-data-center-building-at-north-dakota-campus/
-    publisher: DataCenterDynamics
-    date: "2026-07-06"
-    note: First building (ELN01) completed at the Ellendale campus.
+- url: https://www.datacenterdynamics.com/en/news/applied-digital-completes-first-data-center-building-at-north-dakota-campus/
+  publisher: DataCenterDynamics
+  date: '2026-07-06'
+  note: First building (ELN01) completed at the Ellendale campus.
 signals:
-  - sig-20260706-applieddigital-eln01-capacity
-  - sig-20260706-applieddigital-pf1-capacity
-  - sig-20260706-applieddigital-pf1-construction-start
-  - sig-20260706-applieddigital-pf1-status
-notes: >
-  Operator is Applied Digital, which has no operators.yml entry — operator
-  field omitted pending an "applied-digital" entry. CoreWeave (also lacking an
-  operators.yml entry) is reported as taking all 400 MW at full buildout; it is
-  a tenant, not the operator, so not recorded as operator.
-  capacity_mw resolved to the 400 MW full-buildout figure for the Polaris
-  Forge 1 campus; the first building, ELN01, is reported as a distinct 180 MW
-  facility (one phase of the campus). Single source (DataCenterDynamics), hence
-  medium confidence.
-  Status: source reports the campus as "operational/under construction (first
-  building completed)"; resolved to operational because ELN01's first building
-  is completed, with remaining campus phases still under construction — the
-  source is ambiguous between the two states.
-  A "construction began Sept 2022" signal was reported explicitly as a
-  construction-start date, not an announcement date; it is not filed into
-  announced_date (no construction_start field exists) and is recorded here in
-  notes instead to avoid inventing precision.
+- sig-20260706-applieddigital-eln01-capacity
+- sig-20260706-applieddigital-pf1-capacity
+- sig-20260706-applieddigital-pf1-construction-start
+- sig-20260706-applieddigital-pf1-status
+notes: 'Operator is Applied Digital, which has no operators.yml entry — operator field omitted
+  pending an "applied-digital" entry. CoreWeave (also lacking an operators.yml entry) is reported
+  as taking all 400 MW at full buildout; it is a tenant, not the operator, so not recorded
+  as operator. capacity_mw resolved to the 400 MW full-buildout figure for the Polaris Forge
+  1 campus; the first building, ELN01, is reported as a distinct 180 MW facility (one phase
+  of the campus). Single source (DataCenterDynamics), hence medium confidence. Status: source
+  reports the campus as "operational/under construction (first building completed)"; resolved
+  to operational because ELN01''s first building is completed, with remaining campus phases
+  still under construction — the source is ambiguous between the two states. A "construction
+  began Sept 2022" signal was reported explicitly as a construction-start date, not an announcement
+  date; it is not filed into announced_date (no construction_start field exists) and is recorded
+  here in notes instead to avoid inventing precision.'
