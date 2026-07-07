@@ -1,0 +1,34 @@
+id: lake-mariner-niagara
+name: TeraWulf Lake Mariner
+status: under-construction
+location:
+  country: US
+  state: NY
+  county: Niagara
+metrics:
+  capacity_mw: 360
+  land_acres: 410
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/cryptominer-terawulf-secures-200mw-lease-with-fluidstack-google-to-take-stake-in-company/
+    title: "Cryptominer TeraWulf secures 200MW lease with Fluidstack; Google to take stake in company"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-terawulf-lakemariner-acres
+  - sig-20260706-terawulf-lakemariner-capacity
+  - sig-20260706-terawulf-lakemariner-operator
+  - sig-20260706-terawulf-lakemariner-status
+notes: >-
+  TeraWulf's Lake Mariner site on a 410-acre former coal-plant parcel,
+  Niagara County, NY. No locality in signals — place resolved to county per
+  precedence. Operator "TeraWulf" has no operators.yml entry — operator field
+  omitted; TeraWulf needs an operators.yml entry. Deal structure per source:
+  10-year HPC colocation lease with Fluidstack; Google (operators.yml id
+  `google`) backstops ~$3.2B of the lease and takes ~14% equity in TeraWulf —
+  recorded here as context, not as operator/developer. capacity_mw 360 =
+  contracted total: CB-3/CB-4 at 200+ MW plus CB-5 adding 160 MW; phases kept
+  in notes as one multi-phase site. Single-source (DataCenterDynamics) →
+  confidence medium.
