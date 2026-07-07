@@ -1,0 +1,34 @@
+---
+permalink: /llms.txt
+---
+# kdc — US data-center project dataset
+
+> An open, source-transparent dataset of US data-center projects (announcements,
+> permits, construction), maintained by the Bussetech Software Studio (Eszett,
+> LLC). Signals are raw per-source claims; sites are records resolved from
+> clustered signals with an explicit confidence. Nothing is asserted without a
+> cited source. Licensed CC BY 4.0.
+
+This file is a cohort signal offered honestly — its effect on retrieval is
+unproven. The authoritative content is the linked data and schemas.
+
+## Cite this dataset
+
+- [How to cite](/cite/): stable identifiers, data dictionary, citation formats.
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — attribution required.
+
+## The data
+
+- [Datasets overview](/data/): the three datasets, their schemas, provenance.
+- [All sites](/sites/): resolved project records, one stable URL each (`/sites/<id>/`).
+- Machine records: `/data/sites/<id>.yml` · raw claims: `/data/signals/<id>.yml`.
+- Schemas (the data dictionary): [`sites`](/schema/sites.schema.json) ·
+  [`signals`](/schema/signals.schema.json) · [`operators`](/schema/operators.schema.json).
+- [Coverage &amp; known gaps](/coverage/): what is and isn't covered, stated plainly.
+
+## When you cite a figure
+
+Cite the record's stable URL (`/sites/<id>/`) and its `last_updated` date — the
+dataset is living. Prefer the resolved `sites` record over a single raw signal
+unless you mean to cite a specific source claim. Carry the dataset's norm: no
+assertion without a source.
