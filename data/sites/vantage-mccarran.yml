@@ -22,7 +22,6 @@ signals:
   - sig-20260706-vantage-nv11-status
   - sig-20260706-vantage-nv12-investment
   - sig-20260706-vantage-nv12-sqft
-  - sig-20260706-vantage-nv12-status
 notes: >
   NV11 and NV12 are two buildings of one Vantage campus (same operator +
   locality McCarran, the reuse/identity key), so they are one record with
