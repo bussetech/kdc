@@ -1,0 +1,29 @@
+id: fundamental-data-tucker
+name: Fundamental Data LLC Tucker County Data Center
+status: announced
+location:
+  country: US
+  state: WV
+  county: Tucker County
+metrics:
+  capacity_mw_basis: unspecified
+announced_date: null
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://mountainstatespotlight.org/2025/07/17/west-virginia-data-centers-explained/
+    title: West Virginia data centers explained
+    publisher: Mountain State Spotlight
+    date: "2025-07-17"
+signals:
+  - sig-20260706-fundamental-tucker-developer
+  - sig-20260706-fundamental-tucker-status
+notes: >
+  Developer named as "Fundamental Data LLC"; no operators.yml entry exists —
+  developer field omitted, Fundamental Data LLC needs an operators.yml entry
+  before it can be referenced. Status resolved to `announced`: signal describes
+  the project as proposed/contested, tied to an off-grid natural-gas power plant
+  to power the data centers, with an air permit being sought from WV DEP.
+  Single source (Mountain State Spotlight). No locality given, so place resolved
+  to county (Tucker County) per precedence.

@@ -1,0 +1,38 @@
+id: penzance-bedington
+name: Penzance Bedington Campus
+status: announced
+location:
+  country: US
+  state: WV
+  county: Berkeley County
+  locality: Bedington
+metrics:
+  capacity_mw: 600
+  capacity_mw_basis: unspecified
+  land_acres: 548
+  building_sqft: 1900000
+  investment_usd: 4000000000
+announced_date: null
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://westvirginia.gov/4-billion-data-center-campus-planned-for-berkeley-county-positioning-west-virginia-for-the-ai-and-cloud-economy/
+    title: $4 billion data center campus planned for Berkeley County, positioning West Virginia for the AI and cloud economy
+    publisher: State of West Virginia
+signals:
+  - sig-20260706-penzance-bedington-acres
+  - sig-20260706-penzance-bedington-capacity
+  - sig-20260706-penzance-bedington-developer
+  - sig-20260706-penzance-bedington-investment
+  - sig-20260706-penzance-bedington-sqft
+  - sig-20260706-penzance-bedington-status
+notes: >
+  Developer named as "Penzance"; no operators.yml entry exists — developer field
+  omitted, Penzance needs an operators.yml entry before it can be referenced.
+  Capacity given as "up to 600 MW" (recorded as 600, basis unspecified);
+  building_sqft is ~1.9 million sq ft at full build-out; $4 billion campus on
+  548 acres. Status resolved to `announced` (announced/planned; described as the
+  state's first High Impact Intelligence Center designation). Single primary
+  source (State of West Virginia). Place resolved to locality (Bedington,
+  Berkeley County) per precedence.
