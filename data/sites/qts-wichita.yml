@@ -1,0 +1,31 @@
+id: qts-wichita
+name: QTS Wichita data center
+operator: qts
+status: operational
+location:
+  country: US
+  state: KS
+  county: Sedgwick
+  locality: Wichita
+metrics:
+  building_sqft: 14000
+operational_date: "2005"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://baxtel.com/data-center/qts-witchita
+    title: QTS Wichita
+    publisher: Baxtel
+    note: aggregator listing; source URL carries a misspelling ("witchita") — kept verbatim
+signals:
+  - sig-20260706-qts-wichita-opdate
+  - sig-20260706-qts-wichita-operator
+  - sig-20260706-qts-wichita-sqft
+  - sig-20260706-qts-wichita-status
+notes: >-
+  Single low-confidence aggregator source (Baxtel), no source_date on the
+  signals. Described as a minor legacy facility, operational, built 2005 —
+  operational_date recorded as year only. building_sqft 14,000 is the
+  building; source also cites a 9,400 sq ft data center footprint within it.
+  operator resolved to qts (QTS Data Centers).
