@@ -1,0 +1,40 @@
+id: smithfield-smithfield
+name: Smithfield Data Center
+status: announced
+location:
+  country: US
+  state: RI
+  county: Providence
+  locality: Smithfield
+  address: off Douglas Pike
+announced_date: "2025-05-04"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://ecori.org/energy-intensive-data-center-proposed-for-woods-of-smithfield/
+    title: "Energy-intensive data center proposed for woods of Smithfield"
+    publisher: ecoRI News
+    date: "2025-05"
+    note: "developer and status; application filed May 4, 2025 on several hundred acres of woodland off Douglas Pike"
+  - url: https://www.oceanstatemedia.org/technology/proposed-data-center-still-looms-over-smithfield-even-after-town-council-enacts-ban
+    title: "Proposed data center still looms over Smithfield even after town council enacts ban"
+    publisher: Ocean State Media
+    date: "2025-05"
+    note: "earlier-filed application survives despite the town's data-center ban"
+signals:
+  - sig-20260706-smithfield-developer
+  - sig-20260706-smithfield-status-ban
+  - sig-20260706-smithfield-status
+notes: >
+  Proposed/contested. The application was filed May 4, 2025 — one day before
+  the Smithfield Town Council voted a data-center ban in May 2025 — and two
+  independent sources (ecoRI News, Ocean State Media) agree the earlier-filed
+  application survives despite the ban, so the site is kept as `announced`
+  rather than `cancelled`. Site is several hundred acres of woodland off
+  Douglas Pike; land area left blank as "several hundred acres" carries no
+  sourceable numeric precision (KB-0002). Developer is reported as
+  "Hanton City Investments LLC" (single source, ecoRI) — omitted from the
+  `developer:` field because it needs an operators.yml entry; no operator is
+  reported. Id derived from the site's distinctive proper name ("Smithfield",
+  generic "data center" dropped) plus the locality (Smithfield).
