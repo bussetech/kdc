@@ -1,5 +1,5 @@
 id: sig-20260706-mi-stargate-capacity
-site_id: null
+site_id: openai-washtenaw
 site_hint: "OpenAI/Oracle/SoftBank Stargate Michigan campus (Related Digital) — Washtenaw, MI"
 attribute: capacity_mw
 value: "1.4 GW power supply agreement with DTE Energy (19-year contract)"

@@ -1,0 +1,26 @@
+id: microsoft-dorr-township
+name: Microsoft Dorr Township site
+operator: microsoft
+status: announced
+location:
+  country: US
+  state: MI
+  county: Allegan
+  locality: Dorr Township
+metrics:
+  land_acres: 272
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/microsoft-plans-data-centers-in-dorr-and-lowell-townships-applies-for-property-rezoning-in-gaines-townships/
+    title: "Microsoft plans data centers in Dorr and Lowell townships, applies for property rezoning in Gaines township"
+    publisher: DataCenter Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-microsoft-dorr-land
+  - sig-20260706-microsoft-dorr-status
+notes: >
+  Early-stage: ~272 acres bought in 2024 for a reported $48 million+ (land
+  purchase price, not a project investment figure, so investment_usd left
+  blank). Status announced. Single-source (DataCenter Dynamics) → medium.

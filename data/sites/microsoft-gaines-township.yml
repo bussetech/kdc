@@ -1,0 +1,26 @@
+id: microsoft-gaines-township
+name: Microsoft Gaines Township site
+operator: microsoft
+status: announced
+location:
+  country: US
+  state: MI
+  county: Kent
+  locality: Gaines Township
+metrics:
+  land_acres: 316
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/microsoft-plans-data-centers-in-dorr-and-lowell-townships-applies-for-property-rezoning-in-gaines-townships/
+    title: "Microsoft plans data centers in Dorr and Lowell townships, applies for property rezoning in Gaines township"
+    publisher: DataCenter Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-microsoft-gaines-land
+  - sig-20260706-microsoft-gaines-status
+notes: >
+  316 acres purchased Oct 2024; rezoning application reported on hold. Kept as
+  announced (on hold, not withdrawn/denied). Single-source (DataCenter
+  Dynamics) → medium.
