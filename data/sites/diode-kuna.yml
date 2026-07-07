@@ -1,0 +1,35 @@
+id: diode-kuna
+name: Diode Ventures Kuna Data Center
+status: announced
+location:
+  country: US
+  state: ID
+  county: Ada
+  locality: Kuna
+metrics:
+  land_acres: 620
+  investment_usd: 1000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.constructconnect.com/construction-economic-news/small-idaho-city-announces-1-billion-data-center-project-their-second-in-three-years
+    title: "Small Idaho city announces $1 billion data center project, their second in three years"
+    publisher: ConstructConnect
+    note: "Single source for developer, land, investment, status."
+signals:
+  - sig-20260706-diode-kuna-acres
+  - sig-20260706-diode-kuna-developer
+  - sig-20260706-diode-kuna-investment
+  - sig-20260706-diode-kuna-status
+notes: >-
+  Kuna's second data center project, distinct from the Meta Kuna campus.
+  Developer named as "Diode Ventures" — this company has no operators.yml
+  entry yet and needs one before the developer field can be populated;
+  omitted rather than inventing an id. Operator field omitted because the
+  source states the operator is not yet determined. Investment recorded as
+  1000000000 from "$1 billion+ private funding" (a sourced floor; the "+"
+  is disclosed here, not folded into the number). Source states the project
+  was announced April 2025; not stored as announced_date because only
+  month/year precision is available (KB-0002). Single source, hence medium
+  confidence.
