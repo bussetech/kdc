@@ -1,0 +1,35 @@
+id: atlas-development-coweta
+name: Atlas Development Coweta County campus
+status: announced
+location:
+  country: US
+  state: GA
+  county: Coweta
+metrics:
+  land_acres: 832
+  building_sqft: 4900000
+  buildings: 13
+  investment_usd: 17000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.blackridgeresearch.com/blog/latest-list-upcoming-data-centers-in-georgia-ga-united-states-us
+    title: "Latest list of upcoming data centers in Georgia (GA), United States (US)"
+    publisher: Blackridge Research
+    date: "2026-07-06"
+signals:
+  - sig-20260706-atlas-coweta-acres
+  - sig-20260706-atlas-coweta-buildings
+  - sig-20260706-atlas-coweta-developer
+  - sig-20260706-atlas-coweta-investment
+  - sig-20260706-atlas-coweta-sqft
+  - sig-20260706-atlas-coweta-status
+notes: >
+  Developer "Atlas Development" needs an operators.yml entry — no id
+  available, so developer field is omitted. Source describes an
+  ~832-acre, 13-building, ~4.9M sq ft campus ~45 miles south of Atlanta,
+  status "proposed" (mapped to announced). Single low-confidence
+  aggregator source (Blackridge Research); all figures unconfirmed by a
+  primary source. Place resolved to Coweta County (no distinct locality
+  given).

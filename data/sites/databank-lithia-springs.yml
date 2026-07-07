@@ -1,0 +1,31 @@
+id: databank-lithia-springs
+name: DataBank Atlanta campus (Lithia Springs)
+status: announced
+location:
+  country: US
+  state: GA
+  county: Douglas
+  locality: Lithia Springs
+metrics:
+  capacity_mw: 120
+  capacity_mw_basis: critical IT load
+  land_acres: 95
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/databank-acquires-100-acres-in-atlanta-georgia-for-120mw-data-enter-campus/
+    title: "DataBank acquires 100 acres in Atlanta, Georgia for 120MW data center campus"
+    publisher: DatacenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-databank-atlanta-capacity
+  - sig-20260706-databank-atlanta-land
+  - sig-20260706-databank-atlanta-status
+notes: >
+  Operator "DataBank" needs an operators.yml entry — no id available, so
+  operator field is omitted. Capacity resolved to 120MW critical IT load;
+  source also cites a 180MW on-site Georgia Power substation (utility
+  supply, not critical IT). Land ~95 acres near Lithia Springs. Source
+  status "development (acquired Oct 2023)" mapped to announced — land
+  acquired, no construction confirmed. Single good source (DCD).

@@ -1,0 +1,35 @@
+id: qts-fayetteville
+name: QTS Fayetteville campus
+operator: qts
+status: announced
+location:
+  country: US
+  state: GA
+  county: Fayette
+  locality: Fayetteville
+metrics:
+  capacity_mw: 250
+  land_acres: 615
+  building_sqft: 6600000
+  buildings: 16
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://rebusinessonline.com/qts-buys-615-acres-in-fayetteville-georgia-for-worlds-largest-multi-tenant-data-center-campus/
+    title: "QTS buys 615 acres in Fayetteville, Georgia for world's largest multi-tenant data center campus"
+    publisher: REBusinessOnline
+    date: "2026-07-06"
+signals:
+  - sig-20260706-qts-fayetteville-buildings
+  - sig-20260706-qts-fayetteville-capacity
+  - sig-20260706-qts-fayetteville-investment
+  - sig-20260706-qts-fayetteville-land
+  - sig-20260706-qts-fayetteville-status
+notes: >
+  ~615 acres ~25 miles south of Atlanta, up to 16 buildings, ~6.6M sq ft
+  plus ~400,000 sq ft office, ~250MW (basis unspecified, omitted).
+  investment_usd omitted: the reported ~$154M is the land purchase price
+  for the ~615 acres, not total build investment, so it would misrepresent
+  the field. Status "development" mapped to announced. Single good source
+  (REBusinessOnline).

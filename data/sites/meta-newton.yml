@@ -1,0 +1,28 @@
+id: meta-newton
+name: Meta Stanton Springs / Newton County campus
+operator: meta
+status: operational
+location:
+  country: US
+  state: GA
+  county: Newton
+metrics:
+  building_sqft: 900000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.blackridgeresearch.com/blog/latest-list-upcoming-data-centers-in-georgia-ga-united-states-us
+    title: "Latest list of upcoming data centers in Georgia (GA), United States (US)"
+    publisher: Blackridge Research
+    date: "2026-07-06"
+signals:
+  - sig-20260706-meta-stanton-springs-operator
+  - sig-20260706-meta-stanton-springs-sqft
+  - sig-20260706-meta-stanton-springs-status
+notes: >
+  Status "operational/expanding" — campus operational and expanding.
+  building_sqft (900,000) is the initial phase of Stanton Springs 2 near
+  Social Circle, not the full campus footprint. Place resolved to Newton
+  County; Social Circle is the phase-2 sub-locality. Single low-confidence
+  aggregator source (Blackridge Research).
