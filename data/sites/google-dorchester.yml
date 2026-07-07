@@ -1,0 +1,38 @@
+id: google-dorchester
+name: Google Dorchester County Data Center Campuses
+operator: google
+status: under-construction
+location:
+  country: US
+  state: SC
+  county: Dorchester
+metrics:
+  investment_usd: 2000000000
+announced_date: "2024-09"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion
+    title: "Google grows South Carolina footprint with new Dorchester County operations, expansion"
+    publisher: Office of the Governor of South Carolina
+    date: "2024-09"
+    note: "$2B, two new Dorchester campuses, 200 operational jobs, Sept 2024"
+signals:
+  - sig-20260706-google-dorchester-investment
+  - sig-20260706-google-dorchester-location
+  - sig-20260706-google-dorchester-status
+notes: >-
+  This record covers TWO distinct campuses announced together in Sept 2024:
+  Pine Hill Business Campus (Ridgeville) and Winding Woods Commerce Park
+  (St. George). Per the two-campuses-two-records rule they should become
+  separate records, but every current signal is joint — the $2B investment,
+  the location pair, and the "two new campuses / 200 operational jobs" status
+  are all reported combined with no per-campus breakdown. Splitting now would
+  require either duplicating signals across records (breaking the
+  one-signal-one-site consumption contract) or inventing per-campus values, so
+  a single county-level record is retained until per-campus signals arrive.
+  investment_usd is the combined $2B. No single locality chosen (two equally
+  valid — Ridgeville, St. George), so id/place resolve to Dorchester County.
+  Source phrased status as "announced/under construction"; recorded as
+  under-construction, with the ambiguity noted.

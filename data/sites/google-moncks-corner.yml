@@ -1,0 +1,37 @@
+id: google-moncks-corner
+name: Google Berkeley County Data Center Campus
+operator: google
+status: operational
+location:
+  country: US
+  state: SC
+  county: Berkeley
+  locality: Moncks Corner
+metrics:
+  investment_usd: 1300000000
+operational_date: "2007"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion
+    title: "Google grows South Carolina footprint with new Dorchester County operations, expansion"
+    publisher: Office of the Governor of South Carolina
+    date: "2024-09"
+    note: "Berkeley campus operational and expanding; part of a $1.3B expansion announced Sept 2024"
+  - url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-south-carolina-data-centers/
+    title: "Google to invest $9bn in South Carolina data centers"
+    publisher: DatacenterDynamics
+    date: "2025-10-13"
+    note: "$9B is a statewide SC total through 2027, not campus-specific"
+signals:
+  - sig-20260706-google-berkeley-investment
+  - sig-20260706-google-berkeley-status
+  - sig-20260706-google-sc-investment-9bn
+notes: >-
+  Google's first SC campus, established 2007 at Mount Holly Commerce Park
+  (Berkeley County; site_hint locality Moncks Corner). investment_usd here is
+  the $1.3B expansion announced Sept 2024. The ~$9B figure (DatacenterDynamics,
+  Oct 2025) is a statewide SC total through 2027 spanning multiple campuses, per
+  the source's own note, so it is NOT used as this campus's investment value —
+  recorded here only as context.
