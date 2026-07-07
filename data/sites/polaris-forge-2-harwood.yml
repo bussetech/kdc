@@ -1,0 +1,35 @@
+id: polaris-forge-2-harwood
+name: Applied Digital Polaris Forge 2
+status: announced
+location:
+  country: US
+  state: ND
+  county: Cass
+  locality: Harwood
+metrics:
+  capacity_mw: 280
+  investment_usd: 3000000000
+announced_date: "2025-08"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://northdakotamonitor.com/2025/08/18/company-announces-plan-for-data-center-north-of-fargo/
+    publisher: North Dakota Monitor
+    date: "2025-08-18"
+    note: Applied Digital announces planned data center north of Fargo.
+signals:
+  - sig-20260706-applieddigital-pf2-announced
+  - sig-20260706-applieddigital-pf2-capacity
+  - sig-20260706-applieddigital-pf2-investment
+  - sig-20260706-applieddigital-pf2-status
+notes: >
+  Operator is Applied Digital, which has no operators.yml entry — operator
+  field omitted pending an "applied-digital" entry.
+  Distinct campus from Polaris Forge 1 (Ellendale, Dickey County): PF2 is in
+  Harwood, Cass County, near Fargo, so it is a separate record even under the
+  same Polaris Forge program.
+  announced_date given as "August 2025" — recorded as "2025-08" (month
+  precision only, as sourced). capacity_mw 280 (AI computing center),
+  investment_usd $3 billion. Single source (North Dakota Monitor), hence
+  medium confidence.
