@@ -1,31 +1,28 @@
 id: openai-dona-ana
-name: "Stargate Project Jupiter"
+name: Stargate Project Jupiter
 operator: openai
 status: under-construction
 location:
   country: US
   state: NM
-  county: "Doña Ana"
+  county: Doña Ana
 metrics:
   capacity_mw: 2200
   capacity_mw_basis: unspecified
-announced_date: null
-first_seen: "2026-07-07"
-last_updated: "2026-07-07"
+first_seen: '2026-07-07'
+last_updated: '2026-07-07'
 confidence: low
 sources:
-  - url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
-    title: "OpenAI Stargate: where the US sites stand"
-    publisher: Epoch AI
-    date: "2026-07-06"
+- url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+  title: 'OpenAI Stargate: where the US sites stand'
+  publisher: Epoch AI
+  date: '2026-07-06'
 signals:
-  - sig-20260706-jupiter-capacity
-  - sig-20260706-jupiter-developer
-  - sig-20260706-jupiter-status
-notes: >
-  Stargate Project Jupiter, sited in Doña Ana County, NM. site_hint gives
-  only "Doña Ana, NM"; treated as the county (most-specific place resolvable),
-  no locality asserted. Capacity 2.2 GW is a projection (2200 MW); basis
-  (IT load vs utility) unstated. Named developer "STACK Infrastructure" has no
-  operators.yml entry — developer field omitted; needs an operators.yml entry
-  before it can be recorded. Single low-confidence source (Epoch AI).
+- sig-20260706-jupiter-capacity
+- sig-20260706-jupiter-developer
+- sig-20260706-jupiter-status
+notes: Stargate Project Jupiter, sited in Doña Ana County, NM. site_hint gives only "Doña
+  Ana, NM"; treated as the county (most-specific place resolvable), no locality asserted.
+  Capacity 2.2 GW is a projection (2200 MW); basis (IT load vs utility) unstated. Named developer
+  "STACK Infrastructure" has no operators.yml entry — developer field omitted; needs an operators.yml
+  entry before it can be recorded. Single low-confidence source (Epoch AI).
