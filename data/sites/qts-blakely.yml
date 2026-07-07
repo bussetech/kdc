@@ -1,0 +1,27 @@
+id: qts-blakely
+name: QTS Project Blue Hole / Blakely
+operator: qts
+status: announced
+location:
+  country: US
+  state: GA
+  county: Early
+  locality: Blakely
+metrics:
+  building_sqft: 12000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/qts-targets-two-data-center-campuses-in-georgia/
+    title: "QTS targets two data center campuses in Georgia"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-qts-blakely-operator
+  - sig-20260706-qts-blakely-sqft
+  - sig-20260706-qts-blakely-status
+notes: >
+  Up to 12M sq ft off Martha Berry Highway. Status "planned; full
+  build-out by end of 2035, closed-loop cooling" mapped to announced.
+  Single good source (DCD).

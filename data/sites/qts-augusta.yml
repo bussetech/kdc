@@ -1,0 +1,31 @@
+id: qts-augusta
+name: QTS Augusta campus
+operator: qts
+status: under-construction
+location:
+  country: US
+  state: GA
+  county: Richmond
+  locality: Augusta
+metrics:
+  land_acres: 170
+  buildings: 6
+  investment_usd: 2000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/qts-targets-two-data-center-campuses-in-georgia/
+    title: "QTS targets two data center campuses in Georgia"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-qts-augusta-acres
+  - sig-20260706-qts-augusta-buildings
+  - sig-20260706-qts-augusta-investment
+  - sig-20260706-qts-augusta-operator
+  - sig-20260706-qts-augusta-status
+notes: >
+  170+ acres near Fort Gordon, up to six buildings, $2B+ investment.
+  Status "construction reportedly underway; first building by 2027"
+  mapped to under-construction. Single good source (DCD).

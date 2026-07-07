@@ -1,5 +1,5 @@
 id: sig-20260706-qts-fayetteville-capacity
-site_id: null
+site_id: qts-fayetteville
 site_hint: "QTS Fayetteville campus — Fayette, GA"
 attribute: capacity_mw
 value: "~250MW"
