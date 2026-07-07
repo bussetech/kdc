@@ -1,0 +1,27 @@
+id: atlas-power-butte
+name: Atlas Power Butte data center
+status: operational
+location:
+  country: US
+  state: MT
+  county: Silver Bow
+  locality: Butte
+metrics:
+  capacity_mw: 75
+first_seen: '2026-07-07'
+last_updated: '2026-07-07'
+confidence: medium
+sources:
+- url: https://dailymontanan.com/2026/02/23/eleven-data-center-developers-in-talks-with-northwestern-group-says/
+  title: Eleven data center developers in talks with NorthWestern, group says
+  publisher: Daily Montanan
+  date: '2026-02-23'
+  note: single source for both capacity and operating status
+signals:
+- sig-20260706-atlas-butte-capacity
+- sig-20260706-atlas-butte-status
+notes: 'Operator "Atlas Power" has no operators.yml entry — needs one before the operator
+  field can be set. Reported operating in Butte since 2019, hence status operational. Capacity:
+  NorthWestern Energy to supply 75 MW beginning 2026, with up to another 75 MW over 3-5 years
+  (expansion not yet firm, so capacity_mw reflects the initial 75 MW). Single source (Daily
+  Montanan) → medium confidence.'
