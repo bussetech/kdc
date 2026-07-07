@@ -1,0 +1,27 @@
+id: firstlight-bedford
+name: FirstLight Bedford data center expansion
+status: announced
+location:
+  country: US
+  state: NH
+  county: Hillsborough
+  locality: Bedford
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/firstlight-expands-new-hampshire-data-center/
+    title: FirstLight expands New Hampshire data center
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+    note: expansion announcement; space given as a relative percentage
+signals:
+  - sig-20260706-firstlight-bedford-sqft
+  - sig-20260706-firstlight-bedford-status
+notes: >-
+  Operator FirstLight has no operators.yml entry — needs one added before the
+  operator field can be populated. Building floor area is only reported
+  relatively ("adding ~25% more data-center space plus power/cooling for up to
+  100 additional racks"); no absolute sqft is sourced, so building_sqft is left
+  blank rather than invented (KB-0002). Single-source (DataCenterDynamics), so
+  aggregate confidence is medium.
