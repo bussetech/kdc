@@ -1,0 +1,39 @@
+id: powerhouse-louisville
+name: PowerHouse Louisville
+developer: powerhouse
+status: under-construction
+location:
+  country: US
+  state: KY
+  county: Jefferson
+  locality: Louisville
+metrics:
+  capacity_mw: 335
+  capacity_mw_basis: unspecified
+  land_acres: 154
+  building_sqft: 1800000
+  buildings: 6
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/powerhouse-plans-400mw-data-center-campus-in-louisville-kentucky/
+    title: PowerHouse plans 400MW data center campus in Louisville, Kentucky
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-powerhouse-louisville-acres
+  - sig-20260706-powerhouse-louisville-buildings
+  - sig-20260706-powerhouse-louisville-capacity
+  - sig-20260706-powerhouse-louisville-developer
+  - sig-20260706-powerhouse-louisville-sqft
+  - sig-20260706-powerhouse-louisville-status
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+notes: >-
+  Single-source (DataCenterDynamics) cluster; billed as Kentucky's first
+  hyperscale campus. Capacity reported as 335 MW secured, expandable to
+  402 MW — recorded 335 as the load-bearing figure with the 402 expansion
+  ceiling noted here. "Up to six buildings", ~1.8M sq ft across a 154-acre
+  campus; first building and 130 MW targeted October 2026. Co-developed by
+  PowerHouse Data Centers (AREP) and Poe Companies — Poe Companies needs an
+  operators.yml entry before it can be recorded as a developer id.
+  capacity_mw_basis unspecified: source does not state IT vs utility load.
