@@ -1,0 +1,38 @@
+id: quantum-loophole-frederick
+name: Quantum Frederick campus (Quantum Loophole / Catellus)
+status: announced
+location:
+  country: US
+  state: MD
+  locality: Frederick
+metrics:
+  capacity_mw: 1000
+  capacity_mw_basis: unspecified
+  land_acres: 2100
+  investment_usd: 100000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterfrontier.com/featured/article/11428096/quantum-loophole-plans-2100-acre-data-center-campus-in-maryland
+    title: "Quantum Loophole plans 2,100-acre data center campus in Maryland"
+    publisher: Data Center Frontier
+    date: "2026-07-06"
+signals:
+  - sig-20260706-quantum-frederick-capacity
+  - sig-20260706-quantum-frederick-developer
+  - sig-20260706-quantum-frederick-investment
+  - sig-20260706-quantum-frederick-land
+  - sig-20260706-quantum-frederick-sqft
+  - sig-20260706-quantum-frederick-status
+notes: >
+  Master-planned 2,100-acre gigawatt-scale campus at the former Alcoa
+  Eastalco Works; distinct from the smaller 74.89-acre Aligned campus within
+  it (aligned-frederick). Site acquired June 2021; TPG affiliate Catellus now
+  sole developer. capacity_mw = ~1 GW cited as transmission available (not
+  confirmed IT load), hence basis unspecified. investment_usd = ~$100M is the
+  land acquisition cost, not total project spend. building_sqft omitted: the
+  "up to 600,000 sq ft" figure is a per-building build-to-suit maximum, not a
+  campus total. Developer Catellus / Quantum Loophole (TPG) has no
+  operators.yml entry and needs one; developer field omitted rather than
+  invent an id. Single-source (Data Center Frontier).

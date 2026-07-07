@@ -1,5 +1,5 @@
 id: sig-20260706-aws-calvert-cliffs-buildings
-site_id: null
+site_id: aws-calvert
 site_hint: "Amazon (AWS) Calvert Cliffs data center campus — Calvert, MD"
 attribute: buildings
 value: "7 buildings (~225,000 sq ft each) across 3 campuses"

@@ -1,5 +1,5 @@
 id: sig-20260706-aws-calvert-cliffs-capacity
-site_id: null
+site_id: aws-calvert
 site_hint: "Amazon (AWS) Calvert Cliffs data center campus — Calvert, MD"
 attribute: capacity_mw
 value: "~500 MW"
