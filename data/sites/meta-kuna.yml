@@ -1,0 +1,33 @@
+id: meta-kuna
+name: Meta Kuna Data Center
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: ID
+  county: Ada
+  locality: Kuna
+metrics:
+  investment_usd: 800000000
+  building_sqft: 960000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://commerce.idaho.gov/press/meta-announces-kuna-as-location-of-new-data-center/
+    title: "Meta announces Kuna as location of new data center"
+    publisher: Idaho Department of Commerce
+    note: "Primary/government source for operator, investment, building size, status."
+signals:
+  - sig-20260706-meta-kuna-investment
+  - sig-20260706-meta-kuna-opdate
+  - sig-20260706-meta-kuna-operator
+  - sig-20260706-meta-kuna-sqft
+  - sig-20260706-meta-kuna-status
+notes: >-
+  Single primary source (Idaho Dept of Commerce) for all facts, hence
+  medium aggregate confidence. Source states groundbreaking September 2022
+  and building "over 960,000 sq ft" (recorded as 960000, a sourced floor).
+  Operational date not recorded as a field because the source gives only
+  "opening expected late 2026", which carries no month/day precision; kept
+  here rather than invented (KB-0002).
