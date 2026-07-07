@@ -1,0 +1,34 @@
+id: openai-port-washington
+name: Stargate Port Washington
+operator: openai
+developer: vantage
+status: under-construction
+location:
+  country: US
+  state: WI
+  county: Ozaukee
+  locality: Port Washington
+metrics:
+  capacity_mw: 1300
+  capacity_mw_basis: unspecified
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+    title: "OpenAI Stargate: where the US sites stand"
+    publisher: Epoch AI
+    date: "2026-07-06"
+    note: "Sole source for capacity, developer, and status of this site."
+signals:
+  - sig-20260706-portwashington-capacity
+  - sig-20260706-portwashington-developer
+  - sig-20260706-portwashington-status
+notes: >-
+  Single-source record (Epoch AI, a secondary analyst), all consumed
+  signals low-confidence, hence aggregate confidence low. Operator resolved
+  to openai via the "Stargate" program alias; developer resolved to vantage
+  ("Vantage"). Capacity stated as "1.3 GW projected" (1300 MW); the source
+  does not say whether this is IT load or utility, so capacity_mw_basis is
+  unspecified. Status "under construction (foundation work)" maps to
+  under-construction.
