@@ -1,0 +1,32 @@
+id: firstlight-brunswick
+name: FirstLight Brunswick Data Center
+status: operational
+location:
+  country: US
+  state: ME
+  county: Cumberland
+  locality: Brunswick
+metrics: {}
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/firstlight-doubles-capacity-at-former-nato-data-center-in-maine/
+    title: FirstLight doubles capacity at former NATO data center in Maine
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+    note: Location, operator, status and expansion timeline.
+signals:
+  - sig-20260706-brunswick-location
+  - sig-20260706-brunswick-opdate
+  - sig-20260706-brunswick-operator
+  - sig-20260706-brunswick-status
+notes: >
+  Facility occupies the former NATO Command and Control Center at the
+  decommissioned Brunswick Naval Air Station (Brunswick, Cumberland County,
+  ME). Reported operational; a 2024 renovation doubled power capacity and an
+  expansion was completed February 2025 (treated as a phase milestone, so
+  operational_date is left blank rather than set to the expansion date).
+  Single source (DataCenterDynamics) hence medium confidence.
+  Operator "FirstLight" needs an operators.yml entry; operator field omitted
+  until an id exists.

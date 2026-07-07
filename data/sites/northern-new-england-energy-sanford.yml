@@ -1,0 +1,34 @@
+id: northern-new-england-energy-sanford
+name: Sanford Data Center
+status: announced
+location:
+  country: US
+  state: ME
+  county: York
+  locality: Sanford
+metrics: {}
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/planned-data-center-in-maine-under-threat-from-proposed-moratorium/
+    title: Planned data center in Maine under threat from proposed moratorium
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+    note: Developer, location, proposed capacity/power mix, and moratorium threat.
+signals:
+  - sig-20260706-sanford-capacity
+  - sig-20260706-sanford-developer
+  - sig-20260706-sanford-location
+  - sig-20260706-sanford-status
+notes: >
+  Proposed data center in Sanford, York County, ME (~35 miles southwest of
+  Portland). In planning, not yet permitted — kept as `announced`, not
+  `cancelled`: the two-year moratorium on facilities exceeding 20 MW that
+  jeopardizes it is only *proposed*, not enacted, so the project is not yet
+  dead. Reported proposed capacity is a 100-300 MW range powered by fuel
+  cells, solar, and battery storage; capacity_mw omitted because a single
+  numeric value would misrepresent a stated range (range recorded here).
+  Single source (DataCenterDynamics) hence medium confidence.
+  Developer "Northern New England Energy Company" needs an operators.yml
+  entry; developer field omitted until an id exists.
