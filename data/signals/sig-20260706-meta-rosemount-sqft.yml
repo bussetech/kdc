@@ -1,5 +1,5 @@
 id: sig-20260706-meta-rosemount-sqft
-site_id: null
+site_id: meta-rosemount
 site_hint: "Meta Rosemount Data Center (Project Bigfoot) — Dakota, MN"
 attribute: building_sqft
 value: "715,000 sq ft"

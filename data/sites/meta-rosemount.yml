@@ -1,0 +1,36 @@
+id: meta-rosemount
+name: Meta Rosemount Data Center (Project Bigfoot)
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: MN
+  county: Dakota
+  locality: Rosemount
+metrics:
+  land_acres: 280
+  building_sqft: 715000
+  investment_usd: 800000000
+announced_date: "2024-03"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.cbsnews.com/minnesota/news/meta-to-build-800m-data-center-in-rosemount-minnesota/
+    title: "Meta to build $800M data center in Rosemount, Minnesota"
+    publisher: CBS News
+    date: "2026-07-06"
+signals:
+  - sig-20260706-meta-rosemount-investment
+  - sig-20260706-meta-rosemount-land
+  - sig-20260706-meta-rosemount-sqft
+  - sig-20260706-meta-rosemount-status
+notes: >-
+  Codename "Project Bigfoot"; announced March 2024, under construction.
+  land_acres (280) is the initial parcel from UMore Park; Meta later bought
+  200+ additional acres for $70 million, so total land is 480+ acres — the
+  280 figure is the sourced initial acquisition. investment_usd (800,000,000)
+  is the announced build figure. The $800M figure is reported as corroborated
+  by KSTP (walz-to-announce-expansion...) per the source note, but only the
+  CBS News URL is citable here, so aggregate confidence is medium (single
+  citable source).
