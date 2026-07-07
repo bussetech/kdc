@@ -1,0 +1,30 @@
+id: horizon-pecos
+name: Project Horizon (Longfellow Ranch)
+status: cancelled
+location:
+  country: US
+  state: TX
+  county: Pecos
+metrics:
+  capacity_mw: 2000
+  capacity_mw_basis: unspecified
+  land_acres: 568
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://mlq.ai/news/coreweave-ends-2-gw-texas-data-center-deal-with-poolside/
+    title: "CoreWeave ends 2 GW Texas data center deal with Poolside"
+    publisher: MLQ.ai
+signals:
+  - sig-20260706-project-horizon-acres
+  - sig-20260706-project-horizon-capacity
+  - sig-20260706-project-horizon-developer
+  - sig-20260706-project-horizon-status
+notes: >-
+  Cancelled record (negative outcome, not omitted): CoreWeave terminated its
+  250 MW anchor lease and the Poolside–CoreWeave partnership ended, pausing the
+  project. Developer Poolside and anchor tenant CoreWeave both need
+  operators.yml entries (developer field omitted). Planned 2 GW behind-the-meter
+  (eight 250 MW phases) on 568 acres at Longfellow Ranch; capacity/land figures
+  are the pre-cancellation plan.

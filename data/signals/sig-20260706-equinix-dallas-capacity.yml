@@ -1,5 +1,5 @@
 id: sig-20260706-equinix-dallas-capacity
-site_id: null
+site_id: equinix-dallas
 site_hint: "Dallas Infomart campus (Equinix) — Dallas County, TX"
 attribute: capacity_mw
 value: "40MW sellable power (2019 figures)"

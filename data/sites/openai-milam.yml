@@ -1,0 +1,25 @@
+id: openai-milam
+name: Stargate Milam County Campus
+operator: openai
+status: under-construction
+location:
+  country: US
+  state: TX
+  county: Milam
+metrics:
+  capacity_mw: 1200
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+    publisher: Epoch AI
+signals:
+  - sig-20260706-milam-capacity
+  - sig-20260706-milam-developer
+  - sig-20260706-milam-status
+notes: >-
+  Operator resolved to openai via the "Stargate" alias in operators.yml.
+  Developer reported as SB Energy/SoftBank, which needs an operators.yml entry
+  (developer field omitted). 1.2 GW projected capacity (=1200MW). Under
+  construction at steel-framing stage. Single low-confidence source.

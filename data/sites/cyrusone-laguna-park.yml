@@ -1,0 +1,35 @@
+id: cyrusone-laguna-park
+name: CyrusOne Laguna Park Campus
+status: under-construction
+location:
+  country: US
+  state: TX
+  county: Bosque
+  locality: Laguna Park
+metrics:
+  capacity_mw: 400
+  buildings: 9
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/cyrusone-breaks-ground-on-fort-worth-data-center-campus-in-texas/
+    title: "CyrusOne breaks ground on Fort Worth data center campus in Texas"
+    publisher: Data Center Dynamics
+signals:
+  - sig-20260706-cyrusone-laguna-announced
+  - sig-20260706-cyrusone-laguna-buildings
+  - sig-20260706-cyrusone-laguna-capacity
+  - sig-20260706-cyrusone-laguna-investment
+  - sig-20260706-cyrusone-laguna-sqft
+  - sig-20260706-cyrusone-laguna-status
+notes: >-
+  Operator CyrusOne needs an operators.yml entry (omitted here). Confidence low
+  due to a location conflict: signals place the campus in Bosque County (Laguna
+  Park / "Thad Hill campus") but the source article is titled "Fort Worth data
+  center campus" — the county/locality assignment is unresolved. Announced July
+  2025 (announced_date omitted rather than invent a day); source title says
+  "breaks ground," so status resolved to under-construction. Capacity ~400MW
+  for up to nine buildings. The "DFW10" figures ($750M investment, ~250,000
+  sq ft) describe a single named facility, not the campus total, so they are
+  recorded here in notes rather than as campus metrics.

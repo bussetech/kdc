@@ -1,5 +1,5 @@
 id: sig-20260706-databank-red-oak-capacity
-site_id: null
+site_id: databank-red-oak
 site_hint: "Red Oak campus (DataBank) — Ellis County, TX"
 attribute: capacity_mw
 value: "400MW Oncor substation delivering up to 240MW critical IT Phase 1, scaling to 480MW"

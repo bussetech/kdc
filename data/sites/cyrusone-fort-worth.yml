@@ -1,0 +1,26 @@
+id: cyrusone-fort-worth
+name: CyrusOne Fort Worth Campus
+status: announced
+location:
+  country: US
+  state: TX
+  county: Tarrant
+  locality: Fort Worth
+metrics:
+  capacity_mw: 200
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.prnewswire.com/news-releases/cyrusone-and-eolian-partner-to-enable-rapid-deployment-of-200-megawatt-data-center-campus-in-fort-worth-texas-302658969.html
+    title: "CyrusOne and Eolian partner to enable rapid deployment of 200-megawatt data center campus in Fort Worth, Texas"
+    publisher: PR Newswire
+signals:
+  - sig-20260706-cyrusone-fortworth-capacity
+  - sig-20260706-cyrusone-fortworth-status
+notes: >-
+  Operator CyrusOne needs an operators.yml entry (omitted here). 200MW campus
+  enabled via a CyrusOne–Eolian power partnership (Eolian is the power partner,
+  not the site operator). Source reports status as "development"; resolved to
+  announced as no groundbreaking is indicated. Distinct from the CyrusOne
+  Laguna Park campus (cyrusone-laguna-park) in Bosque County.

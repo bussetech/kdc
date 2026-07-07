@@ -1,0 +1,35 @@
+id: matador-carson
+name: Fermi America Project Matador (Amarillo Campus)
+status: announced
+location:
+  country: US
+  state: TX
+  county: Carson
+metrics:
+  capacity_mw: 11000
+  land_acres: 5769
+  building_sqft: 18000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/former-texas-governor-and-us-energy-sec-plans-11gw-data-center-campus-outside-amarillo-texas/
+    publisher: DataCenterDynamics
+  - url: https://www.powermag.com/nrc-accepts-cola-for-fermi-americas-behemoth-four-unit-ap1000-nuclear-plant-in-texas/
+    publisher: POWER Magazine
+signals:
+  - sig-20260706-fermi-building-sqft
+  - sig-20260706-fermi-capacity
+  - sig-20260706-fermi-land
+  - sig-20260706-fermi-nuclear-status
+  - sig-20260706-fermi-operator
+  - sig-20260706-fermi-status
+notes: >-
+  Operator Fermi America needs an operators.yml entry (omitted here) — company
+  led by a former Texas governor and US Energy Secretary. Capacity is a
+  potential ceiling ("up to 11 GW" = 11000MW); building_sqft "up to 18M sq ft"
+  is likewise a maximum. Site spans 5,769 acres adjacent to the Pantex Plant
+  under a 99-year lease from the Texas Tech University System, near Amarillo but
+  in Carson County (no incorporated locality). Plan includes four Westinghouse
+  AP1000 nuclear reactors; NRC accepted the combined license application
+  (planned/licensing) — status resolved to announced.

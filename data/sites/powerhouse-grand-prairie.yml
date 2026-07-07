@@ -1,0 +1,30 @@
+id: powerhouse-grand-prairie
+name: PowerHouse Grand Prairie Mega Campus
+developer: powerhouse
+status: announced
+location:
+  country: US
+  state: TX
+  county: Ellis
+  locality: Grand Prairie
+metrics:
+  capacity_mw: 1800
+  land_acres: 768
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.prnewswire.com/news-releases/powerhouse-and-provident-partner-to-develop-hyperscale-data-center-campus-in-dallas-fort-worth-metroplex-302344722.html
+    publisher: PR Newswire
+signals:
+  - sig-20260706-powerhouse-grand-prairie-capacity
+  - sig-20260706-powerhouse-grand-prairie-developer
+  - sig-20260706-powerhouse-grand-prairie-land
+  - sig-20260706-powerhouse-grand-prairie-status
+notes: >-
+  Developer resolved to powerhouse (PowerHouse Data Centers), co-developed with
+  Provident, which needs an operators.yml entry (omitted). 1.8GW switchyard on a
+  768-acre campus; first 500MW tranche approved through ERCOT. Status
+  "development" resolved to announced. County discrepancy: the signal places the
+  campus in Ellis County, but Grand Prairie normally falls in Dallas/Tarrant
+  counties — unresolved, county retained as sourced.

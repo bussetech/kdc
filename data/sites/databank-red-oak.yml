@@ -1,0 +1,33 @@
+id: databank-red-oak
+name: DataBank Red Oak Campus
+status: under-construction
+location:
+  country: US
+  state: TX
+  county: Ellis
+  locality: Red Oak
+metrics:
+  capacity_mw: 480
+  capacity_mw_basis: unspecified
+  land_acres: 292
+  building_sqft: 3400000
+  buildings: 8
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.databank.com/resources/press-releases/databank-announces-development-of-480mw-data-center-campus-in-south-dallas/
+    publisher: DataBank
+signals:
+  - sig-20260706-databank-red-oak-building-sqft
+  - sig-20260706-databank-red-oak-buildings
+  - sig-20260706-databank-red-oak-capacity
+  - sig-20260706-databank-red-oak-land
+  - sig-20260706-databank-red-oak-status
+notes: >-
+  Operator DataBank needs an operators.yml entry (omitted here). Capacity per
+  source: a 400MW Oncor substation delivering up to 240MW critical IT in
+  Phase 1, scaling to 480MW total — resolved capacity_mw to 480 (full build),
+  basis unspecified as the source mixes utility and critical-IT figures.
+  Single primary (operator) source. Distinct from the Compass Red Oak campus
+  (compass-red-oak) despite shared locality.
