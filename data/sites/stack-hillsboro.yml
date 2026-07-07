@@ -1,0 +1,34 @@
+id: stack-hillsboro
+name: Stack Portland/Hillsboro campus
+status: operational
+location:
+  country: US
+  state: OR
+  county: Washington
+  locality: Hillsboro
+metrics:
+  capacity_mw: 200
+  capacity_mw_basis: unspecified
+  land_acres: 55
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/data-center-developer-stack-to-expand-hillsboro-campus-by-121mw/
+    title: "Data center developer Stack to expand Hillsboro campus by 121MW"
+    publisher: Data Center Dynamics
+  - url: https://datacentremagazine.com/articles/stack-expands-its-flagship-portland-campus-to-reach-200mw
+    title: "Stack expands its flagship Portland campus to reach 200MW"
+    publisher: Data Centre Magazine
+signals:
+  - sig-20260706-stack-hillsboro-capacity-expansion
+  - sig-20260706-stack-hillsboro-capacity
+  - sig-20260706-stack-hillsboro-land
+  - sig-20260706-stack-hillsboro-status
+notes: >
+  The two capacity figures are complementary, not conflicting: ~200MW is
+  the total campus critical capacity, while the 121MW figure is the size
+  of the Hillsboro expansion driving it there. Recorded capacity_mw=200
+  (total); 121MW expansion kept in notes. Operator/developer "Stack" has
+  no operators.yml entry — field omitted; needs an entry. Status
+  "operational + expanding" mapped to operational.

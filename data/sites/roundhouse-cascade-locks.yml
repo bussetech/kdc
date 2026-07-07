@@ -1,0 +1,27 @@
+id: roundhouse-cascade-locks
+name: Roundhouse Digital Cascade Locks data center
+status: cancelled
+location:
+  country: US
+  state: OR
+  county: Hood River
+  locality: Cascade Locks
+metrics:
+  investment_usd: 100000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenterwatch.org/report
+    title: "Data Center Watch report"
+    publisher: Data Center Watch
+    date: "2023-07"
+signals:
+  - sig-20260706-cascade-locks-investment
+  - sig-20260706-cascade-locks-status
+notes: >
+  Cancelled path: ~$100M proposal cancelled in July 2023 after residents
+  recalled two officials who had approved it. Negative outcome recorded
+  as a cancelled record per GD-0004/KB-0001. Operator "Roundhouse
+  Digital" has no operators.yml entry — operator field omitted; needs an
+  entry. Single, low-confidence source.

@@ -1,0 +1,35 @@
+id: sabey-umatilla
+name: SDC Umatilla (Sabey Data Centers)
+status: operational
+location:
+  country: US
+  state: OR
+  county: Umatilla
+  locality: Umatilla
+metrics:
+  capacity_mw: 150
+  land_acres: 60
+  building_sqft: 714000
+  buildings: 2
+  investment_usd: 950000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://sabeydatacenters.com/locations/sdc-umatilla
+    publisher: Sabey Data Centers
+signals:
+  - sig-20260706-sabey-umatilla-building-sqft
+  - sig-20260706-sabey-umatilla-buildings
+  - sig-20260706-sabey-umatilla-capacity
+  - sig-20260706-sabey-umatilla-investment
+  - sig-20260706-sabey-umatilla-land
+  - sig-20260706-sabey-umatilla-status
+notes: >
+  Figures are operator/primary-source (Sabey) and internally consistent:
+  two-building, ~60-acre campus, over 714,000 sq ft, 150+MW, ~$950M.
+  capacity_mw and building_sqft recorded as source floors ("150+",
+  "over 714,000"). Operator "Sabey Data Centers" has no operators.yml
+  entry — operator field omitted; needs an entry. Single source (though
+  primary), so aggregate confidence medium. Status "operational +
+  expanding" mapped to operational.
