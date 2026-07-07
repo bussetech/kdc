@@ -1,0 +1,36 @@
+id: gemini-sioux-falls
+name: Sioux Falls Hyperscale Project
+status: permitted
+location:
+  country: US
+  state: SD
+  county: Minnehaha County
+  locality: Sioux Falls
+metrics:
+  capacity_mw: 500
+  land_acres: 160
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://siouxfalls.business/hyperscale-data-center-seeking-city-approvals-to-build-northeast-of-sioux-falls/
+    title: "Hyperscale data center seeking city approvals to build northeast of Sioux Falls"
+    publisher: SiouxFalls.Business
+    date: "2025-10"
+    note: "Single source for all attributes; reports developer, ~500 MW, ~160 acres, and Oct 2025 city annexation approval."
+signals:
+  - sig-20260706-sioux-falls-capacity
+  - sig-20260706-sioux-falls-developer
+  - sig-20260706-sioux-falls-land
+  - sig-20260706-sioux-falls-status
+notes: >-
+  Located northeast of Sioux Falls, being annexed into the city (Minnehaha
+  County, SD); locality set to Sioux Falls given the annexation. Status set to
+  permitted on the basis of the Oct 2025 city approval to annex ~160 acres;
+  this is a land/annexation approval rather than a construction permit, so the
+  classification is provisional pending confirmation of build permits.
+  Developer is "Gemini Data Center SD LLC" (a likely special-purpose entity)
+  with no operators.yml entry — developer field omitted; Gemini Data Center SD
+  LLC needs an operators.yml entry (may be an alias of an as-yet-unidentified
+  hyperscaler). capacity_mw 500 and land_acres 160 are reported as approximate.
+  Single-source support throughout, hence medium confidence.
