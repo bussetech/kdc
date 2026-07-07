@@ -1,0 +1,40 @@
+id: openai-washtenaw
+name: Stargate Michigan campus
+operator: openai
+status: announced
+location:
+  country: US
+  state: MI
+  county: Washtenaw
+metrics:
+  capacity_mw: 1400
+  capacity_mw_basis: unspecified
+  land_acres: 575
+announced_date: "2025-12-19"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.latitudemedia.com/news/what-the-michigan-stargate-site-says-about-todays-ai-market/
+    title: "What the Michigan Stargate site says about today's AI market"
+    publisher: Latitude Media
+    date: "2026-07-06"
+signals:
+  - sig-20260706-mi-stargate-capacity
+  - sig-20260706-mi-stargate-developer
+  - sig-20260706-mi-stargate-investment
+  - sig-20260706-mi-stargate-land
+  - sig-20260706-mi-stargate-status
+notes: >
+  Stargate program site (OpenAI / Oracle / SoftBank); operator recorded as
+  openai (Stargate alias). Site developer is Related Digital, which has no
+  operators.yml entry — developer field omitted, needs an entry. Oracle and
+  SoftBank are also involved and lack operators.yml ids. capacity_mw = 1400
+  reflects a stated 1.4 GW power-supply agreement with DTE Energy (19-year
+  contract), not a disclosed IT load — basis unspecified. Investment reported
+  as an estimated $7-10 billion (Latitude Media); left blank as a single
+  numeric value cannot represent a range without inventing precision. Status
+  set to announced: Michigan PSC conditionally approved the power contract
+  2025-12-19 and 575 acres are pending rezoning with permitting ongoing (not
+  yet fully permitted). announced_date reflects the PSC approval. Single-source
+  (Latitude Media) → medium confidence.

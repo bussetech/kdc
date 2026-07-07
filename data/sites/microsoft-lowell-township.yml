@@ -1,0 +1,27 @@
+id: microsoft-lowell-township
+name: Microsoft Lowell Township site
+operator: microsoft
+status: cancelled
+location:
+  country: US
+  state: MI
+  county: Kent
+  locality: Lowell Township
+metrics:
+  land_acres: 235
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/microsoft-plans-data-centers-in-dorr-and-lowell-townships-applies-for-property-rezoning-in-gaines-townships/
+    title: "Microsoft plans data centers in Dorr and Lowell townships, applies for property rezoning in Gaines township"
+    publisher: DataCenter Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-microsoft-lowell-land
+  - sig-20260706-microsoft-lowell-status
+notes: >
+  235-acre site. Rezoning application withdrawn 2025-12-18 amid local
+  opposition — recorded as cancelled (withdrawn path), a negative outcome kept
+  as a first-class record per KB-0001/GD-0004. Single-source (DataCenter
+  Dynamics) → medium.

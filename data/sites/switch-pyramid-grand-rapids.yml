@@ -1,0 +1,34 @@
+id: switch-pyramid-grand-rapids
+name: Switch Pyramid Campus (Grand Rapids)
+status: operational
+location:
+  country: US
+  state: MI
+  county: Kent
+  locality: Grand Rapids
+metrics:
+  capacity_mw: 320
+  building_sqft: 1800000
+  investment_usd: 5000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/switch-begins-work-on-expanding-pyramid-campus-in-grand-rapids-michigan/
+    title: "Switch begins work on expanding Pyramid campus in Grand Rapids, Michigan"
+    publisher: DataCenter Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-switch-grand-rapids-capacity
+  - sig-20260706-switch-grand-rapids-investment
+  - sig-20260706-switch-grand-rapids-sqft
+  - sig-20260706-switch-grand-rapids-status
+notes: >
+  Operator is Switch, which has no operators.yml entry — operator field
+  omitted; Switch needs an operators.yml entry. Site id derived from the
+  distinctive proper name (Switch Pyramid) plus locality since no operator id
+  is known. building_sqft = 1,800,000 is planned white space across the campus;
+  first phase (converted Steelcase Pyramid) is 225,000+ sq ft. investment
+  reported as ~$5 billion (approximate). capacity 320 MW, basis unspecified.
+  Operational and expanding (GRR NAP 02 expansion underway). Single-source
+  (DataCenter Dynamics) → medium.
