@@ -1,0 +1,35 @@
+id: north-slope-north-slope-borough
+name: North Slope data center
+status: announced
+location:
+  country: US
+  state: AK
+  county: North Slope Borough
+  address: "off Dalton Highway"
+metrics:
+  land_acres: 640
+  investment_usd: 500000000
+announced_date: "2026-05-12"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/
+    title: "A huge data center could rise on Alaska's North Slope"
+    publisher: Alaska Beacon
+    date: "2026-05-14"
+    note: "single source for both status and investment"
+signals:
+  - sig-20260706-north-slope-investment
+  - sig-20260706-north-slope-status
+notes: >-
+  Proposed ~1 sq mile gas-fueled (on-site power) data center off the Dalton
+  Highway in the North Slope Borough, AK. State of Alaska issued a preliminary
+  decision on 2026-05-12 to lease the property; recorded here as `announced`
+  (preliminary lease decision, not yet permitted) — announced_date set to that
+  decision date. investment_usd (~$500 million per source) recorded as
+  500000000 (approximate). land_acres = 640 is editorially converted from the
+  source's "~1 square mile" (1 sq mi = 640 acres), disclosed here per
+  precision-is-sourced-or-disclosed (KB-0002); no acreage figure was given
+  directly. No operator or developer is named in the signals, so both fields are
+  omitted. Single source (Alaska Beacon) → confidence medium.
