@@ -1,0 +1,43 @@
+id: meta-los-lunas
+name: "Meta Los Lunas Data Center Campus"
+operator: meta
+status: operational
+location:
+  country: US
+  state: NM
+  county: Valencia
+  locality: Los Lunas
+  address: "4250 Messenger Loop NW"
+metrics:
+  investment_usd: 2500000000
+announced_date: "2016"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/meta-planning-expansion-of-los-lunas-data-center-campus-in-new-mexico/
+    title: "Meta planning expansion of Los Lunas data center campus in New Mexico"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-meta-loslunas-ai-investment
+  - sig-20260706-meta-loslunas-ai-status
+  - sig-20260706-meta-loslunas-announced
+  - sig-20260706-meta-loslunas-investment
+  - sig-20260706-meta-loslunas-location
+  - sig-20260706-meta-loslunas-power
+  - sig-20260706-meta-loslunas-status
+notes: >
+  Single Meta Los Lunas campus (one physical site, multiple phases) — the
+  AI/ML expansion is folded in here rather than split into a second record.
+  Campus status is operational/expanding; treated as `operational`. Phase:
+  a two-building AI/ML expansion (~$800M over ~three years) is
+  proposed/permitting per the same source — Meta's first portfolio site
+  dedicated to AI/ML. investment_usd = $2.5B+ reflects the "catalyzed direct
+  investment" phrasing for the whole campus, distinct from the ~$800M
+  expansion cost. Address 4250 Messenger Loop NW is held via "Greater Kudu
+  LLC". Power figure from source (885 MW contracted solar/wind + 100 MW
+  battery storage) is contracted renewable procurement, NOT stated IT load
+  capacity, so it is not recorded as capacity_mw — recorded here in notes to
+  avoid asserting load precision no source backs. Single medium-confidence
+  source (DataCenterDynamics).
