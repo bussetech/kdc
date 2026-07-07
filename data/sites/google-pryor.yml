@@ -1,0 +1,42 @@
+id: google-pryor
+name: Google Pryor Data Center (Mayes County)
+operator: google
+status: operational
+location:
+  country: US
+  state: OK
+  county: Mayes County
+  locality: Pryor
+  address: MidAmerica Industrial Park
+metrics:
+  land_acres: 800
+  investment_usd: 4400000000
+operational_date: "2011"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-cloud-and-ai-infrastructure-in-oklahoma/
+    title: "Google to invest $9bn in cloud and AI infrastructure in Oklahoma"
+    publisher: DatacenterDynamics
+    date: "2025-10"
+  - url: https://www.datacenterdynamics.com/en/news/google-to-expand-data-center-in-pryor-oklahoma/
+    title: "Google to expand data center in Pryor, Oklahoma"
+    publisher: DatacenterDynamics
+    date: "2011"
+signals:
+  - sig-20260706-google-pryor-investment
+  - sig-20260706-google-pryor-land
+  - sig-20260706-google-pryor-operational-date
+  - sig-20260706-google-pryor-phase1-investment
+  - sig-20260706-google-pryor-sqft
+  - sig-20260706-google-pryor-status
+notes: >-
+  Multi-phase campus at MidAmerica Industrial Park, Pryor. Online since 2011
+  (first phase, ~$600m, ~130,000 sq ft per DCD 2011); investment_usd resolved
+  to the newer, cumulative $4.4bn figure (DCD 2025-10, described as Google's
+  second-largest data center globally), with the $600m first-phase figure
+  retained here as phase history. building_sqft omitted: only the 2011
+  first-phase 130,000 sq ft is sourced; a current site total is not — blank
+  beats invented. ~800 acres owned. All values trace to DatacenterDynamics;
+  confidence medium (single publisher across two articles).

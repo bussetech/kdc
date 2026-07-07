@@ -1,0 +1,37 @@
+id: google-stillwater
+name: Google Stillwater Campus
+operator: google
+status: announced
+location:
+  country: US
+  state: OK
+  county: Payne County
+  locality: Stillwater
+  address: Perkins Road and Richmond Road
+metrics:
+  land_acres: 400
+announced_date: "2025-10"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-oklahoma/
+    title: "Inside Google: American innovation in Oklahoma"
+    publisher: Google
+    date: "2025-10"
+  - url: https://www.datacenters.com/google-stillwater-campus
+    title: "Google Stillwater Campus"
+    publisher: Datacenters.com
+    date: "2025-10"
+signals:
+  - sig-20260706-google-stillwater-investment
+  - sig-20260706-google-stillwater-land
+  - sig-20260706-google-stillwater-status
+notes: >-
+  New multi-phase campus announced Oct 2025 at Perkins Road and Richmond Road,
+  Stillwater. investment_usd deliberately omitted: the only figure available
+  ($9bn, Google 2025-10) explicitly spans BOTH the new Stillwater campus and
+  the Pryor expansion, so it cannot be attributed to this site alone — a
+  Stillwater-specific investment is not sourced. ~400 acres per Datacenters.com
+  aggregator listing (low reliability). Confidence low: thin, partly
+  aggregator-sourced, no site-specific investment figure.
