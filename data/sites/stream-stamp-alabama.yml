@@ -1,0 +1,37 @@
+id: stream-stamp-alabama
+name: Stream Data Centers STAMP campus
+status: announced
+location:
+  country: US
+  state: NY
+  county: Genesee
+  locality: Alabama
+metrics:
+  capacity_mw: 500
+  capacity_mw_basis: unspecified
+  building_sqft: 2200000
+  investment_usd: 19500000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://news.constructconnect.com/upstate-ny-data-center-land-rush-tests-grid-limits-communities-and-permitting
+    title: "Upstate NY data center land rush tests grid limits, communities and permitting"
+    publisher: ConstructConnect
+    date: "2026-07-06"
+signals:
+  - sig-20260706-stream-stamp-capacity
+  - sig-20260706-stream-stamp-investment
+  - sig-20260706-stream-stamp-sqft
+  - sig-20260706-stream-stamp-status
+notes: >-
+  Stream Data Centers campus at the STAMP (Science, Technology and Advanced
+  Manufacturing Park) site in the Town of Alabama, Genesee County, NY.
+  Operator "Stream Data Centers" has no operators.yml entry — operator field
+  omitted; Stream needs an operators.yml entry. Status resolved to
+  `announced`: signal describes it as proposed with an interconnection
+  request submitted. capacity_mw 500 given as "500 MW of demand" — basis not
+  clearly stated (utility vs IT load), left `unspecified`. investment_usd
+  $19.5B is a reported total cost; a $1.4B sales-tax exemption was also cited
+  (not part of the capital figure). Single-source (ConstructConnect) →
+  confidence medium.
