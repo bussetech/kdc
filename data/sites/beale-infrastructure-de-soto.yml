@@ -1,0 +1,38 @@
+id: beale-infrastructure-de-soto
+name: Beale Infrastructure De Soto hyperscale campus
+status: announced
+location:
+  country: US
+  state: KS
+  county: Johnson
+  locality: De Soto
+metrics:
+  buildings: 4
+  building_sqft: 1000000
+  investment_usd: 3000000000
+announced_date: "2026-04-29"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.businesswire.com/news/home/20260429340180/en/Beale-Infrastructure-Announces-Hyperscale-Kansas-Data-Center-Campus-Advancing-$3-Billion-Infrastructure-Investment
+    title: Beale Infrastructure Announces Hyperscale Kansas Data Center Campus Advancing $3 Billion Infrastructure Investment
+    publisher: Business Wire
+    date: "2026-04-29"
+    note: press release; billed as first hyperscale data center announced in Kansas; tenant not named
+signals:
+  - sig-20260706-beale-desoto-buildings
+  - sig-20260706-beale-desoto-developer
+  - sig-20260706-beale-desoto-investment
+  - sig-20260706-beale-desoto-sqft
+  - sig-20260706-beale-desoto-status
+notes: >-
+  Single-source record (Business Wire press release, 2026-04-29). Status
+  "announced"; source says first phase breaks ground May 2026 — phase
+  detail retained here until construction is separately confirmed.
+  Developer "Beale Infrastructure" has no operators.yml entry — developer
+  field omitted; Beale Infrastructure needs an operators.yml entry before
+  it can be recorded as developer. investment_usd $3B is described as an
+  estimate. building_sqft: source states "1 million+ sq ft"; recorded as a
+  floor and it is unclear whether this is per-building or campus total —
+  precision not resolvable from the single signal.

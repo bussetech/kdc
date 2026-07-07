@@ -1,5 +1,5 @@
 id: sig-20260706-qts-wichita-status
-site_id: null
+site_id: qts-wichita
 site_hint: "QTS Wichita data center — Sedgwick, KS"
 attribute: status
 value: "operational (minor legacy facility)"

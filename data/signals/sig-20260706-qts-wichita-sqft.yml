@@ -1,5 +1,5 @@
 id: sig-20260706-qts-wichita-sqft
-site_id: null
+site_id: qts-wichita
 site_hint: "QTS Wichita data center — Sedgwick, KS"
 attribute: building_sqft
 value: "14,000 sq ft building with 9,400 sq ft data center footprint"
