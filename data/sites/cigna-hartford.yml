@@ -1,0 +1,31 @@
+id: cigna-hartford
+name: Former Windsor Street Data Center (Cigna Windsor upgrade)
+status: announced
+location:
+  country: US
+  state: CT
+  county: Hartford
+  locality: Hartford
+metrics:
+  investment_usd: 380000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://portal.ct.gov/ceq/decd/scoping-notice/notice-of-scoping-for-former-windsor-street-data-center
+    title: "Notice of Scoping for Former Windsor Street Data Center"
+    publisher: Connecticut CEQ (portal.ct.gov)
+    date: "2026-07-06"
+    note: "Scoping notice; ~$380M upgrade to the Windsor Street data center; operator Cigna Group."
+signals:
+  - sig-20260706-cigna-windsor-investment
+  - sig-20260706-cigna-windsor-operator
+  - sig-20260706-cigna-windsor-status
+notes: >
+  Single primary source (CT Council on Environmental Quality scoping notice).
+  Operator Cigna Group has no operators.yml entry — operator field omitted;
+  Cigna Group needs an operators.yml entry. Source status "proposed/applied"
+  (environmental scoping stage) resolved to `announced`. investment_usd is the
+  source's approximate ~$380 million. Site is on Windsor Street in Hartford, CT
+  (site_hint "Hartford, CT") — "Windsor" here is the street name, not the town
+  of Windsor.
