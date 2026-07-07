@@ -1,0 +1,39 @@
+id: meta-dekalb
+name: Meta DeKalb Data Center
+operator: meta
+status: operational
+location:
+  country: US
+  state: IL
+  county: DeKalb
+  locality: DeKalb
+metrics:
+  land_acres: 505
+  buildings: 5
+  building_sqft: 1000000
+  investment_usd: 1000000000
+operational_date: "2024-12"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://baxtel.com/data-center/meta-dekalb-il
+    title: Meta DeKalb IL
+    publisher: Baxtel
+    date: "2026-07-06"
+    note: secondary aggregator; sole source for all attributes
+signals:
+  - sig-20260706-meta-dekalb-acres
+  - sig-20260706-meta-dekalb-buildings
+  - sig-20260706-meta-dekalb-investment
+  - sig-20260706-meta-dekalb-opdate
+  - sig-20260706-meta-dekalb-operator
+  - sig-20260706-meta-dekalb-sqft
+  - sig-20260706-meta-dekalb-status
+notes: >
+  buildings recorded as 5 but source says "up to five" (a planned maximum).
+  building_sqft: source states 1,000,000 sq ft built vs 2,300,000 sq ft
+  planned — the built figure is recorded, 2.3M sq ft is the full-build plan.
+  investment_usd is "$1 billion+ invested since 2020" — recorded as the
+  1,000,000,000 floor. All values come from a single low-confidence
+  secondary aggregator (Baxtel), hence low aggregate confidence.

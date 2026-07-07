@@ -1,0 +1,26 @@
+id: hoffman-estates-hoffman-estates
+name: Hoffman Estates Data Center
+status: cancelled
+location:
+  country: US
+  state: IL
+  county: Cook
+  locality: Hoffman Estates
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://capitolnewsillinois.com/news/developer-withdraws-rezoning-request-for-controversial-data-center-in-hoffman-estates/
+    title: Developer withdraws rezoning request for controversial data center in Hoffman Estates
+    publisher: Capitol News Illinois
+    date: "2026-06"
+    note: reports withdrawal of rezoning request
+signals:
+  - sig-20260706-hoffman-estates-status
+notes: >
+  Negative outcome recorded as a cancelled site (GD-0004 / KB-0001): the
+  (unnamed) developer withdrew its rezoning request amid resident opposition
+  after a June 2026 public hearing — a withdrawal, not a denial. Developer
+  not named in the source, so no developer field. No operator known; id
+  derived from the site's town name (only distinctive identifier available).
+  Single source, medium confidence.

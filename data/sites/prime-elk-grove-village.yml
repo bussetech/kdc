@@ -1,0 +1,36 @@
+id: prime-elk-grove-village
+name: Prime Data Centers ORD Campus
+status: under-construction
+location:
+  country: US
+  state: IL
+  county: Cook
+  locality: Elk Grove Village
+  address: 1600 East Higgins Road, Elk Grove Village
+metrics:
+  capacity_mw: 180
+  building_sqft: 750000
+  land_acres: 30
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/prime-tops-out-first-chicago-data-center/
+    title: Prime tops out first Chicago data center
+    publisher: DatacenterDynamics
+    date: "2026-07-06"
+    note: sole source for all attributes
+signals:
+  - sig-20260706-prime-ord-building-sqft
+  - sig-20260706-prime-ord-capacity
+  - sig-20260706-prime-ord-land
+  - sig-20260706-prime-ord-location
+  - sig-20260706-prime-ord-status
+notes: >
+  Capacity (180 MW) and building_sqft (750,000+ sq ft) are full-build-out
+  figures; capacity basis unspecified so capacity_mw_basis omitted. Broke
+  ground late 2022, tops-out reported; recorded as under-construction.
+  Operator is Prime Data Centers, which has no operators.yml entry —
+  operator field omitted; needs an operators.yml entry. id operator-component
+  derived from the "Prime" name since no operator/developer id exists.
+  Single reputable source, medium confidence.
