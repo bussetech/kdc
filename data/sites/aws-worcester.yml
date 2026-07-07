@@ -8,7 +8,6 @@ location:
   county: Worcester
 metrics:
   investment_usd: 26700000
-announced_date: null
 first_seen: "2026-07-07"
 last_updated: "2026-07-07"
 confidence: medium
