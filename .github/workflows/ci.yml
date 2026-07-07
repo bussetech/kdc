@@ -24,6 +24,10 @@ jobs:
     uses: bussetech/ci/.github/workflows/reusable-site-ci.yml@v1
     with:
       visibility: public # factory:visibility — stamped by new-project.sh
+      # STYLE-01: hard fails block repo-wide; warnings block on the case
+      # study + hand-written prose pages (.style-lint.json strict globs).
+      # Data records (sites/) are excluded — data CI owns them.
+      style_lint: strict
   data:
     if: ${{ github.repository_owner == 'bussetech' }}
     uses: bussetech/ci/.github/workflows/reusable-data-ci.yml@v1

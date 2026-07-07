@@ -8,16 +8,16 @@ permalink: /data/
 
 Every dataset in this project is a text file in the repo (`data/`), validated
 in CI against a JSON Schema (`schema/`), and served here verbatim. The design
-principle is **signal > canon**: signals are raw per-source claims; sites are
+principle is *signal > canon*: signals are raw per-source claims; sites are
 records resolved from clustered signals with explicit confidence.
 
 ## Datasets
 
 | dataset | files | schema |
 | --- | --- | --- |
-| sites — resolved project records | `data/sites/<id>.yml` ([browse](/sites/)) | [`sites.schema.json`](/schema/sites.schema.json) |
-| signals — raw per-source claims, append-only | `data/signals/<id>.yml` | [`signals.schema.json`](/schema/signals.schema.json) |
-| operators — company lookup | [`operators.yml`](/data/operators.yml) | [`operators.schema.json`](/schema/operators.schema.json) |
+| sites (resolved project records) | `data/sites/<id>.yml` ([browse](/sites/)) | [`sites.schema.json`](/schema/sites.schema.json) |
+| signals (raw per-source claims, append-only) | `data/signals/<id>.yml` | [`signals.schema.json`](/schema/signals.schema.json) |
+| operators (company lookup) | [`operators.yml`](/data/operators.yml) | [`operators.schema.json`](/schema/operators.schema.json) |
 
 Referential integrity across the three (`signals.site_id` ↔ sites,
 `sites.operator` ↔ operators, `sites.signals[]` ↔ signals) is enforced by
@@ -31,8 +31,8 @@ ADR-0002). The project's code is MIT-licensed (see the repo's LICENSE).
 
 ## Provenance
 
-Records are researched from public sources — press coverage, operator
-announcements, county/municipal filings and press releases — each cited by
+Records are researched from public sources (press coverage, operator
+announcements, county/municipal filings and press releases), each cited by
 URL inside the record itself (`sources:`) and, at the signal level, one claim
 per source. Nothing is asserted without a source; conflicting reports are
 kept visible (record `notes:` and coexisting signals) rather than silently
