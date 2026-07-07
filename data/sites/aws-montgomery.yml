@@ -1,0 +1,29 @@
+id: aws-montgomery
+name: Amazon Project Green
+operator: aws
+status: under-construction
+location:
+  country: US
+  state: MO
+  county: Montgomery
+metrics:
+  land_acres: 1000
+  investment_usd: 10000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterknowledge.com/data-center-construction/amazon-s-10b-missouri-data-center-underscores-hyperscalers-search-for-power
+    publisher: Data Center Knowledge
+    date: "2026-07-06"
+signals:
+  - sig-20260706-aws-projectgreen-acres
+  - sig-20260706-aws-projectgreen-investment
+  - sig-20260706-aws-projectgreen-status
+notes: >
+  Amazon "Project Green" hyperscale campus. Site described as "near New
+  Florence" in Montgomery County, MO; because the locality is not firmly
+  placed (only "near"), the record is located at county level rather than
+  claiming a New Florence locality. Construction reported to have begun
+  April 2026. land_acres recorded as ~1,000 (approximate per source).
+  Single source (Data Center Knowledge) — medium confidence.
