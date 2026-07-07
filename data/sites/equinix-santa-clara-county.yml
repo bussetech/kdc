@@ -1,5 +1,6 @@
 id: equinix-santa-clara-county
 name: Equinix Silicon Valley IBX campus
+status: operational
 location:
   country: US
   state: CA
