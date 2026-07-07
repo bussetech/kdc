@@ -1,0 +1,48 @@
+id: qts-aurora
+name: QTS Aurora-Denver campus
+operator: qts
+status: under-construction
+location:
+  country: US
+  state: CO
+  county: Arapahoe
+  locality: Aurora
+  address: 1160 N. Gun Club Road
+metrics:
+  capacity_mw: 177
+  capacity_mw_basis: unspecified
+  buildings: 4
+  investment_usd: 1000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://coloradosun.com/2025/08/18/colorado-xcel-data-center-demand-spending/
+    title: "Colorado Xcel data center demand spending"
+    publisher: The Colorado Sun
+    date: "2025-08-18"
+    note: "Single source for all attributes on this site."
+signals:
+  - sig-20260706-qts-aurora-acres
+  - sig-20260706-qts-aurora-buildings
+  - sig-20260706-qts-aurora-investment
+  - sig-20260706-qts-aurora-mw
+  - sig-20260706-qts-aurora-operator
+  - sig-20260706-qts-aurora-status
+notes: >
+  All attributes trace to a single source (The Colorado Sun, 2025-08-18), so
+  aggregate confidence is medium despite internal consistency; no independent
+  corroboration.
+
+  land_acres omitted as a plain metric: the source gives a range ("~65-67 acres")
+  rather than a single figure, and picking or averaging a value would invent
+  precision the source does not carry (KB-0002). Recorded here instead: land is
+  reported as approximately 65-67 acres.
+
+  investment_usd sourced as "$1 billion+"; recorded as 1000000000 as a stated
+  floor — actual figure may be higher.
+
+  capacity_mw sourced as 177 MW, described as "projected to become Colorado's
+  largest single electric load"; the source does not specify IT-load vs
+  utility-load basis, so capacity_mw_basis is unspecified (the "electric load"
+  framing hints at utility/grid load but is not definitive).
