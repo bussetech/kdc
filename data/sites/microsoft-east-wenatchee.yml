@@ -1,0 +1,33 @@
+id: microsoft-east-wenatchee
+name: Microsoft East Wenatchee Campus
+operator: microsoft
+status: operational
+location:
+  country: US
+  state: WA
+  county: Douglas
+  locality: East Wenatchee
+metrics:
+  land_acres: 170
+  buildings: 6
+notes: >-
+  Single-source (Microsoft blog) — confidence medium. Microsoft acquired a
+  170-acre plot in 2020. Plans for six facilities; the "6 buildings" figure is
+  planned, not confirmed built. First facility (EAT02) reported completed
+  December 2022 (month-level precision only, so operational_date field is left
+  blank rather than inventing a day; see KB-0002). Source describes the campus
+  as "operational/under development" — recorded as operational (first facility
+  done) with development ongoing.
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://local.microsoft.com/blog/understanding-microsoft-datacenters-in-central-washington/
+    title: Understanding Microsoft datacenters in central Washington
+    publisher: Microsoft
+    date: "2026-07-06"
+signals:
+  - sig-20260706-ms-east-wenatchee-acres
+  - sig-20260706-ms-east-wenatchee-buildings
+  - sig-20260706-ms-east-wenatchee-operational-date
+  - sig-20260706-ms-east-wenatchee-status

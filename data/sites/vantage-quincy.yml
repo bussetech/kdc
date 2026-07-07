@@ -1,0 +1,34 @@
+id: vantage-quincy
+name: Vantage Data Centers Quincy Campus
+operator: vantage
+status: operational
+location:
+  country: US
+  state: WA
+  county: Grant
+  locality: Quincy
+metrics:
+  capacity_mw: 89
+  land_acres: 68
+  building_sqft: 775000
+  buildings: 3
+  investment_usd: 1000000000
+notes: 'Single-source (Vantage press release) — confidence medium. Campus completed with three
+  data centers, 68 acres, 775,000 sq ft total, 89MW of IT capacity (hence capacity_mw_basis:
+  IT). Investment stated as "~$1 billion" (approximate) — recorded as 1000000000. Powered
+  by Grant County PUD hydro. Reported completed/operational.'
+first_seen: '2026-07-07'
+last_updated: '2026-07-07'
+confidence: medium
+sources:
+- url: https://vantage-dc.com/news/vantage-data-centers-completes-development-of-89mw-1billion-quincy-washington-campus/
+  title: Vantage Data Centers completes development of 89MW $1 billion Quincy Washington campus
+  publisher: Vantage Data Centers
+  date: '2026-07-06'
+signals:
+- sig-20260706-vantage-quincy-acres
+- sig-20260706-vantage-quincy-buildings
+- sig-20260706-vantage-quincy-capacity
+- sig-20260706-vantage-quincy-investment
+- sig-20260706-vantage-quincy-sqft
+- sig-20260706-vantage-quincy-status
