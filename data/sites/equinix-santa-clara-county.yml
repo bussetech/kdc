@@ -1,0 +1,33 @@
+id: equinix-santa-clara-county
+name: Equinix Silicon Valley IBX campus
+location:
+  country: US
+  state: CA
+  county: Santa Clara County
+metrics:
+  capacity_mw: 81
+  capacity_mw_basis: unspecified
+  building_sqft: 687701
+  buildings: 7
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://blog.equinix.com/blog/2019/09/19/inside-equinix-data-centers-a-view-of-the-top-5-north-american-metros/
+    title: "Inside Equinix Data Centers: A View of the Top 5 North American Metros"
+    publisher: Equinix
+    date: "2019-09-19"
+    note: "2019 figures — potentially stale"
+signals:
+  - sig-20260706-equinix-svalley-building-sqft
+  - sig-20260706-equinix-svalley-buildings
+  - sig-20260706-equinix-svalley-capacity
+notes: >-
+  Seven Silicon Valley IBX data centers, 687,701 sq ft of rentable
+  colocation, 81 MW sellable power — all 2019 figures from a single Equinix
+  blog source, so potentially stale (single-source → medium confidence).
+  capacity_mw records "sellable power"; basis left unspecified (not clearly
+  IT vs utility). Operator Equinix has no operators.yml entry and needs one;
+  operator field omitted rather than inventing an id. No status signal was
+  supplied, so status is left blank rather than inferred from the
+  "rentable/sellable" language.
