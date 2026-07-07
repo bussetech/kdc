@@ -1,0 +1,33 @@
+id: applied-digital-deuel
+name: Applied Digital Deuel County Campus
+status: cancelled
+location:
+  country: US
+  state: SD
+  county: Deuel County
+metrics:
+  capacity_mw: 430
+  investment_usd: 5000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://southdakotasearchlight.com/2026/01/30/north-dakota-town-serves-as-an-example-of-the-promise-and-perils-of-data-centers-for-south-dakota/
+    title: "North Dakota town serves as an example of the promise and perils of data centers for South Dakota"
+    publisher: South Dakota Searchlight
+    date: "2026-01-30"
+    note: "Single source for capacity, developer, investment, and withdrawal."
+signals:
+  - sig-20260706-deuel-capacity
+  - sig-20260706-deuel-developer
+  - sig-20260706-deuel-investment
+  - sig-20260706-deuel-status
+notes: >-
+  Cancelled: Applied Digital withdrew the proposal after the 2026 legislative
+  session rejected data-center sales-tax exemptions (per source). Developer is
+  Applied Digital — not in operators.yml; needs an operators.yml entry before
+  the developer field can be set. Site located near Toronto, Deuel County, SD;
+  "near Toronto" is not a firm locality, so locality omitted and only the
+  county recorded. capacity_mw (430) and investment_usd ($5B) are described as
+  "proposed"/"roughly" in the single source — approximate. All facts rest on a
+  single medium-confidence source.
