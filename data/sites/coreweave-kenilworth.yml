@@ -1,0 +1,37 @@
+id: coreweave-kenilworth
+name: CoreWeave Kenilworth data center
+status: under-construction
+location:
+  country: US
+  state: NJ
+  county: Union
+  locality: Kenilworth
+metrics:
+  capacity_mw: 250
+  building_sqft: 392600
+  investment_usd: 1800000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://re-nj.com/coreweave-begins-1-8-billion-data-center-project-in-kenilworth-landing-first-award-under-new-eda-tax-credit-program/
+    title: "CoreWeave begins $1.8 billion data center project in Kenilworth, landing first award under new EDA tax credit program"
+    publisher: RE-NJ
+    date: "2026-07-06"
+signals:
+  - sig-20260706-kenilworth-coreweave-capacity
+  - sig-20260706-kenilworth-coreweave-developer
+  - sig-20260706-kenilworth-coreweave-investment
+  - sig-20260706-kenilworth-coreweave-operational-date
+  - sig-20260706-kenilworth-coreweave-sqft
+  - sig-20260706-kenilworth-coreweave-status
+notes: >
+  Single good source (RE-NJ), self-consistent — medium confidence.
+  investment_usd recorded as 1800000000; source phrases it "nearly $1.8
+  billion" (approximate, not exact). capacity_mw 250 has no stated basis
+  (IT load vs utility) so capacity_mw_basis is omitted. operational_date
+  omitted: source says "operational early 2027", which cannot be
+  normalized to a valid full date without inventing precision — held in
+  notes per KB-0002. Company "CoreWeave" appears as developer/operator
+  but has no operators.yml entry — both operator and developer fields
+  omitted; CoreWeave needs an operators.yml entry (type ai/developer).
