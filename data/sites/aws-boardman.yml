@@ -1,0 +1,30 @@
+id: aws-boardman
+name: Amazon (AWS) Columbia River / Boardman
+operator: aws
+status: announced
+location:
+  country: US
+  state: OR
+  county: Morrow
+  locality: Boardman
+metrics:
+  land_acres: 1300
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.geekwire.com/2026/report-amazon-buys-1300-acres-near-columbia-river-that-could-become-a-giant-data-center/
+    title: "Report: Amazon buys 1,300 acres near Columbia River that could become a giant data center"
+    publisher: GeekWire
+    date: "2026"
+signals:
+  - sig-20260706-aws-boardman-buildings
+  - sig-20260706-aws-boardman-land-acres
+  - sig-20260706-aws-boardman-operator
+  - sig-20260706-aws-boardman-status
+notes: >
+  ~1,300 acres of undeveloped land acquired on the Oregon side of the
+  Columbia River near Boardman; reported as a potential campus of up to
+  20 data center buildings. "Up to 20" is an upper-bound projection, not
+  a confirmed count, so the buildings metric is left blank and kept in
+  notes. Status "announced / land acquired" mapped to announced.

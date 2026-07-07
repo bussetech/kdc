@@ -1,0 +1,26 @@
+id: edgeconnex-portland
+name: EdgeConneX Portland campus
+status: operational
+location:
+  country: US
+  state: OR
+  county: Multnomah
+  locality: Portland
+metrics:
+  capacity_mw: 30
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterfrontier.com/edge-computing/article/11428883/edgeconnex-expanding-its-portland-data-center-campus
+    title: "EdgeConneX expanding its Portland data center campus"
+    publisher: Data Center Frontier
+signals:
+  - sig-20260706-edgeconnex-portland-capacity
+  - sig-20260706-edgeconnex-portland-status
+notes: >
+  Source states "expanding to more than 30MW"; 30 is recorded as a
+  lower-bound floor (source-disclosed, not exact), with the POR03 phase
+  adding ~20MW. Operator "EdgeConneX" has no operators.yml entry —
+  operator field omitted; needs an entry. Status "operational +
+  expanding" mapped to operational.

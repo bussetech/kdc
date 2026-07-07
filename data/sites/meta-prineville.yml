@@ -1,0 +1,21 @@
+id: meta-prineville
+name: Meta Prineville campus
+operator: meta
+status: operational
+location:
+  country: US
+  state: OR
+  county: Crook
+  locality: Prineville
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://cascadebusnews.com/data-centers-central-oregon/
+    title: "Data Centers in Central Oregon"
+    publisher: Cascade Business News
+signals:
+  - sig-20260706-meta-prineville-operator
+  - sig-20260706-meta-prineville-status
+notes: >
+  Single-source (regional trade press) hence medium confidence.

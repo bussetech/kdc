@@ -1,0 +1,23 @@
+id: apple-prineville
+name: Apple Prineville campus
+status: operational
+location:
+  country: US
+  state: OR
+  county: Crook
+  locality: Prineville
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://cascadebusnews.com/data-centers-central-oregon/
+    title: "Data Centers in Central Oregon"
+    publisher: Cascade Business News
+signals:
+  - sig-20260706-apple-prineville-operator
+  - sig-20260706-apple-prineville-status
+notes: >
+  Operator is Apple per Cascade Business News, but Apple has no
+  operators.yml entry — operator field omitted; Apple needs an
+  operators.yml entry before it can be recorded. Single-source
+  (regional trade press) hence medium confidence.

@@ -1,5 +1,5 @@
 id: sig-20260706-sabey-umatilla-status
-site_id: null
+site_id: sabey-umatilla
 site_hint: "SDC Umatilla (Sabey Data Centers) — Umatilla, OR"
 attribute: status
 value: "operational + expanding"
