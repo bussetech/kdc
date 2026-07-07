@@ -1,0 +1,42 @@
+id: microsoft-new-albany
+name: Microsoft New Albany campus
+operator: microsoft
+status: under-construction
+location:
+  country: US
+  state: OH
+  county: Licking
+  locality: New Albany
+metrics:
+  building_sqft: 245000
+  land_acres: 200
+  investment_usd: 420000000
+operational_date: "2027"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://stopohiodatacenters.org/licking-county
+    title: "Licking County"
+    publisher: Stop Ohio Data Centers
+    date: "2026-07-06"
+    note: "single low-confidence advocacy source"
+signals:
+  - sig-20260706-microsoft-licking-building-sqft
+  - sig-20260706-microsoft-licking-investment-newalbany
+  - sig-20260706-microsoft-licking-investment-total
+  - sig-20260706-microsoft-licking-land-acres
+  - sig-20260706-microsoft-licking-operational-date
+  - sig-20260706-microsoft-licking-operator
+  - sig-20260706-microsoft-licking-status
+notes: >-
+  Record scoped to Microsoft's New Albany campus, which is the only Licking
+  County campus with per-site metrics in the source. investment_usd 420000000
+  is the New-Albany-specific figure; the same source also reports ~$1 billion
+  total across three Licking County campuses (New Albany / Heath / Hebron) —
+  the two figures are different scopes, not a conflict, and are not summed or
+  averaged. building_sqft 245000, land_acres 200, operational_date "late 2027".
+  Status "site preparation" mapped to under-construction. The Heath and Hebron
+  campuses are named by the source but carry no per-site data yet; they warrant
+  their own records once site-level facts arrive rather than being merged here.
+  All facts from a single low-confidence advocacy source.

@@ -1,5 +1,5 @@
 id: sig-20260706-lordstown-capacity
-site_id: null
+site_id: openai-lordstown
 site_hint: "Stargate Lordstown — Trumbull, OH"
 attribute: capacity_mw
 value: "under 0.3 GW projected"

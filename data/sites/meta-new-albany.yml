@@ -1,0 +1,43 @@
+id: meta-new-albany
+name: Meta Prometheus (New Albany campus)
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: OH
+  county: Licking
+  locality: New Albany
+metrics:
+  capacity_mw: 1000
+  capacity_mw_basis: unspecified
+  land_acres: 447
+operational_date: "2025-09"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.nbc4i.com/news/local-news/new-albany/meet-prometheus-worlds-highest-capacity-data-center-slated-to-open-in-ohio-in-2026/
+    title: "Meet Prometheus, world's highest-capacity data center slated to open in Ohio in 2026"
+    publisher: NBC4i (WCMH)
+    date: "2026-07-06"
+  - url: https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-construction-of-200mw-gas-power-plant-to-serve-meta-data-center-in-new-albany-ohio/
+    title: "Ohio regulators approve construction of 200MW gas power plant to serve Meta data center in New Albany, Ohio"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+    note: "200 MW on-site gas generation, not IT/data-center load"
+signals:
+  - sig-20260706-meta-prometheus-capacity
+  - sig-20260706-meta-prometheus-gas-plant
+  - sig-20260706-meta-prometheus-land-acres
+  - sig-20260706-meta-prometheus-operational-date
+  - sig-20260706-meta-prometheus-operator
+  - sig-20260706-meta-prometheus-status
+notes: >-
+  Meta's "Prometheus" AI supercluster at the New Albany campus. capacity_mw
+  1000 from NBC4i's "~1 GW" (approximate; basis unspecified). A separate DCD
+  signal reports a 200 MW on-site gas power plant approved to serve the site —
+  that is generation capacity, not IT load, so it is NOT resolved into
+  capacity_mw and is recorded here for context only. land_acres 447 from
+  "more than 447 acres" (a floor, not exact). operational_date reflects
+  "first cluster in service September 2025"; status is under construction /
+  partially operational with expansion continuing through 2026.

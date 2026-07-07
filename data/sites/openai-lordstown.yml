@@ -1,0 +1,32 @@
+id: openai-lordstown
+name: Stargate Lordstown
+operator: openai
+status: under-construction
+location:
+  country: US
+  state: OH
+  county: Trumbull
+  locality: Lordstown
+metrics:
+  capacity_mw: 300
+  capacity_mw_basis: unspecified
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand
+    publisher: Epoch AI
+    date: "2026-07-06"
+    note: "single low-confidence source for capacity, developer, and status"
+signals:
+  - sig-20260706-lordstown-capacity
+  - sig-20260706-lordstown-developer
+  - sig-20260706-lordstown-status
+notes: >-
+  Operator resolved to openai via the canonical "Stargate" alias; site_hint
+  names "Stargate Lordstown". Capacity source states "under 0.3 GW projected"
+  — recorded 300 MW as an upper bound (0.3 GW), not a firm figure; basis
+  unspecified. Reported developer is a "SoftBank/Foxconn JV"; neither SoftBank
+  nor Foxconn has an operators.yml entry, so developer is omitted and both need
+  entries. Status "under construction (land clearing)". All facts from a single
+  low-confidence Epoch AI source.
