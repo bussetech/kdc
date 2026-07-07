@@ -1,0 +1,29 @@
+id: brandy-station-culpeper
+name: Brandy Station Data Center
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: Culpeper
+  locality: Brandy Station
+metrics:
+  investment_usd: 12000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenterwatch.org/report
+    title: Data Center Watch report
+    publisher: Data Center Watch
+    date: "2024-06"
+    note: Investment figure and denial; single low-confidence source.
+signals:
+  - sig-20260706-brandy-station-investment
+  - sig-20260706-brandy-station-status
+notes: >-
+  Cancelled: reported unanimously denied by the Culpeper County Planning
+  Commission in June 2024 over rural preservation concerns. Operator "Culpeper
+  Acquisitions" has no operators.yml entry — needs one before an operator id can
+  be set. Support is a single low-confidence source (Data Center Watch); the
+  $12B figure is thus low-confidence. Place resolved to county-level (Culpeper);
+  Brandy Station recorded as locality from the project name.

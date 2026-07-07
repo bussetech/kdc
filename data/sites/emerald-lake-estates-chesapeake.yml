@@ -1,0 +1,30 @@
+id: emerald-lake-estates-chesapeake
+name: Emerald Lake Estates Data Center
+status: cancelled
+location:
+  country: US
+  state: VA
+  locality: Chesapeake
+metrics:
+  land_acres: 22.6
+  building_sqft: 350000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/proposed-data-center-blocked-by-planning-authority-in-chesapeake-virginia/
+    title: Proposed data center blocked by planning authority in Chesapeake, Virginia
+    publisher: DataCenterDynamics
+    date: "2025-05-15"
+    note: Acreage, building size, and 6-1 denial vote.
+signals:
+  - sig-20260706-chesapeake-emerald-lake-acres
+  - sig-20260706-chesapeake-emerald-lake-sqft
+  - sig-20260706-chesapeake-emerald-lake-status
+notes: >-
+  Cancelled: Chesapeake Planning Commission voted 6-1 against the data center on
+  2025-05-15 (recommended for denial / blocked at commission). No operator or
+  developer named in signals — none set. Chesapeake is an independent city, so
+  locality is used and no county is recorded. Single good source
+  (DataCenterDynamics) → medium confidence. Acreage reported as approximate
+  (~22.6) in source.
