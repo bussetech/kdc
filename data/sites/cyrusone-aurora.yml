@@ -1,0 +1,38 @@
+id: cyrusone-aurora
+name: CyrusOne Aurora Campus (CHI3)
+status: under-construction
+location:
+  country: US
+  state: IL
+  county: DuPage
+  locality: Aurora
+metrics:
+  capacity_mw: 40
+  building_sqft: 446000
+  buildings: 2
+  investment_usd: 350000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.cyrusone.com/resources/press-releases/cyrusone-breaks-ground-on-new-data-center-in-aurora
+    title: CyrusOne breaks ground on new data center in Aurora
+    publisher: CyrusOne
+    date: "2026-07-06"
+    note: operator press release; primary source for all attributes
+signals:
+  - sig-20260706-cyrusone-aurora-buildings
+  - sig-20260706-cyrusone-aurora-capacity
+  - sig-20260706-cyrusone-aurora-investment
+  - sig-20260706-cyrusone-aurora-opdate
+  - sig-20260706-cyrusone-aurora-operator
+  - sig-20260706-cyrusone-aurora-sqft
+  - sig-20260706-cyrusone-aurora-status
+notes: >
+  Two-building campus, 446,000 sq ft total; 40 MW is stated as initial IT
+  capacity, so treated as IT-load basis. Groundbreaking Sept 13, 2024;
+  operator states opening "early 2026" — too imprecise to normalize to a
+  date, recorded here rather than in operational_date. Operator is CyrusOne,
+  which has no operators.yml entry — operator field omitted; needs an
+  operators.yml entry before it can be set. Single primary source
+  (CyrusOne press release), hence medium aggregate confidence.
