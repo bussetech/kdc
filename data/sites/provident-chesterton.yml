@@ -1,0 +1,31 @@
+id: provident-chesterton
+name: Provident Chesterton data center
+status: cancelled
+location:
+  country: US
+  state: IN
+  county: Porter
+  locality: Chesterton
+metrics:
+  investment_usd: 1300000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenterwatch.org/report
+    title: "Data Center Watch report"
+    publisher: Data Center Watch
+    date: "2024-06"
+    note: "Reports $1.3B investment and June 2024 cancellation after community resistance."
+signals:
+  - sig-20260706-provident-chesterton-investment
+  - sig-20260706-provident-chesterton-status
+notes: >
+  Proposed data center cancelled in June 2024 after community resistance
+  over air quality, water, and property values — recorded as a cancelled
+  (dead-proposal) record per the negatives-are-data doctrine. Support is
+  thin: a single low-confidence source (Data Center Watch), hence aggregate
+  confidence low. The project's apparent operator/backer "Provident" has no
+  entry in operators.yml, so the operator field is omitted; "Provident"
+  needs an operators.yml entry before it can be linked. No capacity, land,
+  or announced/operational dates were sourced, so those fields are blank.
