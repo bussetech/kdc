@@ -1,0 +1,30 @@
+id: microsoft-quincy
+name: Microsoft Columbia Data Center / Quincy Campus
+operator: microsoft
+status: operational
+location:
+  country: US
+  state: WA
+  county: Grant
+  locality: Quincy
+metrics:
+  buildings: 27
+notes: >-
+  Single-source (Microsoft blog) — confidence medium. "At least 27 data center
+  buildings in/around Quincy as of Feb 2026" recorded as buildings: 27 (a
+  floor). Columbia Data Center opened April 2007; a Microsoft Circular Center
+  opened February 2023 — month-level precision only, so operational_date field
+  left blank rather than inventing a day (KB-0002). Status reported operational
+  and expanding.
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://local.microsoft.com/blog/understanding-microsoft-datacenters-in-central-washington/
+    title: Understanding Microsoft datacenters in central Washington
+    publisher: Microsoft
+    date: "2026-07-06"
+signals:
+  - sig-20260706-ms-quincy-buildings
+  - sig-20260706-ms-quincy-operational-date
+  - sig-20260706-ms-quincy-status
