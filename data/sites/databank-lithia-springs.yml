@@ -8,7 +8,6 @@ location:
   locality: Lithia Springs
 metrics:
   capacity_mw: 120
-  capacity_mw_basis: critical IT load
   land_acres: 95
 first_seen: "2026-07-07"
 last_updated: "2026-07-07"
