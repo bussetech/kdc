@@ -1,0 +1,35 @@
+id: compass-meridian
+name: "Compass Datacenters Meridian Campus"
+status: under-construction
+location:
+  country: US
+  state: MS
+  county: Lauderdale County
+  locality: Meridian
+metrics:
+  capacity_mw: 500
+  capacity_mw_basis: unspecified
+  building_sqft: 250000
+  buildings: 8
+  investment_usd: 10000000000
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/compass-datacenters-breaks-ground-on-10bn-campus-in-meridian-mississippi/
+    title: "Compass Datacenters breaks ground on $10bn campus in Meridian, Mississippi"
+    publisher: DataCenter Dynamics
+signals:
+  - sig-20260706-compass-meridian-buildings
+  - sig-20260706-compass-meridian-capacity
+  - sig-20260706-compass-meridian-investment
+  - sig-20260706-compass-meridian-sqft
+  - sig-20260706-compass-meridian-status
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+notes: >-
+  Operator Compass Datacenters has no operators.yml entry — operator field
+  omitted; Compass Datacenters needs an operators.yml entry. id built from a
+  slug of the distinctive proper name ("compass") plus the most-specific place
+  (locality Meridian). capacity_mw 500 is the ~500 MW total (~40 MW per
+  building, supplied via Mississippi Power); basis unspecified. building_sqft
+  250000 is per-building. Status "broke ground (2025)" resolved to
+  under-construction. Single source (DataCenter Dynamics), so confidence medium.

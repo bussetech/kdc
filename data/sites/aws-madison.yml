@@ -1,0 +1,34 @@
+id: aws-madison
+name: "Amazon Web Services Madison County Data Center Complex"
+operator: aws
+status: under-construction
+location:
+  country: US
+  state: MS
+  county: Madison County
+  locality: Madison
+metrics:
+  investment_usd: 10000000000
+confidence: medium
+sources:
+  - url: https://mississippi.org/news/amazon-web-services-to-invest-record-shattering-10-billion/
+    title: "Amazon Web Services to invest record-shattering $10 billion"
+    publisher: Mississippi Development Authority
+  - url: https://governorreeves.ms.gov/amazon-continues-mississippi-expansion-announcing-plans-to-invest-a-total-of-25-billion-across-the-magnolia-state/
+    title: "Amazon continues Mississippi expansion, announcing plans to invest a total of $25 billion across the Magnolia State"
+    publisher: Office of Governor Tate Reeves
+signals:
+  - sig-20260706-aws-madison-ms-investment-10b
+  - sig-20260706-aws-madison-ms-investment-25b
+  - sig-20260706-aws-madison-ms-status
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+notes: >-
+  Investment resolved to the $10B initial Madison County figure (MDA). The
+  Governor's $25B is total statewide AWS investment (spanning other MS sites
+  such as the Warren County campus), not this site alone — kept as a distinct
+  claim, not merged. MDA source describes the investment as spanning two
+  Madison County industrial parks; treated here as one program/site pending
+  finer-grained locality data. Status raw value "announced 2024 / build-out"
+  resolved to under-construction; announced year 2024 given without a full
+  date, so announced_date omitted.
