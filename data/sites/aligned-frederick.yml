@@ -1,0 +1,35 @@
+id: aligned-frederick
+name: Aligned Data Centers campus at Quantum Frederick
+status: under-construction
+location:
+  country: US
+  state: MD
+  locality: Frederick
+metrics:
+  capacity_mw: 264
+  capacity_mw_basis: unspecified
+  land_acres: 74.89
+  building_sqft: 3300000
+  buildings: 4
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/aligned-looks-to-develop-three-more-data-centers-at-quantum-frederick-park-in-maryland/
+    title: "Aligned looks to develop three more data centers at Quantum Frederick park in Maryland"
+    publisher: DataCenter Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-aligned-quantum-frederick-capacity
+  - sig-20260706-aligned-quantum-frederick-land
+  - sig-20260706-aligned-quantum-frederick-sqft
+  - sig-20260706-aligned-quantum-frederick-status
+notes: >
+  Aligned's own 74.89-acre campus sited within the larger Quantum Frederick /
+  Quantum Loophole 2,100-acre park (tracked separately as
+  quantum-loophole-frederick). Capacity: Building 1 (IAD04) is 72 MW; the
+  planned four-building campus (3.3M sq ft) could reach 264 MW — the 264 MW
+  figure is the full four-building buildout. Building 1 broke ground February
+  2025 and is under construction; three further buildings proposed. Operator
+  "Aligned Data Centers" has no operators.yml entry and needs one; operator
+  field omitted rather than invent an id. Single-source (DataCenter Dynamics).

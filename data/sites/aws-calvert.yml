@@ -1,0 +1,33 @@
+id: aws-calvert
+name: Amazon (AWS) Calvert Cliffs data center campus
+operator: aws
+status: announced
+location:
+  country: US
+  state: MD
+  county: Calvert
+metrics:
+  capacity_mw: 500
+  land_acres: 2000
+  buildings: 7
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: high
+sources:
+  - url: https://www.thebanner.com/economy/amazon-data-center-calvert-cliffs-nuclear-IJRONAZSDRDOXP4G6Q7XKKFOI4/
+    title: "Amazon data center at Calvert Cliffs nuclear site"
+    publisher: The Baltimore Banner
+    date: "2026-07-06"
+signals:
+  - sig-20260706-aws-calvert-cliffs-buildings
+  - sig-20260706-aws-calvert-cliffs-capacity
+  - sig-20260706-aws-calvert-cliffs-land
+  - sig-20260706-aws-calvert-cliffs-status
+notes: >
+  Status "announced" reflects evaluation stage: concept plan November 2024,
+  community open house March 26, 2026 — not yet permitted or under
+  construction. Status signal corroborated by DataCenter Dynamics per scout
+  note. 2,000 acres on Constellation's Calvert Cliffs nuclear site. Plan:
+  7 buildings of ~225,000 sq ft each across 3 campuses; total building_sqft
+  left blank rather than editorially multiplied. Locality not stated in
+  signals (site_hint gives county Calvert only), so id/place uses county.
