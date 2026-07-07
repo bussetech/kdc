@@ -1,0 +1,30 @@
+id: iron-mountain-butler-county
+name: Iron Mountain WPA-1 Underground Campus
+operator: iron-mountain
+status: operational
+location:
+  country: US
+  state: PA
+  county: Butler County
+metrics:
+  capacity_mw: 15.5
+  land_acres: 315
+  building_sqft: 330000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.ironmountain.com/data-centers/locations/pennsylvania-data-center
+    publisher: Iron Mountain
+    note: "Operator facility page; no publication date given."
+signals:
+  - sig-20260706-iron-mountain-wpa1-building-sqft
+  - sig-20260706-iron-mountain-wpa1-capacity
+  - sig-20260706-iron-mountain-wpa1-land
+  - sig-20260706-iron-mountain-wpa1-status
+notes: >
+  Underground campus roughly 220 feet below grade in a former limestone
+  mine; 315-acre site. building_sqft ~330,000 sq ft; capacity 15.5 MW (basis
+  unspecified). Only Butler County given as location — no locality resolved,
+  so id uses the county place per precedence. All facts from a single primary
+  (operator) source, hence aggregate confidence medium.

@@ -1,0 +1,40 @@
+id: aws-falls-township
+name: Amazon (AWS) Falls Township Data Center Campus
+operator: aws
+status: announced
+location:
+  country: US
+  state: PA
+  county: Bucks County
+  locality: Falls Township
+announced_date: "2025-06"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.constructiondive.com/news/amazon-pennsylvania-data-centers-invest/750284/
+    title: "Amazon Pennsylvania data centers investment"
+    publisher: Construction Dive
+    date: "2025-06"
+    note: "Names the two campuses (Falls Township, Bucks Co. and Salem Township, Luzerne Co.)."
+  - url: https://www.datacenterdynamics.com/en/news/amazon-to-invest-20bn-in-data-centers-in-pennsylvania/
+    title: "Amazon to invest $20bn in data centers in Pennsylvania"
+    publisher: DatacenterDynamics
+    date: "2025-06"
+    note: "Program-wide figures ($20bn, 15 buildings)."
+signals:
+  - sig-20260706-aws-pa-location
+  - sig-20260706-aws-pa-buildings
+  - sig-20260706-aws-pa-investment
+notes: >
+  One of two distinct AWS campuses announced under a single June 2025
+  Pennsylvania program; the other is the Salem Township campus in Luzerne
+  County (recorded separately as aws-salem-township). Program-wide figures —
+  "at least $20 billion" investment (largest private-sector investment in
+  state history) and "15 data center buildings planned over the next decade"
+  (sig-20260706-aws-pa-investment, sig-20260706-aws-pa-buildings) — are
+  reported jointly across both campuses and are NOT split per site in any
+  source, so they are held here as program context rather than assigned to
+  this site's metrics (blank beats invented). The location signal
+  (sig-20260706-aws-pa-location) names both campuses and is therefore listed
+  on both site records as the shared source of each locality.
