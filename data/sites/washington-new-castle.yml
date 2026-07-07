@@ -1,0 +1,61 @@
+id: washington-new-castle
+name: Project Washington
+status: announced
+location:
+  country: US
+  state: DE
+  locality: New Castle
+metrics:
+  capacity_mw: 1200
+  capacity_mw_basis: utility
+  land_acres: 580
+  building_sqft: 6100000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://technical.ly/civics/delaware-data-center-project-washington-location/
+    title: "Delaware data center Project Washington location"
+    publisher: Technical.ly
+    date: "2026-07-06"
+    note: "Single source for all Project Washington attributes."
+signals:
+  - sig-20260706-project-washington-acres
+  - sig-20260706-project-washington-buildings
+  - sig-20260706-project-washington-capacity
+  - sig-20260706-project-washington-developer
+  - sig-20260706-project-washington-sqft
+  - sig-20260706-project-washington-status
+notes: |
+  All values from a single source (Technical.ly, 2026-07-06), hence
+  medium aggregate confidence.
+
+  Developer reported as "Starwood Digital Holdings" — no matching entry
+  in operators.yml, so the developer field is omitted. Needs an
+  operators.yml entry ("Starwood Digital Holdings") before it can be
+  recorded as an id.
+
+  capacity_mw: source says "up to 1.2 GW" (recorded as 1200 MW, treated
+  as an upper bound) delivered via Delmarva Power's Red Lion substation
+  — basis is utility supply, not stated IT load.
+
+  buildings: source says "~11-12 buildings"; a range, not a single plain
+  number, so the numeric buildings field is omitted and the range is
+  recorded here instead (blank beats invented).
+
+  building_sqft: source describes "~6.1 million sq ft colocation across
+  two campuses." Recorded as one project-site record because signals do
+  not separate the two campuses by locality/parcel; if distinct campus
+  locations later emerge, this may split into two records per the
+  one-record-per-physical-site rule.
+
+  status: source describes the project as proposed and facing community
+  opposition — recorded as announced. Timeline (not yet firm dates):
+  construction could begin Q3 2026, operations Q2 2028; kept in notes
+  rather than as announced_date/operational_date since only quarters,
+  not dates, are given.
+
+  location: site_hint gives "New Castle, DE" — recorded as locality
+  New Castle; note this may instead refer to New Castle County (the two
+  are distinguishable in Delaware). Refine if a more specific locality is
+  sourced.
