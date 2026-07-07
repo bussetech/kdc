@@ -13,9 +13,9 @@ full_width: true # the map fills the width — no signup rail here
 {% assign total = records | size %}
 
 Every tracked project-site, plotted from the same records as the
-[registry](/sites/). Markers are **status-coloured** (colour is wayfinding);
+[registry](/sites/). Markers are status-coloured (colour is wayfinding);
 cancelled proposals stay on the map as a hollow ring — a dead project is a
-record, not an omission. Coordinates are approximate — geocoded from each
+record, not an omission. Coordinates are approximate, geocoded from each
 record's sourced location; see [coverage](/coverage/) for
 precision and completeness.
 

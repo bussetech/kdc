@@ -1,0 +1,9 @@
+{
+  "exclude": ["sites/**", "docs/**", "gnomes/**", "schema/**"],
+  "strict": ["case-study.md", "index.md", "map.md", "coverage.md",
+             "data/index.md", "README.md"],
+  "ack": [
+    {"path": "_posts/2026-07-06-case-study.md", "rule": "receipted",
+     "reason": "dated news post published before the style doctrine; posted content is history and is fixed forward, never edited (docs/gtm/style.md, STYLE-01). New posts get no waiver."}
+  ]
+}

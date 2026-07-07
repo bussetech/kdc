@@ -13,10 +13,10 @@ A [Bussetech Software Studio](https://bussetech.com) project: a static site
 
 | path | what |
 | --- | --- |
-| `data/` | the datasets — JSON/YAML/CSV/Markdown, versioned in git |
+| `data/` | the datasets: JSON/YAML/CSV/Markdown, versioned in git |
 | `schema/` | JSON Schemas; CI validates `data/<name>.*` against `schema/<name>.schema.json` |
-| `_posts/` | site posts — each one becomes a `/feed.json` item the studio portal aggregates |
-| `gnomes/` | project gnome directories (stub — see `gnomes/README.md`) |
+| `_posts/` | site posts; each one becomes a `/feed.json` item the studio portal aggregates |
+| `gnomes/` | project gnome directories (stub; see `gnomes/README.md`) |
 | `.github/workflows/` | thin callers into the studio's shared CI + the Pages deploy |
 
 ## Build locally
