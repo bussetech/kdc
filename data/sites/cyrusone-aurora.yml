@@ -8,12 +8,9 @@ location:
   locality: Aurora
 metrics:
   capacity_mw: 40
-  capacity_mw_basis: IT load
   building_sqft: 446000
   buildings: 2
   investment_usd: 350000000
-announced_date:
-operational_date:
 first_seen: "2026-07-07"
 last_updated: "2026-07-07"
 confidence: medium
