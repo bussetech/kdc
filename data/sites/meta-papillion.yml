@@ -1,0 +1,28 @@
+id: meta-papillion
+name: Meta Sarpy County / Papillion campus
+operator: meta
+status: operational
+location:
+  country: US
+  state: NE
+  county: Sarpy
+  locality: Papillion
+metrics:
+  building_sqft: 4000000
+  buildings: 9
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://flatwaterfreepress.org/facebook-google-data-centers-among-newest-additions-to-urbanizing-nebraska-farmland/
+    title: "Facebook, Google data centers among newest additions to urbanizing Nebraska farmland"
+    publisher: Flatwater Free Press
+    date: "2026-07-06"
+signals:
+  - sig-20260706-meta-papillion-buildings
+  - sig-20260706-meta-papillion-sqft
+  - sig-20260706-meta-papillion-status
+notes: >
+  Single source (Flatwater Free Press), so confidence medium. Nine-building
+  campus, ~4.0 million sq ft, operational. locality Papillion / county Sarpy
+  per site hint.
