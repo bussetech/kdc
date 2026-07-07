@@ -1,0 +1,38 @@
+id: leo-pulaski
+name: "AVAIO Project Leo"
+status: announced
+developer: null
+location:
+  country: US
+  state: AR
+  county: Pulaski
+metrics:
+  land_acres: 760
+  investment_usd: 6000000000
+announced_date: null
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://talkbusiness.net/2026/02/hyperscale-data-centers-come-to-arkansas/
+    title: "Hyperscale data centers come to Arkansas"
+    publisher: "Talk Business & Politics"
+    date: "2026-02"
+    note: "Single source for all Project Leo attributes."
+signals:
+  - sig-20260706-project-leo-acres
+  - sig-20260706-project-leo-developer
+  - sig-20260706-project-leo-investment
+  - sig-20260706-project-leo-status
+notes: >
+  AVAIO Project Leo near Little Rock, Pulaski County, AR. Site located
+  "near I-530 south of Little Rock" per source — not clearly inside the
+  Little Rock city limits, so resolved to county precedence (Pulaski)
+  rather than asserting Little Rock as locality. Developer reported as
+  "AVAIO Digital Partners" (sig-...-developer); no operators.yml id
+  exists — developer AVAIO Digital Partners needs an operators.yml entry,
+  so the developer field is omitted rather than invented. investment_usd
+  recorded as $6B initial; source states "up to $21 billion at full
+  buildout" — full-buildout figure kept here in notes, not in the metric,
+  since it is a phased/conditional maximum. Single-source (medium
+  confidence).
