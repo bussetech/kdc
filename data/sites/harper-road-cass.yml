@@ -1,0 +1,29 @@
+id: harper-road-cass
+name: Diode Ventures Harper Road Data Center
+status: cancelled
+location:
+  country: US
+  state: MO
+  county: Cass
+metrics:
+  investment_usd: 1500000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenterwatch.org/report
+    title: Data Center Watch report
+    publisher: Data Center Watch
+    date: "2024-10"
+signals:
+  - sig-20260706-diode-harper-road-investment
+  - sig-20260706-diode-harper-road-status
+notes: >
+  Proposed by Diode Ventures on Harper Road, Cass County, MO ($1.5B).
+  Recorded as cancelled: effectively blocked in October 2024 when the
+  local board amended zoning to prohibit data centers (path: denied via
+  zoning change). Operator/developer Diode Ventures has no operators.yml
+  entry, so the operator field is omitted — Diode Ventures needs an
+  operators.yml entry. "Harper Road" is a road, not an administrative
+  place, so the record is located at county (Cass) level. Single low-
+  confidence source (Data Center Watch) — low confidence.

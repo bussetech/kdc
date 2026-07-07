@@ -1,0 +1,30 @@
+id: google-new-florence
+name: Google New Florence Data Center
+operator: google
+status: announced
+location:
+  country: US
+  state: MO
+  county: Montgomery
+  locality: New Florence
+  address: I-70 and Missouri 19
+metrics:
+  investment_usd: 15000000000
+announced_date: "2026-05-20"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.komu.com/news/midmissourinews/missouri-governor-and-google-announce-15-billion-data-center-in-montgomery-county/article_a4c5a7f4-de3f-4510-8060-f41fad7433fd.html
+    publisher: KOMU
+    date: "2026-07-06"
+signals:
+  - sig-20260706-google-newflorence-announced
+  - sig-20260706-google-newflorence-investment
+  - sig-20260706-google-newflorence-location
+  - sig-20260706-google-newflorence-status
+notes: >
+  Google $15B data center announced 2026-05-20 by the Missouri governor,
+  sited at I-70 and Missouri 19 in New Florence, Montgomery County, MO.
+  Single source (KOMU) — medium confidence. Distinct from the nearby
+  Amazon "Project Green" site (different operator and investment).
