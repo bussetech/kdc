@@ -1,0 +1,34 @@
+id: meta-eagle-mountain
+name: Meta Eagle Mountain Data Center
+operator: meta
+status: operational
+location:
+  country: US
+  state: UT
+  county: Utah County
+  locality: Eagle Mountain
+metrics:
+  land_acres: 193
+  building_sqft: 4500000
+  investment_usd: 1500000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://utahnewsdispatch.com/2026/04/17/eagle-mountain-193-acre-data-center-campus-is-set-to-be-done-this-year-with-big-water-promises/
+    publisher: Utah News Dispatch
+    date: "2026-04-17"
+    note: "193-acre campus set for completion in 2026, with water-conservation commitments"
+  - url: https://grist.org/technology/utah-data-center-water-supply-meta-novva/
+    publisher: Grist
+    note: "operational and expanding; 4.5M sq ft once complete; expansion raises total investment to over $1.5B"
+signals:
+  - sig-20260706-meta-eagle-mountain-acres
+  - sig-20260706-meta-eagle-mountain-investment
+  - sig-20260706-meta-eagle-mountain-sqft
+  - sig-20260706-meta-eagle-mountain-status
+notes: >-
+  Multi-phase campus: reported operational and expanding, with the 193-acre
+  campus set for completion in 2026 (4.5M sq ft at full build). investment_usd
+  1500000000 recorded as "over $1.5 billion" total after expansion. Building
+  sqft and investment from Grist; land acreage from Utah News Dispatch.

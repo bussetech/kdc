@@ -1,0 +1,26 @@
+id: aligned-salt-lake-city
+name: Aligned Salt Lake City campus
+status: announced
+location:
+  country: US
+  state: UT
+  locality: Salt Lake City
+metrics:
+  capacity_mw: 100
+  capacity_mw_basis: unspecified
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterfrontier.com/site-selection/article/11430278/aligned-sees-cloudy-opportunity-in-salt-lake-city
+    title: "Aligned sees cloudy opportunity in Salt Lake City"
+    publisher: Data Center Frontier
+    note: "described as Aligned's third Salt Lake City data center, a build-to-suit adding 100MW"
+signals:
+  - sig-20260706-aligned-slc-capacity
+  - sig-20260706-aligned-slc-status
+notes: >-
+  Operator "Aligned" has no entry in operators.yml and needs one before the
+  operator field can be populated. Single source (Data Center Frontier);
+  reported as Aligned's third Salt Lake City facility. capacity_mw of 100 is
+  the added build-to-suit load; no basis (IT vs utility) stated.

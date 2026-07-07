@@ -1,0 +1,41 @@
+id: novva-west-jordan
+name: Novva Data Centers West Jordan Campus
+status: operational
+location:
+  country: US
+  state: UT
+  county: Salt Lake County
+  locality: West Jordan
+metrics:
+  capacity_mw: 180
+  capacity_mw_basis: unspecified
+  land_acres: 100
+  building_sqft: 1500000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: high
+sources:
+  - url: https://grist.org/technology/utah-data-center-water-supply-meta-novva/
+    publisher: Grist
+    note: "wholesale campus spanning ~1.5M sq ft; developed/operating; closed-loop cooling filled once (~55,000 gallons)"
+  - url: https://www.datacenterdynamics.com/en/news/novva-secures-2bn-loan-to-expand-west-jordan-campus-in-utah/
+    title: "Novva secures $2bn loan to expand West Jordan campus in Utah"
+    publisher: Data Center Dynamics
+    note: "100-acre campus, ~1.5M sq ft across four phases, 180MW+ with 200MW substation, Phase 1 operational 2023 and further phases under construction"
+signals:
+  - sig-20260706-novva-west-jordan-sqft
+  - sig-20260706-novva-west-jordan-status
+  - sig-20260706-novva-westjordan-capacity
+  - sig-20260706-novva-westjordan-investment
+  - sig-20260706-novva-westjordan-land
+  - sig-20260706-novva-westjordan-sqft
+  - sig-20260706-novva-westjordan-status
+notes: >-
+  Operator "Novva Data Centers" has no entry in operators.yml and needs one
+  before the operator field can be populated. Multi-phase campus: Phase 1
+  operational since 2023 with additional phases under construction — recorded
+  as operational with ongoing build-out. Both Grist and Data Center Dynamics
+  independently give ~1.5M sq ft. capacity_mw 180 (reported "180MW+", with a
+  200MW substation); no basis stated. investment_usd intentionally omitted:
+  the reported $2B is a loan to fund build-out, not a stated total project
+  cost.
