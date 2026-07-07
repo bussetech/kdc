@@ -1,0 +1,45 @@
+id: google-west-memphis
+name: "Google Project Pyramid"
+operator: google
+status: under-construction
+location:
+  country: US
+  state: AR
+  county: Crittenden
+  locality: West Memphis
+  address: "Bollinger Road"
+metrics:
+  land_acres: 1178
+  buildings: 5
+  investment_usd: 4000000000
+announced_date: "2025-10-02"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: high
+sources:
+  - url: https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment
+    title: "Google locating new data center in West Memphis, Arkansas with multi-billion-dollar investment"
+    publisher: "Arkansas Economic Development Commission"
+    date: "2025-10-02"
+    note: "Government/primary source; acreage, buildings, investment, status."
+  - url: https://arkansasadvocate.com/2025/10/02/google-state-and-local-officials-mark-start-of-4-billion-ai-data-center-in-west-memphis/
+    title: "Google, state and local officials mark start of $4 billion AI data center in West Memphis"
+    publisher: "Arkansas Advocate"
+    date: "2025-10-02"
+    note: "Independent confirmation of the $4 billion investment figure."
+signals:
+  - sig-20260706-project-pyramid-acres
+  - sig-20260706-project-pyramid-buildings
+  - sig-20260706-project-pyramid-investment-advocate
+  - sig-20260706-project-pyramid-investment
+  - sig-20260706-project-pyramid-status
+notes: >
+  Google Project Pyramid, West Memphis, Crittenden County, AR. Operator
+  Google mapped from operators.yml. land_acres recorded as 1,178 (the
+  specific "~1,178-acre property on Bollinger Road"); source also gives
+  "1,000+ acres" — consistent, the specific figure is used. buildings = 5
+  (data center, offices, substation). investment_usd = $4B, agreed by two
+  independent sources (AEDC government source and Arkansas Advocate) —
+  high confidence. Status: source reports groundbreaking held Oct 2, 2025,
+  resolved to under-construction; announced_date set to that groundbreaking
+  date.
