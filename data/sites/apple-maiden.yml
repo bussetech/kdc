@@ -1,0 +1,30 @@
+id: apple-maiden
+name: Apple Maiden iDataCenter
+status: operational
+location:
+  country: US
+  state: NC
+  county: Catawba
+  locality: Maiden
+metrics:
+  building_sqft: 500000
+announced_date: "2009"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterfrontier.com/cloud/article/21437740/microsoft-plans-1-billion-campus-in-north-carolina-cloud-cluster
+    title: Microsoft Plans $1 Billion Campus in North Carolina Cloud Cluster
+    publisher: Data Center Frontier
+    note: Secondary source; mentions Apple's Maiden facility in the context of NC's cloud cluster.
+signals:
+  - sig-20260706-apple-maiden-announced
+  - sig-20260706-apple-maiden-sqft
+  - sig-20260706-apple-maiden-status
+notes: >-
+  Operator is Apple, which has no data/operators.yml entry — operator Apple
+  needs an operators.yml entry before the field can be set; omitted for now.
+  building_sqft resolved from "500,000+ sq ft including a $175 million,
+  237,600-sq-ft addition" — recorded as 500,000+ base; the $175M / 237,600-sq-ft
+  addition is a further phase not yet split into its own metric.
+  Single reputable secondary source (Data Center Frontier).

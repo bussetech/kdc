@@ -1,0 +1,31 @@
+id: microsoft-catawba
+name: Microsoft Catawba County campuses (Conover / Hickory / Maiden)
+operator: microsoft
+status: under-construction
+location:
+  country: US
+  state: NC
+  county: Catawba
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenterfrontier.com/cloud/article/21437740/microsoft-plans-1-billion-campus-in-north-carolina-cloud-cluster
+    title: Microsoft Plans $1 Billion Campus in North Carolina Cloud Cluster
+    publisher: Data Center Frontier
+    note: Secondary source; reports Microsoft's Catawba County investment across three sites.
+signals:
+  - sig-20260706-microsoft-catawba-investment
+  - sig-20260706-microsoft-catawba-status
+notes: >-
+  This record aggregates three distinct Microsoft campuses (Conover, Hickory,
+  Maiden) that the signals do not separate; per the one-record-per-site rule
+  these should be split into individual records once per-site signals arrive.
+  locality omitted because three localities apply and precedence forbids
+  combining them — resolved to county (Catawba).
+  investment_usd left blank: "$1 billion+" is an aggregate across the three
+  Catawba County sites, not a single-site figure.
+  status "announced/under construction" is a mix across the three sites;
+  under-construction chosen as the furthest-along stated stage — some sites may
+  still be at the announced stage. Confidence low due to the lumped multi-site,
+  mixed-status data from a single secondary source.
