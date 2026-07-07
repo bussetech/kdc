@@ -1,5 +1,5 @@
 id: sig-20260706-compass-meridian-capacity
-site_id: null
+site_id: compass-meridian
 site_hint: "Compass Datacenters Meridian Campus — Lauderdale, MS"
 attribute: capacity_mw
 value: "40 MW per building (~500 MW total via Mississippi Power)"

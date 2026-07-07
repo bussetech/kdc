@@ -1,5 +1,5 @@
 id: sig-20260706-aws-madison-ms-status
-site_id: null
+site_id: aws-madison
 site_hint: "Amazon (AWS) Madison County Data Center Complexes — Madison, MS"
 attribute: status
 value: "announced 2024 / build-out"

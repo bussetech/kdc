@@ -1,0 +1,25 @@
+id: aws-vicksburg
+name: "Amazon Web Services Warren County Data Center Campus"
+operator: aws
+status: announced
+location:
+  country: US
+  state: MS
+  county: Warren County
+  locality: Vicksburg
+metrics:
+  investment_usd: 3000000000
+confidence: medium
+sources:
+  - url: https://www.aboutamazon.com/news/company-news/amazon-3-billion-mississippi-data-center-investment
+    title: "Amazon $3 billion Mississippi data center investment"
+    publisher: Amazon
+signals:
+  - sig-20260706-aws-warren-ms-investment
+  - sig-20260706-aws-warren-ms-status
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+notes: >-
+  Investment stated as "at least $3 billion" (Amazon primary source); recorded
+  as 3000000000 with the "at least" floor noted here. Single primary source, so
+  confidence medium.
