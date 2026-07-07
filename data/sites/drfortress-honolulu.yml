@@ -1,0 +1,28 @@
+id: drfortress-honolulu
+name: DRFortress Honolulu
+status: operational
+location:
+  country: US
+  state: HI
+  locality: Honolulu
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://datacentremagazine.com/critical-environments/drfortress-how-the-data-centre-market-in-hawaii-is-growing
+    title: "DRFortress: how the data centre market in Hawaii is growing"
+    publisher: Data Centre Magazine
+    date: "2026-07-06"
+    note: "Reports DRFortress as Hawaii's largest carrier-neutral data center; ownership change April 2025."
+signals:
+  - sig-20260706-drfortress-honolulu-operator
+  - sig-20260706-drfortress-honolulu-status
+notes: >-
+  Single-source (Data Centre Magazine) record; confidence medium.
+  Described as Hawaii's largest carrier-neutral data center, operational.
+  Signals report the site was acquired in April 2025 by 1547 Critical
+  Systems Realty and Harrison Street from GI Partners. None of these
+  companies (DRFortress, 1547 Critical Systems Realty, Harrison Street,
+  GI Partners) has an operators.yml entry, so the operator field is
+  omitted — DRFortress (current operating brand) needs an operators.yml
+  entry before it can be recorded here.
