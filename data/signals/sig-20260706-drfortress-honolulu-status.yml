@@ -1,5 +1,5 @@
 id: sig-20260706-drfortress-honolulu-status
-site_id: null
+site_id: drfortress-honolulu
 site_hint: "DRFortress Honolulu carrier-neutral data center — Honolulu, HI"
 attribute: status
 value: "operational (ownership change); Hawaii's largest carrier-neutral data center"
