@@ -9,26 +9,22 @@ location:
   locality: Santa Clara
 metrics:
   capacity_mw: 64
-  capacity_mw_basis: IT load
   building_sqft: 486000
-first_seen: "2026-07-07"
-last_updated: "2026-07-07"
+first_seen: '2026-07-07'
+last_updated: '2026-07-07'
 confidence: medium
 sources:
-  - url: https://vantage-dc.com/data-center/santa-clara-iii-california/
-    title: "Santa Clara III California"
-    publisher: Vantage Data Centers
+- url: https://vantage-dc.com/data-center/santa-clara-iii-california/
+  title: Santa Clara III California
+  publisher: Vantage Data Centers
 signals:
-  - sig-20260706-vantage-santaclara-mw-ca3
-  - sig-20260706-vantage-santaclara-mw-total
-  - sig-20260706-vantage-santaclara-sqft
-  - sig-20260706-vantage-santaclara-status
-notes: >-
-  Record covers the CA3 campus: 64 MW critical IT (basis = IT load) and a
-  486,000+ sq ft four-story building, status operational/expanding. Single
-  operator-primary source (Vantage) → medium confidence. The
-  "216 MW across three Santa Clara campuses" figure
-  (sig-20260706-vantage-santaclara-mw-total) is a program-level total across
-  three distinct campuses, not CA3's own capacity, so it is recorded here as
-  context only and not used as this site's capacity_mw; the other Vantage
-  Santa Clara campuses lack their own signals to record separately.
+- sig-20260706-vantage-santaclara-mw-ca3
+- sig-20260706-vantage-santaclara-mw-total
+- sig-20260706-vantage-santaclara-sqft
+- sig-20260706-vantage-santaclara-status
+notes: 'Record covers the CA3 campus: 64 MW critical IT (basis = IT load) and a 486,000+ sq
+  ft four-story building, status operational/expanding. Single operator-primary source (Vantage)
+  → medium confidence. The "216 MW across three Santa Clara campuses" figure (sig-20260706-vantage-santaclara-mw-total)
+  is a program-level total across three distinct campuses, not CA3''s own capacity, so it
+  is recorded here as context only and not used as this site''s capacity_mw; the other Vantage
+  Santa Clara campuses lack their own signals to record separately.'
