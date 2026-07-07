@@ -1,0 +1,36 @@
+id: google-lincoln
+name: Google Lincoln data center
+operator: google
+status: under-construction
+location:
+  country: US
+  state: NE
+  county: Lancaster
+  locality: Lincoln
+metrics:
+  land_acres: 570
+  building_sqft: 2000000
+  investment_usd: 600000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/google-confirms-involvement-in-2-million-sq-ft-data-center-project-in-lincoln-nebraska/
+    title: "Google confirms involvement in 2 million sq ft data center project in Lincoln, Nebraska"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-google-lincoln-acres
+  - sig-20260706-google-lincoln-developer
+  - sig-20260706-google-lincoln-investment
+  - sig-20260706-google-lincoln-sqft
+  - sig-20260706-google-lincoln-status
+notes: >
+  Single source (DataCenterDynamics), so confidence medium. Land area
+  source states "570+ acres" (at least 570; recorded as 570, floor value).
+  investment_usd 600000000 is the site-specific figure originally filed in
+  2019; the source also notes this is part of a reported $1.2 billion 2023
+  Nebraska spend (program-level, not recorded as a site metric). The project
+  was originally filed via shell company "Agate LLC" (2019); Agate LLC is not
+  in operators.yml and is not a canonical developer — developer field omitted.
+  Status "under construction" confirmed August 2023 per source.
