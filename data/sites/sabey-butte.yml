@@ -1,0 +1,37 @@
+id: sabey-butte
+name: Sabey Montana Connections Industrial Park data center
+status: announced
+location:
+  country: US
+  state: MT
+  county: Silver Bow
+  locality: Butte
+metrics:
+  capacity_mw: 50
+  land_acres: 600
+  building_sqft: 1000000
+  buildings: 2
+announced_date: null
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.bozemandailychronicle.com/news/data-center-in-butte-would-be-massive-but-theyre-not-ugly-buildings/article_9fb58780-76c1-564a-9058-64e88370af80.html
+    title: "Data center in Butte would be massive, but they're not ugly buildings"
+    publisher: Bozeman Daily Chronicle
+    note: single source for all attributes
+signals:
+  - sig-20260706-sabey-butte-acres
+  - sig-20260706-sabey-butte-capacity
+  - sig-20260706-sabey-butte-developer
+  - sig-20260706-sabey-butte-sqft
+  - sig-20260706-sabey-butte-status
+notes: >-
+  Developer/operator "Sabey Data Centers" has no operators.yml entry — needs
+  one before the developer/operator field can be set. Status announced: signal
+  reports "proposed (land option/purchase agreement)". Capacity: NorthWestern
+  Energy approved 50 MW starting 2026, expandable to 250 MW (capacity_mw
+  reflects the approved 50 MW; 250 MW is the expansion ceiling). land_acres 600
+  from "600+ acres". building_sqft 1,000,000 derived from "two 500,000 sq ft
+  buildings" (buildings: 2). Single source (Bozeman Daily Chronicle) → medium
+  confidence. Distinct campus from Atlas Power Butte despite shared locality.

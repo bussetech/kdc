@@ -1,5 +1,5 @@
 id: sig-20260706-atlas-butte-status
-site_id: null
+site_id: atlas-power-butte
 site_hint: "Atlas Power Butte data center — Silver Bow, MT"
 attribute: status
 value: "operational/expanding (operating in Butte since 2019)"
