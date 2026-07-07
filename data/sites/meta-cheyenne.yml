@@ -1,0 +1,43 @@
+id: meta-cheyenne
+name: Meta Cheyenne Data Center
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: WY
+  county: Laramie
+  locality: Cheyenne
+metrics:
+  land_acres: 960
+  building_sqft: 715000
+  investment_usd: 800000000
+announced_date: "2024-07-08"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.wyomingpublicmedia.org/wyoming-economy/2024-07-08/meta-announces-800-million-data-center-in-cheyenne
+    title: Meta announces $800 million data center in Cheyenne
+    publisher: Wyoming Public Media
+    date: "2024-07-08"
+    note: Announcement; 960-acre parcel in High Plains Business Park, 715,000 sq ft, >$800M, LEED Gold targeted, Meta's 21st U.S. data center.
+  - url: https://www.datacenterdynamics.com/en/news/meta-named-as-company-behind-945-acre-data-center-development-in-cheyenne-wyoming/
+    title: Meta named as company behind 945-acre data center development in Cheyenne, Wyoming
+    publisher: DataCenter Dynamics
+    note: Reports 945-acre development (conflicts with WPM's 960).
+signals:
+  - sig-20260706-meta-cheyenne-acres-dcd
+  - sig-20260706-meta-cheyenne-acres-wpm
+  - sig-20260706-meta-cheyenne-investment
+  - sig-20260706-meta-cheyenne-sqft
+  - sig-20260706-meta-cheyenne-status
+notes: >-
+  Land acreage conflict: Wyoming Public Media (announcement-date, local
+  primary) reports 960 acres in the High Plains Business Park; DataCenter
+  Dynamics reports a 945-acre development. Resolved to 960 (announcement
+  source) with the 945 minority claim preserved here; neither is disambiguated
+  by an operator/government figure. investment_usd recorded as 800000000 but
+  source says "more than $800 million" — treat as a floor. Status signal reads
+  "announced/under construction (July 2024)"; resolved to under-construction
+  with that ambiguity noted. Most facts rest on a single source (WPM), hence
+  medium confidence.
