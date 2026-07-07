@@ -1,0 +1,30 @@
+id: microsoft-cheyenne
+name: Microsoft Cheyenne Data Center Expansion
+operator: microsoft
+status: announced
+location:
+  country: US
+  state: WY
+  county: Laramie
+  locality: Cheyenne
+metrics:
+  land_acres: 3200
+announced_date: "2026-04-14"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://news.microsoft.com/source/2026/04/14/microsoft-announces-intent-to-expand-datacenter-operations-in-cheyenne-accelerating-innovation-and-economic-growth/
+    title: Microsoft announces intent to expand datacenter operations in Cheyenne
+    publisher: Microsoft
+    date: "2026-04-14"
+    note: Operator announcement; acquiring 3,200 acres southeast of downtown to roughly triple its Cheyenne footprint.
+signals:
+  - sig-20260706-ms-cheyenne-expansion-acres
+  - sig-20260706-ms-cheyenne-expansion-status
+notes: >-
+  Announced expansion of Microsoft's existing Cheyenne footprint: acquiring
+  3,200 acres southeast of downtown to roughly triple its presence. Distinct
+  physical site from the Meta Cheyenne data center (separate record). Single
+  primary (operator) source, so aggregate confidence medium despite
+  high-confidence signals.
