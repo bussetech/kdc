@@ -1,0 +1,42 @@
+id: stonebridge-fort-meade
+name: Stonebridge Fort Meade hyperscale campus
+status: permitted
+location:
+  country: US
+  state: FL
+  county: Polk
+  locality: Fort Meade
+metrics:
+  capacity_mw: 1200
+  land_acres: 1300
+  building_sqft: 4400000
+  buildings: 8
+  investment_usd: 2600000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://floridadatacenters.org/polk-county
+    title: "Polk County"
+    publisher: floridadatacenters.org
+    date: "2026-07-06"
+    note: "single low-confidence source for all attributes"
+signals:
+  - sig-20260706-fort-meade-acres
+  - sig-20260706-fort-meade-capacity
+  - sig-20260706-fort-meade-developer
+  - sig-20260706-fort-meade-investment
+  - sig-20260706-fort-meade-sqft
+  - sig-20260706-fort-meade-status
+notes: >
+  All facts rest on one low-confidence source (floridadatacenters.org),
+  hence aggregate confidence low. Status resolved to `permitted`: the City
+  Commission approved a 20-year development agreement on 2026-04-15
+  (operator undisclosed). Developer named as "Stonebridge" — not in
+  operators.yml; developer field omitted, needs an operators.yml entry
+  before it can be recorded. Operator undisclosed per source. capacity_mw
+  1200 (1.2 GW) is described as supplied "via Duke Energy's Hines Complex";
+  the source does not state whether MW is IT load or utility, so
+  capacity_mw_basis is omitted. building_sqft/buildings given as upper
+  bounds ("up to 4.4 million sq ft across up to eight buildings").
+  Land is described as former phosphate-mine land.

@@ -1,0 +1,35 @@
+id: tango-palm-beach
+name: Project Tango
+status: announced
+location:
+  country: US
+  state: FL
+  county: Palm Beach
+metrics:
+  land_acres: 202
+  building_sqft: 3700000
+  buildings: 9
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/37-million-sq-ft-data-center-campus-gets-initial-ok-from-officials-in-florida/
+    title: "3.7 million sq ft data center campus gets initial OK from officials in Florida"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+    note: "single medium-confidence source for all attributes"
+signals:
+  - sig-20260706-project-tango-acres
+  - sig-20260706-project-tango-buildings
+  - sig-20260706-project-tango-developer
+  - sig-20260706-project-tango-sqft
+  - sig-20260706-project-tango-status
+notes: >
+  Single good source (DataCenterDynamics), no conflicts, aggregate
+  confidence medium. Status resolved to `announced`: a zoning-commission
+  recommendation for approval in late 2025 (proposed, "initial OK"); no
+  final permit recorded. Developer named as "PBA Holdings" — not in
+  operators.yml; developer field omitted, needs an operators.yml entry.
+  land_acres ~202 and building_sqft (up to 3.7M across nine buildings) are
+  source upper bounds. Place resolved to county (Palm Beach) — site_hint
+  gives "Palm Beach, FL" with no distinct sub-county locality.
