@@ -1,0 +1,37 @@
+id: aws-worcester
+name: "Amazon (AWS) Massachusetts data-center acquisitions (Grafton & Westborough)"
+operator: aws
+status: operational
+location:
+  country: US
+  state: MA
+  county: Worcester
+metrics:
+  investment_usd: 26700000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/amazon-acquires-two-data-centers-from-state-street-corp-in-massachusetts/
+    title: "Amazon acquires two data centers from State Street Corp in Massachusetts"
+    publisher: DataCenter Dynamics
+    note: "Single source; observed 2026-07-06. Publication date not stated in signal; acquisition dated Nov 2022."
+signals:
+  - sig-20260706-aws-grafton-westborough-investment
+  - sig-20260706-aws-grafton-westborough-sqft
+  - sig-20260706-aws-grafton-westborough-status
+notes: >
+  Single acquisition of two distinct former State Street data-center
+  properties in two Worcester County localities: (1) 8 Centennial Drive,
+  Grafton — ~155,000 sq ft; (2) 600/800 Friberg Parkway, Westborough —
+  ~99,150 sq ft. Investment ($26.7M) is a combined figure for both
+  properties; no per-building price is sourced, so it is recorded only at
+  the combined record level. building_sqft omitted as a single metric to
+  avoid conflating two buildings; per-building approximate figures are
+  above and are editorial ~ values from the source. locality omitted
+  because the record spans two localities (Grafton, Westborough); the id
+  place therefore falls to their shared county (Worcester) per the
+  precedence rule. Acquired Nov 2022; no development plan disclosed —
+  status recorded as operational as existing data-center facilities, but
+  current use under Amazon is unconfirmed. If per-property signals arrive,
+  this should be split into separate Grafton and Westborough records.

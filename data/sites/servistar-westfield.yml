@@ -1,0 +1,35 @@
+id: servistar-westfield
+name: "Servistar Realties Westfield Data Center Campus"
+status: announced
+location:
+  country: US
+  state: MA
+  county: Hampden
+  locality: Westfield
+  address: "199 Servistar Industrial Way"
+metrics:
+  building_sqft: 2700000
+  buildings: 10
+  investment_usd: 4000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.nepm.org/regional-news/2025-08-26/westfield-planning-4m-data-center-with-help-from-state-tax-breaks
+    title: "Westfield planning $4B data center with help from state tax breaks"
+    publisher: New England Public Media
+    date: "2025-08-26"
+signals:
+  - sig-20260706-servistar-westfield-buildings
+  - sig-20260706-servistar-westfield-investment
+  - sig-20260706-servistar-westfield-sqft
+  - sig-20260706-servistar-westfield-status
+notes: >
+  Proposed / pre-construction $4B campus: 10 three-story buildings totaling
+  ~2.7M sq ft, seeking state tax breaks. Developer "Servistar Realties"
+  has no operators.yml entry — developer field omitted; needs an
+  operators.yml entry before it can be recorded. Single registered source
+  (NEPM); the investment signal notes corroboration by DataCenterDynamics
+  ("data-center-campus-proposed-in-westfield-massachusetts") but that
+  source is not among the registered signals, so confidence is held at
+  medium pending a second registered source.
