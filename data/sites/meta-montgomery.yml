@@ -1,0 +1,30 @@
+id: meta-montgomery
+name: Meta Montgomery data center
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: AL
+  county: Montgomery County
+  locality: Montgomery
+metrics:
+  investment_usd: 800000000
+  building_sqft: 715000
+announced_date: "2024-05"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://governor.alabama.gov/newsroom/2024/05/governor-ivey-announces-meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/
+    title: "Governor Ivey Announces Meta Plans to Build $800 Million Next-Generation Data Center in Montgomery"
+    publisher: Office of the Governor of Alabama
+    date: "2024-05"
+signals:
+  - sig-20260706-meta-montgomery-investment
+  - sig-20260706-meta-montgomery-sqft
+  - sig-20260706-meta-montgomery-status
+notes: >
+  Described as Meta's 24th global data hub; planned 100% renewable, LEED
+  Gold. Source states online by end of 2026 — operational_date omitted
+  rather than invent day-level precision from "end of 2026". Single
+  (primary, government) source, hence medium aggregate confidence.
