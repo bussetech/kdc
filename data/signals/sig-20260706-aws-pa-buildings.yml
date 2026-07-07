@@ -1,5 +1,5 @@
 id: sig-20260706-aws-pa-buildings
-site_id: null
+site_id: aws-falls-township
 site_hint: "Amazon (AWS) Pennsylvania Data Center Campuses — Bucks / Luzerne County, PA"
 attribute: buildings
 value: "15 data center buildings planned over the next decade"

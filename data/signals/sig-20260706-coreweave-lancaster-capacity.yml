@@ -1,5 +1,5 @@
 id: sig-20260706-coreweave-lancaster-capacity
-site_id: null
+site_id: coreweave-lancaster
 site_hint: "CoreWeave Lancaster campus — Lancaster, PA"
 attribute: capacity_mw
 value: "initial 100 MW expandable to 300 MW"

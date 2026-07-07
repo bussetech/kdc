@@ -1,0 +1,38 @@
+id: homer-city-energy-homer-city
+name: Homer City Energy Campus
+status: announced
+location:
+  country: US
+  state: PA
+  county: Indiana County
+  locality: Homer City
+metrics:
+  capacity_mw: 4500
+  land_acres: 3200
+  investment_usd: 10000000000
+operational_date: "2027"
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/homer-city-and-kiewit-unveil-plans-for-45gw-natural-gas-powered-ai-data-center-in-pennsylvania/
+    title: "Homer City and Kiewit unveil plans for 4.5GW natural gas-powered AI data center in Pennsylvania"
+    publisher: DatacenterDynamics
+    date: "2025"
+signals:
+  - sig-20260706-homer-city-capacity
+  - sig-20260706-homer-city-developer
+  - sig-20260706-homer-city-investment
+  - sig-20260706-homer-city-land
+  - sig-20260706-homer-city-status
+notes: >
+  Developer reported as "Homer City Redevelopment / Kiewit"; neither has an
+  entry in data/operators.yml, so developer field omitted — both need
+  operators.yml entries (type: developer) before linking. capacity_mw of 4500
+  reflects the stated 4.5 GW of natural-gas power generation for the campus
+  (converting the decommissioned ~2 GW coal plant), not a measured IT-load
+  figure — basis unspecified. land_acres recorded from "more than 3,200
+  acres". investment_usd from "initial capital investment expected to exceed
+  $10 billion". Commercial operations slated for 2027 (operational_date).
+  Single-source support, hence aggregate confidence medium. locality Homer
+  City (borough within Indiana County, PA) taken from the project name.

@@ -1,5 +1,5 @@
 id: sig-20260706-aws-pa-location
-site_id: null
+site_id: aws-salem-township
 site_hint: "Amazon (AWS) Pennsylvania Data Center Campuses — Bucks / Luzerne County, PA"
 attribute: location
 value: "two campuses in Falls Township (Bucks County) and Salem Township (Luzerne County)"

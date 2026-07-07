@@ -1,0 +1,32 @@
+id: coreweave-lancaster
+name: CoreWeave Lancaster Campus
+status: announced
+location:
+  country: US
+  state: PA
+  locality: Lancaster
+metrics:
+  capacity_mw: 100
+  investment_usd: 6000000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Multi-Billion-Dollar-Commitment-to-AI-Infrastructure-in-Pennsylvania/default.aspx
+    title: "CoreWeave Announces Multi-Billion-Dollar Commitment to AI Infrastructure in Pennsylvania"
+    publisher: CoreWeave
+    date: "2025"
+    note: "Operator primary announcement."
+signals:
+  - sig-20260706-coreweave-lancaster-capacity
+  - sig-20260706-coreweave-lancaster-investment
+  - sig-20260706-coreweave-lancaster-operator
+  - sig-20260706-coreweave-lancaster-status
+notes: >
+  Operator "CoreWeave" has no entry in data/operators.yml — operator field
+  omitted; CoreWeave needs an operators.yml entry (type: ai/colo) before it
+  can be linked. Capacity recorded as the initial 100 MW; source states it is
+  expandable to 300 MW (single source, CoreWeave). Investment recorded as the
+  committed "up to $6 billion" figure. All facts trace to a single primary
+  source, hence aggregate confidence medium. "Lancaster, PA" resolved to
+  locality Lancaster (most-specific place given).
