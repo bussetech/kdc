@@ -1,0 +1,33 @@
+id: meta-mesa
+name: "Meta Mesa campus"
+operator: meta
+status: under-construction
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+  locality: Mesa
+metrics:
+  building_sqft: 2500000
+  buildings: 5
+  investment_usd: 1000000000
+operational_date: "2026"
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: medium
+sources:
+  - url: https://www.constructiondive.com/news/meta-dpr-arizona-data-center-mesa-phoenix/701776/
+    title: "Meta DPR Arizona data center Mesa Phoenix"
+    publisher: Construction Dive
+    date: "2026-07-06"
+signals:
+  - sig-20260706-meta-mesa-building-sqft
+  - sig-20260706-meta-mesa-buildings
+  - sig-20260706-meta-mesa-investment
+  - sig-20260706-meta-mesa-operational-date
+  - sig-20260706-meta-mesa-operator
+  - sig-20260706-meta-mesa-status
+notes: >-
+  building_sqft (2.5M) covers data center + admin space per source.
+  operational_date reflects "target completion 2026". Single Construction
+  Dive source.

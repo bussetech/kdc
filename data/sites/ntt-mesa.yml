@@ -1,0 +1,32 @@
+id: ntt-mesa
+name: "NTT Mesa campus"
+status: permitted
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+  locality: Mesa
+metrics:
+  land_acres: 173
+operational_date: "2028-01"
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: low
+sources:
+  - url: https://www.blackridgeresearch.com/blog/latest-list-upcoming-data-centers-in-arizona-az-united-states-us
+    title: "Latest list of upcoming data centers in Arizona (AZ), United States (US)"
+    publisher: Blackridge Research
+    date: "2026-07-06"
+signals:
+  - sig-20260706-ntt-mesa-land-acres
+  - sig-20260706-ntt-mesa-operational-date
+  - sig-20260706-ntt-mesa-operator
+  - sig-20260706-ntt-mesa-status
+notes: >-
+  Operator is NTT, which has no operators.yml entry — operator field omitted;
+  NTT needs an operators.yml entry. land_acres 173 = acquired parcel (NE
+  corner of Pecos and Crismon roads, March 2025); development is planned
+  across ~160 acres. Status recorded as permitted from "announced /
+  permitted; construction slated to begin Q3 2026". operational_date reflects
+  first building online Q1 2028; second building Q1 2030. Single
+  low-confidence Blackridge source.

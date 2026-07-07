@@ -1,0 +1,34 @@
+id: edgeconnex-mesa
+name: "EdgeConneX Mesa campus"
+status: announced
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+  locality: Mesa
+metrics:
+  capacity_mw: 100
+  land_acres: 93
+  building_sqft: 1000000
+  buildings: 3
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/edgeconnex-files-for-new-1-million-sq-ft-data-center-campus-in-mesa-arizona/
+    title: "EdgeConneX files for new 1 million sq ft data center campus in Mesa, Arizona"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-edgeconnex-mesa-buildings
+  - sig-20260706-edgeconnex-mesa-capacity
+  - sig-20260706-edgeconnex-mesa-land
+  - sig-20260706-edgeconnex-mesa-sqft
+  - sig-20260706-edgeconnex-mesa-status
+notes: >-
+  Operator is EdgeConneX, which has no operators.yml entry — operator field
+  omitted; EdgeConneX needs an operators.yml entry. capacity_mw (~100) is
+  approximate per source (source also cites a sibling facility PHX11 at
+  ~115.2MW). building_sqft is "1 million+" (recorded as 1,000,000, a floor).
+  Status set to announced from a permit filing ("files for"). Single DCD
+  source.

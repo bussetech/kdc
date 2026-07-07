@@ -1,0 +1,30 @@
+id: microsoft-goodyear
+name: "Microsoft Goodyear expansion"
+operator: microsoft
+status: announced
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+  locality: Goodyear
+metrics:
+  land_acres: 100
+  investment_usd: 131000000
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: medium
+sources:
+  - url: https://www.costar.com/article/98998770/microsoft-scoops-up-100-acres-to-expand-phoenix-data-center-footprint
+    title: "Microsoft scoops up 100 acres to expand Phoenix data center footprint"
+    publisher: CoStar
+    date: "2026-07-06"
+signals:
+  - sig-20260706-microsoft-goodyear-investment
+  - sig-20260706-microsoft-goodyear-land-acres
+  - sig-20260706-microsoft-goodyear-operator
+  - sig-20260706-microsoft-goodyear-status
+notes: >-
+  investment_usd recorded as a floor ("more than $131 million"); land deal
+  recorded 2025-05-29 per source. 100 acres purchased adjacent to the
+  Goodyear development (near Citrus and Indian School roads). Status is a
+  planned expansion following land acquisition. Single CoStar source.

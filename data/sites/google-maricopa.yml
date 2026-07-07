@@ -1,0 +1,31 @@
+id: google-maricopa
+name: "Redhawk (Google)"
+operator: google
+status: operational
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+metrics:
+  land_acres: 187
+  investment_usd: 1000000000
+operational_date: "2025-07"
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: low
+sources:
+  - url: https://www.blackridgeresearch.com/blog/latest-list-upcoming-data-centers-in-arizona-az-united-states-us
+    title: "Latest list of upcoming data centers in Arizona (AZ), United States (US)"
+    publisher: Blackridge Research
+    date: "2026-07-06"
+signals:
+  - sig-20260706-google-redhawk-investment
+  - sig-20260706-google-redhawk-land-acres
+  - sig-20260706-google-redhawk-operational-date
+  - sig-20260706-google-redhawk-operator
+notes: >-
+  No explicit locality in signals (source cites the intersection of Elliot
+  and Sossaman roads); resolved to county Maricopa per place precedence.
+  Status set to operational because Phase 1 is reported operational since
+  July 2025 (operational_date "2025-07"). Single low-confidence Blackridge
+  source.

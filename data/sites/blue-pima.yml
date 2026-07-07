@@ -1,0 +1,36 @@
+id: blue-pima
+name: "Project Blue"
+status: cancelled
+location:
+  country: US
+  state: AZ
+  county: Pima
+metrics:
+  land_acres: 290
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: medium
+sources:
+  - url: https://www.foxbusiness.com/economy/arizona-city-defeats-massive-data-center-project-over-water-energy-concerns
+    title: "Arizona city defeats massive data center project over water, energy concerns"
+    publisher: Fox Business
+    date: "2025-08"
+  - url: https://www.kjzz.org/the-show/2025-12-09/rejected-by-tucson-and-abandoned-by-amazon-project-blue-data-center-moves-forward
+    title: "Rejected by Tucson and abandoned by Amazon, Project Blue data center moves forward"
+    publisher: KJZZ
+    date: "2025-12-09"
+signals:
+  - sig-20260706-project-blue-acres
+  - sig-20260706-project-blue-developer
+  - sig-20260706-project-blue-status-fox
+  - sig-20260706-project-blue-status-kjzz
+notes: >-
+  Developer Beale Infrastructure (reported tied to AWS) has no operators.yml
+  entry — developer/operator fields omitted; Beale Infrastructure needs an
+  operators.yml entry. Status resolved to cancelled: Tucson City Council voted
+  unanimously (Aug 2025) to reject the development agreement and annexation
+  over water/energy, and AWS pulled out (Fox Business, KJZZ). Conflict: the
+  KJZZ headline (2025-12-09) implies the project "moves forward" in some form
+  despite the rejection and AWS exit — recorded here but not enough to
+  override the cancelled resolution. No locality in signals; resolved to Pima
+  County per place precedence.

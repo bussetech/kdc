@@ -1,0 +1,31 @@
+id: aligned-glendale
+name: "Aligned Glendale campus (PHX-13)"
+status: under-construction
+location:
+  country: US
+  state: AZ
+  county: Maricopa
+  locality: Glendale
+metrics:
+  capacity_mw: 72
+  land_acres: 100
+  buildings: 4
+first_seen: "2026-07-06"
+last_updated: "2026-07-06"
+confidence: medium
+sources:
+  - url: https://www.constructconnect.com/construction-economic-news/aligned-data-centers-breaks-ground-on-phx-13-facility-expanding-arizona-infrastructure
+    title: "Aligned Data Centers breaks ground on PHX-13 facility, expanding Arizona infrastructure"
+    publisher: ConstructConnect
+    date: "2026-07-06"
+signals:
+  - sig-20260706-aligned-glendale-buildings
+  - sig-20260706-aligned-glendale-capacity
+  - sig-20260706-aligned-glendale-land
+  - sig-20260706-aligned-glendale-status
+notes: >-
+  Operator is Aligned Data Centers, which has no operators.yml entry —
+  operator field omitted; Aligned needs an operators.yml entry. capacity_mw
+  (72) is for PHX-13, the first of four planned buildings on the 100-acre
+  campus (buildings: 4 reflects the planned total). Single ConstructConnect
+  source.
