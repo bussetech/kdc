@@ -1,0 +1,36 @@
+id: switch-citadel-storey
+name: Switch Citadel Campus (Tahoe-Reno Industrial Center)
+status: operational
+location:
+  country: US
+  state: NV
+  county: Storey
+metrics:
+  capacity_mw: 650
+  building_sqft: 7200000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://baxtel.com/data-center/switch-tahoe-reno-the-citadel-campus
+    title: "Switch Tahoe Reno The Citadel Campus"
+    publisher: Baxtel
+    note: "Low-confidence source; supplies capacity (650MW) and sqft (>7.2M) figures."
+  - url: https://www.forbes.com/sites/jeffsteele/2025/09/25/hyperscale-data-center-growth-comes-to-nevada/
+    publisher: Forbes
+    date: "2025-09-25"
+    note: "Confirms operational status; among largest US campuses."
+signals:
+  - sig-20260706-switch-citadel-capacity
+  - sig-20260706-switch-citadel-sqft
+  - sig-20260706-switch-citadel-status
+  - sig-20260706-switch-tric-status
+notes: >
+  "Switch TRIC campus" (Forbes) clustered here as the same physical Switch
+  Citadel campus at the Tahoe-Reno Industrial Center. Operator is Switch,
+  which has no data/operators.yml entry — operator field omitted; needs an
+  operators.yml entry. building_sqft recorded from "more than 7.2 million
+  sq ft" (a floor, not exact). Capacity and sqft come only from the
+  low-confidence Baxtel entry; operational status is confirmed by two
+  independent sources (Baxtel "operational + expanding", Forbes
+  "operational"). No locality given, so place is county (Storey).

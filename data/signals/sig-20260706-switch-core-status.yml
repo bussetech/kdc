@@ -1,5 +1,5 @@
 id: sig-20260706-switch-core-status
-site_id: null
+site_id: switch-core-las-vegas
 site_hint: "Switch Core Campus (Las Vegas) — Clark, NV"
 attribute: status
 value: "operational"

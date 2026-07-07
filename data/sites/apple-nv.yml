@@ -1,0 +1,29 @@
+id: apple-nv
+name: Apple Reno/Sparks campus
+status: operational
+location:
+  country: US
+  state: NV
+metrics:
+  building_sqft:
+announced_date:
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.forbes.com/sites/jeffsteele/2025/09/25/hyperscale-data-center-growth-comes-to-nevada/
+    publisher: Forbes
+    date: "2025-09-25"
+    note: "Reports a ~400,000 sq ft third phase; single secondary source."
+signals:
+  - sig-20260706-apple-reno-sqft
+notes: >
+  Operator is Apple, which has no data/operators.yml entry — operator field
+  omitted; needs an operators.yml entry before it can be attributed.
+  Locality and county left blank: the source hint gives two equally-valid
+  localities (Reno/Sparks) and two counties (Washoe/Storey) with no basis to
+  choose one, so the id and location fall back to state (NV) per place
+  precedence. building_sqft not populated as a total — the only figure is a
+  "~400,000 sq ft third phase" increment, not a campus total (KB-0002:
+  precision not invented). Status "operational" is inferred from the
+  expansion language rather than an explicit status signal.
