@@ -1,0 +1,35 @@
+id: aws-becker
+name: Amazon Web Services Becker Data Center
+operator: aws
+status: announced
+location:
+  country: US
+  state: MN
+  county: Sherburne
+  locality: Becker
+metrics:
+  land_acres: 348
+  investment_usd: 73560000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/amazon-web-services-suspends-plans-for-minnesota-data-center/
+    title: "Amazon Web Services suspends plans for Minnesota data center"
+    publisher: DataCenter Dynamics
+    date: "2026-07-06"
+    note: "Land, investment, and suspension all from this single source."
+signals:
+  - sig-20260706-aws-becker-investment
+  - sig-20260706-aws-becker-land
+  - sig-20260706-aws-becker-status
+notes: >-
+  348-acre site adjacent to Xcel's Sherco coal plant in Becker, MN
+  (Sherburne County). investment_usd (73,560,000) is the reported price
+  paid for the site, not total project spend. Plans were suspended/paused
+  (May 2025) during a dispute over Minnesota data-center tax-credit
+  legislation; Amazon retained the land. The status enum has no
+  "suspended/paused" value: recorded as `announced` (pre-construction, not
+  abandoned since the land was retained and the dispute may resolve) rather
+  than `cancelled`, with the suspension noted here. Single-source (DCD),
+  hence medium confidence.

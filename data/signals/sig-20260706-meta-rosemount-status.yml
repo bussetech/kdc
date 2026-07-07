@@ -1,5 +1,5 @@
 id: sig-20260706-meta-rosemount-status
-site_id: null
+site_id: meta-rosemount
 site_hint: "Meta Rosemount Data Center (Project Bigfoot) — Dakota, MN"
 attribute: status
 value: "announced March 2024 / under construction"
