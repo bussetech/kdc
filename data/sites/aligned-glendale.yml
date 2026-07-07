@@ -10,7 +10,6 @@ metrics:
   capacity_mw: 72
   land_acres: 100
   buildings: 4
-announced_date: null
 first_seen: "2026-07-06"
 last_updated: "2026-07-06"
 confidence: medium
