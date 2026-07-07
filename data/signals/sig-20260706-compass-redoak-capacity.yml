@@ -1,5 +1,5 @@
 id: sig-20260706-compass-redoak-capacity
-site_id: null
+site_id: compass-red-oak
 site_hint: "Compass Red Oak campus — Ellis, TX"
 attribute: capacity_mw
 value: "~360MW"

@@ -1,0 +1,29 @@
+id: powerhouse-irving
+name: PowerHouse Irving Campus
+developer: powerhouse
+status: announced
+location:
+  country: US
+  state: TX
+  county: Dallas
+  locality: Irving
+metrics:
+  capacity_mw: 200
+  land_acres: 50
+  building_sqft: 1000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.powerhousedata.com/news/powerhouse-data-centers-acquires-land-for-massive-data-center-campus-in-irving
+    publisher: PowerHouse Data Centers
+signals:
+  - sig-20260706-powerhouse-irving-building-sqft
+  - sig-20260706-powerhouse-irving-capacity
+  - sig-20260706-powerhouse-irving-land
+  - sig-20260706-powerhouse-irving-status
+notes: >-
+  Developer resolved to powerhouse (PowerHouse Data Centers). 200MW on 50 acres
+  in Irving–Las Colinas; building_sqft reported as "nearly one million sq ft"
+  (recorded as 1,000,000, approximate). Land acquired, status "under
+  development" resolved to announced. Single operator source.

@@ -1,5 +1,5 @@
 id: sig-20260706-equinix-dallas-buildings
-site_id: null
+site_id: equinix-dallas
 site_hint: "Dallas Infomart campus (Equinix) — Dallas County, TX"
 attribute: buildings
 value: "eight Dallas IBX data centers (four inside the Infomart)"

@@ -1,5 +1,5 @@
 id: sig-20260706-digital-realty-dallas-capacity
-site_id: null
+site_id: digital-realty-dallas
 site_hint: "Datacenter Park Dallas (Digital Realty) — Dallas County, TX"
 attribute: capacity_mw
 value: "~16.5MW currently"

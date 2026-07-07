@@ -1,0 +1,28 @@
+id: digital-realty-dallas
+name: Datacenter Park Dallas
+status: operational
+location:
+  country: US
+  state: TX
+  county: Dallas
+  locality: Dallas
+metrics:
+  capacity_mw: 16.5
+  land_acres: 68
+  buildings: 10
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://datacenterhawk.com/marketplace/providers/digital-realty/908-quality-way/datacenter-park-dallas
+    publisher: datacenterHawk
+signals:
+  - sig-20260706-digital-realty-dallas-buildings
+  - sig-20260706-digital-realty-dallas-capacity
+  - sig-20260706-digital-realty-dallas-land
+  - sig-20260706-digital-realty-dallas-status
+notes: >-
+  Operator Digital Realty needs an operators.yml entry (omitted here). Single
+  low-confidence source (datacenterHawk marketplace listing). Master-planned
+  for ten data center properties on a 68-acre campus; ~16.5MW deployed
+  currently — resolved to operational + expanding.

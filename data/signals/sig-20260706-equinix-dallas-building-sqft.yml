@@ -1,5 +1,5 @@
 id: sig-20260706-equinix-dallas-building-sqft
-site_id: null
+site_id: equinix-dallas
 site_hint: "Dallas Infomart campus (Equinix) — Dallas County, TX"
 attribute: building_sqft
 value: "228,681 sq ft colocation (2019 figures)"

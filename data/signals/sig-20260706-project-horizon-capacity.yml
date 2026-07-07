@@ -1,5 +1,5 @@
 id: sig-20260706-project-horizon-capacity
-site_id: null
+site_id: horizon-pecos
 site_hint: "Project Horizon (Poolside/CoreWeave) — Pecos County, TX"
 attribute: capacity_mw
 value: "2 GW behind-the-meter (eight 250 MW phases)"

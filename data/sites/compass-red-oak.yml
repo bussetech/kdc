@@ -1,0 +1,31 @@
+id: compass-red-oak
+name: Compass Datacenters Red Oak Campus
+status: operational
+location:
+  country: US
+  state: TX
+  county: Ellis
+  locality: Red Oak
+metrics:
+  capacity_mw: 360
+  land_acres: 300
+  buildings: 10
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/compass-datacenters-looks-to-expand-red-oak-campus/
+    title: "Compass Datacenters looks to expand Red Oak campus"
+    publisher: Data Center Dynamics
+signals:
+  - sig-20260706-compass-redoak-buildings
+  - sig-20260706-compass-redoak-capacity
+  - sig-20260706-compass-redoak-land
+  - sig-20260706-compass-redoak-status
+notes: >-
+  Operator Compass Datacenters needs an operators.yml entry (omitted here).
+  Single DCD source reports five facilities online 2024-2025, fully occupied
+  by a single tenant, with the campus expanding — resolved to operational with
+  expansion ongoing. Capacity ~360MW and land ~300 acres are approximate.
+  Distinct from the DataBank Red Oak campus (databank-red-oak): different
+  operator, land, and build details though both in Red Oak / Ellis County.
