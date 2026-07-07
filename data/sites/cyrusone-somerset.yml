@@ -1,0 +1,29 @@
+id: cyrusone-somerset
+name: CyrusOne NYM1 Somerset
+status: operational
+location:
+  country: US
+  state: NJ
+  county: Somerset
+  locality: Somerset
+  address: "800 Cottontail Lane, Somerset, NJ"
+metrics:
+  building_sqft: 430000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.cyrusone.com/data-centers/north-america/somerset-nj
+    publisher: CyrusOne
+    date: "2026-07-06"
+    note: "Operator facility page; primary source for location, sqft, status."
+signals:
+  - sig-20260706-cyrusone-nym1-location
+  - sig-20260706-cyrusone-nym1-sqft
+  - sig-20260706-cyrusone-nym1-status
+notes: >
+  All three facts come from a single primary source (CyrusOne's own
+  facility page), self-consistent, hence medium confidence pending an
+  independent corroborating source. Operator "CyrusOne" has no
+  operators.yml entry — operator field omitted; CyrusOne needs an
+  operators.yml entry (type colo/reit) before it can be linked.

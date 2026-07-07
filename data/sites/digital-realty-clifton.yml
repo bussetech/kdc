@@ -1,0 +1,29 @@
+id: digital-realty-clifton
+name: Digital Realty EWR20 / EWR21 (Clifton)
+status: operational
+location:
+  country: US
+  state: NJ
+  county: Passaic
+  locality: Clifton
+metrics: {}
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: low
+sources:
+  - url: https://www.datacenters.com/locations/united-states/new-jersey
+    publisher: Datacenters.com
+    date: "2026-07-06"
+    note: "Aggregator listing; scout-flagged low confidence."
+signals:
+  - sig-20260706-digitalrealty-ewr-location
+  - sig-20260706-digitalrealty-ewr-status
+notes: >
+  Low confidence — single aggregator source (Datacenters.com), no
+  primary corroboration. The location signal names two distinct
+  buildings at two addresses: EWR21 at 2 Peekay Drive and EWR20 at 100
+  Delawanna Avenue, Clifton, NJ. These may warrant splitting into two
+  physical-site records once a primary source distinguishes them; held
+  as one record here because the signals arrived combined and thin.
+  Operator "Digital Realty" has no operators.yml entry — operator field
+  omitted; Digital Realty needs an operators.yml entry (type reit/colo).

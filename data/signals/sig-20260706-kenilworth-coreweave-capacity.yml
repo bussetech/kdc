@@ -1,5 +1,5 @@
 id: sig-20260706-kenilworth-coreweave-capacity
-site_id: null
+site_id: coreweave-kenilworth
 site_hint: "CoreWeave Kenilworth data center — Union County, NJ"
 attribute: capacity_mw
 value: "250 MW"
