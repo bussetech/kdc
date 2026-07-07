@@ -1,0 +1,33 @@
+id: ne-edge-waterford
+name: NE Edge Millstone hyperscale data centers
+status: cancelled
+location:
+  country: US
+  state: CT
+  county: New London
+  locality: Waterford
+metrics:
+  building_sqft: 1500000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/ne-edge-proposes-15-million-sq-ft-data-center-at-nuclear-power-station-in-connecticut/
+    title: "NE Edge proposes 1.5 million sq ft data center at nuclear power station in Connecticut"
+    publisher: DataCenterDynamics
+    date: "2026-07-06"
+    note: "~1.5M sq ft across two hyperscale data centers, behind-the-meter at Millstone Nuclear Power Station, Waterford."
+signals:
+  - sig-20260706-ne-edge-millstone-location
+  - sig-20260706-ne-edge-millstone-sqft
+  - sig-20260706-ne-edge-millstone-status
+notes: >
+  Single source (DataCenterDynamics), medium confidence. Two hyperscale data
+  centers (~1.5M sq ft total) proposed behind-the-meter at Millstone Nuclear
+  Power Station in Waterford, New London County, CT (site_hint gave "New London";
+  location signal is more specific — Waterford). Operator NE Edge has no
+  operators.yml entry — operator field omitted; NE Edge needs an operators.yml
+  entry, so the id slug uses the distinctive proper name. Status resolved to
+  `cancelled` per the source, whose stated basis is the governor signaling a
+  slowdown on new data centers in his 2026 State of the State — a thin/indirect
+  basis; treat the cancellation as provisional pending a confirming source.

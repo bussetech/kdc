@@ -1,5 +1,5 @@
 id: sig-20260706-ne-edge-millstone-status
-site_id: null
+site_id: ne-edge-waterford
 site_hint: "NE Edge Millstone hyperscale project — New London, CT"
 attribute: status
 value: "cancelled — governor signaled a slowdown on new data centers in his 2026 State of the State"

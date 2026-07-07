@@ -1,5 +1,5 @@
 id: sig-20260706-ne-edge-millstone-sqft
-site_id: null
+site_id: ne-edge-waterford
 site_hint: "NE Edge Millstone hyperscale project — New London, CT"
 attribute: building_sqft
 value: "~1.5 million sq ft total across two hyperscale data centers"
