@@ -1,0 +1,33 @@
+id: imperial-valley-computer-manufacturing-imperial-county
+name: Imperial County AI campus
+status: announced
+location:
+  country: US
+  state: CA
+  county: Imperial County
+metrics:
+  capacity_mw: 330
+  building_sqft: 1000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://inewsource.org/2026/04/05/data-center-developer-imperial-county/
+    title: "Data center developer Imperial County"
+    publisher: inewsource
+    date: "2026-04-05"
+signals:
+  - sig-20260706-imperial-valley-developer
+  - sig-20260706-imperial-valley-mw
+  - sig-20260706-imperial-valley-sqft
+  - sig-20260706-imperial-valley-status
+notes: >-
+  Single source (inewsource, medium-confidence signals). Proposed and
+  contested: the Planning Commission declined the lot merger in December and
+  the matter was appealed to the Board of Supervisors for April 2026 amid
+  CEQA challenges — captured as status "announced" (not cancelled: the
+  proposal was still live under appeal as of the source date). building_sqft
+  is "~1 million sq ft" (approximate) per the source. Developer is
+  Imperial Valley Computer Manufacturing (Sebastian Rucci), which has no
+  operators.yml entry and needs one; developer field omitted rather than
+  inventing an id.

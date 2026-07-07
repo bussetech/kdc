@@ -1,5 +1,5 @@
 id: sig-20260706-equinix-svalley-capacity
-site_id: null
+site_id: equinix-santa-clara-county
 site_hint: "Silicon Valley IBX campus (Equinix) — Santa Clara County, CA"
 attribute: capacity_mw
 value: "81MW sellable power (2019 figures)"
