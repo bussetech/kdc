@@ -12,7 +12,7 @@ lang: en
 url: "https://kdc.bussetech.com"
 baseurl: ""
 
-remote_theme: bussetech/theme@v0.10.0 # canary for sortable-table + page rail; merge after theme v0.10.0 is tagged
+remote_theme: bussetech/theme@v0.11.0 # canary for compact rail signup (+ v0.10 components); merge after v0.11.0 is tagged
 plugins:
   - jekyll-remote-theme
 
