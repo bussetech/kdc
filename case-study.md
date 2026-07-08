@@ -40,7 +40,7 @@ looked and found *nothing* — because an honest negative is data too.
 The dataset now holds 162 source-cited records across 48 US states and its
 first international entry, resolved from 716 per-source signals — a
 living count you can recount from the [open data](/data/) any time. Putting
-those records here took on the order of a dozen dollars of agent spend
+those records here took roughly $20 of agent spend as of 2026-07-08
 (counting the console-directed research runs that expanded coverage, not just
 the automated slice), inside a studio budget it publishes in aggregate. The
 studio doesn't *promise* transparency; building this way, it can't *not*
