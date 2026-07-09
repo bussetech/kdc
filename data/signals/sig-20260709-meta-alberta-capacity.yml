@@ -1,5 +1,5 @@
 id: sig-20260709-meta-alberta-capacity
-site_id: null
+site_id: meta-alberta
 site_hint: "Meta gigawatt-scale data center — Alberta, Canada"
 attribute: capacity_mw
 value: "gigawatt-scale"

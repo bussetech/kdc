@@ -1,5 +1,5 @@
 id: sig-20260709-parsons-ks-capacity
-site_id: null
+site_id: hyperdatagrid-parsons
 site_hint: "HyperDataGrid data center — Parsons, KS"
 attribute: capacity_mw
 value: "20MW"

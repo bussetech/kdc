@@ -1,0 +1,30 @@
+id: berryhill-pittsylvania
+name: Southern Virginia Megasite at Berry Hill
+status: announced
+location:
+  country: US
+  state: VA
+  county: Pittsylvania
+metrics:
+  investment_usd: 100000000000
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: medium
+sources:
+  - url: https://virginiabusiness.com/virginia-budget-stack-100b-data-center-project/
+    title: "Virginia budget clears way for $100B Berry Hill data center campus"
+    publisher: Virginia Business
+    date: "2026-07-01"
+signals:
+  - sig-20260706-berryhill-developer
+  - sig-20260706-berryhill-investment
+  - sig-20260706-berryhill-location
+  - sig-20260706-berryhill-status
+notes: >-
+  Stack Infrastructure will advance planning for a proposed campus at the
+  Southern Virginia Megasite at Berry Hill through its competitive site
+  selection process. Investment reported two ways in the same article: a
+  $73.5B performance-agreement minimum under the Danville-Pittsylvania RIFA
+  agreement vs the company's ~$100B projection over three decades; recorded the
+  ~$100B planned figure and note the $73.5B agreement minimum. Developer Stack
+  Infrastructure needs an operators.yml entry, so developer is omitted.

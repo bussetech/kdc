@@ -1,0 +1,26 @@
+id: blockfusion-niagara-falls
+name: Blockfusion Niagara Falls data center
+status: operational
+location:
+  country: US
+  state: NY
+  locality: Niagara Falls
+metrics:
+  capacity_mw: 300
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/blockfusion-signs-loi-for-175-million-lease-with-ai-customer-in-niagara-falls/
+    title: "Blockfusion signs LOI for $175 million lease with AI customer in Niagara Falls"
+    publisher: Data Center Dynamics
+    date: "2026-07-07"
+    note: "Headline-only teaser."
+signals:
+  - sig-20260708-blockfusion-niagara-capacity
+notes: >-
+  Blockfusion (a reformed crypto firm) signed an LOI for a $175M lease with an
+  unnamed AI tenant. The 300MW is a prospective lease ceiling from the LOI, not
+  confirmed built capacity. Status inferred operational from the existing-site
+  lease framing; no explicit status signal. Operator "Blockfusion" needs an
+  operators.yml entry, so operator is omitted.

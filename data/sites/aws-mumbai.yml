@@ -1,0 +1,24 @@
+id: aws-mumbai
+name: Amazon data center land lease (Mumbai)
+operator: aws
+status: operational
+location:
+  country: IN
+  locality: Mumbai
+metrics: {}
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/amazons-data-center-arm-expands-land-lease-by-four-acres-in-mumbai-india/
+    title: "Amazon's data center arm expands land lease by four acres in Mumbai, India"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+    note: "Headline-only feed item."
+signals:
+  - sig-20260706-amazon-mumbai-land
+notes: >-
+  AWS expands an existing land lease near Mumbai by four acres with a 17-year
+  commitment. The four acres is an increment, not the site total, so land_acres
+  is left blank rather than invented. Status inferred as operational from the
+  lease-expansion framing of an existing site; no explicit status signal.

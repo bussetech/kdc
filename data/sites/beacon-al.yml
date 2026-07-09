@@ -1,0 +1,23 @@
+id: beacon-al
+name: Beacon data center campus (Alabama)
+status: announced
+location:
+  country: US
+  state: AL
+metrics:
+  buildings: 2
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/canadas-beacon-details-plans-for-data-center-campus-in-alabama/
+    title: "Canada's Beacon details plans for data center campus in Alabama"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+    note: "Headline-only feed item; no county specified."
+signals:
+  - sig-20260706-beacon-alabama-buildings
+notes: >-
+  Canada's Beacon plans a two-building campus with no diesel generators; only
+  the state (AL) is given, no county or locality. Operator "Beacon" needs an
+  operators.yml entry, so operator is omitted.
