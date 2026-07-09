@@ -14,11 +14,12 @@ metrics:
   capacity_mw: 946
   capacity_mw_basis: it-load
   land_acres: 552
+  building_sqft: 785000
   investment_usd: 35800000000
 announced_date: "2024-06-05"
 operational_date: "2024-08-08"
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-09"
 confidence: medium
 sources:
   - url: https://memphischamber.com/economic-development/xai/
@@ -28,6 +29,11 @@ sources:
     title: "Colossus 2 | AI Data Centers | Epoch AI"
     publisher: Epoch AI
     date: "2026-07-03"
+  - url: https://en.wikipedia.org/wiki/Colossus_(data_center)
+    title: "Colossus (data center)"
+    publisher: Wikipedia
+    date: "2026-07-06"
+    note: "low-confidence; main-building sqft and onsite-power figures"
 signals:
   - sig-20260705-colossus-capacity-chamber
   - sig-20260705-colossus-capacity-epoch
@@ -37,12 +43,19 @@ signals:
   - sig-20260705-colossus-operational-date
   - sig-20260705-colossus-status
   - sig-20260705-colossus2-operational-date
+  - sig-20260706-colossus-building-sqft
+  - sig-20260706-colossus-capacity
 notes: >
   Multi-phase campus, one record. Colossus 1 operational 2024-08-08 (122 days
   after 2024-06-05 announcement); Colossus 2 clusters coming online Oct 2025 /
   Apr 2026 / Jul 2026. Capacity conflicts widely by phase and basis: Colossus 1
   ~300 MW (Chamber) vs Colossus 2 946 MW IT power (Epoch, the value used here);
-  unverified Jan 2026 press claimed 2 GW / 555k GPUs / $18B. Investment
-  ~$35.8B is an Epoch estimate for Colossus 2 and conflicts with unverified
-  press figures. Colossus 1 reported at the former Electrolux plant;
-  552 acres leased at Frank C. Pidgeon Industrial Park.
+  unverified Jan 2026 press claimed 2 GW / 555k GPUs / $18B. Wikipedia (low
+  confidence) adds further conflicting power figures — a 150→250 MW stated max
+  vs ~422 MW inferred from 35 gas turbines (Apr 2025 imagery); these describe
+  onsite power generation, not IT load, so the 946 MW IT-load value is retained
+  and the Wikipedia figures recorded as minority/conflicting. building_sqft
+  785,000 is the Wikipedia "main building" figure (single low-confidence source,
+  main building only). Investment ~$35.8B is an Epoch estimate for Colossus 2
+  and conflicts with unverified press figures. Colossus 1 reported at the former
+  Electrolux plant; 552 acres leased at Frank C. Pidgeon Industrial Park.

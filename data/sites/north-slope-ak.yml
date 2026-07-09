@@ -1,0 +1,29 @@
+id: north-slope-ak
+name: Alaska data center exploration
+status: announced
+location:
+  country: US
+  state: AK
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/alaska-data-center-amazon-meta-microsoft-mike-dunleavy/
+    title: "Alaska data center Amazon Meta Microsoft Mike Dunleavy"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+signals:
+  - sig-20260706-north-slope-exploration
+notes: >
+  Early-stage exploration recorded as a record, not omitted (negatives are
+  data). Gov. Dunleavy is courting Amazon, Meta, and Microsoft; toured
+  Fairbanks/Anchorage sites with operator Switch; the Air Force offered land at
+  Clear Space Force Station and Eielson AFB. No hyperscaler has committed and no
+  single physical site is fixed — candidate locations (North Slope framing,
+  Fairbanks, Anchorage, Clear SFS, Eielson AFB) span multiple boroughs, so the
+  record is held at state level (AK) with no locality/county; the toured sites
+  are inconsistent with the "North Slope" label from the hint. operator omitted:
+  Switch needs an operators.yml entry, and no hyperscaler is confirmed. Single
+  source, exploratory and diffuse — confidence low. status `announced` used as
+  the earliest formal state; if this dies without a committed site it should
+  move to `cancelled`.

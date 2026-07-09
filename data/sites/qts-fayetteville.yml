@@ -8,8 +8,10 @@ location:
   county: Fayette
   locality: Fayetteville
 metrics:
+  capacity_mw: 250
   land_acres: 615
   building_sqft: 6600000
+  buildings: 16
 announced_date: null
 first_seen: "2026-07-09"
 last_updated: "2026-07-09"
@@ -19,14 +21,23 @@ sources:
     title: "QTS buys 615 acres in Fayetteville, Georgia for world's largest multi-tenant data center campus"
     publisher: REBusinessOnline
     date: "2026-07-06"
-    note: "single source; reports 615-acre purchase and ~6.6M sq ft plus ~400K sq ft office"
+    note: "single source; 615-acre purchase, ~6.6M sq ft, up to 16 buildings, ~250 MW, ~$154M land purchase"
 signals:
   - sig-20260706-qts-fayetteville-sqft
+  - sig-20260706-qts-fayetteville-buildings
+  - sig-20260706-qts-fayetteville-capacity
+  - sig-20260706-qts-fayetteville-investment
+  - sig-20260706-qts-fayetteville-land
+  - sig-20260706-qts-fayetteville-status
 notes: >
   New site from a single medium-confidence trade-press source. Operator QTS
   (qts). Located in Fayetteville, Fayette County, GA — locality used for the
   id/place per precedence. building_sqft records the reported ~6.6 million sq ft
   data-center footprint; the source additionally cites ~400,000 sq ft of office
   space, not folded into building_sqft to avoid inventing a combined figure.
-  land_acres (615) taken from the source's stated acreage. Single source, so
-  confidence medium.
+  land_acres (615) and buildings (up to 16) and capacity_mw (~250 MW) taken from
+  the source. investment_usd is deliberately left blank: the source's ~$154M is
+  explicitly the land-purchase price, not the total build investment, so
+  recording it as investment_usd would misrepresent scope. Source status term
+  "development" mapped to `announced` — land purchased but no construction
+  evidence. Single source, so confidence medium.
