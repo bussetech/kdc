@@ -1,0 +1,12 @@
+id: sig-20260706-berryhill-status
+site_id: null
+site_hint: "Southern Virginia Megasite at Berry Hill (Stack Infrastructure) — Pittsylvania, VA"
+attribute: status
+value: "After Virginia budget finalized, Stack Infrastructure announced it will move forward with planning for proposed data center campus at Southern Virginia Megasite at Berry Hill; project 'will continue to advance through our competitive site selection process'"
+source_url: https://virginiabusiness.com/virginia-budget-stack-100b-data-center-project/
+source_title: "Virginia budget clears way for $100B Berry Hill data center campus"
+publisher: Virginia Business
+source_date: "2026-07-01"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium

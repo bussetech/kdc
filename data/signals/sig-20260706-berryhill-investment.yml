@@ -1,0 +1,13 @@
+id: sig-20260706-berryhill-investment
+site_id: null
+site_hint: "Southern Virginia Megasite at Berry Hill (Stack Infrastructure) — Pittsylvania, VA"
+attribute: investment_usd
+value: "at least $73.5 billion at the site under the Danville-Pittsylvania RIFA performance agreement; company's planned investment actually about $100 billion over three decades"
+source_url: https://virginiabusiness.com/virginia-budget-stack-100b-data-center-project/
+source_title: "Virginia budget clears way for $100B Berry Hill data center campus"
+publisher: Virginia Business
+source_date: "2026-07-01"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: medium
+notes: "Two figures from same article: $73.5B performance-agreement minimum vs ~$100B company projection over 30 years"
