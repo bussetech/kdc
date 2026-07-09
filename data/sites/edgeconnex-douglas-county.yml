@@ -1,0 +1,26 @@
+id: edgeconnex-douglas-county
+name: EdgeConneX-linked affiliate data center (Douglas County)
+status: cancelled
+location:
+  country: US
+  state: GA
+  county: Douglas County
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/county-officials-deny-data-center-zoning-request-in-georgia/
+    title: County officials deny data center zoning request in Georgia
+    publisher: Data Center Dynamics
+    date: "2026-07-09"
+    note: Headline/subtitle-only feed item.
+signals:
+  - sig-20260709-douglas-county-ga-edgeconnex-status
+notes: >-
+  Cancelled path: Douglas County commissioners denied the zoning request for an
+  EdgeConneX-linked affiliate data center. Operator "EdgeConneX" has no
+  operators.yml entry and the counterparty is described only as a linked
+  affiliate, so operator/developer fields are omitted; EdgeConneX needs an
+  operators.yml entry. No locality given — place resolved to county. Single
+  thin headline-only source; unclear whether related to any existing Douglas
+  County GA site.

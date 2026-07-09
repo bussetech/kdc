@@ -1,0 +1,25 @@
+id: swervo-irongate-elk-river
+name: Swervo/Irongate data center (warehouse repurpose)
+status: cancelled
+location:
+  country: US
+  state: MN
+  county: Sherburne County
+  locality: Elk River
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/officials-in-elk-river-minnesota-deny-data-center-application-consider-moratorium/
+    title: Officials in Elk River, Minnesota, deny data center application, consider moratorium
+    publisher: Data Center Dynamics
+    date: "2026-07-09"
+    note: Headline/subtitle-only feed item.
+signals:
+  - sig-20260709-elk-river-swervo-status
+notes: >-
+  Cancelled path: Elk River city council denied the Swervo/Irongate application
+  to repurpose a warehouse into a data center; a moratorium is under
+  consideration. Operator "Swervo/Irongate" has no operators.yml entry —
+  operator/developer fields omitted; needs an operators.yml entry. Single
+  headline-only source.
