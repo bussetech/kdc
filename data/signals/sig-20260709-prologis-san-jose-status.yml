@@ -1,5 +1,5 @@
 id: sig-20260709-prologis-san-jose-status
-site_id: null
+site_id: prologis-san-jose
 site_hint: "Prologis San Jose data center — Santa Clara, CA"
 attribute: status
 value: "Prologis files to build data center (application filed)"
