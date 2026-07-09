@@ -1,0 +1,13 @@
+id: sig-20260709-douglas-county-ga-edgeconnex-status
+site_id: null
+site_hint: "EdgeConneX-linked affiliate data center (zoning request) — Douglas County, GA"
+attribute: status
+value: "Douglas County commissioners deny EdgeConneX-linked affiliate zoning request"
+source_url: https://www.datacenterdynamics.com/en/news/county-officials-deny-data-center-zoning-request-in-georgia/
+source_title: "County officials deny data center zoning request in Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-07-09"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "Headline/subtitle-only feed item; unclear whether related to existing Douglas County GA records."
