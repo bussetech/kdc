@@ -1,0 +1,13 @@
+id: sig-20260708-blockfusion-niagara-capacity
+site_id: null
+site_hint: "Blockfusion Niagara Falls data center — Niagara Falls, NY"
+attribute: capacity_mw
+value: "mystery tenant could lease up to 300MW from reformed crypto firm"
+source_url: https://www.datacenterdynamics.com/en/news/blockfusion-signs-loi-for-175-million-lease-with-ai-customer-in-niagara-falls/
+source_title: "Blockfusion signs LOI for $175 million lease with AI customer in Niagara Falls"
+publisher: Data Center Dynamics
+source_date: "2026-07-07"
+observed_date: "2026-07-08"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "Headline-only feed item (content is a one-line teaser); 300MW is a prospective lease ceiling from an LOI with an unnamed AI tenant, not confirmed capacity."
