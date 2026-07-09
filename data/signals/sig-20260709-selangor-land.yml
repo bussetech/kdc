@@ -1,0 +1,13 @@
+id: sig-20260709-selangor-land
+site_id: null
+site_hint: "Global Telecommunications Group data center — Selangor, Malaysia"
+attribute: land_acres
+value: "36-acre parcel"
+source_url: https://www.datacenterdynamics.com/en/news/malaysias-global-telecommunications-group-buys-36-acre-parcel-for-210mw-data-center-in-selangor-malaysia/
+source_title: "Malaysia's Global Telecommunications Group buys 36-acre parcel for 210MW data center in Selangor, Malaysia"
+publisher: Data Center Dynamics
+source_date: "2026-07-08"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "headline-only feed item"

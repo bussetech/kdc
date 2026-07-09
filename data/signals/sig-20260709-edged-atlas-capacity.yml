@@ -1,0 +1,13 @@
+id: sig-20260709-edged-atlas-capacity
+site_id: null
+site_hint: "Edged Project Atlas campus — Pennsylvania"
+attribute: capacity_mw
+value: "725MW"
+source_url: https://www.datacenterdynamics.com/en/news/edged-eyes-725mw-data-center-campus-in-pennsylvania/
+source_title: "Edged eyes 725MW data center campus in Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-07-08"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "headline-only feed item"
