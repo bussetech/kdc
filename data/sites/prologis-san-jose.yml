@@ -1,0 +1,31 @@
+id: prologis-san-jose
+name: Prologis San Jose data center
+status: announced
+location:
+  country: US
+  state: CA
+  county: Santa Clara County
+  locality: San Jose
+metrics:
+  capacity_mw: 99
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/prologis-files-to-build-99mw-data-center-in-san-jose-california/
+    title: Prologis files to build 99MW data center in San Jose, California
+    publisher: Data Center Dynamics
+    date: "2026-07-09"
+    note: Headline-only; body content is a single teaser line.
+signals:
+  - sig-20260709-prologis-san-jose-capacity
+  - sig-20260709-prologis-san-jose-developer
+  - sig-20260709-prologis-san-jose-status
+notes: >-
+  Prologis has filed an application to build a 99MW data center in San Jose
+  (Santa Clara County), CA — resolved to status announced (application filed).
+  The signals name Prologis as developer, but Prologis has no operators.yml
+  entry, so the developer field is omitted and the slug falls back to the
+  distinctive proper name; Prologis needs an operators.yml entry.
+  capacity_mw_basis is unspecified in the source (omitted). Single headline-only
+  source.
