@@ -10,7 +10,6 @@ location:
 metrics:
   land_acres: 615
   building_sqft: 6600000
-announced_date: null
 first_seen: "2026-07-09"
 last_updated: "2026-07-09"
 confidence: medium
@@ -22,6 +21,11 @@ sources:
     note: "single source; reports 615-acre purchase and ~6.6M sq ft plus ~400K sq ft office"
 signals:
   - sig-20260706-qts-fayetteville-sqft
+  - sig-20260706-qts-fayetteville-buildings
+  - sig-20260706-qts-fayetteville-capacity
+  - sig-20260706-qts-fayetteville-investment
+  - sig-20260706-qts-fayetteville-land
+  - sig-20260706-qts-fayetteville-status
 notes: >
   New site from a single medium-confidence trade-press source. Operator QTS
   (qts). Located in Fayetteville, Fayette County, GA — locality used for the
