@@ -1,0 +1,13 @@
+id: sig-20260706-st-digital-gabon-status
+site_id: null
+site_hint: "ST Digital data center — Gabon"
+attribute: status
+value: "Operational; opened after breaking ground last August"
+source_url: https://www.datacenterdynamics.com/en/news/cameroons-st-digital-opens-data-center-in-gabon/
+source_title: "Cameroon's ST Digital opens data center in Gabon"
+publisher: Data Center Dynamics
+source_date: "2026-07-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "Headline-plus-summary only; no site-level detail in fetched content."
