@@ -1,0 +1,26 @@
+id: meta-alberta
+name: Meta gigawatt-scale data center (Alberta)
+operator: meta
+status: announced
+location:
+  country: CA
+  region: Alberta
+metrics:
+  investment_usd: 9170000000
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/meta-plans-917bn-gigawatt-scale-data-center-in-alberta-canada/
+    title: "Meta plans $9.17bn gigawatt-scale data center in Alberta, Canada"
+    publisher: Data Center Dynamics
+    date: "2026-07-09"
+    note: "Headline-only feed item."
+signals:
+  - sig-20260709-meta-alberta-capacity
+  - sig-20260709-meta-alberta-investment
+  - sig-20260709-meta-alberta-status
+notes: >-
+  Meta's first data center in Canada, a $9.17bn project in Alberta. Capacity is
+  described only as "gigawatt-scale" with no numeric MW figure, so capacity_mw
+  is left blank rather than invented.

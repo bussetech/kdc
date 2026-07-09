@@ -1,0 +1,28 @@
+id: qts-prince-william
+name: Prince William Digital Gateway
+developer: qts
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: Prince William
+metrics:
+  land_acres: 2100
+  building_sqft: 23000000
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: medium
+sources:
+  - url: https://virginiabusiness.com/prince-william-supervisors-reject-another-big-data-center-project/
+    title: "Prince William supervisors reject another big data center project"
+    publisher: Virginia Business
+    date: "2026-07-08"
+signals:
+  - sig-20260709-pw-digital-gateway-land
+  - sig-20260709-pw-digital-gateway-status
+notes: >-
+  Cancelled: the project officially died when developer QTS Data Centers
+  withdrew its petition on July 2. A 23M-sq-ft complex planned on 2,100 acres
+  near Manassas National Battlefield Park (both figures bundled in one signal).
+  Distinct site from the Dulles South Innovation Center. Negative outcome
+  recorded per KB-0001.
