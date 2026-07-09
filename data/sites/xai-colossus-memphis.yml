@@ -14,11 +14,12 @@ metrics:
   capacity_mw: 946
   capacity_mw_basis: it-load
   land_acres: 552
+  building_sqft: 785000
   investment_usd: 35800000000
 announced_date: "2024-06-05"
 operational_date: "2024-08-08"
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-09"
 confidence: medium
 sources:
   - url: https://memphischamber.com/economic-development/xai/
@@ -28,6 +29,10 @@ sources:
     title: "Colossus 2 | AI Data Centers | Epoch AI"
     publisher: Epoch AI
     date: "2026-07-03"
+  - url: https://en.wikipedia.org/wiki/Colossus_(data_center)
+    title: "Colossus (data center)"
+    publisher: Wikipedia
+    date: "2026-07-06"
 signals:
   - sig-20260705-colossus-capacity-chamber
   - sig-20260705-colossus-capacity-epoch
@@ -37,12 +42,20 @@ signals:
   - sig-20260705-colossus-operational-date
   - sig-20260705-colossus-status
   - sig-20260705-colossus2-operational-date
+  - sig-20260706-colossus-building-sqft
+  - sig-20260706-colossus-capacity
 notes: >
   Multi-phase campus, one record. Colossus 1 operational 2024-08-08 (122 days
   after 2024-06-05 announcement); Colossus 2 clusters coming online Oct 2025 /
   Apr 2026 / Jul 2026. Capacity conflicts widely by phase and basis: Colossus 1
   ~300 MW (Chamber) vs Colossus 2 946 MW IT power (Epoch, the value used here);
-  unverified Jan 2026 press claimed 2 GW / 555k GPUs / $18B. Investment
-  ~$35.8B is an Epoch estimate for Colossus 2 and conflicts with unverified
-  press figures. Colossus 1 reported at the former Electrolux plant;
-  552 acres leased at Frank C. Pidgeon Industrial Park.
+  unverified Jan 2026 press claimed 2 GW / 555k GPUs / $18B. Wikipedia (low
+  confidence) reports max power raised from 150 MW to 250 MW, with April 2025
+  imagery showing 35 gas turbines at an inferred ~422 MW — both well below the
+  946 MW IT-load figure retained, consistent with phase/basis differences;
+  disagreement kept, minority figures not dropped. Investment ~$35.8B is an
+  Epoch estimate for Colossus 2 and conflicts with unverified press figures.
+  building_sqft 785,000 sq ft is a single-source Wikipedia figure (low
+  confidence) for the main building, which Wikipedia and prior signals both
+  place at the former Electrolux plant; 552 acres leased at Frank C. Pidgeon
+  Industrial Park.
