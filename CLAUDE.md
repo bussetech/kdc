@@ -25,9 +25,11 @@ not launder a single outlet's claim into fact.
 ### Data model (see `founding/schema-sketch.md`, then `schema/`)
 - **`data/signals/<id>.yml`** — raw per-source observations, append-only.
   One signal = one claim (attribute + value) from one source URL. Written
-  by `gn_kdc_scout`. Conflicting signals coexist by design.
+  by `gn_info_scout` (the info-archetype product gnome; kdc's founding
+  `gn_kdc_scout` is its retired ancestor — platform ADR-0045). Conflicting
+  signals coexist by design.
 - **`data/sites/<id>.yml`** — resolved project records, built by
-  `gn_kdc_records` from clustered signals. Every value traces back to a
+  `gn_info_records` (ancestor: `gn_kdc_records`) from clustered signals. Every value traces back to a
   signal and thence to a source. Status is one of
   announced/permitted/under-construction/operational/cancelled —
   dead proposals are records, not omissions (ruling: platform#52).
@@ -49,16 +51,18 @@ not launder a single outlet's claim into fact.
   field, a recommendation, a deadline, and the default action.
 
 ### The jobs (gnomes + code)
-- **`gn_kdc_scout`** (project, untrusted, PR-only) — web research
-  judgment. `mode: discover` finds new projects; `mode: verify` re-checks
+- **`gn_info_scout`** (project, untrusted, PR-only) — web research
+  judgment, configured for kdc by `data/profiles/scout.md` (this repo owns
+  its dataset profile; the gnome serves every info project). `mode: discover` finds new projects; `mode: verify` re-checks
   known sites (one, or all when no target) for status change / stale
   sources. Emits signals as PRs only. It NEVER fetches: scheduled runs
   (daily discover over press feeds, weekly county-feed sweep, monthly
   verify) are fed by the deterministic fetch layer over
   `data/sources.yml`.
-- **`gn_kdc_records`** (project, untrusted, PR-only) — clusters signals
-  per site, resolves conflicts into the most-likely fact with confidence
-  and provenance, opens PRs against `data/sites/`.
+- **`gn_info_records`** (project, untrusted, PR-only) — clusters signals
+  per site per `data/profiles/records.md`, resolves conflicts into the
+  most-likely fact with confidence and provenance, opens PRs against
+  `data/sites/`.
 - **Everything else is plain code:** site build, index/per-record pages,
   the change feed, schema validation (studio data CI), GIS ingestion,
   id/slug management. If a task is deterministic, it is code, not a gnome.
@@ -120,7 +124,7 @@ non-US sites omit `state` and locate via `region`/`county`/`locality`
   recommendation, a deadline, and a default action). Status flows through
   the site feed and the portal, never through issues.
 - **Project-scoped issues live here, publicly** (ruling platform#64):
-  research batches for `gn_kdc_scout` (`type:gnome-task` issue bodies on
+  research batches for `gn_info_scout` (`type:gnome-task` issue bodies on
   this repo), data corrections, record reviews. They are the surface
   outside humans can read and contribute to. Only studio-level concerns
   (registry, machinery, cross-repo decisions) go to the control repo.
