@@ -12,8 +12,9 @@ location:
   lon: -99.752
 metrics:
   capacity_mw: 1200
+  buildings: 8
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-09"
 confidence: medium
 sources:
   - url: https://www.datacenterdynamics.com/en/news/openai-and-oracle-to-deploy-450000-gb200-gpus-at-stargate-abilene-data-center/
@@ -28,6 +29,18 @@ sources:
     title: "Oracle and OpenAI's Abilene expansion saga detailed: 600MW expansion gets scrapped, as larger 4.5GW agreement remains on track"
     publisher: Tom's Hardware
     date: "2026"
+  - url: https://developabilene.com/2024/11/19/the-development-corporation-of-abilene-city-of-abilene-and-taylor-county-announce-expanded-development-within-lanciums-clean-campus-through-crusoes-998000-square-foot-data-center/
+    title: "Expanded development within Lancium's Clean Campus through Crusoe's 998,000-square-foot data center"
+    publisher: Develop Abilene
+    date: "2024-11-19"
+  - url: https://lancium.com/2025/03/18/crusoe-expands-ai-data-center-campus-in-abilene-to-1-2-gigawatts/
+    title: "Crusoe expands AI data center campus in Abilene to 1.2 gigawatts"
+    publisher: Lancium
+    date: "2025-03-18"
+  - url: https://www.datacenterdynamics.com/en/news/oracleopenai-drop-plans-to-expand-flagship-abilene-stargate-site-meta-in-talks-to-pick-up-crusoe-capacity-with-nvidias-help/
+    title: "Oracle/OpenAI drop plans to expand flagship Abilene Stargate site; Meta in talks to pick up Crusoe capacity with Nvidia's help"
+    publisher: DataCenterDynamics
+    date: "2026"
 signals:
   - sig-20260705-stargate-abilene-capacity-dcd
   - sig-20260705-stargate-abilene-capacity-epoch
@@ -36,13 +49,28 @@ signals:
   - sig-20260705-stargate-abilene-operational-date
   - sig-20260705-stargate-abilene-operator
   - sig-20260705-stargate-abilene-status
+  - sig-20260706-abilene-building-sqft
+  - sig-20260706-abilene-buildings
+  - sig-20260706-abilene-capacity
+  - sig-20260706-abilene-expansion-cancelled
 notes: >
   Under construction: first two of eight buildings operational Sept 2025;
   ~0.3 GW / 4 of 8 buildings operational as of April 2026 (Epoch); full
   8-building / 1.2 GW build projected Q4 2026 (capacity_mw shown is the 1.2 GW
   committed campus, which conflicts by frame with the ~0.3 GW operational
-  figure). Oracle leases and operates capacity for OpenAI — Oracle needs an
-  operators.yml entry (operator field set to openai). A 600 MW Abilene
-  expansion was scrapped in 2026 while the broader 4.5 GW Oracle-OpenAI
-  agreement remains on track (Tom's Hardware, headline-level support only,
-  article body truncated at fetch).
+  figure). The 1.2 GW campus power figure is now supported by Lancium
+  (developer, 2025-03-18) alongside the earlier DCD/Epoch reporting.
+  buildings=8 is the full-buildout count from Lancium (2025-03-18). Oracle
+  leases and operates capacity for OpenAI — Oracle needs an operators.yml
+  entry (operator field set to openai).
+  building_sqft is left blank: sources conflict by frame and precision —
+  Develop Abilene (2024-11-19) cites a single 998,000-sq-ft Crusoe building,
+  while Lancium (2025-03-18) describes eight ~half-million-sq-ft buildings at
+  full buildout (~4M sq ft total). Emitting either as a site-wide number
+  would invent precision (KB-0002), so both are held in notes pending a
+  clean sourced figure.
+  A ~600 MW Abilene expansion was scrapped in 2026 (power not ready in time)
+  while the broader 4.5 GW Oracle-OpenAI agreement remains on track — now
+  corroborated by both Tom's Hardware and DataCenterDynamics
+  (sig-20260706-abilene-expansion-cancelled). This is a dropped expansion
+  phase, not the whole site; site status remains under-construction.
