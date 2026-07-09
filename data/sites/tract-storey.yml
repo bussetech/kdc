@@ -1,0 +1,27 @@
+id: tract-storey
+name: Peru Shelf Technology Park
+developer: tract
+status: under-construction
+location:
+  country: US
+  state: NV
+  county: Storey
+metrics:
+  capacity_mw: 810
+  land_acres: 686
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/tract-breaks-ground-on-810mw-data-center-park-in-reno-nevada/
+    publisher: DatacenterDynamics
+    note: "Groundbreaking; 810MW full build-out; ~686 acres within TRIC."
+signals:
+  - sig-20260706-tract-peru-shelf-capacity
+  - sig-20260706-tract-peru-shelf-land
+  - sig-20260706-tract-peru-shelf-status
+notes: >
+  Tract is a developer (developer id used; no separate operator known yet).
+  capacity_mw of 810 is the full build-out figure. Status "under-construction"
+  from "broke ground". Within the Tahoe-Reno Industrial Center; no locality
+  given, so place is county (Storey). Single source.

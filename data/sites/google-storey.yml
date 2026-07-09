@@ -1,0 +1,25 @@
+id: google-storey
+name: Google Tahoe-Reno Industrial Center campus
+operator: google
+status: operational
+location:
+  country: US
+  state: NV
+  county: Storey
+metrics:
+  investment_usd: 400000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.forbes.com/sites/jeffsteele/2025/09/25/hyperscale-data-center-growth-comes-to-nevada/
+    publisher: Forbes
+    date: "2025-09-25"
+    note: "$400M expansion figure; single secondary source."
+signals:
+  - sig-20260706-google-tric-investment
+notes: >
+  investment_usd of $400M is characterized as an expansion (not necessarily
+  total site investment). No locality given (TRIC is not an administrative
+  place), so place falls to county (Storey). Status "operational" inferred
+  from expansion language; no explicit status signal.

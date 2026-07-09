@@ -1,0 +1,30 @@
+id: tract-silver-springs
+name: Tract Silver Springs site
+developer: tract
+status: announced
+location:
+  country: US
+  state: NV
+  county: Lyon
+  locality: Silver Springs
+metrics:
+  capacity_mw: 1600
+  land_acres: 1060
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.tract.com/news/tract-expands-its-greater-reno-portfolio-closing-on-1060-acres-in-silver-springs-nevada-following-successful-rezoning-and-development-agreement-with-lyon-county/
+    publisher: Tract
+    date: "2026-07-06"
+    note: "Primary/operator source: ~1,060 acres closed, up to 1.6GW, rezoning + development agreement with Lyon County."
+signals:
+  - sig-20260706-tract-silver-springs-capacity
+  - sig-20260706-tract-silver-springs-land
+  - sig-20260706-tract-silver-springs-status
+notes: >
+  Tract is a developer (developer id used). capacity_mw of 1600 (=1.6GW) is
+  full-build-out capacity. Status recorded as "announced" (early planning);
+  land has been secured/closed following successful rezoning and a development
+  agreement with Lyon County — beyond a bare announcement but pre-construction.
+  Single primary source (Tract), hence aggregate medium confidence.

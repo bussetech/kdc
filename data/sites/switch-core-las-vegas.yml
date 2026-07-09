@@ -1,0 +1,25 @@
+id: switch-core-las-vegas
+name: Switch Core Campus (Las Vegas)
+status: operational
+location:
+  country: US
+  state: NV
+  county: Clark
+  locality: Las Vegas
+metrics:
+  building_sqft: 2000000
+first_seen: "2026-07-07"
+last_updated: "2026-07-07"
+confidence: medium
+sources:
+  - url: https://www.datacenterfrontier.com/cloud/article/11430710/switch-expands-again-boosting-las-vegas-campus-to-2-million-sf
+    title: "Switch expands again, boosting Las Vegas campus to 2 million SF"
+    publisher: Data Center Frontier
+    note: "Supplies ~2M sq ft and operational status."
+signals:
+  - sig-20260706-switch-core-sqft
+  - sig-20260706-switch-core-status
+notes: >
+  Operator is Switch, which has no data/operators.yml entry — operator field
+  omitted; needs an operators.yml entry. building_sqft from "~2 million sq ft"
+  (approximate). Single source for both facts.
