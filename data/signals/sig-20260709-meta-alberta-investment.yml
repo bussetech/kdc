@@ -1,0 +1,13 @@
+id: sig-20260709-meta-alberta-investment
+site_id: null
+site_hint: "Meta gigawatt-scale data center — Alberta, Canada"
+attribute: investment_usd
+value: "$9.17bn"
+source_url: https://www.datacenterdynamics.com/en/news/meta-plans-917bn-gigawatt-scale-data-center-in-alberta-canada/
+source_title: "Meta plans $9.17bn gigawatt-scale data center in Alberta, Canada"
+publisher: Data Center Dynamics
+source_date: "2026-07-09"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "headline-only feed item"

@@ -1,0 +1,13 @@
+id: sig-20260709-tyler-tx-status
+site_id: null
+site_hint: "Bitcoin mining data center — Tyler, TX"
+attribute: status
+value: "rejected by Tyler, Texas; opponents win out"
+source_url: https://www.datacenterdynamics.com/en/news/tyler-texas-rejects-bitcoin-mining-data-center/
+source_title: "Tyler, Texas, rejects Bitcoin mining data center"
+publisher: Data Center Dynamics
+source_date: "2026-07-08"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "headline-only feed item"

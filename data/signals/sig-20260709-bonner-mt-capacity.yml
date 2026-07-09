@@ -1,0 +1,13 @@
+id: sig-20260709-bonner-mt-capacity
+site_id: null
+site_hint: "29MW data center — Bonner, MT"
+attribute: capacity_mw
+value: "29MW"
+source_url: https://www.datacenterdynamics.com/en/news/plans-for-29mw-data-center-in-bonner-montana-dropped/
+source_title: "Plans for 29MW data center in Bonner, Montana, dropped"
+publisher: Data Center Dynamics
+source_date: "2026-07-08"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "headline-only feed item"

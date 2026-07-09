@@ -1,0 +1,13 @@
+id: sig-20260709-white-county-in-land
+site_id: null
+site_hint: "322-acre data center — White County, IN"
+attribute: land_acres
+value: "322 acres"
+source_url: https://www.datacenterdynamics.com/en/news/322-acre-data-center-could-be-built-in-white-county-indiana/
+source_title: "322-acre data center could be built in White County, Indiana"
+publisher: Data Center Dynamics
+source_date: "2026-07-09"
+observed_date: "2026-07-09"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "headline-only feed item"
