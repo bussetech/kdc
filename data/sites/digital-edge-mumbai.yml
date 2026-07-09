@@ -1,0 +1,24 @@
+id: digital-edge-mumbai
+name: Digital Edge data center, Mumbai
+status: announced
+location:
+  country: IN
+  locality: Mumbai
+metrics:
+  capacity_mw: 270
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/digital-edge-looking-to-develop-270mw-data-center-near-mumbai-india/
+    title: "Digital Edge looking to develop 270MW data center near Mumbai, India"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+    note: headline-only feed item; capacity from title, body uncorroborated
+signals:
+  - sig-20260706-digital-edge-mumbai-capacity
+notes: >
+  Near Mumbai, India. Operator "Digital Edge" has no operators.yml entry —
+  needs one — so operator field omitted. Capacity 270MW is from the headline
+  only and the fetched content does not corroborate it; basis unspecified.
+  Distinct from the Amazon Mumbai lease (different operator/site).

@@ -1,0 +1,27 @@
+id: global-telecommunications-selangor
+name: Global Telecommunications Group data center, Selangor
+status: announced
+location:
+  country: MY
+  region: Selangor
+metrics:
+  capacity_mw: 210
+  land_acres: 36
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/malaysias-global-telecommunications-group-buys-36-acre-parcel-for-210mw-data-center-in-selangor-malaysia/
+    title: "Malaysia's Global Telecommunications Group buys 36-acre parcel for 210MW data center in Selangor, Malaysia"
+    publisher: Data Center Dynamics
+    date: "2026-07-08"
+    note: headline-only feed item
+signals:
+  - sig-20260709-selangor-capacity
+  - sig-20260709-selangor-land
+  - sig-20260709-selangor-operator
+notes: >
+  Global Telecommunications Group bought a 36-acre parcel for a planned 210MW
+  data center in Selangor, Malaysia. Operator "Global Telecommunications
+  Group" has no operators.yml entry — needs one — so operator field omitted.
+  Capacity basis unspecified. No locality/county given; region Selangor.

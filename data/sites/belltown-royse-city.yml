@@ -1,0 +1,25 @@
+id: belltown-royse-city
+name: Belltown Power-linked data center, Royse City
+status: announced
+location:
+  country: US
+  state: TX
+  locality: Royse City
+metrics:
+  building_sqft: 100000
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/plans-filed-for-100000-sq-ft-data-center-outside-dallas-texas/
+    title: "Plans filed for 100,000 sq ft data center outside Dallas, Texas"
+    publisher: Data Center Dynamics
+    date: "2026-07-08"
+    note: headline-only feed item
+signals:
+  - sig-20260709-royse-city-developer
+  - sig-20260709-royse-city-sqft
+notes: >
+  100,000 sq ft facility outside Dallas; plans filed, aims to launch next
+  year (status: announced). Developer "Belltown Power"-linked affiliate has
+  no operators.yml entry — needs one — so developer field omitted.

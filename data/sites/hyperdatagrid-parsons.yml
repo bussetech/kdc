@@ -1,0 +1,25 @@
+id: hyperdatagrid-parsons
+name: HyperDataGrid data center, Parsons
+status: announced
+location:
+  country: US
+  state: KS
+  locality: Parsons
+metrics:
+  capacity_mw: 20
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/20mw-data-center-eyed-in-parsons-kansas/
+    title: "20MW data center eyed in Parsons, Kansas"
+    publisher: Data Center Dynamics
+    date: "2026-07-09"
+    note: headline-only feed item
+signals:
+  - sig-20260709-parsons-ks-capacity
+  - sig-20260709-parsons-ks-operator
+notes: >
+  20MW facility eyed in Parsons, KS. Operator "HyperDataGrid" has no
+  operators.yml entry — needs one — so operator field omitted. Capacity basis
+  unspecified.

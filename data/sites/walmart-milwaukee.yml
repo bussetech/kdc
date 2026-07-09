@@ -1,0 +1,24 @@
+id: walmart-milwaukee
+name: Milwaukee data center (former Walmart building)
+status: cancelled
+location:
+  country: US
+  state: WI
+  locality: Milwaukee
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/plans-for-milwaukee-wisconsin-data-center-in-former-walmart-building-shelved-amid-strong-local-opposition/
+    title: "Plans for Milwaukee, Wisconsin, data center in former Walmart building shelved amid strong local opposition"
+    publisher: Data Center Dynamics
+    date: "2026-07-09"
+    note: headline/subtitle-only feed item
+signals:
+  - sig-20260709-milwaukee-walmart-status
+notes: >
+  Cancelled — plans shelved amid strong local opposition. The computing
+  research facility would have been attached to a larger self-storage
+  facility in a former Walmart building. No operator/developer or project
+  name given; id built from the distinctive "Walmart" building descriptor
+  plus locality Milwaukee.

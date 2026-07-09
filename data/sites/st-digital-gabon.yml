@@ -1,0 +1,21 @@
+id: st-digital-gabon
+name: ST Digital data center, Gabon
+status: operational
+location:
+  country: GA
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/cameroons-st-digital-opens-data-center-in-gabon/
+    title: "Cameroon's ST Digital opens data center in Gabon"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+    note: headline-plus-summary only
+signals:
+  - sig-20260706-st-digital-gabon-status
+notes: >
+  Cameroon's ST Digital opened this facility (broke ground last August) —
+  status operational. Operator "ST Digital" has no operators.yml entry —
+  needs one — so operator field omitted. No locality/region given in source;
+  country only (Gabon, GA).

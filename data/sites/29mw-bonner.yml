@@ -1,0 +1,26 @@
+id: 29mw-bonner
+name: Bonner data center (29MW)
+status: cancelled
+location:
+  country: US
+  state: MT
+  locality: Bonner
+metrics:
+  capacity_mw: 29
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/plans-for-29mw-data-center-in-bonner-montana-dropped/
+    title: "Plans for 29MW data center in Bonner, Montana, dropped"
+    publisher: Data Center Dynamics
+    date: "2026-07-08"
+    note: headline-only feed item
+signals:
+  - sig-20260709-bonner-mt-capacity
+  - sig-20260709-bonner-mt-status
+notes: >
+  Cancelled — the building owner eyed for the data center dropped support,
+  killing the project. Negative outcome recorded, not omitted (KB-0001).
+  No operator/developer or project name given; id built from the distinctive
+  29MW descriptor plus locality Bonner.

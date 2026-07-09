@@ -1,0 +1,27 @@
+id: edged-atlas-pennsylvania
+name: Edged Project Atlas data center campus, Pennsylvania
+status: announced
+location:
+  country: US
+  state: PA
+metrics:
+  capacity_mw: 725
+  buildings: 3
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/edged-eyes-725mw-data-center-campus-in-pennsylvania/
+    title: "Edged eyes 725MW data center campus in Pennsylvania"
+    publisher: Data Center Dynamics
+    date: "2026-07-08"
+    note: headline-only feed item
+signals:
+  - sig-20260709-edged-atlas-buildings
+  - sig-20260709-edged-atlas-capacity
+notes: >
+  Project Atlas by Edged; 725MW eyed. Building count reduced from six planned
+  to three (recorded current figure 3, phase reduction noted). Operator/
+  developer "Edged" has no operators.yml entry — needs one — so those fields
+  are omitted. No county/locality given; place is state PA. Capacity basis
+  unspecified.

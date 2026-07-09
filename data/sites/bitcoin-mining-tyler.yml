@@ -1,0 +1,22 @@
+id: bitcoin-mining-tyler
+name: Bitcoin mining data center, Tyler
+status: cancelled
+location:
+  country: US
+  state: TX
+  locality: Tyler
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/tyler-texas-rejects-bitcoin-mining-data-center/
+    title: "Tyler, Texas, rejects Bitcoin mining data center"
+    publisher: Data Center Dynamics
+    date: "2026-07-08"
+    note: headline-only feed item
+signals:
+  - sig-20260709-tyler-tx-status
+notes: >
+  Cancelled — the City of Tyler rejected the Bitcoin mining data center;
+  opponents won out. No operator/developer or project name given; id built
+  from the distinctive "Bitcoin mining" descriptor plus locality Tyler.

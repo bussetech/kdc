@@ -1,0 +1,31 @@
+id: dulles-south-prince-william
+name: Dulles South Innovation Center
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: Prince William
+metrics:
+  land_acres: 1930
+  building_sqft: 43000000
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: medium
+sources:
+  - url: https://virginiabusiness.com/prince-william-supervisors-reject-another-big-data-center-project/
+    title: "Prince William supervisors reject another big data center project"
+    publisher: Virginia Business
+    date: "2026-07-08"
+signals:
+  - sig-20260709-dulles-south-developer
+  - sig-20260709-dulles-south-land
+  - sig-20260709-dulles-south-sqft
+  - sig-20260709-dulles-south-status
+notes: >
+  Cancelled — Prince William supervisors unanimously rejected the
+  comprehensive plan amendment for the campus. About 1,930 acres in the
+  Gainesville Magisterial District; up to 43M sq ft of development at
+  buildout. Developer Warrenton-based LSI 360 (a.k.a. LSI Communications)
+  has no operators.yml entry — needs one — so developer field omitted.
+  Distinct from the Prince William Digital Gateway (QTS) covered in the same
+  article.
