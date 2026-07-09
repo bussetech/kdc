@@ -1,0 +1,13 @@
+id: sig-20260706-amazon-mumbai-land
+site_id: null
+site_hint: "Amazon data center land lease — near Mumbai, India"
+attribute: land_acres
+value: "Amazon's data center arm expands land lease by four acres in Mumbai, India; leases land with a 17-year commitment"
+source_url: https://www.datacenterdynamics.com/en/news/amazons-data-center-arm-expands-land-lease-by-four-acres-in-mumbai-india/
+source_title: "Amazon's data center arm expands land lease by four acres in Mumbai, India"
+publisher: Data Center Dynamics
+source_date: "2026-07-06"
+observed_date: "2026-07-06"
+collected_by: gn_kdc_scout/0.2.0
+confidence: low
+notes: "Headline-only feed item; Mumbai site, no match to existing AWS records."
