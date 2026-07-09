@@ -1,0 +1,35 @@
+id: alaska-ak
+name: Alaska data center exploration
+status: announced
+location:
+  country: US
+  state: AK
+metrics:
+  capacity_mw_basis: unspecified
+first_seen: "2026-07-09"
+last_updated: "2026-07-09"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/alaska-data-center-amazon-meta-microsoft-mike-dunleavy/
+    title: "Alaska data center Amazon Meta Microsoft Mike Dunleavy"
+    publisher: Data Center Dynamics
+    date: "2026-07-06"
+    note: "Early-stage state courtship; no hyperscaler or site committed."
+signals:
+  - sig-20260706-north-slope-exploration
+notes: >
+  Statewide exploration, not a single confirmed physical site. Governor
+  Dunleavy is courting hyperscalers (Amazon, Meta, Microsoft) with none
+  committed; toured Fairbanks and Anchorage sites, and the Air Force
+  offered land at Clear Space Force Station and Eielson AFB. The site_hint
+  additionally names the North Slope. Place resolved to the state (AK)
+  because no single locality dominates across these candidates — per the
+  id/location precedence, equally-valid localities fall through to state.
+  status set to "announced" to reflect the public courtship; this is the
+  earliest enum value and does not imply a committed project. operator
+  omitted: the courted hyperscalers are uncommitted; the tour operator
+  "Switch" (a colo/data-center operator) has no operators.yml entry and
+  needs one if it recurs. developer omitted: none identified. Single
+  reputable secondary source; confidence medium. If future signals pin a
+  specific locality/campus, split into per-site records rather than
+  extending this state-level record.
