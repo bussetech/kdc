@@ -320,7 +320,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "datacenter-news": {
       "items": {}
@@ -456,6 +456,11 @@
           "last_seen": "2026-07-06",
           "sha": "f1bb3e39b8667e6922107810f6b49bd0b581657fcc581044d35c5b47be452a30"
         },
+        "42c50381d43f9b9d": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-09",
+          "sha": "4450769bf0e3e32611c9ba73d78f3d671063c455676334882a359f7114a56f50"
+        },
         "43de4f92fe25a72f": {
           "first_seen": "2026-07-06",
           "last_seen": "2026-07-06",
@@ -580,6 +585,11 @@
           "first_seen": "2026-07-06",
           "last_seen": "2026-07-06",
           "sha": "a5a62d3f8ef990e555400d8ecd59563c87baccc7da08a0547431ae869b3e2d5f"
+        },
+        "a6537c0e881e7dd6": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-09",
+          "sha": "c0147af78c32288f2140e52a9ad6b91d4f3d71ae9d65f8fa90859be14da4f210"
         },
         "a961f561ac6d4d50": {
           "first_seen": "2026-07-09",
@@ -722,14 +732,14 @@
           "sha": "f6d91b48d1d575901e58893ee50788fd964200a9cf24a639775f4f6008ded919"
         }
       },
-      "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_new": "2026-07-09T15:10:34Z",
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "dcf-news-sitemap": {
       "fail_count": 0,
       "items": {},
       "last_new": null,
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "epoch-ai-datacenters": {
       "items": {}
@@ -744,7 +754,7 @@
         },
         "452f77e5cfc45427": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-08",
+          "last_seen": "2026-07-09",
           "sha": "375223f1ccf39519ce21b19f05db4afe334a3f532e24a7354ddeed8a2b567279"
         },
         "47f923d73752dae7": {
@@ -769,7 +779,7 @@
         },
         "8f7c4d5709ff8682": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-08",
+          "last_seen": "2026-07-09",
           "sha": "eb40108c4912366b9fbd7850e5d7b9df9e8cd7fce205cb1844f92fe2a362fe8f"
         },
         "939ecf9584364173": {
@@ -809,7 +819,7 @@
         },
         "dd02d4dfe961328c": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-08",
+          "last_seen": "2026-07-09",
           "sha": "39bc92442886b1f9f32629fdf0aa80de9cd9118fcfcb09d2d15481cab8547627"
         },
         "f27567778a933884": {
@@ -829,7 +839,7 @@
         }
       },
       "last_new": "2026-07-09T12:16:16Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "henrico-news-rss": {
       "fail_count": 0,
@@ -886,7 +896,7 @@
         }
       },
       "last_new": "2026-07-06T02:54:35Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "powhatan-newsflash-rss": {
       "fail_count": 0,
@@ -928,7 +938,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "prnewswire-datacenters": {
       "items": {}
@@ -1058,7 +1068,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "vaco-news-rss": {
       "fail_count": 0,
@@ -1120,7 +1130,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "virginiabusiness-rss": {
       "fail_count": 0,
@@ -1272,7 +1282,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     },
     "wtvr-local-rss": {
       "fail_count": 0,
@@ -1694,7 +1704,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-09T15:02:07Z"
+      "last_ok": "2026-07-09T15:10:34Z"
     }
   },
   "version": 1
