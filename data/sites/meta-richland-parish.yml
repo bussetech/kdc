@@ -15,7 +15,7 @@ metrics:
   buildings: 9
   investment_usd: 27000000000
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-09"
 confidence: high
 sources:
   - url: https://datacenters.atmeta.com/richland-parish-data-center/
@@ -26,6 +26,11 @@ sources:
     title: "Meta purchases additional 1,400 acres for Hyperion mega-data center expansion"
     publisher: Data Center Dynamics
     date: "2026-02-09"
+  - url: https://en.wikipedia.org/wiki/Hyperion_(data_center)
+    title: "Hyperion (data center)"
+    publisher: Wikipedia
+    date: "2026-07-06"
+    note: "Tertiary corroboration of the 5 GW long-run plan and the ~4,000-acre land figure; low confidence."
 signals:
   - sig-20260705-hyperion-building-sqft
   - sig-20260705-hyperion-buildings
@@ -35,10 +40,17 @@ signals:
   - sig-20260705-hyperion-investment-meta
   - sig-20260705-hyperion-land-acres
   - sig-20260705-hyperion-status
+  - sig-20260706-hyperion-capacity
+  - sig-20260706-hyperion-land
 notes: >
   Under construction; 3,700+ workers on site, nine buildings phased through
   2030. Capacity 2+ GW (Meta) scaling to 5 GW (DCD) — value shown is the firm
-  2 GW; 5 GW is the long-run plan. Investment conflicts by scope: $10B+ original
-  announcement (Meta) vs $27B Blue Owl Capital JV financing (DCD, the value
-  used); larger long-run press figures not fetch-verified. Land: 2,250 + 1,400
-  acres (3,650 total).
+  2 GW; 5 GW is the long-run plan, now also corroborated by Wikipedia
+  (sig-20260706-hyperion-capacity, low confidence tertiary source).
+  Investment conflicts by scope: $10B+ original announcement (Meta) vs $27B
+  Blue Owl Capital JV financing (DCD, the value used); larger long-run press
+  figures not fetch-verified. Land: 2,250 + 1,400 acres (3,650 total, primary
+  breakdown retained); Wikipedia (sig-20260706-hyperion-land) says "nearly
+  4,000 acres after buying an additional 1,400 acres" — a mild upward
+  discrepancy against a low-confidence source, so the sourced 3,650 figure is
+  kept and the Wikipedia figure is noted rather than adopted.
