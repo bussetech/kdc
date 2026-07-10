@@ -10,7 +10,7 @@ metrics:
   land_acres: 1930
   building_sqft: 43000000
 first_seen: "2026-07-09"
-last_updated: "2026-07-09"
+last_updated: "2026-07-10"
 confidence: medium
 sources:
   - url: https://virginiabusiness.com/prince-william-supervisors-reject-another-big-data-center-project/
@@ -22,9 +22,14 @@ signals:
   - sig-20260709-dulles-south-land
   - sig-20260709-dulles-south-sqft
   - sig-20260709-dulles-south-status
+  - sig-20260710-dulles-south-building-sqft
+  - sig-20260710-dulles-south-land-acres
+  - sig-20260710-dulles-south-status
 notes: >-
   Cancelled: Prince William supervisors unanimously rejected the comprehensive
   plan amendment for the ~1,930-acre campus (up to 43M sq ft at buildout) in
-  the Gainesville Magisterial District. Requested by Warrenton-based LSI 360
-  (aka LSI Communications), which needs an operators.yml entry, so developer is
-  omitted. Distinct site from the Prince William Digital Gateway.
+  the Gainesville Magisterial District; county staff had recommended rejection.
+  Requested by Warrenton-based LSI 360 (aka LSI Communications), which needs an
+  operators.yml entry, so developer is omitted. Distinct site from the Prince
+  William Digital Gateway. New signals (2026-07-10) re-confirm land, sqft, and
+  cancelled status from the same Virginia Business source.
