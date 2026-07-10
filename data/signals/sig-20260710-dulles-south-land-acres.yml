@@ -1,0 +1,12 @@
+id: sig-20260710-dulles-south-land-acres
+site_id: dulles-south-prince-william
+site_hint: null
+attribute: land_acres
+value: "about 1,930 acres in the Gainesville Magisterial District"
+source_url: https://virginiabusiness.com/prince-william-supervisors-reject-another-big-data-center-project/
+source_title: "Prince William supervisors reject another big data center project"
+publisher: Virginia Business
+source_date: "2026-07-08"
+observed_date: "2026-07-10"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
