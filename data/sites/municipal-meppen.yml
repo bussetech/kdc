@@ -1,0 +1,25 @@
+id: municipal-meppen
+name: "Municipal data center (Meppen)"
+status: under-construction
+location:
+  country: DE
+  locality: Meppen
+first_seen: "2026-07-12"
+last_updated: "2026-07-12"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/construction-begins-on-municipal-data-center-in-meppen-germany/
+    title: "Construction begins on municipal data center in Meppen, Germany"
+    publisher: Data Center Dynamics
+    date: "2026-07-10"
+signals:
+  - sig-20260710-meppen-municipal-dc-status
+notes: >-
+  Non-US site (Germany): country DE, locality Meppen; no district/region
+  named in the source, so county/region omitted rather than invented.
+  Status under-construction rests on the single headline "Construction
+  begins…"; source is headline-only (subtitle-length item), hence low
+  confidence. Operator is the municipality of Meppen, which has no
+  canonical-entities entry — operator field omitted; add an entities entry
+  if this recurs. Municipal build framed as ensuring compliance with
+  German critical-infrastructure law.
