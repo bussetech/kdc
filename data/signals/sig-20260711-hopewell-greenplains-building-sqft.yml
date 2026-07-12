@@ -1,0 +1,12 @@
+id: sig-20260711-hopewell-greenplains-building-sqft
+site_id: null
+site_hint: "Hopewell data center (former Green Plains ethanol plant) — Hopewell, VA"
+attribute: building_sqft
+value: "About 50,000 to 70,000 square feet (Volterra founder estimate)"
+source_url: https://virginiabusiness.com/hopewell-considers-data-center-former-ethanol-plant/
+source_title: "Hopewell weighs data center at former ethanol plant site"
+publisher: Virginia Business
+source_date: "2026-07-10"
+observed_date: "2026-07-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
