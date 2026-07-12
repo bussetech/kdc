@@ -1,0 +1,29 @@
+# Per-site spoken scripts for the kdc voice hotline (EPIC4-10).
+# These values supply ONLY the words a caller hears. The call control flow is
+# deterministic code driven by config/voice.yml; the scripts never decide
+# routing, retries, or caps. Before go-live, this copy must be ratified through
+# the studio copywriter gnome.
+
+greeting: >-
+  Hello, and thanks for calling. You've reached the KDC data-center feedback
+  line.
+
+pin_prompt: >-
+  To continue, please enter your access code on the keypad, then press pound.
+
+pin_retry: >-
+  Sorry, that code didn't match. Please try entering it again, followed by
+  pound.
+
+pin_reject: >-
+  That still didn't match. Please double-check your access code and give us a
+  call back. Take care, and goodbye.
+
+mailbox_full: >-
+  Thanks for calling. Today's messages are already full, so we can't take a new
+  one right now. Please try back tomorrow. We appreciate you reaching out.
+
+record_prompt: >-
+  After the tone, please tell us the correction or the source you'd like us to
+  look at. Let us know the site or record, what should change, and where we can
+  verify it. A gnome reads every message. When you're finished, just hang up.

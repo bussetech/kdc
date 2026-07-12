@@ -1,0 +1,36 @@
+# kdc voice config — the hotline pilot (EPIC4-10, platform ADR-0051).
+# Instance 1 of the studio-level voice pattern (platform docs/voice.md).
+# Schema: schema/voice.schema.json (copy of the studio-level canonical).
+#
+# This block holds ONLY non-secret control config and script KEYS. The Twilio
+# auth token and the approved PIN set are NEVER here — they live in the
+# provider secret store, injected at runtime (platform secrets-inventory.yml,
+# ADR-0023 §3). The spoken copy is gnome-authored content in data/voice/scripts.yml.
+#
+# enabled STAYS false until BOTH enabled guardrails pass the sysop/STEERCO
+# cost-guardrail UAT (platform docs/voice/uat/kdc-cost-guardrails/) — that
+# sign-off is the launch-blocker. The scripts, gate code, and boundary proof
+# are all built and provable while this is false.
+
+site: kdc
+enabled: false
+public_number: null            # set at provisioning (E.164); printed on the public page
+retention_days: 30             # recordings deleted after 30 days; stated on the public page
+scripts_file: data/voice/scripts.yml
+
+# (a) Access PIN gate — pre-cost abuse control. DTMF only; 3 tries, 30s each.
+pin_gate:
+  enabled: true
+  max_tries: 3
+  timeout_seconds: 30
+  prompt_script: pin_prompt
+  retry_script: pin_retry
+  reject_script: pin_reject
+
+# (b) Mailbox-capacity cap — the spend ceiling. 20 transcript-producing calls
+# per rolling 24h; a full mailbox costs only the greeting.
+mailbox_cap:
+  enabled: true
+  max_calls: 20
+  window_seconds: 86400
+  full_script: mailbox_full

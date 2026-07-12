@@ -1,0 +1,39 @@
+# Data correction — a web contributor (or the voice-triage gnome's draft) fixes
+# a wrong or outdated value in a KDC record. A correction needs a source: every
+# fact in the dataset traces back to one (CLAUDE.md, signal > canon).
+name: Data correction
+description: "Fix a wrong or outdated value in a KDC record. A source is required so the correction can be verified."
+title: "fix: <record> <what changes>"
+labels: [type:data-correction, by:human]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this to correct a value already in KDC. A correction needs a source we can check, since every fact in the dataset traces back to one."
+  - type: input
+    id: record
+    attributes:
+      label: Which record or site
+      description: "The site name or record id (for example the /sites/<id>/ slug)."
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: "The current value and why it is incorrect or out of date."
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: Corrected value
+      description: "What it should say instead."
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: "A link that verifies the corrected value."
+    validations:
+      required: true
