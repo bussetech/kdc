@@ -1,0 +1,38 @@
+id: green-plains-hopewell
+name: Hopewell data center (former Green Plains ethanol plant)
+status: announced
+location:
+  country: US
+  state: VA
+  locality: Hopewell
+  address: 701 6th Ave.
+metrics:
+  capacity_mw: 20
+  land_acres: 55
+first_seen: "2026-07-12"
+last_updated: "2026-07-12"
+confidence: medium
+sources:
+  - url: https://virginiabusiness.com/hopewell-considers-data-center-former-ethanol-plant/
+    title: "Hopewell weighs data center at former ethanol plant site"
+    publisher: Virginia Business
+    date: "2026-07-10"
+signals:
+  - sig-20260711-hopewell-greenplains-building-sqft
+  - sig-20260711-hopewell-greenplains-capacity-mw
+  - sig-20260711-hopewell-greenplains-location
+  - sig-20260711-hopewell-greenplains-status
+notes: >-
+  Proposed — a Volterra Advisors case study with the city and property
+  owners found the former Green Plains ethanol plant site conducive for a
+  small data center, which would be Hopewell's first. Status resolved to
+  `announced` (proposal stage). The 55-acre site (701 6th Ave.) was
+  purchased by NS Development Partners, treated as the developer but with no
+  canonical id — NS Development Partners needs an entities entry, so
+  `developer` is omitted. Volterra Advisors likewise has no entities entry.
+  capacity_mw (~20 MW electrical power) and building size are Volterra
+  founder estimates: building is estimated at roughly 50,000–70,000 sqft — a
+  range, so `building_sqft` is left off rather than invent a single figure;
+  capacity_mw carries the ~20 MW point estimate. Basis of the MW figure is
+  unclear (IT vs utility), so `capacity_mw_basis` is omitted. Single source
+  → medium confidence.

@@ -1,0 +1,24 @@
+id: municipal-meppen
+name: Municipal data center (Meppen)
+status: under-construction
+location:
+  country: DE
+  locality: Meppen
+first_seen: "2026-07-12"
+last_updated: "2026-07-12"
+confidence: low
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/construction-begins-on-municipal-data-center-in-meppen-germany/
+    title: "Construction begins on municipal data center in Meppen, Germany"
+    publisher: Data Center Dynamics
+    date: "2026-07-10"
+signals:
+  - sig-20260710-meppen-municipal-dc-status
+notes: >-
+  Municipal data center built to ensure the town's compliance with German
+  critical-infrastructure law. Operator is the municipality of Meppen; no
+  canonical operator id — a municipal operator is not in the entities
+  registry (needs an entities entry if it is to be tracked). Non-US site:
+  no state emitted; region/county not stated in source. Status
+  under-construction rests on a single headline-only source (its content is
+  one subtitle line), hence low confidence.
