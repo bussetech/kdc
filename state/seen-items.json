@@ -383,7 +383,7 @@
         },
         "1745fd194fd6ae8a": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "240129d17fae15eb48e85958aa26974eff8eb79eb18fafb2a5af1abf107bc9a2"
         },
         "18a275cfbacc3b27": {
@@ -398,7 +398,7 @@
         },
         "1d0186ac20774f3c": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "04b294cfd28810e8a8d40956b9e8d2540ca5b54187809b4018747b71a6c12359"
         },
         "1e6b0da724132fe1": {
@@ -443,7 +443,7 @@
         },
         "2e6684c075ae6d9d": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "4ee1f9709ce6464b7509d7edea5f8223a77fa306cea748fe4569b774fe7f1c2d"
         },
         "3148de9e911c655a": {
@@ -463,12 +463,12 @@
         },
         "3624c52d2f9c7f4b": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "30edc3493f05f22e59656dd807604ad6f83599c5c6828791d696058b88e4b44f"
         },
         "3721b09f51ad1d25": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "12a5203a921bdff7a33e247701cca8cc7d4a0a7448c102971de9987b4ebcf11f"
         },
         "38cc383869414d8c": {
@@ -483,7 +483,7 @@
         },
         "3ca0ae4a0fa48eda": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "11601e0d5b9ef06f34a28693431cd9a93247dfbb1e916003b72402dea64dbc13"
         },
         "3cd0e72f102edd51": {
@@ -543,7 +543,7 @@
         },
         "56cc6cee1136d650": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "ae1b2ee756fac0046ba4dbfb4444e451c08ffa34d9a6fc97166267a4773296b6"
         },
         "636975f7b8d8a898": {
@@ -558,12 +558,12 @@
         },
         "6a09aa02db5808e5": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "32421d6800ac440a513ae6fdf6390b9302d7954f261b6906cb7d1011f9f9ac78"
         },
         "6ae4f99a8d304d6f": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "74d472039f8897af163a09b11b2deb4c1cb9a1fb86d698dfb0d9ffc2cd25f022"
         },
         "6f333a25345eda35": {
@@ -603,7 +603,7 @@
         },
         "8172975599068031": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "014847e3c2637b8796f6920d86bc50b9eff8c3315bfb6916a13e77888f62ec88"
         },
         "834ee9d11bf0ccff": {
@@ -613,7 +613,7 @@
         },
         "85184be25f3fb23b": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "0f33de99a93fa880a3e54a2d7d8002e76c30e1f63d0379810c028673abc0f032"
         },
         "860d49da236b0d98": {
@@ -668,7 +668,7 @@
         },
         "96dee301f9b2ee60": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "752ad96f4450e130f99d231fdd6a97021f91a09117876a6e1428f241d3ef71cd"
         },
         "98a793fcf84aa8ef": {
@@ -678,7 +678,7 @@
         },
         "99fa497c6504d32c": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "b48bf1d00c73a69b357251618151393da738e8cddcf65a6dd8d560a5e92aa62a"
         },
         "9fc6e72c4421d53f": {
@@ -708,7 +708,7 @@
         },
         "adec625800a8ad66": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "720e9aca91a22dddac076e2ff4675afbc9848af536fe72828d5e5c2a24aca3d9"
         },
         "ae4ce3889cb4060e": {
@@ -730,6 +730,11 @@
           "first_seen": "2026-07-08",
           "last_seen": "2026-07-08",
           "sha": "4fd746fee357fe46006f0963bf8723d21cc3ce0655fefe32e993450158c0a1ae"
+        },
+        "b2f696a3103c046e": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "31e3b148c417d1e7a321919a15414a2ae1a78312f002d019738022a019f935db"
         },
         "b34d4bd67b8c61d6": {
           "first_seen": "2026-07-06",
@@ -763,13 +768,18 @@
         },
         "c1b48cf8a5e5cf4a": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "2a23e02bf80060d8deed3716e8bf6d038d5d2e155707bbf5f961853efc4cf9a6"
         },
         "c21b9eed23d38221": {
           "first_seen": "2026-07-08",
           "last_seen": "2026-07-08",
           "sha": "51424ec03e2bf1d6f47a01f82a0769ff0630ab136a3912228d01222dfe460b80"
+        },
+        "c62e0a93fa7b5b10": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "62b04bc28d6f05a2fdc573bd3436ea7a0161caf8c05ef139ce3c48a6e7a8892c"
         },
         "c9d53c19bd833e21": {
           "first_seen": "2026-07-08",
@@ -808,7 +818,7 @@
         },
         "dd9ea1a41b361411": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "b52c61e92e54cfcf95565adc33200c5fed639d25522bb84c5ebadb3afbb62142"
         },
         "e301b26b060e86c5": {
@@ -853,7 +863,7 @@
         },
         "eeb29fb8a0401b6e": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "3e786cd7abc1f1d91bc232b2c74a10b0c98d2405dfdbb99d37b1db4f26b9b870"
         },
         "f0a0ba62bc8b5475": {
@@ -873,7 +883,7 @@
         },
         "f4885c1d8b0b97e4": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "c21e7fd2da9332c3592c6267ba3fa065df37801fb65fb55557b03bd6977f639a"
         },
         "f64c31b25c58c408": {
@@ -887,20 +897,20 @@
           "sha": "f6d91b48d1d575901e58893ee50788fd964200a9cf24a639775f4f6008ded919"
         }
       },
-      "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-11T10:34:38Z"
+      "last_new": "2026-07-12T10:42:35Z",
+      "last_ok": "2026-07-12T10:42:35Z"
     },
     "dcf-news-sitemap": {
       "fail_count": 0,
       "items": {
         "cf621fb3c41542d7": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "5016865d884bc0bfa8c3b4b8592d360d9bcf3c350dcb7d257aa932cea0588075"
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-11T10:34:38Z"
+      "last_ok": "2026-07-12T10:42:35Z"
     },
     "epoch-ai-datacenters": {
       "items": {}
@@ -915,7 +925,7 @@
         },
         "452f77e5cfc45427": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-10",
+          "last_seen": "2026-07-12",
           "sha": "375223f1ccf39519ce21b19f05db4afe334a3f532e24a7354ddeed8a2b567279"
         },
         "47f923d73752dae7": {
@@ -930,12 +940,12 @@
         },
         "69a55660e896e2d3": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "45a7e4f6a9c61af4dc3fbaca108a8d15dfa522a62bddb75f24174b91f1ded7d2"
         },
         "6bc8576629734d70": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "fdf1e22d63346b8a24954d18897cd0bca233e7c404e9233049d47058f4986582"
         },
         "6f88b07522ebdc9c": {
@@ -945,12 +955,12 @@
         },
         "8f7c4d5709ff8682": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-10",
+          "last_seen": "2026-07-12",
           "sha": "eb40108c4912366b9fbd7850e5d7b9df9e8cd7fce205cb1844f92fe2a362fe8f"
         },
         "939ecf9584364173": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "2326894323f1958046fade607ba98a8d50378a1b06a159ea6d492d4d0056954c"
         },
         "a156bb9f5a3d9706": {
@@ -960,12 +970,12 @@
         },
         "aef0341f242a22e0": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "8185cd6517815c246b36a9d1e32774cc57ef0672776184774f5d1a105b1ccde2"
         },
         "af9793ac37d5284a": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "f5e8b4c152179ae21664e8fbf5a1c1ff375d0ea7e8063ce7b639a07561cc733e"
         },
         "b82e75545abec04a": {
@@ -975,7 +985,7 @@
         },
         "c419bdf976f4104b": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "59449b789618ab4f0fdd3afb0fcff698f760874782295ce50530baf61917042a"
         },
         "d769114786ec17a2": {
@@ -985,7 +995,7 @@
         },
         "dd02d4dfe961328c": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-10",
+          "last_seen": "2026-07-12",
           "sha": "39bc92442886b1f9f32629fdf0aa80de9cd9118fcfcb09d2d15481cab8547627"
         },
         "f27567778a933884": {
@@ -1000,12 +1010,12 @@
         },
         "f6a042ecc52c8b47": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-10",
+          "last_seen": "2026-07-12",
           "sha": "14dbb246a7ac539bf1844206e6fe1a9de9018b34d78521e840591e8628dca96e"
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-11T10:34:38Z"
+      "last_ok": "2026-07-12T10:42:35Z"
     },
     "henrico-news-rss": {
       "fail_count": 0,
@@ -1134,12 +1144,12 @@
         },
         "3354dc312122b019": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "da0cabda074c2e5b3b9ae8ea89be83ffc213e892d779b123df1d9ee4f7508bf1"
         },
         "352bf00a6fc30cee": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "61aec656f9ebffc9f49ec8c95dcde5133db76c7c8b705803888f8f378dd530ea"
         },
         "35f80ec2dfa227a2": {
@@ -1149,12 +1159,12 @@
         },
         "3d110e19223d5882": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "1db649cc3f707c250b494a67a84e6fb226af9cb8a83c3cf479e35149bea83d5a"
         },
         "44ea1fb2753a08cf": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "18ec04bf45c125df9df4408f94bf26e9cbbd93ef41ea06eea7d80839f0f72af8"
         },
         "4cc723ec7d7dea63": {
@@ -1174,12 +1184,12 @@
         },
         "7bd6cad511a72f86": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "274c5e1bfccd6ff218a1cb463168aabe0ae122a3607f3431f5c6769c42225ead"
         },
         "803c78e2d07620c4": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "0df5f486cfc939386d0a179b93670cb8ed757ba91205197ec1e04fbe853b4248"
         },
         "a9349d51a71f967c": {
@@ -1204,7 +1214,7 @@
         },
         "bae924648b7c86ac": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "9c3d12b72c09f805a0e36f11650e4fc7a6756ce23614923ba23d4859af524199"
         },
         "c1465687d23f544f": {
@@ -1214,12 +1224,12 @@
         },
         "c2a88e9d11f05b7d": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "94808e56adcf85112e17742abfe78e55934d6196ec2edb79db099fdb3b11445e"
         },
         "cba49529ab42cc9a": {
           "first_seen": "2026-07-09",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "cd4c8866048a6cbfcb3e60a388683d2f83cefefb9cb93178a085b6a90888167a"
         },
         "cf197b3b2900de9a": {
@@ -1234,27 +1244,27 @@
         },
         "d3d2ef5055a76999": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "a3369503f5637907faf25980083c0b8958e990e6a5a417cc23c64f1939c3e821"
         },
         "dbad17db9c42dfb3": {
           "first_seen": "2026-07-09",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "2bff8cf737423cff0ad785419af9845e7e1728eb05fe0286231d0f5de6b55b86"
         },
         "e5bfac9a1a53346c": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "4939c1bde77005a127be1f868ff6f7b8af34ae9f9c547bc78f2115e9dbd6ead8"
         },
         "e821d6fac2f45ff2": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "80565bfa31eb87824cc112cd6b770899e73b7405c34286b71ef848763e55ec53"
         },
         "f0c1d0f9f04e3ec3": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "bc78f612ba0c54c2f995c731356dde9ce30e0b1dd52e3027b84c826450f644ba"
         },
         "f320476a1206bb91": {
@@ -1264,7 +1274,7 @@
         },
         "f64941014d299693": {
           "first_seen": "2026-07-08",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "84752478959a23bb1aa92331f74e491165b149ac8b15f09de032f2edcd5fca4c"
         },
         "f6a74ef5d544bd9d": {
@@ -1274,7 +1284,7 @@
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-11T10:34:38Z"
+      "last_ok": "2026-07-12T10:42:35Z"
     },
     "vaco-news-rss": {
       "fail_count": 0,
@@ -1348,7 +1358,7 @@
         },
         "0ba069975c8e6bc9": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "79b686694f5b50d13a6f8569752683c32e8e80d08ace36a67f430aa22570b527"
         },
         "1d097327d1e254cf": {
@@ -1368,7 +1378,7 @@
         },
         "3578e18131ae60bf": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "d6dfd2149559d374d855aef65f1eb2a9e916e0d0194d7539ad61b1d7604863b5"
         },
         "41a7434504e31e82": {
@@ -1393,12 +1403,12 @@
         },
         "6999fdf101bc52fe": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "e1ffcd6e263c920ebbff9672301546fa0778cf360020772ca850a912f7310d13"
         },
         "6b25a74152cb82db": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "163bc338413964a7dda9e9840b3f6e7c3f5f927c758dca8ea64dde30a1ea511e"
         },
         "6c7e1a2c9c13b7b3": {
@@ -1408,7 +1418,7 @@
         },
         "6e445537b60ee395": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "9d8dc0f1c7504e4ae6bdd6d8795c5fcc911547cfb75931bbb4853960a5ab8686"
         },
         "6ff0390439ac7d1d": {
@@ -1423,7 +1433,7 @@
         },
         "79f1339a0ef9d26e": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "9ae8f4c9586c869c3bc02765889fc41137f3e79dafea197432072c9629333889"
         },
         "7d6a4788ec8bbd2b": {
@@ -1448,7 +1458,7 @@
         },
         "a469a3f9f9816c07": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "f553bba065e9604191ba07b1dfcb7c8f153b7891c3a23d44097ec0664bf4e198"
         },
         "a90083993670e3fb": {
@@ -1468,7 +1478,7 @@
         },
         "d2416700efb4121b": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "42647d8ba93cfcab7e4a589c2024b9324ec0e3338fe8d2628b698011a823b113"
         },
         "d2c482312639c082": {
@@ -1478,7 +1488,7 @@
         },
         "d409f8770ef7dd34": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "47be75a3b0c5c3c26c0a75e56d749ef591b004251d814401c219e430906b0db0"
         },
         "d6f7f563bcf1bdb4": {
@@ -1503,7 +1513,7 @@
         },
         "e94038dea4d4c890": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "035a34fea4536afdca039527343da092a12812fc894362a5d5fb56e5de026ea4"
         },
         "e9883106a493602a": {
@@ -1538,7 +1548,7 @@
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-11T10:34:38Z"
+      "last_ok": "2026-07-12T10:42:35Z"
     },
     "wtvr-local-rss": {
       "fail_count": 0,
@@ -1555,7 +1565,7 @@
         },
         "021bd95005379ca1": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "9dd860946f9aba041efdf8d390170860c0f2e16092d1eb873289901266cdf4ca"
         },
         "02a698d5413a7d8a": {
@@ -1595,7 +1605,7 @@
         },
         "08816a2bbeb554f3": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "ef7e2d3cd005d55768da4b802ffb13ce427ebfd11be9cdb64f4a22e8ff18d13f"
         },
         "0cb9ffea4f033970": {
@@ -1620,7 +1630,7 @@
         },
         "112424ff16390bc4": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "8ef7396a5e32f5ea22956c7e45118d310ae487c13deca6c855fdc5494a19b576"
         },
         "123e9898b28744df": {
@@ -1640,18 +1650,23 @@
         },
         "1c6724961c9f3426": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "8e5b5f0cd3fa92d98101ca9564a794b2baa4ceba2fe6ebbb25c33d5c0e1e0622"
         },
         "20af5c0dda464ad6": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "8790e3433d3299e8e3f6d23e41da571bc6b37b9489b9ab90d2b5a0cb580f75e7"
         },
         "21230c74b5b82c81": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "d049ffed01d4dfa6e40acb3431a86e9ebc530915ba8b069f7ace78f2757a02c6"
+        },
+        "23f7d7137083578d": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "c22bf0ba91d1f944a90914ccb71d1483f69c3d7a60dea47566cf49c6252761a7"
         },
         "24285f785b1cc918": {
           "first_seen": "2026-07-08",
@@ -1660,12 +1675,12 @@
         },
         "26eebedbc9c55f8c": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "1374dad6c50683df91289cb8d0075237c73f0c8b240a4ba467040f4aae9015b3"
         },
         "28cecd045b8d738f": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "f78c1148a78b7d6e4b73714f56c0f87469d215a026be826e69683bd0ae82c7a6"
         },
         "28fb4c3769faacdd": {
@@ -1675,7 +1690,7 @@
         },
         "2bd4393b5026b648": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "4e79af508ce7b7fb35f3c5fc2d8f006dc22b8af5ace25161dc4c6a64dbe527bd"
         },
         "2dd0f0f4a9882afc": {
@@ -1755,7 +1770,7 @@
         },
         "47f282f78b8f4115": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "5fc1a4dcd3c9b0c8debe4535522d4e4a6242665d4ba99ab44bdf95dfe096e5ef"
         },
         "4885bd65a91cccfe": {
@@ -1770,7 +1785,7 @@
         },
         "4c16c60960f524eb": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "4164778bcd6dc4f33ea89642e85d1f4475a8231e8bc0e13841650ea1973269f1"
         },
         "4d915c428b10ee85": {
@@ -1810,7 +1825,7 @@
         },
         "57d71daea437816a": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "7a28be752659b5cc5ca1145aca61ddcd7090b4e5d23181feb6a69efc506dd7b5"
         },
         "5f8b29f161a1a8ec": {
@@ -1840,7 +1855,7 @@
         },
         "6e02a340d4e62c97": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "eb45b0318184f211808e6546f91559b701e6ee14805ac597a1149600cb24f49a"
         },
         "6faa3de818a2e361": {
@@ -1850,8 +1865,8 @@
         },
         "71727be467fa64f3": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
-          "sha": "604cf9c272df51da2842422f8455476ad864d59ae3784e200d231e64d2732d6f"
+          "last_seen": "2026-07-12",
+          "sha": "7d088b1e2eb32e82fb59f13f10cde45afd1728df7669152fc60d04702d48b585"
         },
         "73395edfb940fde1": {
           "first_seen": "2026-07-08",
@@ -1865,13 +1880,23 @@
         },
         "7c97dc6106f1eec5": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "f573e3bd5a52d06f9f9a1c340a1cf906c622798ed2accd5aec155339ae5a276c"
         },
         "7f38a129cef6ba51": {
           "first_seen": "2026-07-08",
           "last_seen": "2026-07-09",
           "sha": "7547dd84605d0c3f1bd4f282f12f3fcb2e7a914a12310113f345c27ee5e3c06e"
+        },
+        "80c73206459ba311": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "471db9c2acaa41b1682b4976728a45c6f3918e7ecdafe7825c8359c87f9edf4f"
+        },
+        "866e8e56d67a3d22": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "e07108c21e71fc57dd45a0e35755769ee537a09080ef235ea6918af577327855"
         },
         "896461385e8c2dc4": {
           "first_seen": "2026-07-06",
@@ -1895,13 +1920,18 @@
         },
         "99fde7f48e207575": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "f8ea715d2da355f453ac71fd6fc3f952791677f046a243c07a97756f4ef4ca01"
         },
         "9b32ad24725e5cd4": {
           "first_seen": "2026-07-06",
           "last_seen": "2026-07-06",
           "sha": "07001fe05a859aadc7398df3a6351d8b49f7c2eab28938ac72953afcc17abcac"
+        },
+        "9c44ae1df3563d24": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "983d869bca21690e9b5fe44d242c4624e3b20f7b403c055ec82fbcfb5aa2bf85"
         },
         "9d82d704766455d3": {
           "first_seen": "2026-07-10",
@@ -1913,19 +1943,29 @@
           "last_seen": "2026-07-08",
           "sha": "00e829f2fa7659499e34d2082eca2b198164322d8029c949f84a0e04ce766613"
         },
+        "9fb3994b4cae9ad4": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "d2f1300015ade79db88e085ff3565eb8d8ea68592b9f7d887dcfb613813af93d"
+        },
         "a191bd1439758b0e": {
           "first_seen": "2026-07-08",
           "last_seen": "2026-07-09",
           "sha": "b6d08e75c692b72c3930a58ab598e2e12b08ec0a7057e620b660a336a2d2980a"
         },
+        "a64cd699e33e5847": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "7f1fd9292a53839e374dca934d563c3efcae568099e853b5220b65269e4aeb62"
+        },
         "a7d676d1069bd0a2": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "52479b1b59c7c4910669f2a2909ce3ad833b3b7899eb1f7239040d3966e27219"
         },
         "acdcbd4895edd2f7": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "6487f67992e173b151c446777b0fac29a23eb681e46873ba30ce4b116f421abe"
         },
         "b5c2fe29df793383": {
@@ -1945,7 +1985,7 @@
         },
         "bad1a160aeedb2c0": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "83e189d4c43b63347629686913f653405fbb876dcaeb2ab3e28a458c92b56e48"
         },
         "bb1eef54e7bc4614": {
@@ -1960,8 +2000,13 @@
         },
         "bdc18b8ac225c6ba": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "362bae6cc874c9d004c07ef96aed648e1628f021d26a5b0d4473bd09efaca11c"
+        },
+        "bf0d25816e52169d": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "948552eeb1f1ced20c8ba82fe922b390c8a7ba6009fce3932665daab7ee63b07"
         },
         "bfc1df521216698b": {
           "first_seen": "2026-07-09",
@@ -1970,8 +2015,8 @@
         },
         "c3b240276f8c1dc3": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
-          "sha": "f85b41e993e1152c10835c1d2eeb7cab27248248d604aa605979a3fce26969ac"
+          "last_seen": "2026-07-12",
+          "sha": "b979cb715636bda9989fa4db89e97a5ed2e9438eff5acb47afd83387a4ea6a79"
         },
         "c4c64032ff655acc": {
           "first_seen": "2026-07-06",
@@ -1985,7 +2030,7 @@
         },
         "c6f77c8c4a600f84": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "257ea858965fd6d9a1e4dd1d6c9c2adf7d666b0e70cc93329d0df439c1c50b6d"
         },
         "cfb8d19d40d09e8b": {
@@ -2005,7 +2050,7 @@
         },
         "d3b0d661257a245d": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "7818435ae8a2f91148d0bbd77759bb4cb8d975063dae0d4539ade1c6fd95d291"
         },
         "d407452081f912a8": {
@@ -2020,7 +2065,7 @@
         },
         "d5f462178b41676d": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "11c6edd0ac2ce0d99e3269ca2dd0781f20c928c815da3aa9800a842edda2461d"
         },
         "d728597edfc97b64": {
@@ -2035,7 +2080,7 @@
         },
         "db30511108309f89": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "5d006c1427742ee76db9d2469fc4017a316c49cec9e95356073e7f2d870e2af3"
         },
         "dc48b444ceeb9cf9": {
@@ -2045,7 +2090,7 @@
         },
         "de001cce2c8ea6a6": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "9e233d059b2635a61b6e34912899e7049d8787011f9481380258bfeb8087f5f3"
         },
         "dfeac422a3ded99d": {
@@ -2060,13 +2105,13 @@
         },
         "e14ecb2df1494300": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "d0f2bdbba37628c5e0c577037f88b6e7448ff27597833ecc994de2ba2ae049cb"
         },
         "e270353ae83dd797": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
-          "sha": "fd58988e5828a2ab2b85400d6faafe94dce313b8cc47b6c9877416af2369f90a"
+          "last_seen": "2026-07-12",
+          "sha": "78c366769c8ae578e3a06419c44d26758e8907031a6ed4255f6740b850340548"
         },
         "e483589fd6e88efa": {
           "first_seen": "2026-07-08",
@@ -2085,12 +2130,12 @@
         },
         "e8c4030a4d9275e6": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "41d028e5c8aa9855d4480dfb0c1e3722ba36c8f8f34502d4203c2cc612094329"
         },
         "e8cece9def684185": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "56b7ae23a7c27261ef6fcb18d302c9d7562fe4d7faa6de4318ff3679bb042e72"
         },
         "ea26e38f787e80af": {
@@ -2105,7 +2150,7 @@
         },
         "ec827e9c0125ff5b": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "ff521b55dd9a3f5c97a1e8283904072559df5f9d0f8eba5655de688c86a3af88"
         },
         "eda04746b0e90d6d": {
@@ -2120,13 +2165,18 @@
         },
         "f13e0bed96366a4f": {
           "first_seen": "2026-07-10",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-12",
           "sha": "2102c48b500b225501c498fb329cb0fc053e8da8a400239a39ccfde686d34e3d"
         },
         "f171e4fe8f92b3a7": {
           "first_seen": "2026-07-06",
           "last_seen": "2026-07-06",
           "sha": "f5fb44226427adab88b8a6220e960bb4eb3d3a9139178ce3de6edd2577dc5f31"
+        },
+        "f367cc9f267e795a": {
+          "first_seen": "2026-07-12",
+          "last_seen": "2026-07-12",
+          "sha": "cbaa7a5313f26da4345a81f1ada89c70ccacdb1e4a2ab32f1895e59788f6b448"
         },
         "f4ad0b864d775f05": {
           "first_seen": "2026-07-06",
@@ -2139,8 +2189,8 @@
           "sha": "cad374bfd089887e4bbe32b04277015907596335230f33a1312207b7ee1efc56"
         }
       },
-      "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-11T10:34:38Z"
+      "last_new": "2026-07-12T10:42:35Z",
+      "last_ok": "2026-07-12T10:42:35Z"
     }
   },
   "version": 1
