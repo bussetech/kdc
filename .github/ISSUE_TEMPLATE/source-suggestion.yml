@@ -1,0 +1,31 @@
+# Source suggestion — a web contributor (or the voice-triage gnome's draft)
+# proposes a source KDC should track. KDC fetches only from a reviewed
+# allowlist (data/sources.yml), so new sources start here and are checked
+# before anything is fetched.
+name: Source suggestion
+description: "Suggest a source KDC should track for data-center news, permits, or filings."
+title: "source: <name>"
+labels: [type:source-suggestion, by:human]
+body:
+  - type: markdown
+    attributes:
+      value: "Suggest a source we should watch. KDC fetches only from a reviewed allowlist, so new sources start here and are reviewed before anything is fetched."
+  - type: input
+    id: source
+    attributes:
+      label: Source name and URL
+      description: "The outlet, agency, or feed, and a link to it."
+    validations:
+      required: true
+  - type: textarea
+    id: covers
+    attributes:
+      label: What it covers
+      description: "The area, operators, or kind of filing this source reports on."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is worth tracking
+      description: "What it adds that the current sources miss."

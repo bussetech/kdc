@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bussetech.com/schema/voice.schema.json",
+  "title": "per-site voice configuration",
+  "description": "EPIC4-10 (ADR-0051): the per-site `voice` config block. Studio-level SCHEMA (reusable); each voice-enabled project repo carries an instance at config/voice.yml (kdc is instance 1), mirroring how the source registry schema is studio-level and data/sources.yml is per-project (ADR-0025). Holds ONLY non-secret control config and script KEYS — never a Twilio auth token and never a PIN (approved PINs live in the provider secret store, injected at runtime; ADR-0023 §3, secrets-inventory.yml). The two cost guardrails are independently toggleable; scripts/voice_guardrails.py consumes this block verbatim. Spoken copy is gnome-authored content referenced here by key and stored in the site's scripts file (data/voice/scripts.yml), style-lint clean. Pattern doc: docs/voice.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["site", "enabled", "pin_gate", "mailbox_cap"],
+  "properties": {
+    "site": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The repo this voice config belongs to (e.g. 'kdc'). Must match the repo it lives in."
+    },
+    "enabled": {
+      "type": "boolean",
+      "description": "Master switch: is the number LIVE? Must stay false until BOTH enabled guardrails pass the sysop/STEERCO cost-guardrail UAT (ADR-0051 launch-blocker). The scripts/data are built and provable while this is false."
+    },
+    "public_number": {
+      "type": ["string", "null"],
+      "description": "The published phone number in E.164 (e.g. '+1XXXXXXXXXX'), or null before provisioning. NOT secret — it is printed on the public page. The Twilio auth token is NOT here (provider secret store)."
+    },
+    "retention_days": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "How long call recordings are retained before deletion. Stated on the public page. 0 = delete immediately after transcription."
+    },
+    "scripts_file": {
+      "type": "string",
+      "description": "Path (in this repo) to the gnome-authored spoken-copy file (key -> text), e.g. 'data/voice/scripts.yml'. Every *_script key below must resolve to an entry there."
+    },
+    "pin_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "(a) Access PIN gate — pre-cost abuse control. DTMF digits only; deterministic compare-to-approved-set; no speech-to-text, so the gate itself is near-free. Approved PINs are NOT here — they live in the provider secret store, injected by the webhook handler at runtime.",
+      "required": ["enabled"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "max_tries": { "type": "integer", "minimum": 1, "default": 3, "description": "Attempts allowed before the call ends kindly." },
+        "timeout_seconds": { "type": "integer", "minimum": 1, "default": 30, "description": "DTMF collection window per attempt." },
+        "prompt_script": { "type": "string", "default": "pin_prompt", "description": "Script key: the opening PIN request." },
+        "retry_script": { "type": "string", "default": "pin_retry", "description": "Script key: the warm between-tries guidance." },
+        "reject_script": { "type": "string", "default": "pin_reject", "description": "Script key: the kind goodbye after tries are exhausted." }
+      }
+    },
+    "mailbox_cap": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "(b) Mailbox-capacity cap — the spend ceiling. At most max_calls transcript-producing calls per rolling window; when full, play the full script and end the call BEFORE recording/transcription, so a full mailbox costs only the greeting.",
+      "required": ["enabled"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "max_calls": { "type": "integer", "minimum": 0, "default": 0, "description": "Transcript-producing calls allowed per rolling window." },
+        "window_seconds": { "type": "integer", "minimum": 1, "default": 86400, "description": "The rolling window (default 24h)." },
+        "full_script": { "type": "string", "default": "mailbox_full", "description": "Script key: the kind mailbox-full message." }
+      }
+    }
+  }
+}
