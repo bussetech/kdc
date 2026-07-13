@@ -1,0 +1,13 @@
+id: sig-20260713-vocus-perth-capacity
+site_id: null
+site_hint: "Vocus-occupied data center (outside Perth) — ?, Australia"
+attribute: capacity_mw
+value: "1MW site sold for AU$13.13m"
+source_url: https://www.datacenterdynamics.com/en/news/vocus-occupied-data-center-outside-perth-australia-sold/
+source_title: "Vocus-occupied data center outside Perth, Australia, sold"
+publisher: Data Center Dynamics
+source_date: "2026-07-13"
+observed_date: "2026-07-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Sale price reported in AUD, not USD; recorded raw."
