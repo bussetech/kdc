@@ -1,0 +1,11 @@
+id: sig-20260713-google-peanut-chesterfield-location
+site_id: google-peanut-chesterfield
+attribute: location
+value: "Off Bermuda Hundred Road, Chesterfield County, VA"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/neighbors-to-question-google-about-planned-data-centers-july-12-2026
+source_title: "Chesterfield neighbors get first chance to question Google about planned data centers"
+publisher: WTVR CBS 6
+source_date: "2026-07-12"
+observed_date: "2026-07-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
