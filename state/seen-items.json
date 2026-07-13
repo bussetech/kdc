@@ -340,7 +340,7 @@
         }
       },
       "last_new": "2026-07-13T01:51:40Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "datacenter-news": {
       "items": {}
@@ -913,7 +913,7 @@
         }
       },
       "last_new": "2026-07-13T01:51:40Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "dcf-news-sitemap": {
       "fail_count": 0,
@@ -925,7 +925,7 @@
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "epoch-ai-datacenters": {
       "items": {}
@@ -935,7 +935,7 @@
       "items": {
         "14edc430f943f8f7": {
           "first_seen": "2026-07-09",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-13",
           "sha": "b4e3936f58e657c5671735f027234b65f6cc60708ac88333cf9c6827b05f4796"
         },
         "452f77e5cfc45427": {
@@ -965,7 +965,7 @@
         },
         "6f88b07522ebdc9c": {
           "first_seen": "2026-07-11",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-13",
           "sha": "7a0e2acff08a3077590220b6bb6cb99cffcc4413d5c00d58ab29f5be61eda4f2"
         },
         "8f7c4d5709ff8682": {
@@ -980,7 +980,7 @@
         },
         "a156bb9f5a3d9706": {
           "first_seen": "2026-07-09",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-13",
           "sha": "83ee5fd1de7a8588a8c286219a74632cdf4601433ae2024f447d5865a506a9bc"
         },
         "aef0341f242a22e0": {
@@ -1005,7 +1005,7 @@
         },
         "d769114786ec17a2": {
           "first_seen": "2026-07-09",
-          "last_seen": "2026-07-11",
+          "last_seen": "2026-07-13",
           "sha": "c37a83fed3447bf49c829b8e95f0e22cf29384e18360e8e213cef2cb56439b59"
         },
         "dd02d4dfe961328c": {
@@ -1030,7 +1030,7 @@
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "henrico-news-rss": {
       "fail_count": 0,
@@ -1092,7 +1092,7 @@
         }
       },
       "last_new": "2026-07-13T01:51:40Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "powhatan-newsflash-rss": {
       "fail_count": 0,
@@ -1134,7 +1134,7 @@
         }
       },
       "last_new": "2026-07-09T15:02:07Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "prnewswire-datacenters": {
       "items": {}
@@ -1309,7 +1309,7 @@
         }
       },
       "last_new": "2026-07-13T01:51:40Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "vaco-news-rss": {
       "fail_count": 0,
@@ -1396,7 +1396,7 @@
         }
       },
       "last_new": "2026-07-13T01:51:40Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "virginiabusiness-rss": {
       "fail_count": 0,
@@ -1598,7 +1598,7 @@
         }
       },
       "last_new": "2026-07-11T10:34:38Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     },
     "wtvr-local-rss": {
       "fail_count": 0,
@@ -2275,7 +2275,7 @@
         }
       },
       "last_new": "2026-07-13T01:51:40Z",
-      "last_ok": "2026-07-13T01:56:21Z"
+      "last_ok": "2026-07-13T02:00:38Z"
     }
   },
   "version": 1
