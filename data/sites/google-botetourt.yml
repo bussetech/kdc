@@ -1,0 +1,26 @@
+id: google-botetourt
+name: "Proposed Google Data Center (Botetourt County)"
+operator: google
+status: announced
+location:
+  country: US
+  state: VA
+  county: Botetourt
+first_seen: "2026-07-13"
+last_updated: "2026-07-13"
+confidence: low
+sources:
+  - url: https://www.wtvr.com/news/local-news/virginians-rally-at-capitol-data-center-concerns-july-11-2026
+    title: "Protesters rally at Capitol over data center concerns: 'Virginia does not belong to big tech'"
+    publisher: WTVR CBS 6
+    date: "2026-07-11"
+signals:
+  - sig-20260712-google-botetourt-operator
+  - sig-20260712-google-botetourt-status
+notes: >
+  A proposed Google data center in Botetourt County, VA, referenced at a Capitol
+  protest and reported by local press. The operator=Google and the project's
+  existence are attributed to protest speakers (a Botetourt County resident) as
+  relayed by the outlet, not to an official filing — hence low confidence. No
+  locality below the county was given, so place resolves to the county. Status
+  mapped to announced (proposed).
