@@ -18,7 +18,8 @@ id, name, operator, developer, status,
 location{country, state, region, county, locality, address, lat, lon,
 parcel_ids},
 metrics{capacity_mw, capacity_mw_basis, land_acres, building_sqft,
-buildings, investment_usd, water},
+buildings, investment_usd, water_source, water_usage_gpd,
+water_usage_basis},
 announced_date, operational_date, first_seen, last_updated, confidence,
 sources[{url, title, publisher, date, note}], signals, notes.
 
@@ -32,6 +33,15 @@ sources[{url, title, publisher, date, note}], signals, notes.
   `country: GB`, `county: Kent`, `locality: Dartford`, no `state`.
 - `metrics.capacity_mw_basis`: only when a signal says what the MW
   measures (IT load vs utility); otherwise omit or `unspecified`.
+- `metrics.water_usage_basis`: only when a signal says what the gpd figure
+  measures (permit ceiling vs reported average vs estimate); otherwise omit
+  or `unspecified`. When sources disagree on `water_source` or
+  `water_usage_gpd` — common for water — resolve to the highest-confidence
+  claim and surface the conflict in `notes:`; never average conflicting
+  draw figures or split the difference (same rule as investment). The old
+  free-form `metrics.water` is deprecated: don't emit it — use the three
+  structured fields, and keep withdrawal-vs-consumption-vs-discharge nuance
+  in `notes:`.
 
 ## Status vocabulary
 

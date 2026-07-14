@@ -68,7 +68,26 @@
         "building_sqft": { "type": "number", "exclusiveMinimum": 0 },
         "buildings": { "type": "integer", "minimum": 1 },
         "investment_usd": { "type": "number", "exclusiveMinimum": 0 },
-        "water": { "type": "string", "description": "Free-form until a measurable cluster promotes it." }
+        "water_source": {
+          "type": "string",
+          "enum": ["municipal", "groundwater", "surface-withdrawal-return", "reclaimed", "closed-loop-no-makeup", "air-cooled", "mixed", "unspecified"],
+          "description": "Where cooling water comes from. surface-withdrawal-return = draws from and returns to a natural body with no municipal draw; closed-loop-no-makeup / air-cooled = effectively zero-water designs."
+        },
+        "water_usage_gpd": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Water use in gallons per day. Pair with water_usage_basis — sources conflate permit ceilings with actual draw."
+        },
+        "water_usage_basis": {
+          "type": "string",
+          "enum": ["permitted-max", "reported-average", "estimated", "unspecified"],
+          "description": "What the gpd figure measures, when sources say (mirrors capacity_mw_basis)."
+        },
+        "water": {
+          "type": "string",
+          "deprecated": true,
+          "description": "DEPRECATED — free-form water note, superseded by water_source / water_usage_gpd / water_usage_basis. No records use it; kept only so a stray legacy value validates. Put withdrawal-vs-consumption-vs-discharge nuance in notes:."
+        }
       }
     },
     "announced_date": { "$ref": "#/$defs/fuzzyDate" },
