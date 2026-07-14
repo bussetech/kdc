@@ -1,0 +1,11 @@
+id: sig-20260714-meta-richland-parish-capacity
+site_id: meta-richland-parish
+attribute: capacity_mw
+value: "Expanded to 5GW"
+source_url: https://www.datacenterdynamics.com/en/news/meta-expands-data-center-campus-in-richland-parish-louisiana-to-5gw-will-invest-50bn/
+source_title: "Meta expands data center campus in Richland Parish, Louisiana, to 5GW & $50bn"
+publisher: Data Center Dynamics
+source_date: "2026-07-13"
+observed_date: "2026-07-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

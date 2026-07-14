@@ -1,0 +1,11 @@
+id: sig-20260714-qts-pw-gateway-status
+site_id: qts-prince-william
+attribute: status
+value: "QTS dropped its Prince William (PW) Gateway application (weeks earlier)"
+source_url: https://www.datacenterdynamics.com/en/news/county-officials-deny-application-for-2000-acre-data-center-campus-in-virginia/
+source_title: "County officials deny application for 2,000-acre data center campus in Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-07-13"
+observed_date: "2026-07-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

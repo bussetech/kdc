@@ -1,0 +1,11 @@
+id: sig-20260714-google-loch-land
+site_id: google-loch-chesterfield
+attribute: land_acres
+value: "Project Loch — a 350-acre data center campus near Watkins Centre South, adjacent to Route 288"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/neighbors-to-question-google-about-planned-data-centers-july-12-2026
+source_title: "Chesterfield neighbors to question Google about planned data centers"
+publisher: WTVR CBS 6
+source_date: "2026-07-12"
+observed_date: "2026-07-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20260714-global-stack-california-status
+site_id: null
+site_hint: "Global Stack Edge data center (rodeo-focused indoor arena) — California"
+attribute: status
+value: "Pitched Edge data center at rodeo-focused indoor arena; presses on after Calistoga setback"
+source_url: https://www.datacenterdynamics.com/en/news/global-stack-pitches-edge-data-center-at-rodeo-focused-indoor-arena-in-california/
+source_title: "Global Stack pitches Edge data center at rodeo-focused indoor arena in California"
+publisher: Data Center Dynamics
+source_date: "2026-07-13"
+observed_date: "2026-07-14"
+collected_by: gn_info_scout/1.0.0
+confidence: low

@@ -1,0 +1,11 @@
+id: sig-20260714-tract-goochland-capacity
+site_id: tract-goochland
+attribute: capacity_mw
+value: "900MW data center park outside Richmond (Goochland County)"
+source_url: https://www.datacenterdynamics.com/en/news/tract-looks-to-develop-900mw-data-center-park-outside-richmond-virginia/
+source_title: "Tract looks to develop 900MW data center park outside Richmond, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-07-13"
+observed_date: "2026-07-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
