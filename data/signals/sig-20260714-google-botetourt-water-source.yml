@@ -1,0 +1,13 @@
+id: sig-20260714-google-botetourt-water-source
+site_id: google-botetourt
+site_hint: "Google data center at Botetourt Center at Greenfield — Botetourt, VA"
+attribute: water_source
+value: "Western Virginia Water Authority municipal water and sewer (required connection for facilities in Botetourt Center at Greenfield)"
+source_url: https://www.botetourtva.gov/1023/Google-Data-Center-Water
+source_title: "Google Data Center - Water"
+publisher: Botetourt County government
+source_date: "2026"
+observed_date: "2026-07-14"
+collected_by: console/kdc-165-water-enrichment
+confidence: high
+notes: "WVWA public supply; the county and authority are separately studying a new long-range regional water source (anticipated needed ~2040, projected service ~2060)."

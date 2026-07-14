@@ -1,0 +1,12 @@
+id: sig-20260714-google-botetourt-location
+site_id: google-botetourt
+site_hint: "Google data center at Botetourt Center at Greenfield — Botetourt, VA"
+attribute: location
+value: "Botetourt Center at Greenfield business park, Botetourt County, Virginia"
+source_url: https://www.westernvawater.org/customers/capital-projects/draft-proposed-data-center-in-botetourt-center-at-greenfield
+source_title: "Google Data Center in Botetourt Center at Greenfield"
+publisher: Western Virginia Water Authority
+source_date: "2026"
+observed_date: "2026-07-14"
+collected_by: console/kdc-165-water-enrichment
+confidence: high

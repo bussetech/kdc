@@ -32,7 +32,10 @@ Provenance and the CC BY 4.0 dataset license are stated in
 | metrics.land_acres | number | optional |
 | metrics.building_sqft | number | optional |
 | metrics.investment_usd | number | optional |
-| metrics.water | string | optional, free-form until a cluster promotes it |
+| metrics.water_source | enum | optional, municipal \| groundwater \| surface-withdrawal-return \| reclaimed \| closed-loop-no-makeup \| air-cooled \| mixed \| unspecified |
+| metrics.water_usage_gpd | number | optional, gallons/day |
+| metrics.water_usage_basis | enum | optional, permitted-max \| reported-average \| estimated \| unspecified |
+| metrics.water | string | deprecated, superseded by the three water_* fields (no records use it) |
 | announced_date | date | optional |
 | first_seen | date | required |
 | last_updated | date | required |
