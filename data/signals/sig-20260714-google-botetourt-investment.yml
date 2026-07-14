@@ -1,0 +1,13 @@
+id: sig-20260714-google-botetourt-investment
+site_id: google-botetourt
+site_hint: "Google data center at Botetourt Center at Greenfield — Botetourt, VA"
+attribute: investment_usd
+value: "at least $3 billion invested and ~150 jobs by 2030 under the county performance agreement"
+source_url: https://www.wsls.com/news/local/2026/03/12/documents-reveal-key-details-of-proposed-google-data-center-project-in-botetourt-county/
+source_title: "Documents reveal key details of proposed Google Data Center Project in Botetourt County"
+publisher: WSLS
+source_date: "2026-03-12"
+observed_date: "2026-07-14"
+collected_by: console/kdc-165-water-enrichment
+confidence: medium
+notes: "Developer of record is Helio Capital LLC, an entity representing Google; utility-services funding agreement signed with the Western Virginia Water Authority."

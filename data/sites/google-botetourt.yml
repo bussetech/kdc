@@ -1,0 +1,74 @@
+id: google-botetourt
+name: Google Data Center at Botetourt Center at Greenfield
+operator: google
+status: announced
+location:
+  country: US
+  state: VA
+  county: Botetourt
+  address: Botetourt Center at Greenfield
+metrics:
+  water_source: municipal
+  water_usage_gpd: 2000000
+  water_usage_basis: permitted-max
+  investment_usd: 3000000000
+announced_date: "2026"
+first_seen: "2026-07-14"
+last_updated: "2026-07-14"
+confidence: medium
+sources:
+  - url: https://www.botetourtva.gov/1023/Google-Data-Center-Water
+    title: "Google Data Center - Water"
+    publisher: Botetourt County government
+    date: "2026"
+    note: "Water source (WVWA) and the 2,000,000 gal/day reserved-capacity ceiling; county notes actual use runs lower."
+  - url: https://cardinalnews.org/2026/07/09/by-water-use-googles-botetourt-site-would-be-its-8th-largest-data-center-complex-in-the-world/
+    title: "By water use, Google's Botetourt site would be its 8th largest data center complex in the world"
+    publisher: Cardinal News
+    date: "2026-07-09"
+    note: "~2M gal/day initial, up to ~8M gal/day at full expansion; from Google's 2026 environmental report."
+  - url: https://www.wsls.com/news/local/2026/03/12/documents-reveal-key-details-of-proposed-google-data-center-project-in-botetourt-county/
+    title: "Documents reveal key details of proposed Google Data Center Project in Botetourt County"
+    publisher: WSLS
+    date: "2026-03-12"
+    note: "$3B / ~150 jobs by 2030 performance agreement; developer Helio Capital LLC; WVWA utility agreement."
+  - url: https://www.westernvawater.org/customers/capital-projects/draft-proposed-data-center-in-botetourt-center-at-greenfield
+    title: "Google Data Center in Botetourt Center at Greenfield"
+    publisher: Western Virginia Water Authority
+    date: "2026"
+    note: "Location and utility-services scope."
+signals:
+  - sig-20260714-google-botetourt-water-reserve
+  - sig-20260714-google-botetourt-water-source
+  - sig-20260714-google-botetourt-water-expansion
+  - sig-20260714-google-botetourt-location
+  - sig-20260714-google-botetourt-investment
+  - sig-20260714-google-botetourt-status
+notes: >
+  Proposed Google campus at the Botetourt Center at Greenfield business park,
+  served by Western Virginia Water Authority (WVWA) municipal water and sewer.
+  Developer of record is Helio Capital LLC, an entity representing Google;
+  utility-services funding and county performance agreements ($3B, ~150 jobs
+  by 2030) are signed, but no land-use construction permit is confirmed here,
+  so status stays "announced".
+
+  Water figures conflict by basis and phase, and are resolved conservatively
+  to the highest-confidence primary figure. water_usage_gpd is set to the
+  2,000,000 gal/day WVWA reserved-capacity ceiling (permitted-max) from the
+  county; the county explicitly states Google's reported actual use is lower
+  than this planning number, so this is a ceiling, not a measured average.
+  Cardinal News (citing Google's 2026 environmental report) frames 2M gal/day
+  as the contracted initial figure rising to as much as ~8M gal/day at full
+  buildout (estimated) — carried as a separate signal, not averaged in.
+  Records released under FOIA and reporting on the water-use disclosure
+  dispute (e.g. the Roanoke Rambler) have surfaced higher potential figures;
+  the gap between reserved capacity, Google-reported actual use, and
+  full-expansion estimates is unresolved and deliberately left in these notes
+  rather than collapsed into a single number.
+
+  Botetourt is outside the Greater Richmond Metro focus area but within
+  Virginia's deep-coverage scope. Added as the first end-to-end
+  water_source / water_usage_gpd / water_usage_basis record (kdc#165) because
+  it is the best primary-sourced water figure available in VA right now;
+  Henrico/Chesterfield sources so far give only county-aggregate water use,
+  not per-site figures.

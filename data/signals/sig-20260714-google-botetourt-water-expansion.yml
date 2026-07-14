@@ -1,0 +1,13 @@
+id: sig-20260714-google-botetourt-water-expansion
+site_id: google-botetourt
+site_hint: "Google data center at Botetourt Center at Greenfield — Botetourt, VA"
+attribute: water_usage_gpd
+value: "~2 million gal/day contracted initially, rising to as much as ~8 million gal/day if the campus expands to full buildout"
+source_url: https://cardinalnews.org/2026/07/09/by-water-use-googles-botetourt-site-would-be-its-8th-largest-data-center-complex-in-the-world/
+source_title: "By water use, Google's Botetourt site would be its 8th largest data center complex in the world"
+publisher: Cardinal News
+source_date: "2026-07-09"
+observed_date: "2026-07-14"
+collected_by: console/kdc-165-water-enrichment
+confidence: medium
+notes: "Full-buildout figure is an estimate (estimated basis), derived from Google's 2026 environmental report and the WVWA utility-services agreement; conflicts in scope with the 2M reserved-capacity figure (initial vs full expansion)."

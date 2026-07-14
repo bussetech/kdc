@@ -1,0 +1,13 @@
+id: sig-20260714-google-botetourt-water-reserve
+site_id: google-botetourt
+site_hint: "Google data center at Botetourt Center at Greenfield — Botetourt, VA"
+attribute: water_usage_gpd
+value: "No more than 2,000,000 gallons/day water reserved capacity (and 570,000 gal/day wastewater); county states actual use runs lower than this reserved planning number per Google's annual reports"
+source_url: https://www.botetourtva.gov/1023/Google-Data-Center-Water
+source_title: "Google Data Center - Water"
+publisher: Botetourt County government
+source_date: "2026"
+observed_date: "2026-07-14"
+collected_by: console/kdc-165-water-enrichment
+confidence: high
+notes: "Reserved-capacity ceiling (permitted-max basis), not measured average draw — the county explicitly flags actual use as lower."

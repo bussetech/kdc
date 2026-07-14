@@ -1,0 +1,12 @@
+id: sig-20260714-google-botetourt-status
+site_id: google-botetourt
+site_hint: "Google data center at Botetourt Center at Greenfield — Botetourt, VA"
+attribute: status
+value: "Proposed / publicly announced; utility-services funding agreement (WVWA / Helio Capital LLC) and county performance agreement signed; expected water use made public early 2026"
+source_url: https://www.wdbj7.com/2026/02/25/google-data-centers-expected-water-use-made-public/
+source_title: "Google Data Center's expected water use made public"
+publisher: WDBJ7
+source_date: "2026-02-25"
+observed_date: "2026-07-14"
+collected_by: console/kdc-165-water-enrichment
+confidence: medium
