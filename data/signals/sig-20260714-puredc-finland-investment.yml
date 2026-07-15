@@ -1,0 +1,13 @@
+id: sig-20260714-puredc-finland-investment
+site_id: null
+site_hint: "Pure DC data center (Finland) — ?, Finland"
+attribute: investment_usd
+value: "Total investment in site set to reach $8.55bn (Microsoft signing on for capacity)"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-signs-on-for-capacity-at-pure-dc-data-center-in-finland-report/
+source_title: "Microsoft signs on for capacity at Pure DC data center in Finland - report"
+publisher: Data Center Dynamics
+source_date: "2026-07-14"
+observed_date: "2026-07-14"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/subtitle only; flagged as 'report' (secondary-sourced)."
