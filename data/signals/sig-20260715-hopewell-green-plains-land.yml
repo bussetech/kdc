@@ -1,0 +1,12 @@
+id: sig-20260715-hopewell-green-plains-land
+site_id: null
+site_hint: "Former Green Plains ethanol plant data center — Hopewell, VA"
+attribute: land_acres
+value: "55-acre site (data center proposed on a portion)"
+source_url: https://virginiabusiness.com/hopewell-denies-role-data-center-case-study/
+source_title: "Hopewell officials deny any role in data center case study"
+publisher: Virginia Business
+source_date: "2026-07-14"
+observed_date: "2026-07-15"
+collected_by: gn_info_scout/1.0.0
+confidence: low
