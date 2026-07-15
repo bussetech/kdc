@@ -1,0 +1,27 @@
+id: hyperdatagrid-lufkin
+name: "HyperDataGrid data center (former mill site, Lufkin)"
+status: announced
+location:
+  country: US
+  state: TX
+  locality: Lufkin
+announced_date: "2026-07-10"
+first_seen: "2026-07-14"
+last_updated: "2026-07-14"
+confidence: medium
+sources:
+  - url: https://www.datacenterdynamics.com/en/news/hyperdatagrid-eyes-data-center-outside-lufkin-texas/
+    title: "HyperDataGrid eyes data center outside Lufkin, Texas"
+    publisher: Data Center Dynamics
+    date: "2026-07-10"
+signals:
+  - sig-20260711-hyperdatagrid-lufkin-developer
+  - sig-20260711-hyperdatagrid-lufkin-location
+  - sig-20260711-hyperdatagrid-lufkin-status
+notes: >-
+  HyperDataGrid is looking to develop a data center on a former mill site
+  outside Lufkin, Texas (proposed/eyeing → `announced`). The site is
+  described as "outside Lufkin"; locality resolved to Lufkin as the
+  most-specific place given. HyperDataGrid (the developer) has no
+  canonical-entities id, so the developer field is omitted — needs an
+  entities entry. Single source, hence medium confidence.
