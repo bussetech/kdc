@@ -6,7 +6,7 @@ location:
   locality: Madrid
 metrics:
   capacity_mw: 60
-  capacity_mw_basis: total-incl-40mw-it-first-phase
+  capacity_mw_basis: unspecified
 first_seen: '2026-07-15'
 last_updated: '2026-07-15'
 confidence: medium
