@@ -1,0 +1,12 @@
+id: sig-20260713-mara-texas-status
+site_id: null
+site_hint: "Mara data center campus (former HIF USA site) — ?, TX"
+attribute: status
+value: "Site acquired from HIF USA; construction expected to start this year (2026)"
+source_url: https://www.datacenterdynamics.com/en/news/mara-acquires-1200-acre-texas-site-from-hif-usa-for-up-to-2gw-data-center-campus/
+source_title: "Mara acquires 1,200-acre Texas site from HIF USA for up to 2GW data center campus"
+publisher: Data Center Dynamics
+source_date: "2026-07-13"
+observed_date: "2026-07-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
