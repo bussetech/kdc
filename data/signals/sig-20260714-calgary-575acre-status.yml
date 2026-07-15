@@ -1,12 +1,12 @@
 id: sig-20260714-calgary-575acre-status
-site_id: null
-site_hint: "575-acre data center near Calgary — ?, Alberta"
+site_id: calgary-575acre-alberta
+site_hint: 575-acre data center near Calgary — ?, Alberta
 attribute: status
-value: "Proposed; more approvals still needed"
+value: Proposed; more approvals still needed
 source_url: https://www.datacenterdynamics.com/en/news/575-acre-data-center-could-be-built-near-calgary-canada/
-source_title: "575-acre data center could be built near Calgary, Canada"
+source_title: 575-acre data center could be built near Calgary, Canada
 publisher: Data Center Dynamics
-source_date: "2026-07-13"
-observed_date: "2026-07-14"
+source_date: '2026-07-13'
+observed_date: '2026-07-14'
 collected_by: gn_info_scout/1.0.0
 confidence: low

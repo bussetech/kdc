@@ -1,12 +1,12 @@
 id: sig-20260715-ferrovial-madrid-capacity
-site_id: null
-site_hint: "Ferrovial data center campus — Madrid, Spain"
+site_id: ferrovial-madrid
+site_hint: Ferrovial data center campus — Madrid, Spain
 attribute: capacity_mw
-value: "60MW total capacity, including 40MW of IT load (first phase)"
+value: 60MW total capacity, including 40MW of IT load (first phase)
 source_url: https://www.datacenterdynamics.com/en/news/fervial-to-invest-1000-millones-de-euros-in-a-data-center-campus-in-madrid/
-source_title: "Spain's Ferrovial to invest €1 billion in Madrid data center campus"
+source_title: Spain's Ferrovial to invest €1 billion in Madrid data center campus
 publisher: Data Center Dynamics
-source_date: "2026-07-14"
-observed_date: "2026-07-15"
+source_date: '2026-07-14'
+observed_date: '2026-07-15'
 collected_by: gn_info_scout/1.0.0
 confidence: medium

@@ -1,0 +1,22 @@
+id: calgary-575acre-alberta
+name: Proposed 575-acre data center near Calgary
+status: announced
+location:
+  country: CA
+  state: AB
+  locality: Calgary
+metrics:
+  land_acres: 575
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: low
+sources:
+- url: https://www.datacenterdynamics.com/en/news/575-acre-data-center-could-be-built-near-calgary-canada/
+  title: 575-acre data center could be built near Calgary, Canada
+  publisher: Data Center Dynamics
+  date: '2026-07-13'
+signals:
+- sig-20260714-calgary-575acre-land
+- sig-20260714-calgary-575acre-status
+notes: Early-stage proposal; more approvals still needed. No developer/operator identified
+  in reporting.

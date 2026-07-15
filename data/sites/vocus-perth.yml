@@ -1,0 +1,21 @@
+id: vocus-perth
+name: Vocus-occupied data center (outside Perth)
+status: operational
+location:
+  country: AU
+  state: WA
+  locality: Perth
+metrics:
+  capacity_mw: 1
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/vocus-occupied-data-center-outside-perth-australia-sold/
+  title: Vocus-occupied data center outside Perth, Australia, sold
+  publisher: Data Center Dynamics
+  date: '2026-07-13'
+signals:
+- sig-20260713-vocus-perth-capacity
+notes: Existing ~1MW Vocus-occupied data center outside Perth sold for AU$13.13m. Vocus is
+  the occupant/tenant.

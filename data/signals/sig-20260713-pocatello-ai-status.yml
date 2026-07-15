@@ -1,12 +1,13 @@
 id: sig-20260713-pocatello-ai-status
-site_id: null
-site_hint: "AI data center (Pocatello) — ?, ID"
+site_id: pocatello-ai-idaho
+site_hint: AI data center (Pocatello) — ?, ID
 attribute: status
-value: "Planned AI data center facing First Nation opposition (environmental impact, energy-bill concerns)"
+value: Planned AI data center facing First Nation opposition (environmental impact, energy-bill
+  concerns)
 source_url: https://www.datacenterdynamics.com/en/news/first-nation-opposes-plan-for-ai-data-center-in-pocatello-idaho/
-source_title: "First Nation opposes plan for AI data center in Pocatello, Idaho"
+source_title: First Nation opposes plan for AI data center in Pocatello, Idaho
 publisher: Data Center Dynamics
-source_date: "2026-07-13"
-observed_date: "2026-07-13"
+source_date: '2026-07-13'
+observed_date: '2026-07-13'
 collected_by: gn_info_scout/1.0.0
 confidence: medium

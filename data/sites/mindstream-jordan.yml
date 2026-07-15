@@ -1,0 +1,20 @@
+id: mindstream-jordan
+name: Mindstream Energy gas-powered data center (Jordan)
+status: announced
+location:
+  country: JO
+  locality: Jordanian gas field
+metrics:
+  capacity_mw: 400
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: low
+sources:
+- url: https://www.datacenterdynamics.com/en/news/mindstream-energy-proposes-400mw-gas-powered-data-center-in-jordanian-gas-field/
+  title: Mindstream Energy proposes 400MW gas-powered data center in Jordanian gas field
+  publisher: Data Center Dynamics
+  date: '2026-07-13'
+signals:
+- sig-20260714-mindstream-jordan-capacity
+notes: Proposed 400MW gas-powered data center in a Jordanian gas field. Developer Mindstream
+  Energy (omitted).

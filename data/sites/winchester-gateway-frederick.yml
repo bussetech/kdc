@@ -1,0 +1,23 @@
+id: winchester-gateway-frederick
+name: Winchester Gateway (Frederick County)
+status: announced
+location:
+  country: US
+  state: VA
+  county: Frederick
+metrics:
+  land_acres: 72
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://virginiabusiness.com/frederick-supervisors-to-consider-countywide-ban-of-data-centers/
+  title: Frederick supervisors to consider countywide ban of data centers
+  publisher: Virginia Business
+  date: '2026-07-14'
+signals:
+- sig-20260715-winchester-gateway-land
+- sig-20260715-winchester-gateway-status
+notes: 72 acres near Virginia Route 37. Application under Planning Commission review; same
+  Frederick County context as Virginia Technology Park (a countywide data-center ban is under
+  discussion).

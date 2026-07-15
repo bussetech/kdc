@@ -1,0 +1,21 @@
+id: cleanspark-sandersville
+name: CleanSpark data center (Sandersville)
+status: announced
+location:
+  country: US
+  state: GA
+  county: Washington
+  locality: Sandersville
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/cleanspark-secures-tenant-with-20-year-lease-for-data-center-in-sandersville-georgia/
+  title: CleanSpark secures tenant with 20-year lease for data center in Sandersville, Georgia
+  publisher: Data Center Dynamics
+  date: '2026-07-14'
+signals:
+- sig-20260715-cleanspark-sandersville-operator
+notes: Operator CleanSpark (not yet in operators.yml; operator field omitted rather than referencing
+  an unregistered id). Secured a tenant on a 20-year lease. Operational/construction status
+  not explicitly reported; kept at announced pending confirmation.

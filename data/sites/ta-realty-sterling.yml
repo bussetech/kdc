@@ -1,0 +1,22 @@
+id: ta-realty-sterling
+name: TA Realty data center-zoned land (Sterling)
+status: announced
+location:
+  country: US
+  state: VA
+  county: Loudoun
+  locality: Sterling
+metrics:
+  land_acres: 10
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/ta-realty-buys-data-center-zoned-land-in-sterling-virginia/
+  title: TA Realty buys data center-zoned land in Sterling, Virginia
+  publisher: Data Center Dynamics
+  date: '2026-07-13'
+signals:
+- sig-20260714-ta-realty-sterling-land
+notes: TA Realty bought a 10-acre data-center-zoned site for $6.1 million per acre. Land acquisition
+  only; no project details reported yet. Developer TA Realty (not in operators.yml; omitted).

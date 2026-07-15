@@ -1,12 +1,14 @@
 id: sig-20260714-mifflin-county-status
-site_id: null
-site_hint: "Data center (Mifflin County) — Mifflin, PA"
+site_id: mifflin-county-pa
+site_hint: Data center (Mifflin County) — Mifflin, PA
 attribute: status
-value: "Plans for data center submitted in Mifflin County, two days before local moratorium vote"
+value: Plans for data center submitted in Mifflin County, two days before local moratorium
+  vote
 source_url: https://www.datacenterdynamics.com/en/news/plans-for-data-center-submitted-in-mifflin-county-pennsylvania-just-two-days-before-local-moratorium-vote/
-source_title: "Plans for data center submitted in Mifflin County, Pennsylvania, just two days before local moratorium vote"
+source_title: Plans for data center submitted in Mifflin County, Pennsylvania, just two days
+  before local moratorium vote
 publisher: Data Center Dynamics
-source_date: "2026-07-13"
-observed_date: "2026-07-14"
+source_date: '2026-07-13'
+observed_date: '2026-07-14'
 collected_by: gn_info_scout/1.0.0
 confidence: medium
