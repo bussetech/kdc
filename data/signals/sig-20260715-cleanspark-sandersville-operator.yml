@@ -1,12 +1,14 @@
 id: sig-20260715-cleanspark-sandersville-operator
-site_id: null
-site_hint: "CleanSpark Sandersville data center — Washington County, GA"
+site_id: cleanspark-sandersville
+site_hint: CleanSpark Sandersville data center — Washington County, GA
 attribute: operator
-value: "CleanSpark; secured a tenant with a 20-year lease for its data center in Sandersville, Georgia"
+value: CleanSpark; secured a tenant with a 20-year lease for its data center in Sandersville,
+  Georgia
 source_url: https://www.datacenterdynamics.com/en/news/cleanspark-secures-tenant-with-20-year-lease-for-data-center-in-sandersville-georgia/
-source_title: "CleanSpark secures tenant with 20-year lease for data center in Sandersville, Georgia"
+source_title: CleanSpark secures tenant with 20-year lease for data center in Sandersville,
+  Georgia
 publisher: Data Center Dynamics
-source_date: "2026-07-14"
-observed_date: "2026-07-15"
+source_date: '2026-07-14'
+observed_date: '2026-07-15'
 collected_by: gn_info_scout/1.0.0
 confidence: medium

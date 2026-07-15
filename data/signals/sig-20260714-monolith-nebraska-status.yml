@@ -1,13 +1,14 @@
 id: sig-20260714-monolith-nebraska-status
-site_id: null
-site_hint: "Monolith carbon black plant data center — ?, NE"
+site_id: monolith-nebraska
+site_hint: Monolith carbon black plant data center — ?, NE
 attribute: status
-value: "Carbon black plant set to host data center; Monolith to officially file plans later this month"
+value: Carbon black plant set to host data center; Monolith to officially file plans later
+  this month
 source_url: https://www.datacenterdynamics.com/en/news/nebraska-carbon-black-plant-set-to-host-data-center/
-source_title: "Nebraska carbon black plant set to host data center"
+source_title: Nebraska carbon black plant set to host data center
 publisher: Data Center Dynamics
-source_date: "2026-07-13"
-observed_date: "2026-07-14"
+source_date: '2026-07-13'
+observed_date: '2026-07-14'
 collected_by: gn_info_scout/1.0.0
 confidence: low
-notes: "Plans not yet filed at time of report."
+notes: Plans not yet filed at time of report.

@@ -1,12 +1,12 @@
 id: sig-20260715-valfortec-alicante-capacity
-site_id: null
-site_hint: "Valfortec data center campus — Alicante, Spain"
+site_id: valfortec-alicante
+site_hint: Valfortec data center campus — Alicante, Spain
 attribute: capacity_mw
-value: "approximately 60MW"
+value: approximately 60MW
 source_url: https://www.datacenterdynamics.com/en/news/valfortec-plans-300m-data-center-campus-in-alicante-spain/
-source_title: "Valfortec plans €300m data center campus in Alicante, Spain"
+source_title: Valfortec plans €300m data center campus in Alicante, Spain
 publisher: Data Center Dynamics
-source_date: "2026-07-14"
-observed_date: "2026-07-15"
+source_date: '2026-07-14'
+observed_date: '2026-07-15'
 collected_by: gn_info_scout/1.0.0
 confidence: medium

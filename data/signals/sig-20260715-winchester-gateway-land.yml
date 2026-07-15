@@ -1,13 +1,14 @@
 id: sig-20260715-winchester-gateway-land
-site_id: null
-site_hint: "Winchester Gateway — Frederick, VA"
+site_id: winchester-gateway-frederick
+site_hint: Winchester Gateway — Frederick, VA
 attribute: land_acres
-value: "72 acres (near Virginia Route 37)"
+value: 72 acres (near Virginia Route 37)
 source_url: https://virginiabusiness.com/frederick-supervisors-to-consider-countywide-ban-of-data-centers/
-source_title: "Frederick supervisors to consider countywide ban of data centers"
+source_title: Frederick supervisors to consider countywide ban of data centers
 publisher: Virginia Business
-source_date: "2026-07-14"
-observed_date: "2026-07-15"
+source_date: '2026-07-14'
+observed_date: '2026-07-15'
 collected_by: gn_info_scout/1.0.0
 confidence: medium
-notes: "Frederick County, Virginia (Winchester area) — distinct from Frederick County, Maryland records"
+notes: Frederick County, Virginia (Winchester area) — distinct from Frederick County, Maryland
+  records

@@ -1,0 +1,19 @@
+id: pocatello-ai-idaho
+name: Proposed AI data center (Pocatello)
+status: announced
+location:
+  country: US
+  state: ID
+  locality: Pocatello
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/first-nation-opposes-plan-for-ai-data-center-in-pocatello-idaho/
+  title: First Nation opposes plan for AI data center in Pocatello, Idaho
+  publisher: Data Center Dynamics
+  date: '2026-07-13'
+signals:
+- sig-20260713-pocatello-ai-status
+notes: Planned AI data center facing First Nation opposition over environmental impact and
+  energy-bill concerns.

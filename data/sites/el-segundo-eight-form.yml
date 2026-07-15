@@ -1,0 +1,21 @@
+id: el-segundo-eight-form
+name: El Segundo hotel-replacement data center (Eight Form)
+status: cancelled
+location:
+  country: US
+  state: CA
+  county: Los Angeles
+  locality: El Segundo
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/developer-withdraws-plan-to-replace-hotel-with-data-center-in-el-segundo-california/
+  title: Developer withdraws plan to replace hotel with data center in El Segundo, California
+  publisher: Data Center Dynamics
+  date: '2026-07-15'
+signals:
+- sig-20260715-el-segundo-hotel-status
+notes: 'Developer Eight Form withdrew the plan to replace a hotel with a data center following
+  public comment at a planning meeting. Recorded as cancelled — a withdrawn proposal is a
+  record, not an omission (ruling: platform#52).'

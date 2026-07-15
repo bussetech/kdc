@@ -1,0 +1,18 @@
+id: lawrence-county-dynamite-pa
+name: Proposed data center campus (former dynamite factory, Lawrence County)
+status: announced
+location:
+  country: US
+  state: PA
+  county: Lawrence
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: low
+sources:
+- url: https://www.datacenterdynamics.com/en/news/data-center-campus-proposed-at-former-dynamite-factory-site-in-lawrence-county-pennsylvania/
+  title: Data center campus proposed at former dynamite factory site in Lawrence County, Pennsylvania
+  publisher: Data Center Dynamics
+  date: '2026-07-15'
+signals:
+- sig-20260715-lawrence-county-dynamite-status
+notes: Data center campus proposed at a former dynamite factory site.

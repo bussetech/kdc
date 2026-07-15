@@ -1,0 +1,19 @@
+id: krolmap-aragon
+name: Krolmap data center campus (Aragon)
+status: announced
+location:
+  country: ES
+  locality: Aragon
+metrics:
+  capacity_mw: 150
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/krolmap-plans-a-150-mw-data-center-campus-in-aragon/
+  title: Krolmap plans 150MW data center campus in Aragón, Spain
+  publisher: Data Center Dynamics
+  date: '2026-07-14'
+signals:
+- sig-20260715-krolmap-aragon-capacity
+notes: Developer Krolmap (not in operators.yml; omitted).

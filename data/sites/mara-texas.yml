@@ -1,0 +1,26 @@
+id: mara-texas
+name: Mara data center campus (former HIF USA site, Texas)
+status: announced
+location:
+  country: US
+  state: TX
+metrics:
+  capacity_mw: 2000
+  capacity_mw_basis: up-to
+  land_acres: 1200
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.datacenterdynamics.com/en/news/mara-acquires-1200-acre-texas-site-from-hif-usa-for-up-to-2gw-data-center-campus/
+  title: Mara acquires 1,200-acre Texas site from HIF USA for up to 2GW data center campus
+  publisher: Data Center Dynamics
+  date: '2026-07-13'
+signals:
+- sig-20260713-mara-texas-capacity
+- sig-20260713-mara-texas-developer
+- sig-20260713-mara-texas-land
+- sig-20260713-mara-texas-status
+notes: Developer Mara, in partnership with Starwood; 1,200-acre site acquired from HIF USA.
+  Neither Mara nor Starwood is in operators.yml — developer field omitted. Up to 2GW capacity;
+  construction expected to start in 2026.

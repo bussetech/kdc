@@ -1,0 +1,20 @@
+id: puredc-finland
+name: Pure DC data center (Finland)
+status: announced
+location:
+  country: FI
+metrics:
+  investment_usd: 8550000000
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: low
+sources:
+- url: https://www.datacenterdynamics.com/en/news/microsoft-signs-on-for-capacity-at-pure-dc-data-center-in-finland-report/
+  title: Microsoft signs on for capacity at Pure DC data center in Finland - report
+  publisher: Data Center Dynamics
+  date: '2026-07-14'
+signals:
+- sig-20260714-puredc-finland-investment
+notes: Total site investment set to reach $8.55bn, with Microsoft signing on for capacity
+  (per report). Operator Pure DC (omitted); Microsoft is a capacity tenant, not the operator
+  of record.

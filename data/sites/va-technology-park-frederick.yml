@@ -1,0 +1,23 @@
+id: va-technology-park-frederick
+name: Virginia Technology Park (Frederick County)
+status: announced
+location:
+  country: US
+  state: VA
+  county: Frederick
+metrics:
+  land_acres: 220
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://virginiabusiness.com/frederick-supervisors-to-consider-countywide-ban-of-data-centers/
+  title: Frederick supervisors to consider countywide ban of data centers
+  publisher: Virginia Business
+  date: '2026-07-14'
+signals:
+- sig-20260715-va-technology-park-frederick-land
+- sig-20260715-va-technology-park-frederick-status
+notes: 220 acres near Interstate 81's Exit 323. Application under Planning Commission review;
+  per reporting it would not be affected by the countywide data-center ban the board is drafting,
+  though the board chairman voiced severe concerns.

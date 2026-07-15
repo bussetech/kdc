@@ -1,0 +1,24 @@
+id: new-kent-route33
+name: New Kent Route 33 technology overlay district
+status: cancelled
+location:
+  country: US
+  state: VA
+  county: New Kent
+metrics:
+  land_acres: 1800
+first_seen: '2026-07-15'
+last_updated: '2026-07-15'
+confidence: medium
+sources:
+- url: https://www.wtvr.com/news/local-news/new-kent-data-center-concerns-july-15-2026
+  title: Supervisors address data center concerns in New Kent County
+  publisher: WTVR CBS 6
+  date: '2026-07-15'
+signals:
+- sig-20260715-new-kent-route33-land
+- sig-20260715-new-kent-route33-status
+notes: Board of Supervisors voted July 13 that the proposed 1,800-acre technology overlay
+  district in the Route 33 corridor should not proceed in its current form; county staff and
+  the planning commission were directed to discontinue work (some land may instead become
+  a business park). Recorded as cancelled.

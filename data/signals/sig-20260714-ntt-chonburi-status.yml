@@ -1,12 +1,12 @@
 id: sig-20260714-ntt-chonburi-status
-site_id: null
-site_hint: "NTT Chonburi campus (Bangkok 4) — Chonburi, Thailand"
+site_id: ntt-chonburi
+site_hint: NTT Chonburi campus (Bangkok 4) — Chonburi, Thailand
 attribute: status
-value: "NTT breaks ground on campus in Chonburi, Thailand"
+value: NTT breaks ground on campus in Chonburi, Thailand
 source_url: https://www.datacenterdynamics.com/en/news/ntt-breaks-ground-on-campus-in-chonburi-thailand/
-source_title: "NTT breaks ground on campus in Chonburi, Thailand"
+source_title: NTT breaks ground on campus in Chonburi, Thailand
 publisher: Data Center Dynamics
-source_date: "2026-07-13"
-observed_date: "2026-07-14"
+source_date: '2026-07-13'
+observed_date: '2026-07-14'
 collected_by: gn_info_scout/1.0.0
 confidence: medium
