@@ -9,13 +9,13 @@ location:
   lat: 32.47
   lon: -91.75
 metrics:
-  capacity_mw: 2000
+  capacity_mw: 5000
   land_acres: 3650
   building_sqft: 4000000
   buildings: 9
-  investment_usd: 27000000000
+  investment_usd: 50000000000
 first_seen: "2026-07-05"
-last_updated: "2026-07-09"
+last_updated: "2026-07-15"
 confidence: high
 sources:
   - url: https://datacenters.atmeta.com/richland-parish-data-center/
@@ -31,6 +31,10 @@ sources:
     publisher: Wikipedia
     date: "2026-07-06"
     note: "Tertiary corroboration of the 5 GW long-run plan and the ~4,000-acre land figure; low confidence."
+  - url: https://www.datacenterdynamics.com/en/news/meta-expands-data-center-campus-in-richland-parish-louisiana-to-5gw-will-invest-50bn/
+    title: "Meta expands data center campus in Richland Parish, Louisiana, to 5GW & $50bn"
+    publisher: Data Center Dynamics
+    date: "2026-07-13"
 signals:
   - sig-20260705-hyperion-building-sqft
   - sig-20260705-hyperion-buildings
@@ -42,15 +46,17 @@ signals:
   - sig-20260705-hyperion-status
   - sig-20260706-hyperion-capacity
   - sig-20260706-hyperion-land
+  - sig-20260714-meta-richland-parish-capacity
+  - sig-20260714-meta-richland-parish-investment
 notes: >
-  Under construction; 3,700+ workers on site, nine buildings phased through
-  2030. Capacity 2+ GW (Meta) scaling to 5 GW (DCD) — value shown is the firm
-  2 GW; 5 GW is the long-run plan, now also corroborated by Wikipedia
-  (sig-20260706-hyperion-capacity, low confidence tertiary source).
-  Investment conflicts by scope: $10B+ original announcement (Meta) vs $27B
-  Blue Owl Capital JV financing (DCD, the value used); larger long-run press
-  figures not fetch-verified. Land: 2,250 + 1,400 acres (3,650 total, primary
-  breakdown retained); Wikipedia (sig-20260706-hyperion-land) says "nearly
-  4,000 acres after buying an additional 1,400 acres" — a mild upward
-  discrepancy against a low-confidence source, so the sourced 3,650 figure is
-  kept and the Wikipedia figure is noted rather than adopted.
+  Under construction; nine buildings phased through 2030. Capacity updated to
+  5 GW: the earlier record carried the firm 2 GW (Meta) with 5 GW as a long-run
+  plan; the July 2026 DCD report ("expands to 5GW & $50bn") now confirms the
+  expansion, so capacity_mw is raised to 5,000 and the 2 GW figure is retained
+  as the earlier committed phase. Investment updated to $50B on the same DCD
+  report (plus a stated $1B in local infrastructure improvements); prior figures
+  ($10B+ original Meta announcement, $27B Blue Owl Capital JV financing) reflect
+  narrower scopes/rounds and are superseded by the newer, larger total.
+  Land: 2,250 + 1,400 acres (3,650 total, primary breakdown retained);
+  Wikipedia says "nearly 4,000 acres," a mild upward discrepancy against a
+  low-confidence source, so the sourced 3,650 figure is kept and noted.

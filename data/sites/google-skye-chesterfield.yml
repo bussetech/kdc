@@ -15,7 +15,7 @@ metrics:
   buildings: 5
 announced_date: "2025-08-28"
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-15"
 confidence: high
 sources:
   - url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
@@ -30,17 +30,24 @@ sources:
     title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
     publisher: Data Center Dynamics
     date: "2025-08-28"
+  - url: https://www.wtvr.com/news/local-news/chesterfield-county/neighbors-to-question-google-about-planned-data-centers-july-12-2026
+    title: "Chesterfield neighbors get first chance to question Google about planned data centers"
+    publisher: WTVR CBS 6
+    date: "2026-07-12"
+notes: >
+  Upper Magnolia Green property. Acreage reported as 887.7 (DCD, June 2026, used
+  here as more specific/newer), ~880 (county and July 2026 WTVR). Planned as five
+  data center buildings plus three substations; buildings=5 records the DC count.
+  Skye + Loch (~1,200 acres) bought for ~$60M in 2025. As of June 2026 the site
+  is in USACE regulatory/wetlands permitting (public notice NAO-2026-00282,
+  referenced but usace.army.mil blocked automated fetch); status kept at
+  announced since permits are in process, not granted.
 signals:
   - sig-20260705-skye-acres-county
   - sig-20260705-skye-acres-dcd
   - sig-20260705-skye-buildings
   - sig-20260705-skye-location
   - sig-20260705-skye-status
-notes: >
-  Upper Magnolia Green property. Acreage reported as 887.7 (DCD, June 2026, used
-  here as more specific/newer) and ~880 (county). Planned as five data center
-  buildings plus three substations; buildings=5 records the DC count.
-  Skye + Loch (~1,200 acres) bought for ~$60M in 2025. As of June 2026 the site
-  is in USACE regulatory/wetlands permitting (public notice NAO-2026-00282,
-  referenced but usace.army.mil blocked automated fetch); status kept at
-  announced since permits are in process, not granted.
+  - sig-20260713-google-skye-chesterfield-land-acres
+  - sig-20260713-google-skye-chesterfield-location
+  - sig-20260714-google-skye-land

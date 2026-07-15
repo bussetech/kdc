@@ -14,7 +14,7 @@ metrics:
   land_acres: 350
 announced_date: "2025-08-28"
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-15"
 confidence: medium
 sources:
   - url: https://www.chesterfield.gov/CivicAlerts.aspx?AID=6383
@@ -25,12 +25,20 @@ sources:
     title: "Google to invest $9bn in Virginia data centers, plans new campus in Chesterfield County"
     publisher: Data Center Dynamics
     date: "2025-08-28"
+  - url: https://www.wtvr.com/news/local-news/chesterfield-county/neighbors-to-question-google-about-planned-data-centers-july-12-2026
+    title: "Chesterfield neighbors get first chance to question Google about planned data centers"
+    publisher: WTVR CBS 6
+    date: "2026-07-12"
 notes: >
   350-acre section of Watkins Centre South near Route 288, held for future
   development. Google stated it had no plans to develop Loch (or the adjacent
   Skye) "right now" as of the Aug 2025 announcement. Loch + Skye (~1,200 acres)
-  were bought for ~$60M in 2025.
+  were bought for ~$60M in 2025. July 2026 WTVR reporting re-confirms the
+  350-acre figure and the Watkins Centre South / Route 288 location.
 signals:
   - sig-20260705-loch-acres
   - sig-20260705-loch-location
   - sig-20260705-loch-status
+  - sig-20260713-google-loch-chesterfield-land-acres
+  - sig-20260713-google-loch-chesterfield-location
+  - sig-20260714-google-loch-land

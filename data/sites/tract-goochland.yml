@@ -16,7 +16,7 @@ metrics:
   investment_usd: 3000000000
 announced_date: "2026-06-10"
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-15"
 confidence: medium
 sources:
   - url: https://virginiabusiness.com/tract-planning-872-acre-data-center-campus-in-goochland/
@@ -28,6 +28,10 @@ sources:
     publisher: WTVR CBS 6 (Richmond)
     date: "2026-06-11"
     note: "Corroborates project; source of conflicting application date and acreage figures."
+  - url: https://www.datacenterdynamics.com/en/news/tract-looks-to-develop-900mw-data-center-park-outside-richmond-virginia/
+    title: "Tract looks to develop 900MW data center park outside Richmond, Virginia"
+    publisher: Data Center Dynamics
+    date: "2026-07-13"
 signals:
   - sig-20260705-tuckahoe-announced-date-vb
   - sig-20260705-tuckahoe-announced-date-wtvr
@@ -37,10 +41,12 @@ signals:
   - sig-20260705-tuckahoe-land-acres
   - sig-20260705-tuckahoe-operator
   - sig-20260705-tuckahoe-status
+  - sig-20260714-tract-goochland-capacity
 notes: >
   Multi-phase data center campus near West Creek; Tract entitles and powers
   the land then sells/leases to hyperscalers. CUP (conditional use permit)
-  public process just beginning as of the announcement.
+  public process just beginning as of the announcement. July 2026 DCD reporting
+  re-confirms the 900MW figure for the Goochland County park outside Richmond.
   Announced-date conflict: Virginia Business reports a pre-application for a
   conditional use permit filed June 10, 2026; WTVR reports the initial
   application submitted June 11, 2026 — announced_date set to the earlier

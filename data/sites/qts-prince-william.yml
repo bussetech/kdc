@@ -10,24 +10,28 @@ metrics:
   land_acres: 2100
   building_sqft: 23000000
 first_seen: "2026-07-09"
-last_updated: "2026-07-10"
+last_updated: "2026-07-15"
 confidence: medium
 sources:
   - url: https://virginiabusiness.com/prince-william-supervisors-reject-another-big-data-center-project/
     title: "Prince William supervisors reject another big data center project"
     publisher: Virginia Business
     date: "2026-07-08"
+  - url: https://www.datacenterdynamics.com/en/news/county-officials-deny-application-for-2000-acre-data-center-campus-in-virginia/
+    title: "County officials deny application for 2,000-acre data center campus in Virginia"
+    publisher: Data Center Dynamics
+    date: "2026-07-13"
 signals:
   - sig-20260709-pw-digital-gateway-land
   - sig-20260709-pw-digital-gateway-status
   - sig-20260710-pw-digital-gateway-building-sqft
   - sig-20260710-pw-digital-gateway-land-acres
   - sig-20260710-pw-digital-gateway-status
+  - sig-20260714-qts-pw-gateway-status
 notes: >-
   Cancelled: the project officially died when developer QTS Data Centers
   withdrew its petition on July 2. A 23M-sq-ft complex planned on 2,100 acres
   near Manassas National Battlefield Park. Distinct site from the Dulles South
-  Innovation Center. Negative outcome recorded per KB-0001. New signals
-  (2026-07-10) re-confirm land (2,100 acres), building_sqft (23M, now carried
-  in its own signal), and withdrawn/cancelled status from the same Virginia
-  Business source.
+  Innovation Center. Negative outcome recorded per KB-0001. New signal
+  (2026-07-14, Data Center Dynamics) independently corroborates that QTS
+  dropped the PW Gateway application weeks earlier.

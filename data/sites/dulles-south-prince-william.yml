@@ -10,13 +10,17 @@ metrics:
   land_acres: 1930
   building_sqft: 43000000
 first_seen: "2026-07-09"
-last_updated: "2026-07-10"
+last_updated: "2026-07-15"
 confidence: medium
 sources:
   - url: https://virginiabusiness.com/prince-william-supervisors-reject-another-big-data-center-project/
     title: "Prince William supervisors reject another big data center project"
     publisher: Virginia Business
     date: "2026-07-08"
+  - url: https://www.datacenterdynamics.com/en/news/county-officials-deny-application-for-2000-acre-data-center-campus-in-virginia/
+    title: "County officials deny application for 2,000-acre data center campus in Virginia"
+    publisher: Data Center Dynamics
+    date: "2026-07-13"
 signals:
   - sig-20260709-dulles-south-developer
   - sig-20260709-dulles-south-land
@@ -25,11 +29,13 @@ signals:
   - sig-20260710-dulles-south-building-sqft
   - sig-20260710-dulles-south-land-acres
   - sig-20260710-dulles-south-status
+  - sig-20260714-dulles-south-status
 notes: >-
   Cancelled: Prince William supervisors unanimously rejected the comprehensive
   plan amendment for the ~1,930-acre campus (up to 43M sq ft at buildout) in
   the Gainesville Magisterial District; county staff had recommended rejection.
   Requested by Warrenton-based LSI 360 (aka LSI Communications), which needs an
   operators.yml entry, so developer is omitted. Distinct site from the Prince
-  William Digital Gateway. New signals (2026-07-10) re-confirm land, sqft, and
-  cancelled status from the same Virginia Business source.
+  William Digital Gateway. New signal (2026-07-14, Data Center Dynamics)
+  re-confirms the denial; DCD rounds the site to "2,000 acres" against the
+  1,930-acre figure kept here from the primary Virginia Business reporting.

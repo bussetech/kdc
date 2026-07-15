@@ -15,7 +15,7 @@ metrics:
   buildings: 3
 announced_date: "2025-08-28"
 first_seen: "2026-07-05"
-last_updated: "2026-07-05"
+last_updated: "2026-07-15"
 confidence: high
 sources:
   - url: https://www.datacenterdynamics.com/en/news/google-to-invest-9bn-in-virginia-data-centers-plans-new-campus-in-chesterfield-county/
@@ -34,6 +34,10 @@ sources:
     title: "In Google, Chesterfield landed the 'Rolls-Royce of data center operators'"
     publisher: Chesterfield County government
     date: "2025-08-28"
+  - url: https://www.wtvr.com/news/local-news/chesterfield-county/neighbors-to-question-google-about-planned-data-centers-july-12-2026
+    title: "Chesterfield neighbors get first chance to question Google about planned data centers"
+    publisher: WTVR CBS 6
+    date: "2026-07-12"
 signals:
   - sig-20260705-peanut-acres
   - sig-20260705-peanut-investment
@@ -41,9 +45,14 @@ signals:
   - sig-20260705-peanut-sqft-dcd
   - sig-20260705-peanut-sqft-wtvr
   - sig-20260705-peanut-status
+  - sig-20260713-google-peanut-chesterfield-land-acres
+  - sig-20260713-google-peanut-chesterfield-location
+  - sig-20260714-google-peanut-land
 notes: >
   Site bought via Peanut LLC (a Google alias) for $18.1M in 2020; ~300-acre site,
-  WTVR gives 307 acres (used here). Three buildings; DCD ~855,000 sqft (~285,000
+  WTVR gives 307 acres (used here). July 2026 WTVR reporting rounds the property
+  to "300 acres" off Bermuda Hundred Road — consistent with the 307 figure, which
+  is kept as the more specific value. Three buildings; DCD ~855,000 sqft (~285,000
   each), WTVR ~856,000 sqft — agree within rounding.
   investment_usd omitted: the widely-cited $9B is Google's total Virginia
   investment through 2026 (also Loudoun/Prince William), not a site-specific
