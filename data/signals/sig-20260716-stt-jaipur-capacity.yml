@@ -1,0 +1,12 @@
+id: sig-20260716-stt-jaipur-capacity
+site_id: null
+site_hint: "STT GDC enterprise data center — Jaipur, India"
+attribute: capacity_mw
+value: "6MW"
+source_url: https://www.datacenterdynamics.com/en/news/stt-gdc-inaugurates-6mw-enterprise-data-center-in-jaipur-india/
+source_title: "STT GDC inaugurates 6MW enterprise data center in Jaipur, India"
+publisher: Data Center Dynamics
+source_date: "2026-07-16"
+observed_date: "2026-07-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

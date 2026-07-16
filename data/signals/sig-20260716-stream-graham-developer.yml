@@ -1,0 +1,12 @@
+id: sig-20260716-stream-graham-developer
+site_id: null
+site_hint: "Stream Data Centers Graham site (former Plug Power hydrogen site) — Graham, TX"
+attribute: developer
+value: "Stream Data Centers"
+source_url: https://www.datacenterdynamics.com/en/news/plug-power-sells-texas-site-to-stream-data-centers/
+source_title: "Plug Power sells Texas site to Stream Data Centers"
+publisher: Data Center Dynamics
+source_date: "2026-07-15"
+observed_date: "2026-07-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,11 @@
+id: sig-20260716-google-peanut-status
+site_id: google-peanut-chesterfield
+attribute: status
+value: "Project Peanut is already under construction"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/google-data-center-open-house-july-15-2026
+source_title: "Some Chesterfield residents say Google data center open house left questions unanswered"
+publisher: WTVR CBS 6
+source_date: "2026-07-16"
+observed_date: "2026-07-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

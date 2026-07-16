@@ -1,0 +1,12 @@
+id: sig-20260716-crusoe-childress-capacity
+site_id: null
+site_hint: "Crusoe Childress campus (Lancium partnership) — Childress, TX"
+attribute: capacity_mw
+value: "1.4GW"
+source_url: https://www.datacenterdynamics.com/en/news/crusoe-to-develop-14gw-data-center-campus-in-childress-texas/
+source_title: "Crusoe to develop 1.4GW data center campus in Childress, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-07-15"
+observed_date: "2026-07-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
