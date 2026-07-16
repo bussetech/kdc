@@ -1,0 +1,13 @@
+id: sig-20260716-nc-ai-withdrawn-status
+site_id: null
+site_hint: "North Carolina AI data center proposal (withdrawn amid moratorium talk) — ?, NC"
+attribute: status
+value: "AI data center proposal withdrawn as county officials mull moratorium"
+source_url: https://www.datacenterdynamics.com/en/news/north-carolina-ai-data-center-proposal-withdrawn-as-county-officials-mull-moratorium/
+source_title: "North Carolina AI data center proposal withdrawn as county officials mull moratorium"
+publisher: Data Center Dynamics
+source_date: "2026-07-15"
+observed_date: "2026-07-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "County/exact location not given in fetched content; negative outcome (withdrawal)."
