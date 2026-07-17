@@ -1,0 +1,12 @@
+id: sig-20260717-project-saltworks-status
+site_id: null
+site_hint: "Project Saltworks — Graham, TX"
+attribute: status
+value: "Developer proposes 'Project Saltworks' data center (proposed)"
+source_url: https://www.datacenterdynamics.com/en/news/developer-proposes-867-acre-project-saltworks-data-center-in-graham-texas/
+source_title: "Developer proposes 867-acre 'Project Saltworks' data center in Graham, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-07-17"
+observed_date: "2026-07-17"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
