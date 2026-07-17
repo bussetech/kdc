@@ -75,7 +75,13 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ steps.app-token.outputs.token || github.token }}
-          claude_args: "--model claude-sonnet-5 --max-turns 15"
+          # This action version's default toolset grants git add/commit/push
+          # but NOT the file-editing tools, so any implementation request hits
+          # permission denials and burns the turn budget (run 29334382519:
+          # error_max_turns, 5 denials — @claude could read + commit but never
+          # edit). Grant Edit/Write/MultiEdit explicitly; --allowedTools merges
+          # with the defaults. Cost cap (ADR-0019) unchanged: sonnet, 15 turns.
+          claude_args: "--allowedTools Edit,Write,MultiEdit --model claude-sonnet-5 --max-turns 15"
 
       - name: Journal to the cost ledger (pseudo-gnome at_claude)
         if: always() && steps.creds.outputs.have == 'true' && steps.claude.outputs.execution_file != ''
