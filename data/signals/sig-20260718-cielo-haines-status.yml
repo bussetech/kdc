@@ -1,0 +1,13 @@
+id: sig-20260718-cielo-haines-status
+site_id: null
+site_hint: "Cielo data center (Haines City) — Polk, FL"
+attribute: status
+value: "Planned Florida data center (Cielo) held back by lack of available water from the city; population growth in Haines limiting available water"
+source_url: https://www.datacenterdynamics.com/en/news/planned-data-center-in-florida-held-back-by-lack-of-available-water-from-city/
+source_title: "Planned data center in Florida held back by lack of available water from city"
+publisher: Data Center Dynamics
+source_date: "2026-07-17"
+observed_date: "2026-07-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Water availability (municipal supply, constrained by population growth) is reported as the limiting factor; county inferred from Haines City, FL"
