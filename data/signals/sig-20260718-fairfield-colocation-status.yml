@@ -1,0 +1,12 @@
+id: sig-20260718-fairfield-colocation-status
+site_id: null
+site_hint: "Colocation data center (Fairfield) — Jefferson County, AL"
+attribute: status
+value: "Colocation data center proposed for Fairfield in the Birmingham, Alabama area; few details known"
+source_url: https://www.datacenterdynamics.com/en/news/colocation-data-center-proposed-in-birmingham-alabama/
+source_title: "Colocation data center proposed in Birmingham, Alabama"
+publisher: Data Center Dynamics
+source_date: "2026-07-17"
+observed_date: "2026-07-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
