@@ -1,0 +1,12 @@
+id: sig-20260719-stack-babenhausen-status
+site_id: null
+site_hint: "Stack Infrastructure data center (Babenhausen) — Hesse, Germany"
+attribute: status
+value: "Project canceled; investor has withdrawn from the project in Babenhausen"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-project-in-hesse-germany-canceled/
+source_title: "Stack Infrastructure data center in Hesse, Germany, canceled"
+publisher: Data Center Dynamics
+source_date: "2026-07-17"
+observed_date: "2026-07-19"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
