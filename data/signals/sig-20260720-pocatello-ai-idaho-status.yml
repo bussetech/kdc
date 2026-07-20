@@ -1,0 +1,12 @@
+id: sig-20260720-pocatello-ai-idaho-status
+site_id: pocatello-ai-idaho
+attribute: status
+value: "Pocatello, Idaho officials denied the data center application appeal; council upheld its May decision not to grant a permit for the data center campus"
+source_url: https://www.datacenterdynamics.com/en/news/officials-in-pocatello-idaho-deny-data-center-application-appeal/
+source_title: "Officials in Pocatello, Idaho, deny data center application appeal"
+publisher: Data Center Dynamics
+source_date: "2026-07-20"
+observed_date: "2026-07-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Negative outcome (denial) — status change from announced; single trade-press report of a government decision."

@@ -1,0 +1,13 @@
+id: sig-20260718-equinix-munich-status
+site_id: null
+site_hint: "Equinix Munich data center (MU4) — Munich, Germany"
+attribute: status
+value: "Equinix tops out its Munich data center in Germany; company expanding MU4"
+source_url: https://www.datacenterdynamics.com/en/news/equinix-tops-out-munich-data-center-in-germany/
+source_title: "Equinix tops out Munich data center in Germany"
+publisher: Data Center Dynamics
+source_date: "2026-07-18"
+observed_date: "2026-07-20"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only content; topping-out construction milestone for MU4 expansion, international site."
