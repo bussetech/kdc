@@ -1,0 +1,13 @@
+id: sig-20260720-letcher-county-ky-status
+site_id: null
+site_hint: "Off-grid data center (Gateway Business Park) — Letcher County, KY"
+attribute: status
+value: "Off-grid data center proposed for Letcher County, Kentucky; potential site located at the Gateway Business Park"
+source_url: https://www.datacenterdynamics.com/en/news/off-grid-data-center-proposed-for-letcher-county-kentucky-report/
+source_title: "Off-grid data center proposed for Letcher County, Kentucky - report"
+publisher: Data Center Dynamics
+source_date: "2026-07-20"
+observed_date: "2026-07-20"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-plus-one-line report; proposal stage, secondhand ('report')."
