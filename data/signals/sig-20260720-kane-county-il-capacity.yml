@@ -1,0 +1,12 @@
+id: sig-20260720-kane-county-il-capacity
+site_id: null
+site_hint: "48MW data center — Kane County, IL"
+attribute: capacity_mw
+value: "48 MW"
+source_url: https://www.datacenterdynamics.com/en/news/48mw-data-center-eyed-for-kane-county-illinois/
+source_title: "48MW data center eyed for Kane County, Illinois"
+publisher: Data Center Dynamics
+source_date: "2026-07-20"
+observed_date: "2026-07-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20260720-beacon-point-tx-operator
+site_id: null
+site_hint: "Beacon Point campus (Hut 8) — ?, TX"
+attribute: operator
+value: "Hut 8"
+source_url: https://www.datacenterdynamics.com/en/news/hut-8-signs-352mw-lease-with-unnamed-hyperscaler-in-texas/
+source_title: "Hut 8 signs 352MW lease with unnamed hyperscaler in Texas"
+publisher: Data Center Dynamics
+source_date: "2026-07-20"
+observed_date: "2026-07-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,13 @@
+id: sig-20260721-nuvu-petersburg-investment
+site_id: null
+site_hint: "NuVu Real Estate data center — Petersburg, VA"
+attribute: investment_usd
+value: "billion-dollar data center project (as reported)"
+source_url: https://www.wtvr.com/news/local-news/tri-cities/data-center-projects-july-21-2026
+source_title: "Multiple data centers planned for Petersburg; documents shed light on new details"
+publisher: WTVR CBS 6
+source_date: "2026-07-21"
+observed_date: "2026-07-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported as 'billion-dollar' with no precise figure in fetched content."

@@ -1,0 +1,12 @@
+id: sig-20260721-savannah-river-dcblox-developer
+site_id: null
+site_hint: "Amentum / DC Blox behind-the-meter AI data center — Savannah River Site, SC"
+attribute: developer
+value: "Amentum and DC Blox (selected by DOE)"
+source_url: https://www.datacenterdynamics.com/en/news/doe-selects-amentum-dc-blox-to-develop-behind-the-meter-ai-data-center-at-savannah-river-site-in-south-carolina/
+source_title: "DOE selects Amentum, DC Blox to develop behind-the-meter AI data center at Savannah River site in South Carolina"
+publisher: Data Center Dynamics
+source_date: "2026-07-21"
+observed_date: "2026-07-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

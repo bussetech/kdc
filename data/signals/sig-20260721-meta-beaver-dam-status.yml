@@ -1,0 +1,12 @@
+id: sig-20260721-meta-beaver-dam-status
+site_id: null
+site_hint: "Meta data center construction site — Beaver Dam, WI"
+attribute: status
+value: "under construction (data center construction site, per fire report July 19)"
+source_url: https://www.datacenterdynamics.com/en/news/fire-at-meta-data-center-construction-site-in-beaver-dam-wisconsin/
+source_title: "Fire at Meta data center construction site in Beaver Dam, Wisconsin"
+publisher: Data Center Dynamics
+source_date: "2026-07-21"
+observed_date: "2026-07-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
