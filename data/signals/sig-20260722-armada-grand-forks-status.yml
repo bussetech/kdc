@@ -1,0 +1,13 @@
+id: sig-20260722-armada-grand-forks-status
+site_id: null
+site_hint: "Armada containerized data center (GrandSky) — Grand Forks AFB, ND"
+attribute: status
+value: "deployed/operational (containerized pod deployed for GrandSky at Grand Forks Air Force Base)"
+source_url: https://www.datacenterdynamics.com/en/news/armada-deploys-containerized-data-center-to-north-dakota-air-base/
+source_title: "Armada deploys containerized data center to North Dakota air base"
+publisher: Data Center Dynamics
+source_date: "2026-07-21"
+observed_date: "2026-07-22"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only DCD feed item; single containerized pod deployment."

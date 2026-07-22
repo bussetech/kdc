@@ -1,0 +1,13 @@
+id: sig-20260722-pohang-status
+site_id: null
+site_hint: "Pohang 300MW data center — Pohang, South Korea"
+attribute: status
+value: "under-construction (ground broken)"
+source_url: https://www.datacenterdynamics.com/en/news/ground-broken-on-300mw-data-center-in-pohang-south-korea/
+source_title: "Ground broken on 300MW data center in Pohang, South Korea"
+publisher: Data Center Dynamics
+source_date: "2026-07-21"
+observed_date: "2026-07-22"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only DCD feed item; international site."
