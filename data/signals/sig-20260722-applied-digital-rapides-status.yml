@@ -1,0 +1,13 @@
+id: sig-20260722-applied-digital-rapides-status
+site_id: null
+site_hint: "Applied Digital data center — Rapides Parish, LA"
+attribute: status
+value: "under-construction (430MW data center to be served by a new 756MW Cleco natural gas plant)"
+source_url: https://www.datacenterdynamics.com/en/news/cleco-to-construct-756mw-natural-gas-plant-to-serve-applied-digitals-data-center-in-rapides-parish-louisiana-report/
+source_title: "Cleco to construct 756MW natural gas plant to serve Applied Digital's data center in Rapides Parish, Louisiana - report"
+publisher: Data Center Dynamics
+source_date: "2026-07-22"
+observed_date: "2026-07-22"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only, report-based DCD feed item; the data center is referenced only in passing to the gas-plant story."
