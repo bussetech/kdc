@@ -1,0 +1,13 @@
+id: sig-20260723-nvidia-san-jose-status
+site_id: null
+site_hint: "Data center at Nvidia-leased site (San Jose) — Santa Clara County, CA"
+attribute: status
+value: "data center plan faces appeal; Nvidia is the property's current leaseholder"
+source_url: https://www.datacenterdynamics.com/en/news/plan-for-data-center-at-nvidia-site-in-san-jose-faces-appeal/
+source_title: "Plan for data center at Nvidia site in San Jose faces appeal"
+publisher: Data Center Dynamics
+source_date: "2026-07-23"
+observed_date: "2026-07-23"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only item; may correspond to an existing San Jose record but no confident match."
