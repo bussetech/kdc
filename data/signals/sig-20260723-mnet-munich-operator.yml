@@ -1,0 +1,12 @@
+id: sig-20260723-mnet-munich-operator
+site_id: null
+site_hint: "M-net new data center (Munich, Germany) — ?, Germany"
+attribute: operator
+value: "M-net"
+source_url: https://www.datacenterdynamics.com/en/news/m-net-to-build-new-data-center-in-munich-germany/
+source_title: "M-net to build new data center in Munich, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-07-23"
+observed_date: "2026-07-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

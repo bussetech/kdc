@@ -1,0 +1,13 @@
+id: sig-20260723-spacexai-texas-status
+site_id: null
+site_hint: "SpaceXAI large-scale data center (Texas) — ?, TX"
+attribute: status
+value: "considering large-scale data center in Texas (report)"
+source_url: https://www.datacenterdynamics.com/en/news/spacexai-considers-large-scale-data-center-in-texas-report/
+source_title: "SpaceXAI considers large-scale data center in Texas - report"
+publisher: Data Center Dynamics
+source_date: "2026-07-22"
+observed_date: "2026-07-23"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Report/rumor-sourced; headline-only content."

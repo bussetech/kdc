@@ -1,0 +1,13 @@
+id: sig-20260723-liberty-west-texas-capacity
+site_id: null
+site_hint: "Planned 2GW data center (Liberty Energy/PowerBridge JV, West Texas) — ?, TX"
+attribute: capacity_mw
+value: "2GW (planned)"
+source_url: https://www.datacenterdynamics.com/en/news/liberty-energy-powerbridge-form-jv-to-power-planned-2gw-data-center-in-west-texas/
+source_title: "Liberty Energy, PowerBridge form JV to power planned 2GW data center in West Texas"
+publisher: Data Center Dynamics
+source_date: "2026-07-23"
+observed_date: "2026-07-23"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only item; capacity from title, location only 'West Texas'. First power delivery reported for end of 2027."
