@@ -1,0 +1,12 @@
+id: sig-20260724-google-botetourt-water-gpd
+site_id: google-botetourt
+attribute: water_usage_gpd
+value: "2,000,000 gallons/day"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/boy-speaks-out-data-centers-july-23-2026
+source_title: "11-year-old stands before Chesterfield Board of Supervisors, speaks out on data centers: 'Stand up and say no'"
+publisher: WTVR CBS 6
+source_date: "2026-07-23"
+observed_date: "2026-07-24"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Claim made in a resident's public-comment speech ('permitted to use 2 million gallons each day'); permit ceiling, not measured draw. Not confirmed by a primary permit filing in these notes."

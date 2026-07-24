@@ -1,0 +1,12 @@
+id: sig-20260724-google-botetourt-water-basis
+site_id: google-botetourt
+attribute: water_usage_basis
+value: "permitted maximum (permit ceiling)"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/boy-speaks-out-data-centers-july-23-2026
+source_title: "11-year-old stands before Chesterfield Board of Supervisors, speaks out on data centers: 'Stand up and say no'"
+publisher: WTVR CBS 6
+source_date: "2026-07-23"
+observed_date: "2026-07-24"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Basis inferred from 'permitted to use'; asserted in public comment, not a sourced filing."
