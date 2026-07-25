@@ -1,0 +1,12 @@
+id: sig-20260725-soya-green-hokkaido-status
+site_id: null
+site_hint: "Soya Green Data Center 1 — Hokkaido, Japan"
+attribute: status
+value: "Eurus Energy & Toyota broke ground; wind-powered data center"
+source_url: https://www.datacenterdynamics.com/en/news/eurus-energy-toyota-break-ground-on-wind-powered-data-center-in-hokkaido-japan/
+source_title: "Eurus Energy & Toyota break ground on wind-powered data center in Hokkaido, Japan"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

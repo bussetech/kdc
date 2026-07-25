@@ -1,0 +1,13 @@
+id: sig-20260725-cardinal-data-power-capacity
+site_id: null
+site_hint: "Cardinal Data Power West Texas campus — ?, TX"
+attribute: capacity_mw
+value: "proposed campus with plans to scale beyond 5GW"
+source_url: https://www.datacenterdynamics.com/en/news/empery-digital-invests-20m-in-cardinal-data-power/
+source_title: "Empery Digital invests $20m in Cardinal Data Power"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/subtitle only; 5GW is a stated scaling plan, not built capacity."

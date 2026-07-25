@@ -1,0 +1,13 @@
+id: sig-20260725-ransom-township-land-acres
+site_id: null
+site_hint: "Ransom Township data center — ?, PA"
+attribute: land_acres
+value: "930-acre data center proposed; developer bought a 530-acre parcel earlier the same week"
+source_url: https://www.datacenterdynamics.com/en/news/developer-eyes-930-acre-data-center-in-ransom-township-pennsylvania/
+source_title: "Developer eyes 930-acre data center in Ransom Township, Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Two land figures reported: 930-acre proposed project vs 530-acre parcel purchase."

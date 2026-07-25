@@ -1,0 +1,13 @@
+id: sig-20260725-parks-sa-cachoeirinha-capacity
+site_id: null
+site_hint: "Parks S/A Tier III data center — Cachoeirinha, Brazil"
+attribute: capacity_mw
+value: "5MW (Porto Alegre Metropolitan Region); R$500m investment"
+source_url: https://www.datacenterdynamics.com/en/news/parks-sa-to-invest-r500-million-in-a-new-tier-iii-data-center-in-cachoeirinha-rio-grande-do-sul/
+source_title: "Parks S/A to invest R$500m in 5MW data center in Cachoeirinha, Brazil"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Investment reported in Brazilian reais (R$500m), not USD."
