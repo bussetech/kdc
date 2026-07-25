@@ -1,0 +1,12 @@
+id: sig-20260725-google-botetourt-water-usage-initial
+site_id: google-botetourt
+attribute: water_usage_gpd
+value: "no more than 2 million gallons per day initially"
+source_url: https://virginiabusiness.com/google-air-cooling-botetourt-data-center/
+source_title: "Google to use air-cooling tech for first Botetourt data center, reducing water use"
+publisher: Virginia Business
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+notes: "Basis: same Western Virginia Water Authority utility services funding agreement (initial requirement), distinct from the 8 MGD full-buildout figure."
+confidence: medium

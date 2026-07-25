@@ -1,0 +1,12 @@
+id: sig-20260725-pantheon-atlas-croatia-capacity
+site_id: null
+site_hint: "Pantheon Atlas Croatia data center — ?, Croatia"
+attribute: capacity_mw
+value: "1GW; secured grid approval, construction expected to start next year"
+source_url: https://www.datacenterdynamics.com/en/news/pantheon-atlas-secures-grid-approval-for-1gw-croatia-data-center/
+source_title: "Pantheon Atlas secures grid approval for 1GW Croatia data center"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

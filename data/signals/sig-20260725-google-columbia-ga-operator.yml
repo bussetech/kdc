@@ -1,0 +1,12 @@
+id: sig-20260725-google-columbia-ga-operator
+site_id: null
+site_hint: "Google end-user data center (8M sq ft) — Columbia, GA"
+attribute: operator
+value: "Google announced as end user"
+source_url: https://www.datacenterdynamics.com/en/news/google-announced-as-end-user-of-8-million-sq-ft-data-center-in-columbia-georgia/
+source_title: "Google announced as end user of 8 million sq ft data center in Columbia, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

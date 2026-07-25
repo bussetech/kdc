@@ -1,0 +1,11 @@
+id: sig-20260725-google-botetourt-water-source
+site_id: google-botetourt
+attribute: water_source
+value: "First building will use air-cooling technology instead of water to cool equipment; cooling technology for the two other planned buildings remains under active evaluation"
+source_url: https://virginiabusiness.com/google-air-cooling-botetourt-data-center/
+source_title: "Google to use air-cooling tech for first Botetourt data center, reducing water use"
+publisher: Virginia Business
+source_date: "2026-07-24"
+observed_date: "2026-07-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
