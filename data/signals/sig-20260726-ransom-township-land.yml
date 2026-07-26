@@ -1,0 +1,13 @@
+id: sig-20260726-ransom-township-land
+site_id: null
+site_hint: "Ransom Township data center — Lackawanna County, PA"
+attribute: land_acres
+value: "930-acre data center eyed; developer bought a 530-acre parcel earlier this week"
+source_url: https://www.datacenterdynamics.com/en/news/developer-eyes-930-acre-data-center-in-ransom-township-pennsylvania/
+source_title: "Developer eyes 930-acre data center in Ransom Township, Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-26"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Two land figures reported: 930 acres for the proposed project vs a 530-acre parcel just purchased."

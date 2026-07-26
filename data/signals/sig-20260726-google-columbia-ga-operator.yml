@@ -1,0 +1,13 @@
+id: sig-20260726-google-columbia-ga-operator
+site_id: null
+site_hint: "Google end-user 8 million sq ft data center — Columbia County, GA"
+attribute: operator
+value: "Google (named as end user)"
+source_url: https://www.datacenterdynamics.com/en/news/google-announced-as-end-user-of-8-million-sq-ft-data-center-in-columbia-georgia/
+source_title: "Google announced as end user of 8 million sq ft data center in Columbia, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-07-24"
+observed_date: "2026-07-26"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item."
