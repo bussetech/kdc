@@ -1,0 +1,12 @@
+id: sig-20260727-google-lagrange-status
+site_id: null
+site_hint: "Google LaGrange data center campus — Troup, GA"
+attribute: status
+value: "Google files to expand data center campus in LaGrange, Georgia; looks to add second building at in-development site"
+source_url: https://www.datacenterdynamics.com/en/news/google-files-to-expand-data-center-campus-in-lagrange-georgia/
+source_title: "Google files to expand data center campus in LaGrange, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-07-27"
+observed_date: "2026-07-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

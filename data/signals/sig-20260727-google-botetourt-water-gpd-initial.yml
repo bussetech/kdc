@@ -1,0 +1,12 @@
+id: sig-20260727-google-botetourt-water-gpd-initial
+site_id: google-botetourt
+attribute: water_usage_gpd
+value: "initially no more than 2 million gallons per day"
+source_url: https://virginiabusiness.com/google-air-cooling-botetourt-data-center/
+source_title: "Google to use air-cooling tech for first Botetourt data center, reducing water use"
+publisher: Virginia Business
+source_date: "2026-07-24"
+observed_date: "2026-07-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Basis: initial-requirement figure per the Oct 2025 utility services funding agreement (FOIA-released Feb 2026), distinct from the 8M gpd full-buildout ceiling."
