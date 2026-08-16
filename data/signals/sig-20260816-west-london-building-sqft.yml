@@ -1,0 +1,13 @@
+id: sig-20260816-west-london-building-sqft
+site_id: null
+site_hint: "Data center in west London — West London, England"
+attribute: building_sqft
+value: "up to 50,000 sqm"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-spanning-up-to-50000-sqm-gets-approval-for-construction-in-west-london-the-uk/
+source_title: "Data center spanning up to 50,000 sqm gets approval for construction in west London, the UK"
+publisher: Data Center Dynamics
+source_date: "2026-08-14"
+observed_date: "2026-08-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported in square meters, not sqft."
