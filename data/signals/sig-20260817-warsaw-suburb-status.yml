@@ -1,0 +1,13 @@
+id: sig-20260817-warsaw-suburb-status
+site_id: null
+site_hint: "Data center near Warsaw — Piaseczno/Józefosław, Poland"
+attribute: status
+value: "Planned for the suburb; sparking local protests over feared water shortages"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-planned-for-suburb-in-warsaw-poland-sparks-protests/
+source_title: "Data center planned for suburb in Warsaw, Poland, sparks protests"
+publisher: Data Center Dynamics
+source_date: "2026-08-14"
+observed_date: "2026-08-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Feed item is headline plus subtitle only; no project name, operator, or metrics given"
