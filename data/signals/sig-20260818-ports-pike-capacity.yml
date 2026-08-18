@@ -1,0 +1,12 @@
+id: sig-20260818-ports-pike-capacity
+site_id: null
+site_hint: "Ports-Pike mega data center (SB Energy / OpenAI capacity) — ?, ?"
+attribute: capacity_mw
+value: "4.25GW of OpenAI capacity, backed by Nvidia"
+source_url: https://www.datacenterdynamics.com/en/news/nvidia-confirms-it-will-back-425gw-of-openai-capacity-at-ports-pike-mega-data-center/
+source_title: "Nvidia confirms it will back 4.25GW of OpenAI capacity at Ports-Pike mega data center"
+publisher: Data Center Dynamics
+source_date: "2026-08-17"
+observed_date: "2026-08-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
