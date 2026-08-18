@@ -1,0 +1,12 @@
+id: sig-20260818-thylander-esbjerg-status
+site_id: null
+site_hint: "Thylander data center (Esbjerg) — Esbjerg, Denmark"
+attribute: status
+value: "Thylander breaks ground on data center in Esbjerg; grid-reactive facility to offer waste heat to local utility"
+source_url: https://www.datacenterdynamics.com/en/news/thylander-breaks-ground-on-danish-data-center-in-esbjerg/
+source_title: "Thylander breaks ground on Danish data center in Esbjerg"
+publisher: Data Center Dynamics
+source_date: "2026-08-17"
+observed_date: "2026-08-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
