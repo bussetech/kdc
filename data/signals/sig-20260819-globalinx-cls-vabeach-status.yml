@@ -1,0 +1,12 @@
+id: sig-20260819-globalinx-cls-vabeach-status
+site_id: null
+site_hint: "Globalinx CLS campus (Virginia Beach) — Virginia Beach, VA"
+attribute: status
+value: "Globalinx buys land in Virginia Beach to expand CLS campus (as Virginia Beach officials look to bring in a data center moratorium)"
+source_url: https://www.datacenterdynamics.com/en/news/globalinx-buys-land-in-virginia-beach-to-expand-cls-campus/
+source_title: "Globalinx buys land in Virginia Beach to expand CLS campus"
+publisher: Data Center Dynamics
+source_date: "2026-08-18"
+observed_date: "2026-08-19"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

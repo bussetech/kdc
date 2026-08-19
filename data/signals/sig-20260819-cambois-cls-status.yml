@@ -1,0 +1,12 @@
+id: sig-20260819-cambois-cls-status
+site_id: null
+site_hint: "Data center campus at Cambois (former GSK manufacturing site) — Northumberland, UK"
+attribute: status
+value: "Application filed for a data center campus; UK family office plans campus in Cambois on former GSK manufacturing site"
+source_url: https://www.datacenterdynamics.com/en/news/application-filed-for-data-center-campus-near-qts-site-in-northumberland-uk/
+source_title: "Application filed for data center campus near QTS' site in Northumberland, UK"
+publisher: Data Center Dynamics
+source_date: "2026-08-18"
+observed_date: "2026-08-19"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
