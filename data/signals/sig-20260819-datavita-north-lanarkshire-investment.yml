@@ -1,0 +1,13 @@
+id: sig-20260819-datavita-north-lanarkshire-investment
+site_id: null
+site_hint: "DataVita North Lanarkshire data center campus — North Lanarkshire, UK"
+attribute: investment_usd
+value: "£300m debt facility secured to expand campus (funds to fuel expansion of two buildings)"
+source_url: https://www.datacenterdynamics.com/en/news/datavita-secures-300m-debt-facility-to-expand-north-lanarkshire-data-center-campus/
+source_title: "DataVita secures £300m debt facility to expand North Lanarkshire data center campus"
+publisher: Data Center Dynamics
+source_date: "2026-08-18"
+observed_date: "2026-08-19"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported as a £300m debt facility for expansion, not a total project investment figure; value is GBP."

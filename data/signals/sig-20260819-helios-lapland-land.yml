@@ -1,0 +1,13 @@
+id: sig-20260819-helios-lapland-land
+site_id: null
+site_hint: "Helios data center (Finnish Lapland) — Lapland, Finland"
+attribute: land_acres
+value: "860 hectares"
+source_url: https://www.datacenterdynamics.com/en/news/helios-looks-to-build-data-center-on-860-hectares-in-finnish-lapland/
+source_title: "Helios looks to build data center on 860 hectares in Finnish Lapland"
+publisher: Data Center Dynamics
+source_date: "2026-08-18"
+observed_date: "2026-08-19"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported in hectares (860 ha), not acres; unit preserved as reported."
