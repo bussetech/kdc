@@ -1,0 +1,13 @@
+id: sig-20260820-king-of-prussia-status
+site_id: null
+site_hint: "Five data centers, King of Prussia — Montgomery, PA"
+attribute: status
+value: "Plans for five data centers in King of Prussia blocked; developer intends to launch appeal"
+source_url: https://www.datacenterdynamics.com/en/news/plans-for-five-data-centers-in-king-of-prussia-pennsylvania-blocked/
+source_title: "Plans for five data centers in King of Prussia, Pennsylvania, blocked"
+publisher: Data Center Dynamics
+source_date: "2026-08-20"
+observed_date: "2026-08-20"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Blocked/denial claim is headline-only; body adds only that developer intends to appeal."

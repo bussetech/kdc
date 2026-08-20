@@ -1,0 +1,13 @@
+id: sig-20260820-brisbane-status
+site_id: null
+site_hint: "10-story data center outside Brisbane — Queensland, Australia"
+attribute: status
+value: "Plans filed for 10-story data center; facility to be located close to BESS and substation"
+source_url: https://www.datacenterdynamics.com/en/news/plans-filed-for-10-story-data-center-outside-brisbane-australia/
+source_title: "Plans filed for 10-story data center outside Brisbane, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-08-19"
+observed_date: "2026-08-20"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-level detail only; international site."
