@@ -1,0 +1,13 @@
+id: sig-20260820-modesto-status
+site_id: null
+site_hint: "Modesto data center (old chemical plant site) — Stanislaus, CA"
+attribute: status
+value: "Potential data center sparks public outcry (proposed)"
+source_url: https://www.datacenterdynamics.com/en/news/plans-for-potential-data-center-in-modesto-california-spark-public-outcry/
+source_title: "Plans for potential data center in Modesto, California, spark public outcry"
+publisher: Data Center Dynamics
+source_date: "2026-08-19"
+observed_date: "2026-08-20"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Described as a 'potential' project; headline-level detail only."
