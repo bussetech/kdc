@@ -1,0 +1,13 @@
+id: sig-20260821-infratech-carson-investment
+site_id: null
+site_hint: "InfraTech data center campus — Carson County, TX"
+attribute: investment_usd
+value: "$2.7bn"
+source_url: https://www.datacenterdynamics.com/en/news/infratech-to-invest-27bn-to-develop-data-center-campus-in-carson-county-texas/
+source_title: "InfraTech to invest $2.7bn to develop data center campus in Carson County, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-08-20"
+observed_date: "2026-08-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Carson County, TX also hosts the existing Fermi America Project Matador (matador-carson) record; developer here is a different named party (InfraTech) — left unmatched pending resolution."

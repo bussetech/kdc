@@ -1,0 +1,12 @@
+id: sig-20260821-bbt-bad-mergentheim-operator
+site_id: null
+site_hint: "BBT Group data center at Caritas Hospital — Bad Mergentheim, Baden-Württemberg, Germany"
+attribute: operator
+value: "BBT Group"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-launched-by-bbt-group-at-hospital-in-bad-mergentheim-germany/
+source_title: "Data center launched by BBT Group at hospital in Bad Mergentheim, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-08-20"
+observed_date: "2026-08-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
