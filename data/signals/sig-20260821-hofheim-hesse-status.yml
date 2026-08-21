@@ -1,0 +1,13 @@
+id: sig-20260821-hofheim-hesse-status
+site_id: null
+site_hint: "Rumored data center (Krieger Group plot) — Hofheim, Hesse, Germany"
+attribute: status
+value: "rumored"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-rumored-to-be-coming-to-hofheim-in-state-of-hesse-germany/
+source_title: "Data center rumored to be coming to Hofheim in state of Hesse, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-08-20"
+observed_date: "2026-08-21"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Unconfirmed — speculation over the buyer of a plot sold by Krieger Group; no confirmed developer or project."

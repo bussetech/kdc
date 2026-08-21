@@ -1,0 +1,12 @@
+id: sig-20260821-allentown-petrucci-developer
+site_id: null
+site_hint: "100MW data center (J.G. Petrucci warehouse-site pivot) — Allentown, PA"
+attribute: developer
+value: "J.G. Petrucci Company"
+source_url: https://www.datacenterdynamics.com/en/news/100mw-data-center-proposed-in-allentown-pennsylvania/
+source_title: "100MW data center proposed in Allentown, Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-08-20"
+observed_date: "2026-08-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

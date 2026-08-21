@@ -1,0 +1,12 @@
+id: sig-20260821-colleferro-lazio-status
+site_id: null
+site_hint: "AI data center (Colleferro) — Colleferro, Lazio, Italy"
+attribute: status
+value: "approved for construction"
+source_url: https://www.datacenterdynamics.com/en/news/ai-data-center-approved-for-construction-in-lazio-italy/
+source_title: "AI data center approved for construction in Lazio, Italy"
+publisher: Data Center Dynamics
+source_date: "2026-08-21"
+observed_date: "2026-08-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
