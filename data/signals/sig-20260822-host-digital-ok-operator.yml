@@ -1,0 +1,12 @@
+id: sig-20260822-host-digital-ok-operator
+site_id: null
+site_hint: "Host Digital Infrastructure data center facility — northeast Oklahoma"
+attribute: operator
+value: "Host Digital Infrastructure LLC"
+source_url: https://www.richmonder.org/ellwood-thompsons-parent-company-acquired-by-data-center-owner-as-stock-drops-below-2-cents-a-share/
+source_title: "Ellwood Thompson's parent company acquired by data center owner"
+publisher: The Richmonder
+source_date: "2026-08-18"
+observed_date: "2026-08-22"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
