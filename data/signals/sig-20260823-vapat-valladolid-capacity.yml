@@ -1,0 +1,12 @@
+id: sig-20260823-vapat-valladolid-capacity
+site_id: null
+site_hint: "Vapat data center project — Valladolid, Spain"
+attribute: capacity_mw
+value: "160MW"
+source_url: https://www.datacenterdynamics.com/en/news/vapat-enters-the-data-center-market-with-a-160mw-project-in-valladolid/
+source_title: "Vapat Enters the data center market with a 160MW project in Valladolid"
+publisher: Data Center Dynamics
+source_date: "2026-08-21"
+observed_date: "2026-08-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

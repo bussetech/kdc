@@ -1,0 +1,12 @@
+id: sig-20260823-stt-gdc-vietnam-status
+site_id: null
+site_hint: "STT GDC Ho Chi Minh City JV data center — Vietnam"
+attribute: status
+value: "STT GDC backs out of planned Vietnam data center project; VNG looks to acquire STT GDC's portion of Ho Chi Minh City JV"
+source_url: https://www.datacenterdynamics.com/en/news/stt-gdc-backs-out-of-planned-vietnam-data-center-project/
+source_title: "STT GDC backs out of planned Vietnam data center project"
+publisher: Data Center Dynamics
+source_date: "2026-08-21"
+observed_date: "2026-08-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
