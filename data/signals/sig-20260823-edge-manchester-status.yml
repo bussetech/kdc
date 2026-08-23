@@ -1,0 +1,12 @@
+id: sig-20260823-edge-manchester-status
+site_id: null
+site_hint: "Edge AI data center — Manchester, UK"
+attribute: status
+value: "Edge data center for AI workloads proposed in Manchester, UK; part of planned network of Edge sites"
+source_url: https://www.datacenterdynamics.com/en/news/edge-data-center-for-ai-workloads-proposed-in-manchester-uk/
+source_title: "Edge data center for AI workloads proposed in Manchester, UK"
+publisher: Data Center Dynamics
+source_date: "2026-08-21"
+observed_date: "2026-08-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20260823-evolution-dc-hcmc-location
+site_id: null
+site_hint: "Evolution DC data center — Ho Chi Minh City, Vietnam"
+attribute: location
+value: "Saigon Hi-Tech Park, Ho Chi Minh City, Vietnam"
+source_url: https://www.datacenterdynamics.com/en/news/evolution-dc-secures-long-term-lease-for-land-in-ho-chi-minh-city-vietnam/
+source_title: "Evolution DC secures long-term lease for land in Ho Chi Minh City, Vietnam"
+publisher: Data Center Dynamics
+source_date: "2026-08-21"
+observed_date: "2026-08-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
