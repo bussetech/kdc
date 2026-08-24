@@ -1,0 +1,13 @@
+id: sig-20260824-ignis-acciona-segovia-status
+site_id: null
+site_hint: "Ignis/Acciona data center (Segovia) — Segovia, Spain"
+attribute: status
+value: "Ignis and Acciona look to build a data center in Segovia, Spain (joint project also includes a photovoltaic plant)"
+source_url: https://www.datacenterdynamics.com/en/news/ignis-and-acciona-join-forces-to-build-a-data-center-in-segovia/
+source_title: "Ignis and Acciona look to build a data center in Segovia, Spain"
+publisher: Data Center Dynamics
+source_date: "2026-08-22"
+observed_date: "2026-08-24"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Headline-plus-subtitle only; developer/operator identity and lifecycle stage reported at proposal stage."

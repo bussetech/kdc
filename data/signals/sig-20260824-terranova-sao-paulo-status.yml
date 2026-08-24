@@ -1,0 +1,13 @@
+id: sig-20260824-terranova-sao-paulo-status
+site_id: null
+site_hint: "Terranova (Terronova) data center campus — São Paulo, Brazil"
+attribute: status
+value: "Starts work on data center campus outside São Paulo, Brazil"
+source_url: https://www.datacenterdynamics.com/en/news/terranova-boosts-technology-infrastructure-with-the-construction-of-one-of-latin-americas-first-ai-data-centers/
+source_title: "Terronova starts work on 300MW data center campus outside São Paulo, Brazil"
+publisher: Data Center Dynamics
+source_date: "2026-08-22"
+observed_date: "2026-08-24"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Operator name spelled 'Terronova' in title, 'terranova' in URL slug."
