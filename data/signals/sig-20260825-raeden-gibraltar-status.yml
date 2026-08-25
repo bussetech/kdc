@@ -1,0 +1,12 @@
+id: sig-20260825-raeden-gibraltar-status
+site_id: null
+site_hint: "Raeden Gibraltar data center — ?, MI"
+attribute: status
+value: "City-imposed moratorium curbed proposals for the data center; Raeden claims the moratorium unlawfully stopped its development"
+source_url: https://www.datacenterdynamics.com/en/news/raeden-claims-michigan-moratorium-unlawfully-stopped-its-gibraltar-data-center-development/
+source_title: "Raeden claims Michigan moratorium unlawfully stopped its Gibraltar data center development"
+publisher: Data Center Dynamics
+source_date: "2026-08-24"
+observed_date: "2026-08-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

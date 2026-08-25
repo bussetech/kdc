@@ -1,0 +1,12 @@
+id: sig-20260825-magnora-hameenlinna-capacity
+site_id: null
+site_hint: "Magnora Hämeenlinna data center — Hämeenlinna, Finland"
+attribute: capacity_mw
+value: "Revises the capacity of the data center to more than 120MW"
+source_url: https://www.datacenterdynamics.com/en/news/magnora-secures-grid-connection-for-h%C3%A4meenlinna-data-center-in-finland/
+source_title: "Magnora secures grid connection for Hämeenlinna data center in Finland"
+publisher: Data Center Dynamics
+source_date: "2026-08-24"
+observed_date: "2026-08-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

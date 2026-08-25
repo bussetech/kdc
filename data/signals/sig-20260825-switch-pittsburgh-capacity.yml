@@ -1,0 +1,13 @@
+id: sig-20260825-switch-pittsburgh-capacity
+site_id: null
+site_hint: "Switch former Pittsburgh race track data center — ?, PA"
+attribute: capacity_mw
+value: "up to 270MW generator capacity"
+source_url: https://www.datacenterdynamics.com/en/news/switch-files-to-develop-data-center-on-former-pittsburgh-race-track/
+source_title: "Switch files to develop data center on former Pittsburgh race track"
+publisher: Data Center Dynamics
+source_date: "2026-08-24"
+observed_date: "2026-08-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Figure is generator capacity, not necessarily IT/critical load."

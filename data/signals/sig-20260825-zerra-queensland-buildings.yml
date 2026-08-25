@@ -1,0 +1,12 @@
+id: sig-20260825-zerra-queensland-buildings
+site_id: null
+site_hint: "Zerra DC campus — Queensland, Australia"
+attribute: buildings
+value: "Four-building campus planned next to substation and multiple power plants"
+source_url: https://www.datacenterdynamics.com/en/news/zerra-dc-files-plans-for-large-data-center-campus-in-queensland-australia/
+source_title: "Zerra DC files plans for large data center campus in Queensland, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-08-24"
+observed_date: "2026-08-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
