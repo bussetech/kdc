@@ -1,0 +1,12 @@
+id: sig-20260825-soluna-dorothy3-capacity
+site_id: null
+site_hint: "Project Dorothy 3 (Soluna) — Briscoe County, TX"
+attribute: capacity_mw
+value: "Expected to have a capacity of 300MW"
+source_url: https://www.datacenterdynamics.com/en/news/soluna-acquires-397-acre-plot-in-briscoe-county-texas-for-project-dorothy-3-data-center/
+source_title: "Soluna acquires 397-acre plot in Briscoe County, Texas, for Project Dorothy 3 data center"
+publisher: Data Center Dynamics
+source_date: "2026-08-25"
+observed_date: "2026-08-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
