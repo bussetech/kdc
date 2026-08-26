@@ -1,0 +1,12 @@
+id: sig-20260826-terawulf-kentucky-status
+site_id: null
+site_hint: "TeraWulf planned data center campus — Kentucky"
+attribute: status
+value: "Planned; first phase expected to come online next year (2027)"
+source_url: https://www.datacenterdynamics.com/en/news/terawulf-secures-482mw-electrical-service-agreement-for-planned-data-center-campus-in-kentucky/
+source_title: "TeraWulf secures 482MW electrical service agreement for planned data center campus in Kentucky"
+publisher: Data Center Dynamics
+source_date: "2026-08-25"
+observed_date: "2026-08-26"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

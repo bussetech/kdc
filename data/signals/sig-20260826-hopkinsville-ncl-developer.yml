@@ -1,0 +1,12 @@
+id: sig-20260826-hopkinsville-ncl-developer
+site_id: null
+site_hint: "North Campbell Land Co. data center (Bitcoin-mining conversion) — Hopkinsville, KY"
+attribute: developer
+value: "North Campbell Land Co."
+source_url: https://www.datacenterdynamics.com/en/news/residents-raise-concerns-over-proposed-50mw-data-center-in-hopkinsville-kentucky/
+source_title: "Residents raise concerns over proposed 50MW data center in Hopkinsville, Kentucky"
+publisher: Data Center Dynamics
+source_date: "2026-08-25"
+observed_date: "2026-08-26"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

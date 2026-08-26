@@ -1,0 +1,12 @@
+id: sig-20260826-doverdc-south-morang-developer
+site_id: null
+site_hint: "DoverDC South Morang data center (second project) — Melbourne, Australia"
+attribute: developer
+value: "DoverDC"
+source_url: https://www.datacenterdynamics.com/en/news/application-filed-for-200mw-data-center-in-melbourne-australia/
+source_title: "Application filed for 200MW data center in Melbourne, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-08-26"
+observed_date: "2026-08-26"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
