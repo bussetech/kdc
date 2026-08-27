@@ -1,0 +1,13 @@
+id: sig-20260827-nscale-wv-capacity
+site_id: null
+site_hint: "Nscale data center campus — ?, WV"
+attribute: capacity_mw
+value: "460 MW"
+source_url: https://www.datacenterdynamics.com/en/news/anthropic-signs-45bn-compute-capacity-agreement-with-nscale-report/
+source_title: "Anthropic signs $45bn compute capacity agreement with Nscale - report"
+publisher: Data Center Dynamics
+source_date: "2026-08-27"
+observed_date: "2026-08-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "460MW is the Anthropic-contracted portion at Nscale's WV campus; reported secondhand ('- report')."

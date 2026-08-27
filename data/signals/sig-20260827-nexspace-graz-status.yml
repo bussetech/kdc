@@ -1,0 +1,12 @@
+id: sig-20260827-nexspace-graz-status
+site_id: null
+site_hint: "Nexspace data center (second facility) — Graz, Austria"
+attribute: status
+value: "Breaks ground (under construction)"
+source_url: https://www.datacenterdynamics.com/en/news/nexspace-breaks-ground-on-data-center-in-graz-austria/
+source_title: "Nexspace breaks ground on data center in Graz, Austria"
+publisher: Data Center Dynamics
+source_date: "2026-08-27"
+observed_date: "2026-08-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

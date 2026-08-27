@@ -1,0 +1,12 @@
+id: sig-20260827-nscale-wv-operator
+site_id: null
+site_hint: "Nscale data center campus — ?, WV"
+attribute: operator
+value: "Nscale"
+source_url: https://www.datacenterdynamics.com/en/news/anthropic-signs-45bn-compute-capacity-agreement-with-nscale-report/
+source_title: "Anthropic signs $45bn compute capacity agreement with Nscale - report"
+publisher: Data Center Dynamics
+source_date: "2026-08-27"
+observed_date: "2026-08-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

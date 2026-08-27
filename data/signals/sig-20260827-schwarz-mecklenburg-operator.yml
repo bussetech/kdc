@@ -1,0 +1,12 @@
+id: sig-20260827-schwarz-mecklenburg-operator
+site_id: null
+site_hint: "Schwarz Group data center — Mecklenburg-Vorpommern, Germany"
+attribute: operator
+value: "Schwarz Group"
+source_url: https://www.datacenterdynamics.com/en/news/schwarz-group-commits-56bn-investment-in-data-center-in-mecklenburg-vorpommern-germany/
+source_title: "Schwarz Group commits €5.6bn investment in data center in Mecklenburg-Vorpommern, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-08-27"
+observed_date: "2026-08-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
