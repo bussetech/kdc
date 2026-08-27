@@ -1,0 +1,12 @@
+id: sig-20260827-openai-effingham-operator
+site_id: null
+site_hint: "OpenAI/Stargate planned data center — Effingham County, GA"
+attribute: operator
+value: "OpenAI"
+source_url: https://www.datacenterdynamics.com/en/news/openai-gets-green-light-for-32gw-power-deal-to-supply-planned-data-center-in-effingham-county-georgia/
+source_title: "OpenAI gets green light for 3.2GW power deal to supply planned data center in Effingham County, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-08-27"
+observed_date: "2026-08-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
