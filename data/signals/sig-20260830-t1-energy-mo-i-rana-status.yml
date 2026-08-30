@@ -1,0 +1,12 @@
+id: sig-20260830-t1-energy-mo-i-rana-status
+site_id: null
+site_hint: "T1 Energy Mo i Rana data center (former solar manufacturing campus) — Mo i Rana, Norway"
+attribute: status
+value: "T1 Energy secured approval to convert solar manufacturing campus in Mo i Rana, Norway, into a data center"
+source_url: https://www.datacenterdynamics.com/en/news/t1-energy-secures-approval-to-convert-solar-manufacturing-campus-in-mo-i-rana-norway-into-50mw-data-center/
+source_title: "T1 Energy secures approval to convert solar manufacturing campus in Mo i Rana, Norway, into 50MW data center"
+publisher: Data Center Dynamics
+source_date: "2026-08-28"
+observed_date: "2026-08-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
