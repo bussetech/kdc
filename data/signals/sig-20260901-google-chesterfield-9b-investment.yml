@@ -1,0 +1,13 @@
+id: sig-20260901-google-chesterfield-9b-investment
+site_id: null
+site_hint: "Google Chesterfield County data center deal ($9B) — Chesterfield, VA"
+attribute: investment_usd
+value: "$9 billion Google data center deal in Chesterfield County"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/data-center-timeline-aug-31-2026
+source_title: "How did Chesterfield County land a $9B Google deal? The answer goes back 30 years."
+publisher: WTVR CBS 6
+source_date: "2026-08-31"
+observed_date: "2026-09-01"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Figure is reported as a county-wide 'Google deal'; Chesterfield already has multiple distinct Google project records (Loch, Peanut, Skye), so which physical site(s) the $9B covers is ambiguous — left unmatched for resolver."
