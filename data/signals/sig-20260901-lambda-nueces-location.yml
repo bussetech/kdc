@@ -1,0 +1,13 @@
+id: sig-20260901-lambda-nueces-location
+site_id: null
+site_hint: "Lambda data center (Anthropic $35bn cloud agreement) — Nueces County, TX"
+attribute: location
+value: "data center in Nueces County, Texas"
+source_url: https://www.datacenterdynamics.com/en/news/anthropic-signs-35bn-cloud-agreement-with-lambda-report/
+source_title: "Anthropic signs $35bn cloud agreement with Lambda - report"
+publisher: Data Center Dynamics
+source_date: "2026-09-01"
+observed_date: "2026-09-01"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Feed item content is a single fragment; only location is stated. The $35bn is a cloud/lease agreement figure, not site capex, so not recorded as investment_usd."
