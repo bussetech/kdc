@@ -1,0 +1,12 @@
+id: sig-20260902-cerebras-mikkeli-capacity
+site_id: null
+site_hint: "Cerebras Mikkeli data center — Mikkeli, Finland"
+attribute: capacity_mw
+value: "165MW"
+source_url: https://www.datacenterdynamics.com/en/news/cerebras-starts-construction-on-165mw-data-center-in-mikkeli-finland/
+source_title: "Cerebras starts construction on 165MW data center in Mikkeli, Finland"
+publisher: Data Center Dynamics
+source_date: "2026-09-02"
+observed_date: "2026-09-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

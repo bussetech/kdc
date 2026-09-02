@@ -1,0 +1,13 @@
+id: sig-20260902-dayone-selangor-status
+site_id: null
+site_hint: "DayOne data center (TNB onsite generation) — Selangor, Malaysia"
+attribute: status
+value: "Planned data center; DayOne partnering with TNB to develop up to 1.5GW of onsite generation plus battery storage"
+source_url: https://www.datacenterdynamics.com/en/news/dayone-partners-with-tnb-to-develop-up-to-15gw-of-onsite-generation-for-planned-data-center-in-selangor-malaysia/
+source_title: "DayOne partners with TNB to develop up to 1.5GW of onsite generation for planned data center in Selangor, Malaysia"
+publisher: Data Center Dynamics
+source_date: "2026-09-01"
+observed_date: "2026-09-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "1.5GW is onsite generation capacity, not IT/data-center load."

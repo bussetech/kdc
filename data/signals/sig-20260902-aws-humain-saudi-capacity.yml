@@ -1,0 +1,13 @@
+id: sig-20260902-aws-humain-saudi-capacity
+site_id: null
+site_hint: "AWS/Humain Saudi AI Zone — Saudi Arabia"
+attribute: capacity_mw
+value: "50MW online by 2028 (AWS and Humain commitment)"
+source_url: https://www.datacenterdynamics.com/en/news/aws-and-humain-commit-to-bringing-50mw-online-at-saudi-ai-zone-by-2028/
+source_title: "AWS and Humain commit to bringing 50MW online at Saudi AI Zone by 2028"
+publisher: Data Center Dynamics
+source_date: "2026-09-02"
+observed_date: "2026-09-02"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Metric appears only in headline; item body covers a separate cloud-region launch."
