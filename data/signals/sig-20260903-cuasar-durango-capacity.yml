@@ -1,0 +1,12 @@
+id: sig-20260903-cuasar-durango-capacity
+site_id: null
+site_hint: "Cuasar Capital / KA URBE IT data center campus — Durango, Mexico"
+attribute: capacity_mw
+value: "300 MW"
+source_url: https://www.datacenterdynamics.com/en/news/quasar-launches-a-300-mw-data-center-campus-in-durango-mexico/
+source_title: "Cuasar Capital plans 300MW data center campus in Durango, Mexico"
+publisher: Data Center Dynamics
+source_date: "2026-09-03"
+observed_date: "2026-09-03"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
