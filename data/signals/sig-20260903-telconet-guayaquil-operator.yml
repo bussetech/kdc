@@ -1,0 +1,12 @@
+id: sig-20260903-telconet-guayaquil-operator
+site_id: null
+site_hint: "Telconet data center — Guayaquil, Ecuador"
+attribute: operator
+value: "Telconet"
+source_url: https://www.datacenterdynamics.com/en/news/telconet-opens-a-new-data-center-in-guayaquil-and-is-preparing-another-one-in-quito-1/
+source_title: "Ecuador's Telconet opens data center in Guayaquil, targets another in Quito"
+publisher: Data Center Dynamics
+source_date: "2026-09-03"
+observed_date: "2026-09-03"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

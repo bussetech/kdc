@@ -1,0 +1,12 @@
+id: sig-20260903-yamna-acu-status
+site_id: null
+site_hint: "Yamna hyperscale data centers — Port of Açu, Brazil"
+attribute: status
+value: "Yamna signs land reservation agreement at Brazil's Port of Açu; plans to work on development of hyperscale data centers in Brazil"
+source_url: https://www.datacenterdynamics.com/en/news/yamna-signs-land-reservation-agreement-in-the-port-of-acu/
+source_title: "Yamna signs land reservation agreement at Brazil's Port of Açu"
+publisher: Data Center Dynamics
+source_date: "2026-09-03"
+observed_date: "2026-09-03"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

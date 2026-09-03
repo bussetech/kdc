@@ -1,0 +1,12 @@
+id: sig-20260903-algoma-ontario-developer
+site_id: null
+site_hint: "Algoma Steel / Red Jar Energy 400MW AI data center — Algoma, Ontario, Canada"
+attribute: developer
+value: "Algoma Steel and Red Jar Energy Partners"
+source_url: https://www.datacenterdynamics.com/en/news/new-400mw-ai-data-center-planned-for-algoma-in-ontario-canada/
+source_title: "New 400MW AI data center planned for Algoma in Ontario, Canada"
+publisher: Data Center Dynamics
+source_date: "2026-09-03"
+observed_date: "2026-09-03"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
