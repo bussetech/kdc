@@ -1,0 +1,12 @@
+id: sig-20260904-evolution-dc-bangkok-status
+site_id: null
+site_hint: "Evolution DC Bangkok data center (first phase) — Bangkok, Thailand"
+attribute: status
+value: "Pre-lease signed for first phase to unnamed hyperscaler; first Thai facility due online later this year"
+source_url: https://www.datacenterdynamics.com/en/news/evolution-dc-signs-pre-lease-for-first-phase-of-bangkok-data-center-to-unnamed-hyperscaler/
+source_title: "Evolution DC signs pre-lease for first phase of Bangkok data center to unnamed hyperscaler"
+publisher: Data Center Dynamics
+source_date: "2026-09-04"
+observed_date: "2026-09-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

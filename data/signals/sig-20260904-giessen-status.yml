@@ -1,0 +1,12 @@
+id: sig-20260904-giessen-status
+site_id: null
+site_hint: "Data center in Gießen (Frankfurt suburb) — Gießen, Germany"
+attribute: status
+value: "Data center proposal approved by local council"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-proposal-approved-by-local-council-in-suburb-of-frankfurt-germany/
+source_title: "Data center proposal approved by local council in suburb of Frankfurt, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-09-04"
+observed_date: "2026-09-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

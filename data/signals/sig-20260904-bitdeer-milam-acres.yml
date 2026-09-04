@@ -1,0 +1,12 @@
+id: sig-20260904-bitdeer-milam-acres
+site_id: null
+site_hint: "Bitdeer AI/HPC data center — Milam County, TX"
+attribute: land_acres
+value: "200 acres (purchased to expand AI and HPC data center)"
+source_url: https://www.datacenterdynamics.com/en/news/bitdeer-buys-200-acres-in-milam-county-texas-to-expand-ai-and-hpc-data-center/
+source_title: "Bitdeer buys 200 acres in Milam County, Texas, to expand AI and HPC data center"
+publisher: Data Center Dynamics
+source_date: "2026-09-04"
+observed_date: "2026-09-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
