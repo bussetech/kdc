@@ -1,0 +1,12 @@
+id: sig-20260904-firmus-wesley-vale-capacity
+site_id: null
+site_hint: "Firmus third Tasmania data center (Wesley Vale) — Wesley Vale, Tasmania, Australia"
+attribute: capacity_mw
+value: "52MW"
+source_url: https://www.datacenterdynamics.com/en/news/firmus-proposes-third-data-center-project-in-tasmania/
+source_title: "Firmus proposes third data center project in Tasmania"
+publisher: Data Center Dynamics
+source_date: "2026-09-03"
+observed_date: "2026-09-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

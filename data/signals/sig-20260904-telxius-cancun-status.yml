@@ -1,0 +1,12 @@
+id: sig-20260904-telxius-cancun-status
+site_id: null
+site_hint: "Telxius Edge data center (Cancún) — Cancún, Mexico"
+attribute: status
+value: "Telxius to build Edge data center in Cancún; landing point for the Tikal submarine cable"
+source_url: https://www.datacenterdynamics.com/en/news/telxius-strengthens-caribbean-connectivity-with-a-new-edge-data-center-in-cancun/
+source_title: "Telxius to build Edge data center in Cancún, Mexico"
+publisher: Data Center Dynamics
+source_date: "2026-09-04"
+observed_date: "2026-09-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
