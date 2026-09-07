@@ -1,0 +1,13 @@
+id: sig-20260907-milan-greenfield-investment
+site_id: null
+site_hint: "Greenfield/Finsbury Infrastructure Milan data center — Milan, Italy"
+attribute: investment_usd
+value: "€360m"
+source_url: https://www.datacenterdynamics.com/en/news/greenfield-and-finsbury-infrastructure-to-invest-360m-in-milan-data-center/
+source_title: "Greenfield and Finsbury Infrastructure to invest €360m in Milan data center"
+publisher: Data Center Dynamics
+source_date: "2026-09-07"
+observed_date: "2026-09-07"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Reported in euros, not USD."

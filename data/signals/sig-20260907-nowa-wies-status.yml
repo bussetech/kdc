@@ -1,0 +1,12 @@
+id: sig-20260907-nowa-wies-status
+site_id: null
+site_hint: "Nowa Wieś data center — Masovian Voivodeship, Poland"
+attribute: status
+value: "development halted; city councillors voted unanimously against permitting the facility to proceed"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-development-halted-in-masovian-voivodeship-poland/
+source_title: "Data center development halted in Masovian Voivodeship, Poland"
+publisher: Data Center Dynamics
+source_date: "2026-09-07"
+observed_date: "2026-09-07"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
