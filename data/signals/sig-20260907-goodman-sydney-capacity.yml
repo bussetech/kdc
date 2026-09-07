@@ -1,0 +1,13 @@
+id: sig-20260907-goodman-sydney-capacity
+site_id: null
+site_hint: "Goodman Group data center — northern Sydney, Australia"
+attribute: capacity_mw
+value: "135MW"
+source_url: https://www.datacenterdynamics.com/en/news/goodman-group-gets-green-light-for-135mw-data-center-in-northern-sydney-australia/
+source_title: "Goodman Group gets green light for 135MW data center in northern Sydney, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-09-07"
+observed_date: "2026-09-07"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Capacity from headline only; item body truncated to a single line."

@@ -1,0 +1,13 @@
+id: sig-20260907-neom-oxagon-capacity
+site_id: null
+site_hint: "Humain Neom Oxagon data center — Oxagon, Neom, Saudi Arabia"
+attribute: capacity_mw
+value: "targeting 1.5GW"
+source_url: https://www.datacenterdynamics.com/en/news/humain-breaks-ground-on-neoms-oxagon-data-center/
+source_title: "Humain breaks ground on Neom’s Oxagon data center"
+publisher: Data Center Dynamics
+source_date: "2026-09-07"
+observed_date: "2026-09-07"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported as a target, not installed capacity."
