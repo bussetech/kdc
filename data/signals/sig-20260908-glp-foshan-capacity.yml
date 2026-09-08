@@ -1,0 +1,12 @@
+id: sig-20260908-glp-foshan-capacity
+site_id: null
+site_hint: "GLP data center — Foshan, China"
+attribute: capacity_mw
+value: "200 MW (first phase 40 MW)"
+source_url: https://www.datacenterdynamics.com/en/news/glp-begins-development-of-200mw-data-center-in-foshan-china/
+source_title: "GLP begins development of 200MW data center in Foshan, China"
+publisher: Data Center Dynamics
+source_date: "2026-09-07"
+observed_date: "2026-09-08"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

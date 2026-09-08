@@ -1,0 +1,12 @@
+id: sig-20260908-sgc-gunsan-operational-date
+site_id: null
+site_hint: "SGC Energy AI data center — Gunsan, South Korea"
+attribute: operational_date
+value: "Expected to be energized in 2028"
+source_url: https://www.datacenterdynamics.com/en/news/sgc-energy-partners-with-vertiv-to-deploy-powernexus-at-planned-ai-data-center-in-gunsan-south-korea/
+source_title: "SGC Energy partners with Vertiv to deploy PowerNexus at planned AI data center in Gunsan, South Korea"
+publisher: Data Center Dynamics
+source_date: "2026-09-08"
+observed_date: "2026-09-08"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
