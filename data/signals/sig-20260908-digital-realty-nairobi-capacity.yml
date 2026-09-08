@@ -1,0 +1,13 @@
+id: sig-20260908-digital-realty-nairobi-capacity
+site_id: null
+site_hint: "Digital Realty data center — Nairobi, Kenya"
+attribute: capacity_mw
+value: "6.4 MW"
+source_url: https://www.datacenterdynamics.com/en/news/digital-realty-launches-64mw-data-center-in-nairobi-kenya/
+source_title: "Digital Realty launches 6.4MW data center in Nairobi, Kenya"
+publisher: Data Center Dynamics
+source_date: "2026-09-08"
+observed_date: "2026-09-08"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Capacity carried by the item title only; fetched content does not restate it."
