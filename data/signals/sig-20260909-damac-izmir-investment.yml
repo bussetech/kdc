@@ -1,0 +1,12 @@
+id: sig-20260909-damac-izmir-investment
+site_id: null
+site_hint: "Damac/Vodafone Türkiye Izmir data center — Izmir, Turkey"
+attribute: investment_usd
+value: "$300 million (project budget tripled since it was announced two years ago)"
+source_url: https://www.datacenterdynamics.com/en/news/damac-and-vodafone-t%C3%BCrkiye-triple-izmir-data-center-project-budget/
+source_title: "Damac and Vodafone Türkiye triple Izmir data center project budget"
+publisher: Data Center Dynamics
+source_date: "2026-09-09"
+observed_date: "2026-09-09"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
