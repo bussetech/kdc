@@ -1,0 +1,13 @@
+id: sig-20260910-friesen-elektra-sande-status
+site_id: null
+site_hint: "Friesen Elektra data center — Sande, Lower Saxony, Germany"
+attribute: status
+value: "Renewable energy firm Friesen Elektra exploring a data center project; if approved, the facility in Sande will be built at the firm's existing hydrogen park"
+source_url: https://www.datacenterdynamics.com/en/news/renewable-energy-firm-friesen-elektra-explores-data-center-project-in-lower-saxony-germany/
+source_title: "Renewable energy firm Friesen Elektra explores data center project in Lower Saxony, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-09-10"
+observed_date: "2026-09-10"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Exploratory/pre-approval stage as reported ('explores', 'if approved')."

@@ -1,0 +1,12 @@
+id: sig-20260910-sb-gruppe-bucharest-capacity
+site_id: null
+site_hint: "S+B Gruppe data center — Bucharest, Romania"
+attribute: capacity_mw
+value: "12MW"
+source_url: https://www.datacenterdynamics.com/en/news/sb-gruppe-to-build-data-center-in-bucharest-romania/
+source_title: "S+B Gruppe to build data center in Bucharest, Romania"
+publisher: Data Center Dynamics
+source_date: "2026-09-10"
+observed_date: "2026-09-10"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
