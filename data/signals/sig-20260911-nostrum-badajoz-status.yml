@@ -1,0 +1,12 @@
+id: sig-20260911-nostrum-badajoz-status
+site_id: null
+site_hint: "Nostrum data center (Badajoz) — Badajoz, Spain"
+attribute: status
+value: "Data center in Badajoz gets the green light for electrical connection; power supply system includes a 400/220 kV substation"
+source_url: https://www.datacenterdynamics.com/en/news/nostrums-data-center-in-badajoz-gets-the-green-light-for-electrical-connection/
+source_title: "Nostrum's data center in Badajoz gets the green light for electrical connection"
+publisher: Data Center Dynamics
+source_date: "2026-09-11"
+observed_date: "2026-09-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
