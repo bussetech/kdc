@@ -1,0 +1,12 @@
+id: sig-20260912-lombardy-120mw-capacity
+site_id: null
+site_hint: "120MW data center (withdrawn) — Lombardy, Italy"
+attribute: capacity_mw
+value: "120 MW"
+source_url: https://www.datacenterdynamics.com/en/news/plans-for-120mw-data-center-withdrawn-in-lombardy-italy/
+source_title: "Plans for 120MW data center withdrawn in Lombardy, Italy"
+publisher: Data Center Dynamics
+source_date: "2026-09-11"
+observed_date: "2026-09-12"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
