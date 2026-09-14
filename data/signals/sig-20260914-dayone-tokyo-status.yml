@@ -1,0 +1,12 @@
+id: sig-20260914-dayone-tokyo-status
+site_id: null
+site_hint: "DayOne second Tokyo campus — Tokyo, Japan"
+attribute: status
+value: "broke ground (work starts on company's second campus in Tokyo)"
+source_url: https://www.datacenterdynamics.com/en/news/dayone-breaks-ground-on-data-center-in-tokyo-japan/
+source_title: "DayOne breaks ground on data center in Tokyo, Japan"
+publisher: Data Center Dynamics
+source_date: "2026-09-14"
+observed_date: "2026-09-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
