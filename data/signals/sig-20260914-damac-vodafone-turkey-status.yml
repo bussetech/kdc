@@ -1,0 +1,12 @@
+id: sig-20260914-damac-vodafone-turkey-status
+site_id: null
+site_hint: "Damac/Vodafone data center — Turkey"
+attribute: status
+value: "launched"
+source_url: https://www.datacenterdynamics.com/en/news/damac-and-vodafone-launch-turkish-data-center/
+source_title: "Damac and Vodafone launch Turkish data center"
+publisher: Data Center Dynamics
+source_date: "2026-09-14"
+observed_date: "2026-09-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

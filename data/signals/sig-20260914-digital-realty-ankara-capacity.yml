@@ -1,0 +1,12 @@
+id: sig-20260914-digital-realty-ankara-capacity
+site_id: null
+site_hint: "Digital Realty Ankara facility — Ankara, Turkey"
+attribute: capacity_mw
+value: "22MW"
+source_url: https://www.datacenterdynamics.com/en/news/digital-realty-enters-turkey-plans-22mw-facility-in-ankara/
+source_title: "Digital Realty enters Turkey, plans 22MW facility in Ankara"
+publisher: Data Center Dynamics
+source_date: "2026-09-14"
+observed_date: "2026-09-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

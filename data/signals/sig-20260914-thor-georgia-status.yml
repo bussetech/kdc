@@ -1,0 +1,12 @@
+id: sig-20260914-thor-georgia-status
+site_id: null
+site_hint: "Thor Equities data center — ?, GA"
+attribute: status
+value: "plans submitted"
+source_url: https://www.datacenterdynamics.com/en/news/thor-equities-submits-plans-for-150mw-data-center-in-georgia-us/
+source_title: "Thor Equities submits plans for 150MW data center in Georgia, US"
+publisher: Data Center Dynamics
+source_date: "2026-09-14"
+observed_date: "2026-09-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
