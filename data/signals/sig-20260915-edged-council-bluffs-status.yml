@@ -1,0 +1,12 @@
+id: sig-20260915-edged-council-bluffs-status
+site_id: null
+site_hint: "Edged Council Bluffs data centers — Pottawattamie, IA"
+attribute: status
+value: "Structural work on two buildings complete (topped out); campus under construction"
+source_url: https://www.datacenterdynamics.com/en/news/edged-tops-out-data-centers-in-council-bluffs-iowa/
+source_title: "Edged tops out data centers in Council Bluffs, Iowa"
+publisher: Data Center Dynamics
+source_date: "2026-09-14"
+observed_date: "2026-09-15"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

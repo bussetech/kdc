@@ -1,0 +1,12 @@
+id: sig-20260915-meta-eagle-mountain-status
+site_id: meta-eagle-mountain
+attribute: status
+value: "Meta to expand Eagle Mountain campus — fourth expansion announced at the campus"
+source_url: https://www.datacenterdynamics.com/en/news/meta-to-expand-eagle-mountain-data-center-campus-in-utah/
+source_title: "Meta to expand Eagle Mountain data center campus in Utah"
+publisher: Data Center Dynamics
+source_date: "2026-09-15"
+observed_date: "2026-09-15"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/dek only; no capacity or other metric for the expansion given."

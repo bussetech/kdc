@@ -1,0 +1,12 @@
+id: sig-20260915-bell-saskatchewan-capacity
+site_id: null
+site_hint: "Bell planned Saskatchewan data center campus — ?, SK"
+attribute: capacity_mw
+value: "Site to reach 900MW, with scope for further expansion (Bell to triple capacity)"
+source_url: https://www.datacenterdynamics.com/en/news/canadas-bell-to-triple-capacity-at-planned-saskatchewan-data-center-campus/
+source_title: "Canada's Bell to triple capacity at planned Saskatchewan data center campus"
+publisher: Data Center Dynamics
+source_date: "2026-09-15"
+observed_date: "2026-09-15"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
