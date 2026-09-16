@@ -1,0 +1,12 @@
+id: sig-20260916-microsoft-prince-william-status
+site_id: null
+site_hint: "Microsoft data center campus (outside Gainesville) — Prince William, VA"
+attribute: status
+value: "Microsoft has filed to build a data center campus in Prince William County, Virginia"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-files-to-build-data-center-campus-in-prince-william-county-virginia/
+source_title: "Microsoft files to build data center campus in Prince William County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-09-16"
+observed_date: "2026-09-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
