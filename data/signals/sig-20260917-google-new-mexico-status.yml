@@ -1,0 +1,12 @@
+id: sig-20260917-google-new-mexico-status
+site_id: null
+site_hint: "Google data center (New Mexico) — ?, NM"
+attribute: status
+value: "Google considers data center development in New Mexico; looking at first facility in the state"
+source_url: https://www.datacenterdynamics.com/en/news/google-considers-data-center-development-in-new-mexico/
+source_title: "Google considers data center development in New Mexico"
+publisher: Data Center Dynamics
+source_date: "2026-09-17"
+observed_date: "2026-09-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low

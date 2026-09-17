@@ -1,0 +1,12 @@
+id: sig-20260917-aligned-shippingport-status
+site_id: null
+site_hint: "Aligned gigawatt-scale campus (Shippingport) — ?, PA"
+attribute: status
+value: "Aligned breaks ground on gigawatt-scale data center campus in Pennsylvania; company starts work in Shippingport"
+source_url: https://www.datacenterdynamics.com/en/news/aligned-breaks-ground-on-gigawatt-scale-data-center-campus-in-pennsylvania/
+source_title: "Aligned breaks ground on gigawatt-scale data center campus in Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-09-17"
+observed_date: "2026-09-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
