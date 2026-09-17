@@ -1,0 +1,12 @@
+id: sig-20260917-northc-frankfurt-capacity
+site_id: null
+site_hint: "NorthC data center (Frankfurt) — ?, Germany"
+attribute: capacity_mw
+value: "6MW"
+source_url: https://www.datacenterdynamics.com/en/news/northc-breaks-ground-on-data-center-in-frankfurt-germany/
+source_title: "NorthC breaks ground on data center in Frankfurt, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-09-17"
+observed_date: "2026-09-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
