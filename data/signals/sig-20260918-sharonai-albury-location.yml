@@ -1,0 +1,12 @@
+id: sig-20260918-sharonai-albury-location
+site_id: null
+site_hint: "SharonAI former printing press data center (Albury) — ?, Australia"
+attribute: location
+value: "Outside Albury, Australia (former printing press site)"
+source_url: https://www.datacenterdynamics.com/en/news/sharonai-buys-former-printing-press-outside-albury-australia/
+source_title: "SharonAI buys former printing press outside Albury, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-09-18"
+observed_date: "2026-09-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

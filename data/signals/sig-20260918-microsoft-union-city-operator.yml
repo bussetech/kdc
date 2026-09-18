@@ -1,0 +1,12 @@
+id: sig-20260918-microsoft-union-city-operator
+site_id: null
+site_hint: "Microsoft two-building campus (Union City) — ?, GA"
+attribute: operator
+value: "Microsoft"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-files-to-develop-two-building-campus-outside-atlanta-georgia/
+source_title: "Microsoft files to develop two-building campus outside Atlanta, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-09-17"
+observed_date: "2026-09-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
