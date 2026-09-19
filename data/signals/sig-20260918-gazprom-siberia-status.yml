@@ -1,0 +1,13 @@
+id: sig-20260918-gazprom-siberia-status
+site_id: null
+site_hint: "Gazprom/Crypto Energy modular data center — Yamalo-Nenets Autonomous Okrug, Russia"
+attribute: status
+value: "Gazprom partners with Crypto Energy to deploy a modular data center pilot at a depleted gas field in Siberia (reported)"
+source_url: https://www.datacenterdynamics.com/en/news/gazprom-partners-with-crypto-energy-to-deploy-modular-data-center-at-gas-field-in-siberia-report/
+source_title: "Gazprom partners with Crypto Energy to deploy modular data center at gas field in Siberia - report"
+publisher: Data Center Dynamics
+source_date: "2026-09-18"
+observed_date: "2026-09-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed content (single subtitle line); framed as a 'report', second-hand sourcing."
