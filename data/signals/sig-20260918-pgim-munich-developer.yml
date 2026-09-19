@@ -1,0 +1,13 @@
+id: sig-20260918-pgim-munich-developer
+site_id: null
+site_hint: "PGIM data center development site — Munich, Germany"
+attribute: developer
+value: "PGIM sold the Munich data center development site; buyer unnamed"
+source_url: https://www.datacenterdynamics.com/en/news/pgim-sells-data-center-development-site-in-munich/
+source_title: "PGIM sells data center development site in Munich"
+publisher: Data Center Dynamics
+source_date: "2026-09-18"
+observed_date: "2026-09-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed content (only 'Buyer unnamed' in body); ownership transfer of a development site."
