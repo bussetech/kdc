@@ -1,0 +1,12 @@
+id: sig-20260920-eveo-recife-status
+site_id: null
+site_hint: "Eveo data center — Recife, Brazil"
+attribute: status
+value: "Plans to build a data center in Recife (adding to existing sites in Fortaleza, São Paulo, and Curitiba)"
+source_url: https://www.datacenterdynamics.com/en/news/eveo-accelerates-expansion-in-the-northeast-and-will-have-a-tier-iii-data-center-in-recife/
+source_title: "Brazil's Eveo plans data center in Recife"
+publisher: Data Center Dynamics
+source_date: "2026-09-18"
+observed_date: "2026-09-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
