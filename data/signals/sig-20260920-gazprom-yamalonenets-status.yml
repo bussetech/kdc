@@ -1,0 +1,13 @@
+id: sig-20260920-gazprom-yamalonenets-status
+site_id: null
+site_hint: "Gazprom/Crypto Energy modular data center (depleted gas field) — Yamalo-Nenets, Russia"
+attribute: status
+value: "Pilot project; Gazprom partnering with Crypto Energy to deploy a modular data center powered by gas from a depleted field in the Yamalo-Nenets Autonomous Okrug"
+source_url: https://www.datacenterdynamics.com/en/news/gazprom-partners-with-crypto-energy-to-deploy-modular-data-center-at-gas-field-in-siberia-report/
+source_title: "Gazprom partners with Crypto Energy to deploy modular data center at gas field in Siberia - report"
+publisher: Data Center Dynamics
+source_date: "2026-09-18"
+observed_date: "2026-09-20"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Reported secondhand ('- report'); details thin."

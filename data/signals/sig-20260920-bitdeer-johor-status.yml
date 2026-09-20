@@ -1,0 +1,12 @@
+id: sig-20260920-bitdeer-johor-status
+site_id: null
+site_hint: "Bitdeer AI Johor data center — Johor, Malaysia"
+attribute: status
+value: "Bitdeer AI to lease a 65MW data center in Johor; renting a second building at the Malaysian campus"
+source_url: https://www.datacenterdynamics.com/en/news/bitdeer-ai-to-lease-65mw-data-center-in-johor-malaysia/
+source_title: "Bitdeer AI to lease 65MW data center in Johor, Malaysia"
+publisher: Data Center Dynamics
+source_date: "2026-09-18"
+observed_date: "2026-09-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
