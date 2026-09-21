@@ -1,0 +1,12 @@
+id: sig-20260921-google-peanut-chesterfield-operational-date
+site_id: google-peanut-chesterfield
+attribute: operational_date
+value: "Google's three data center campuses in Chesterfield aren't expected to be completed for at least a decade"
+source_url: https://www.chesterfield.gov/CivicAlerts.aspx?aid=7553
+source_title: "Scope, Timing Limit Future Data Center Tax Revenue from Addressing Present-Day School Capital Needs"
+publisher: Chesterfield County government
+source_date: "2026-09-17"
+observed_date: "2026-09-21"
+collected_by: gn_info_scout/1.0.0
+confidence: high
+notes: "Source states the timeline collectively for Google's three Chesterfield campuses (Loch/Peanut/Skye); not attributed to this campus individually."
