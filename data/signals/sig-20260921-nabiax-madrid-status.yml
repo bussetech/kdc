@@ -1,0 +1,12 @@
+id: sig-20260921-nabiax-madrid-status
+site_id: null
+site_hint: "Nabiax Madrid data center — Madrid, Spain"
+attribute: status
+value: "Nabiax breaks ground on data center in Madrid, Spain"
+source_url: https://www.datacenterdynamics.com/en/news/nabiax-breaks-ground-on-100mw-data-center-in-madrid-spain/
+source_title: "Nabiax breaks ground on 100MW data center in Madrid, Spain"
+publisher: Data Center Dynamics
+source_date: "2026-09-21"
+observed_date: "2026-09-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
