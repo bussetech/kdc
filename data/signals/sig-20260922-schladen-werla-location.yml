@@ -1,0 +1,12 @@
+id: sig-20260922-schladen-werla-location
+site_id: null
+site_hint: "Schladen-Werla 200MW data center — Schladen-Werla, Germany"
+attribute: location
+value: "Schladen-Werla, Germany"
+source_url: https://www.datacenterdynamics.com/en/news/plans-progress-for-200mw-data-center-in-schladen-werla-germany/
+source_title: "Plans progress for 200MW data center in Schladen-Werla, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-09-22"
+observed_date: "2026-09-22"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
