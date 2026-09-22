@@ -1,0 +1,12 @@
+id: sig-20260922-skawina-polcom-capacity
+site_id: null
+site_hint: "Polcom Skawina data center (second in town) — Skawina, Poland"
+attribute: capacity_mw
+value: "40MW"
+source_url: https://www.datacenterdynamics.com/en/news/polcom-to-build-40mw-data-center-in-skawina-poland/
+source_title: "Polcom to build 40MW data center in Skawina, Poland"
+publisher: Data Center Dynamics
+source_date: "2026-09-22"
+observed_date: "2026-09-22"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

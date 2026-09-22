@@ -1,0 +1,12 @@
+id: sig-20260922-ector-county-new-era-location
+site_id: null
+site_hint: "New Era 250MW data center — Ector County, TX"
+attribute: location
+value: "Ector County, Texas; powered via an adjacent natural gas plant in Odessa, Texas"
+source_url: https://www.datacenterdynamics.com/en/news/new-era-signs-20-year-gas-ppa-with-vistra-subsidiary-to-power-250mw-data-center-in-ector-county-texas/
+source_title: "New Era signs 20-year gas PPA with Vistra subsidiary to power 250MW data center in Ector County, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-09-22"
+observed_date: "2026-09-22"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
