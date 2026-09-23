@@ -1,0 +1,11 @@
+id: sig-20260923-google-peanut-status
+site_id: google-peanut-chesterfield
+attribute: status
+value: "Already approved to build (one of three approved Google Chesterfield campuses, nine buildings total); set to open in about a decade"
+source_url: https://www.wtvr.com/news/local-news/chesterfield-county/google-data-center-revenue-discussion-sept-23-2026
+source_title: "Chesterfield supervisors to consider how to allocate tax revenue from Google data centers"
+publisher: WTVR CBS 6
+source_date: "2026-09-23"
+observed_date: "2026-09-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
