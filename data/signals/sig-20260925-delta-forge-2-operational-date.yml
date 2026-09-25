@@ -1,0 +1,12 @@
+id: sig-20260925-delta-forge-2-operational-date
+site_id: null
+site_hint: "Applied Digital Delta Forge 2 AI data center — ?, AL"
+attribute: operational_date
+value: "operations could start by 2028"
+source_url: https://www.datacenterdynamics.com/en/news/applied-digital-reveals-32bn-delta-forge-2-ai-data-center-will-be-built-in-alabama/
+source_title: "Applied Digital reveals $3.2bn Delta Forge 2 AI data center will be built in Alabama"
+publisher: Data Center Dynamics
+source_date: "2026-09-25"
+observed_date: "2026-09-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20260925-haven-oak-land-acres
+site_id: null
+site_hint: "Haven Oak Technology Park — Dinwiddie, VA"
+attribute: land_acres
+value: "nearly 1,000 acres"
+source_url: https://www.wtvr.com/news/local-news/dinwiddie-families-fear-data-center-near-their-homes-will-upend-wildlife-water-and-way-of-life
+source_title: "Dinwiddie families fear data center near their homes will upend wildlife, water and way of life"
+publisher: WTVR CBS 6
+source_date: "2026-09-24"
+observed_date: "2026-09-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
