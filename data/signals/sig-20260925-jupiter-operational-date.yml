@@ -1,0 +1,11 @@
+id: sig-20260925-jupiter-operational-date
+site_id: openai-dona-ana
+attribute: operational_date
+value: "set to come online in 2028"
+source_url: https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/
+source_title: "Oracle issues force majeure notice to Blue Owl following series of setbacks at Project Jupiter data center campus – report"
+publisher: Data Center Dynamics
+source_date: "2026-09-24"
+observed_date: "2026-09-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

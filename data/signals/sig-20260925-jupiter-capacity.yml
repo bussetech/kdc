@@ -1,0 +1,12 @@
+id: sig-20260925-jupiter-capacity
+site_id: openai-dona-ana
+attribute: capacity_mw
+value: "2.5GW"
+source_url: https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/
+source_title: "Oracle issues force majeure notice to Blue Owl following series of setbacks at Project Jupiter data center campus – report"
+publisher: Data Center Dynamics
+source_date: "2026-09-24"
+observed_date: "2026-09-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported second-hand ('– report'); Oracle issued force majeure notice to Blue Owl following a series of setbacks at the site."
