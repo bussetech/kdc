@@ -1,0 +1,12 @@
+id: sig-20260929-colovore-fort-worth-operator
+site_id: null
+site_hint: "Colovore Fort Worth data center — Tarrant, TX"
+attribute: operator
+value: "Colovore (liquid-cooled data center firm)"
+source_url: https://www.datacenterdynamics.com/en/news/colovore-files-to-develop-data-center-in-fort-worth-texas/
+source_title: "Colovore files to develop data center in Fort Worth, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-09-29"
+observed_date: "2026-09-29"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
