@@ -1,0 +1,13 @@
+id: sig-20260929-amazon-hong-kong-status
+site_id: null
+site_hint: "Amazon data center acquisitions (two facilities) — Hong Kong"
+attribute: status
+value: "Amazon to acquire two data centers in Hong Kong; cloud company buying leased facility from landlord"
+source_url: https://www.datacenterdynamics.com/en/news/amazon-to-acquire-two-data-centers-in-hong-kong/
+source_title: "Amazon to acquire two data centers in Hong Kong"
+publisher: Data Center Dynamics
+source_date: "2026-09-29"
+observed_date: "2026-09-29"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported as two facilities; no distinct site name or address given — subject may resolve into two separate records when finer detail emerges."

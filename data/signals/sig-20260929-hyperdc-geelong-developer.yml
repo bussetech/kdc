@@ -1,0 +1,12 @@
+id: sig-20260929-hyperdc-geelong-developer
+site_id: null
+site_hint: "HyperDC data center campus outside Geelong — Geelong, Australia"
+attribute: developer
+value: "HyperDC (described as a new market player)"
+source_url: https://www.datacenterdynamics.com/en/news/plans-filed-for-400mw-data-center-campus-outside-melbourne-australia/
+source_title: "Plans filed for 400MW data center campus outside Melbourne, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-09-29"
+observed_date: "2026-09-29"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
