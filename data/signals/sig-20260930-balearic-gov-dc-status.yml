@@ -1,0 +1,13 @@
+id: sig-20260930-balearic-gov-dc-status
+site_id: null
+site_hint: "Balearic Islands government data center — Sant Pere, Spain"
+attribute: status
+value: "New data center launched for critical government systems, integrated with a regional government data center in Sant Pere"
+source_url: https://www.datacenterdynamics.com/en/news/balearic-islands-strengthen-their-public-services-with-two-redundant-data-centers/
+source_title: "Balearic Islands launches new data center for critical government systems"
+publisher: Data Center Dynamics
+source_date: "2026-09-30"
+observed_date: "2026-09-30"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Content is headline-level only; location and configuration ('two redundant data centers') stated vaguely."
