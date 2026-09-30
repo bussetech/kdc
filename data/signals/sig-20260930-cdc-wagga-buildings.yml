@@ -1,0 +1,12 @@
+id: sig-20260930-cdc-wagga-buildings
+site_id: null
+site_hint: "CDC gigawatt-scale campus (Wagga Wagga) — Wagga Wagga, NSW, Australia"
+attribute: buildings
+value: "four-building campus"
+source_url: https://www.datacenterdynamics.com/en/news/australias-cdc-plans-gigawatt-scale-data-center-campus-in-wagga-wagga/
+source_title: "Australia's CDC plans gigawatt-scale data center campus in Wagga Wagga"
+publisher: Data Center Dynamics
+source_date: "2026-09-30"
+observed_date: "2026-09-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

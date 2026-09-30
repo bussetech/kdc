@@ -1,0 +1,12 @@
+id: sig-20260930-nxn-evora-status
+site_id: null
+site_hint: "NxN data center (Évora) — Évora, Portugal"
+attribute: status
+value: "NxN has finalized the acquisition of a data center in Évora, marking its entry into Portugal"
+source_url: https://www.datacenterdynamics.com/en/news/nxn-enters-portugal-with-a-1-mw-data-center-and-plans-to-invest-100m/
+source_title: "NxN enters Portugal with 1MW data center and plans to invest €100m"
+publisher: Data Center Dynamics
+source_date: "2026-09-30"
+observed_date: "2026-09-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
