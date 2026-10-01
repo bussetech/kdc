@@ -1,0 +1,12 @@
+id: sig-20260101-civo-hertfordshire-capacity
+site_id: null
+site_hint: "Civo Edge data center — Hertfordshire, UK"
+attribute: capacity_mw
+value: "8MW, ultimately planned to scale to 38MW"
+source_url: https://www.datacenterdynamics.com/en/news/civo-plans-8mw-edge-data-center-for-ai-in-hertfordshire-uk/
+source_title: "Civo plans 8MW Edge data center for AI in Hertfordshire, UK"
+publisher: Data Center Dynamics
+source_date: "2026-10-01"
+observed_date: "2026-10-01"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

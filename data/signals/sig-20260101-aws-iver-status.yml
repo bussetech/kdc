@@ -1,0 +1,12 @@
+id: sig-20260101-aws-iver-status
+site_id: null
+site_hint: "AWS data center campus (Ridgeway Distribution Centre) — Iver, UK"
+attribute: status
+value: "granted planning permission"
+source_url: https://www.datacenterdynamics.com/en/news/aws-granted-planning-permission-for-data-center-in-iver-uk/
+source_title: "AWS granted planning permission for data center in Iver, UK"
+publisher: Data Center Dynamics
+source_date: "2026-10-01"
+observed_date: "2026-10-01"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

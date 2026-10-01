@@ -1,0 +1,12 @@
+id: sig-20260101-valar-utah-capacity
+site_id: null
+site_hint: "9.4GW SMR-powered data center campus (Valar Atomics) — ?, UT"
+attribute: capacity_mw
+value: "9.4 GW (SMR-powered); first reactor targeted live 2028"
+source_url: https://www.datacenterdynamics.com/en/news/94gw-smr-powered-data-center-campus-proposed-in-utah/
+source_title: "9.4GW SMR-powered data center campus proposed in Utah"
+publisher: Data Center Dynamics
+source_date: "2026-10-01"
+observed_date: "2026-10-01"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
