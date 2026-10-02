@@ -1,0 +1,12 @@
+id: sig-20261002-crusoe-jayton-investment
+site_id: null
+site_hint: "Crusoe Jayton data center campus — Jayton, TX"
+attribute: investment_usd
+value: "$4.8bn"
+source_url: https://www.datacenterdynamics.com/en/news/crusoe-files-for-48bn-data-center-campus-in-jayton-texas/
+source_title: "Crusoe files for $4.8bn data center campus in Jayton, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

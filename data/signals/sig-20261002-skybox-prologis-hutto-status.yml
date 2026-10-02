@@ -1,0 +1,12 @@
+id: sig-20261002-skybox-prologis-hutto-status
+site_id: null
+site_hint: "Skybox & Prologis fourth data center (Hutto campus) — Hutto, TX"
+attribute: status
+value: "Skybox & Prologis filed for a fourth data center in Hutto, Texas; set to be the largest facility yet at the campus"
+source_url: https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas/
+source_title: "Skybox & Prologis file for fourth data center in Hutto, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
