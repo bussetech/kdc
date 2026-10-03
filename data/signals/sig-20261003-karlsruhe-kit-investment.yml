@@ -1,0 +1,13 @@
+id: sig-20261003-karlsruhe-kit-investment
+site_id: null
+site_hint: "AI data center at Karlsruhe Institute of Technology — Germany"
+attribute: investment_usd
+value: "€24 million (estimated cost)"
+source_url: https://www.datacenterdynamics.com/en/news/ai-data-center-planned-for-karlsruhe-institute-of-technology-germany/
+source_title: "AI data center planned for Karlsruhe Institute of Technology, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-03"
+collected_by: gn_info_scout/1.0.1
+confidence: low
+notes: "Value reported in euros, not USD; recorded raw. Headline-only detail."

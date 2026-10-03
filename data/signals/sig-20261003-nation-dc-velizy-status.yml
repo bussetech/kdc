@@ -1,0 +1,12 @@
+id: sig-20261003-nation-dc-velizy-status
+site_id: null
+site_hint: "Nation Data Center development, Vélizy-Villacoublay — France"
+attribute: status
+value: "broke ground on new data center development (part of a mixed-use project)"
+source_url: https://www.datacenterdynamics.com/en/news/nation-data-center-breaks-ground-on-new-french-data-center-development/
+source_title: "Nation Data Center breaks ground on new French data center development"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-03"
+collected_by: gn_info_scout/1.0.1
+confidence: low
