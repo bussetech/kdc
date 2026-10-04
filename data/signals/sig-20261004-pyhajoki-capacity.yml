@@ -1,0 +1,12 @@
+id: sig-20261004-pyhajoki-capacity
+site_id: null
+site_hint: "Enetron Park data center — Pyhäjoki, Finland"
+attribute: capacity_mw
+value: "250"
+source_url: https://www.datacenterdynamics.com/en/news/enetron-park-announces-zoning-approval-for-250mw-data-center-in-pyh%C3%A4joki-finland-despite-local-government-denial/
+source_title: "Enetron Park announces zoning approval for 250MW data center in Pyhäjoki, Finland, despite local government denial"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
