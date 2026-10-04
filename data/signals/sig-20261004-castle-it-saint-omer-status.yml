@@ -1,0 +1,12 @@
+id: sig-20261004-castle-it-saint-omer-status
+site_id: null
+site_hint: "Castle IT data center — Saint-Omer, France"
+attribute: status
+value: "announced — Castle IT to open new data center (colo firm's second facility)"
+source_url: https://www.datacenterdynamics.com/en/news/castle-it-to-open-new-data-center-in-saint-omer-france/
+source_title: "Castle IT to open new data center in Saint-Omer, France"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

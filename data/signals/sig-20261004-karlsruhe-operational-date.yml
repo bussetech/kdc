@@ -1,0 +1,12 @@
+id: sig-20261004-karlsruhe-operational-date
+site_id: null
+site_hint: "AI data center at Karlsruhe Institute of Technology — Germany"
+attribute: operational_date
+value: "2030 (planned opening)"
+source_url: https://www.datacenterdynamics.com/en/news/ai-data-center-planned-for-karlsruhe-institute-of-technology-germany/
+source_title: "AI data center planned for Karlsruhe Institute of Technology, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-10-02"
+observed_date: "2026-10-04"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
