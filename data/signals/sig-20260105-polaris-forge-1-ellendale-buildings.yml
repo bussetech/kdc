@@ -1,0 +1,11 @@
+id: sig-20260105-polaris-forge-1-ellendale-buildings
+site_id: polaris-forge-1-ellendale
+attribute: buildings
+value: "Second building now complete"
+source_url: https://www.datacenterdynamics.com/en/news/applied-digital-adds-75mw-of-capacity-at-ellendale-data-center-campus-in-north-dakota/
+source_title: "Applied Digital adds 75MW of capacity at Ellendale data center campus in North Dakota"
+publisher: Data Center Dynamics
+source_date: "2026-10-05"
+observed_date: "2026-10-05"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
