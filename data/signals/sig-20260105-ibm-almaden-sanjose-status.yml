@@ -1,0 +1,13 @@
+id: sig-20260105-ibm-almaden-sanjose-status
+site_id: null
+site_hint: "IBM Almaden Research Center data-center conversion (Blackstart Digital) — Santa Clara County, CA"
+attribute: status
+value: "Former IBM research campus (Almaden Research Center, San Jose) set to be acquired by data center firm"
+source_url: https://www.datacenterdynamics.com/en/news/former-ibm-research-campus-in-silicon-valley-set-to-be-acquired-by-data-center-firm/
+source_title: "Former IBM research campus in Silicon Valley set to be acquired by data center firm"
+publisher: Data Center Dynamics
+source_date: "2026-10-05"
+observed_date: "2026-10-05"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/summary-only feed item; acquisition reported as pending."
