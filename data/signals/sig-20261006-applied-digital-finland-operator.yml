@@ -1,0 +1,12 @@
+id: sig-20261006-applied-digital-finland-operator
+site_id: null
+site_hint: "Applied Digital Finland campus — ?, Finland"
+attribute: operator
+value: "Applied Digital"
+source_url: https://www.datacenterdynamics.com/en/news/applied-digital-to-develop-1gw-data-center-campus-in-finland/
+source_title: "Applied Digital to develop 1GW data center campus in Finland"
+publisher: Data Center Dynamics
+source_date: "2026-10-06"
+observed_date: "2026-10-06"
+collected_by: gn_info_scout/1.0.0
+confidence: low

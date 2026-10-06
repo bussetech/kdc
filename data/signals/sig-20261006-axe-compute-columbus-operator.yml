@@ -1,0 +1,13 @@
+id: sig-20261006-axe-compute-columbus-operator
+site_id: null
+site_hint: "Axe Compute AI cluster (Columbus) — ?, GA"
+attribute: operator
+value: "Axe Compute acquires full ownership (purchased from Duos Technologies Group)"
+source_url: https://www.datacenterdynamics.com/en/news/axe-compute-acquires-full-ownership-of-ai-cluster-in-columbus-georgia/
+source_title: "Axe Compute acquires full ownership of AI cluster in Columbus, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-10-06"
+observed_date: "2026-10-06"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only and ambiguous — subtitle states 'Duos still owns facility' alongside 'full ownership'."
