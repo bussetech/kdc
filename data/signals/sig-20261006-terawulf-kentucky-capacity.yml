@@ -1,0 +1,13 @@
+id: sig-20261006-terawulf-kentucky-capacity
+site_id: null
+site_hint: "TeraWulf Kentucky campus — ?, KY"
+attribute: capacity_mw
+value: "to reach 1GW in 2029; adding second 500MW phase a year sooner"
+source_url: https://www.datacenterdynamics.com/en/news/terawulfs-kentucky-campus-to-reach-1gw-in-2029/
+source_title: "TeraWulf's Kentucky campus to reach 1GW in 2029"
+publisher: Data Center Dynamics
+source_date: "2026-10-06"
+observed_date: "2026-10-06"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/subtitle only; no matching existing TeraWulf-KY record identified, left unmatched."

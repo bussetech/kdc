@@ -1,0 +1,13 @@
+id: sig-20261006-project-southgate-capacity
+site_id: null
+site_hint: "Project Southgate (Firmus/CDC) — ?, ?"
+attribute: capacity_mw
+value: "collaboration ended; deploy just 42MW (was 1.6GW Project Southgate)"
+source_url: https://www.datacenterdynamics.com/en/news/firmus-and-cdc-end-16gw-project-southgate-collaboration-deploy-just-42mw/
+source_title: "Firmus and CDC end 1.6GW Project Southgate collaboration, deploy just 42MW"
+publisher: Data Center Dynamics
+source_date: "2026-10-06"
+observed_date: "2026-10-06"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/subtitle only; downscale is a negative outcome. Location not stated."
