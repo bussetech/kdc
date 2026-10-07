@@ -1,0 +1,12 @@
+id: sig-20261007-oppidan-hanover-status
+site_id: null
+site_hint: "Oppidan data center (near Hanover Humane Society) — Hanover, VA"
+attribute: status
+value: "Data center built by Oppidan Investment Company is already in operation; company is proposing two larger warehouses nearby"
+source_url: https://www.wtvr.com/news/local-news/hanover-county/hanover-humane-society-says-data-center-noise-is-causing-dogs-pain-warehouse-plan-raises-new-alarms
+source_title: "Hanover Humane Society says data center's construction noise is hurting dogs, warehouse plan raises new alarms"
+publisher: WTVR CBS 6
+source_date: "2026-10-06"
+observed_date: "2026-10-07"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
