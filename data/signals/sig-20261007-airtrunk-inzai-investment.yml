@@ -1,0 +1,13 @@
+id: sig-20261007-airtrunk-inzai-investment
+site_id: null
+site_hint: "AirTrunk data center campus — Inzai, Japan"
+attribute: investment_usd
+value: "additional $1bn investment planned"
+source_url: https://www.datacenterdynamics.com/en/news/airtrunk-plans-additional-1bn-investment-in-data-center-campus-in-inzai-japan/
+source_title: "AirTrunk plans additional $1bn investment in data center campus in Inzai, Japan"
+publisher: Data Center Dynamics
+source_date: "2026-10-07"
+observed_date: "2026-10-07"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only item; body only adds a separate country-wide '$30bn total in Japan' claim, not this site's figure."
