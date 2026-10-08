@@ -1,0 +1,13 @@
+id: sig-20261008-sesterce-jamsa-investment
+site_id: null
+site_hint: "Sesterce AI data center campus — Jämsä, Finland"
+attribute: investment_usd
+value: "$10bn"
+source_url: https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/
+source_title: "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland"
+publisher: Data Center Dynamics
+source_date: "2026-10-08"
+observed_date: "2026-10-08"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Figure reported in headline only."
