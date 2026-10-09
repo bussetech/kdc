@@ -1,0 +1,12 @@
+id: sig-20261009-anthropic-cedar-creek-status
+site_id: null
+site_hint: "Anthropic-linked data center (Cedar Creek) — Cedar Creek, TX"
+attribute: status
+value: "Project filed for (permit application) in Cedar Creek, Texas; first building on Earl Callahan Road"
+source_url: https://www.datacenterdynamics.com/en/news/anthropic-linked-366m-data-center-project-filed-for-in-cedar-creek-texas/
+source_title: "Anthropic-linked $366m data center project filed for in Cedar Creek, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-09"
+observed_date: "2026-10-09"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

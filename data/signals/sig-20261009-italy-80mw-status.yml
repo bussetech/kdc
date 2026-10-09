@@ -1,0 +1,13 @@
+id: sig-20261009-italy-80mw-status
+site_id: null
+site_hint: "80MW data center — northern Italy"
+attribute: status
+value: "Rejected by council (municipality cites conflict with its environmental policy)"
+source_url: https://www.datacenterdynamics.com/en/news/council-rejects-80mw-data-center-in-northern-italy/
+source_title: "Council rejects 80MW data center in northern Italy"
+publisher: Data Center Dynamics
+source_date: "2026-10-09"
+observed_date: "2026-10-09"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item; specific locality not named."
