@@ -1,0 +1,13 @@
+id: sig-20261009-kix15-osaka-capacity
+site_id: null
+site_hint: "Digital Realty KIX15 (Osaka campus) — Osaka, Japan"
+attribute: capacity_mw
+value: "24 MW (new building addition to Osaka campus)"
+source_url: https://www.datacenterdynamics.com/en/news/digital-realty-begins-work-on-kix15-data-center-in-japan/
+source_title: "Digital Realty begins work on KIX15 data center in Japan"
+publisher: Data Center Dynamics
+source_date: "2026-10-09"
+observed_date: "2026-10-09"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Figure from headline/blurb only."
