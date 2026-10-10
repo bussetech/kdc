@@ -1,0 +1,12 @@
+id: sig-20260810-thisway-bryan-operator
+site_id: null
+site_hint: "ThisWay Global data center (Bryan) — ?, TX"
+attribute: developer
+value: "ThisWay Global"
+source_url: https://www.datacenterdynamics.com/en/news/thisway-global-plans-73mw-ai-and-hpc-data-center-in-bryan-texas/
+source_title: "ThisWay Global plans 73MW AI and HPC data center in Bryan, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-09"
+observed_date: "2026-10-10"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
