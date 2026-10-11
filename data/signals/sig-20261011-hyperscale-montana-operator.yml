@@ -1,0 +1,13 @@
+id: sig-20261011-hyperscale-montana-operator
+site_id: null
+site_hint: "Hyperscale Data Montana data center — ?, MT"
+attribute: operator
+value: "Hyperscale Data plans to transfer its Montana data center to a new company (Patriot BTC subsidiary) for its Bitcoin mining business"
+source_url: https://www.datacenterdynamics.com/en/news/hyperscale-data-plans-patriot-btc-subsidiary-for-bitcoin-mining-business/
+source_title: "Hyperscale Data plans Patriot BTC subsidiary for Bitcoin mining business"
+publisher: Data Center Dynamics
+source_date: "2026-10-11"
+observed_date: "2026-10-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Brief item; specific Montana site not named in source."
