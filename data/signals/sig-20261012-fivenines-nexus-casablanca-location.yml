@@ -1,0 +1,13 @@
+id: sig-20261012-fivenines-nexus-casablanca-location
+site_id: null
+site_hint: "FiveNines Group / Nexus Core Systems data center — outside Casablanca, Morocco"
+attribute: location
+value: "Located outside of Casablanca, Morocco"
+source_url: https://www.datacenterdynamics.com/en/news/fivenines-group-and-nexus-core-systems-partner-on-20mw-data-center-in-morocco/
+source_title: "FiveNines Group and Nexus Core Systems partner on 20MW data center in Morocco"
+publisher: Data Center Dynamics
+source_date: "2026-10-12"
+observed_date: "2026-10-12"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only item; exact site/city not specified beyond 'outside Casablanca'."
