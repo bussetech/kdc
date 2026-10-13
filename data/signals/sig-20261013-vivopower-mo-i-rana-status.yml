@@ -1,0 +1,12 @@
+id: sig-20261013-vivopower-mo-i-rana-status
+site_id: null
+site_hint: "VivoPower Mo i Rana data center — Mo i Rana, Norway"
+attribute: status
+value: "VivoPower starts construction at Mo i Rana data center"
+source_url: https://www.datacenterdynamics.com/en/news/vivopower-starts-construction-at-42mw-mo-i-rana-data-center-in-norway/
+source_title: "VivoPower starts construction at 42MW Mo i Rana data center in Norway"
+publisher: Data Center Dynamics
+source_date: "2026-10-13"
+observed_date: "2026-10-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

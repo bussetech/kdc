@@ -1,0 +1,13 @@
+id: sig-20261013-ntt-anthropic-japan-investment
+site_id: null
+site_hint: "NTT data center for Anthropic — Japan"
+attribute: investment_usd
+value: "$6.3bn"
+source_url: https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/
+source_title: "NTT to build $6.3bn data center for Anthropic in Japan - report"
+publisher: Data Center Dynamics
+source_date: "2026-10-13"
+observed_date: "2026-10-13"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Figure from headline; reported via anonymous sourcing, unconfirmed."
