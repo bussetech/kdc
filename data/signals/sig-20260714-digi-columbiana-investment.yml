@@ -1,0 +1,12 @@
+id: sig-20260714-digi-columbiana-investment
+site_id: null
+site_hint: "Digi Power X data center (Columbiana) — Shelby, AL"
+attribute: investment_usd
+value: "$200m in debt financing secured"
+source_url: https://www.datacenterdynamics.com/en/news/digi-power-x-secures-200m-in-debt-financing-for-alabama-data-center-project/
+source_title: "Digi Power X secures $200m in debt financing for Alabama data center project"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

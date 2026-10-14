@@ -1,0 +1,12 @@
+id: sig-20260714-iren-wagga-capacity
+site_id: null
+site_hint: "Iren data center campus (Wagga Wagga) — Wagga Wagga, Australia"
+attribute: capacity_mw
+value: "900MW (targeted)"
+source_url: https://www.datacenterdynamics.com/en/news/iren-targets-900mw-data-center-campus-in-wagga-wagga-australia/
+source_title: "Iren targets 900MW data center campus in Wagga Wagga, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

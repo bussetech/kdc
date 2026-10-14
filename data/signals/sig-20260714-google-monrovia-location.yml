@@ -1,0 +1,12 @@
+id: sig-20260714-google-monrovia-location
+site_id: null
+site_hint: "Google data center (Monrovia) — Morgan, IN"
+attribute: location
+value: "Monrovia, Indiana"
+source_url: https://www.datacenterdynamics.com/en/news/iurc-approves-aes-indiana-plan-for-13bn-solar-storage-and-transmission-project-for-google-data-center-in-monrovia/
+source_title: "IURC approves AES Indiana plan for $1.3bn solar, storage, and transmission project for Google data center in Monrovia"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
