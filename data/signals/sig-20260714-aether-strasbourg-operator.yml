@@ -1,0 +1,12 @@
+id: sig-20260714-aether-strasbourg-operator
+site_id: null
+site_hint: "Aether Infrastructure AI data center (Strasbourg) — Strasbourg, France"
+attribute: operator
+value: "Aether Infrastructure (bought old gearbox factory for conversion)"
+source_url: https://www.datacenterdynamics.com/en/news/aether-infrastructure-buys-old-gearbox-factory-in-strasbourg-france-for-ai-data-center/
+source_title: "Aether Infrastructure buys old gearbox factory in Strasbourg, France, for AI data center"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

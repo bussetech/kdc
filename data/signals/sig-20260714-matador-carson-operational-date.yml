@@ -1,0 +1,11 @@
+id: sig-20260714-matador-carson-operational-date
+site_id: matador-carson
+attribute: operational_date
+value: "first 222MW due to be delivered next year (2027)"
+source_url: https://www.datacenterdynamics.com/en/news/fermi-and-amd-sign-credit-support-deal-for-build-out-of-project-matador-campus-in-amarillo-texas/
+source_title: "Fermi and AMD sign credit support deal for build-out of Project Matador campus in Amarillo, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

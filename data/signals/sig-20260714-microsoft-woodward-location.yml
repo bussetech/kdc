@@ -1,0 +1,12 @@
+id: sig-20260714-microsoft-woodward-location
+site_id: null
+site_hint: "Microsoft data center (Woodward) — Dallas, IA"
+attribute: location
+value: "Woodward, Iowa"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-acquires-600-acres-of-land-for-data-center-in-woodward-iowa/
+source_title: "Microsoft acquires 600 acres of land for data center in Woodward, Iowa"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

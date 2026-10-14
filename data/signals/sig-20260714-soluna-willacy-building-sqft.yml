@@ -1,0 +1,12 @@
+id: sig-20260714-soluna-willacy-building-sqft
+site_id: null
+site_hint: "Soluna data center (Willacy) — Willacy, TX"
+attribute: building_sqft
+value: "471,884 sq ft"
+source_url: https://www.datacenterdynamics.com/en/news/soluna-files-to-build-112mw-data-center-building-in-willacy-texas/
+source_title: "Soluna files to build 112MW data center building in Willacy, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-14"
+observed_date: "2026-10-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
