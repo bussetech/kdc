@@ -1,0 +1,12 @@
+id: sig-20261015-brightray-indiana-capacity
+site_id: null
+site_hint: "BrightRay prefab data center — ?, IN"
+attribute: capacity_mw
+value: "10MW"
+source_url: https://www.datacenterdynamics.com/en/news/brightray-looks-to-expand-into-us-with-10mw-prefab-data-center-project-in-indiana/
+source_title: "BrightRay looks to expand into US with 10MW prefab data center project in Indiana"
+publisher: Data Center Dynamics
+source_date: "2026-10-15"
+observed_date: "2026-10-15"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

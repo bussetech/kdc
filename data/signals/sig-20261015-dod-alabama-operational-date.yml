@@ -1,0 +1,12 @@
+id: sig-20261015-dod-alabama-operational-date
+site_id: null
+site_hint: "US DoD mission critical facility and data center — ?, AL"
+attribute: operational_date
+value: "Facility to be provided by December 2031"
+source_url: https://www.datacenterdynamics.com/en/news/us-dod-seeks-partner-to-build-4bn-mission-critical-facility-and-data-center-in-alabama/
+source_title: "US DoD seeks partner to build $4bn \"mission critical facility\" and data center in Alabama"
+publisher: Data Center Dynamics
+source_date: "2026-10-15"
+observed_date: "2026-10-15"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

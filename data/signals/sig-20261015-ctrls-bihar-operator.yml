@@ -1,0 +1,12 @@
+id: sig-20261015-ctrls-bihar-operator
+site_id: null
+site_hint: "CtrlS data center — Bihar, India"
+attribute: operator
+value: "CtrlS"
+source_url: https://www.datacenterdynamics.com/en/news/ctrls-plans-150mw-data-center-in-bihar-india/
+source_title: "CtrlS plans 150MW data center in Bihar, India"
+publisher: Data Center Dynamics
+source_date: "2026-10-15"
+observed_date: "2026-10-15"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
