@@ -1,0 +1,12 @@
+id: sig-20261016-puredc-brent-cross-status
+site_id: null
+site_hint: "Pure DC Brent Cross data center — London, UK"
+attribute: status
+value: "Final transformer installed; energization expected later this month"
+source_url: https://www.datacenterdynamics.com/en/news/pure-dc-completes-installation-of-final-transformer-at-90mw-brent-cross-data-center/
+source_title: "Pure DC completes installation of final transformer at 90MW Brent Cross data center"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,13 @@
+id: sig-20261016-langenhorn-capacity
+site_id: null
+site_hint: "Langenhorn data center — Langenhorn, Germany"
+attribute: capacity_mw
+value: "up to 150MW"
+source_url: https://www.datacenterdynamics.com/en/news/data-center-in-langenhorn-germany-receives-provisional-approval-from-municipal-authorities/
+source_title: "Data center in Langenhorn, Germany, receives provisional approval from municipal authorities"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported as 'connected load of up to 150MW', not necessarily IT capacity"

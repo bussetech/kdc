@@ -1,0 +1,12 @@
+id: sig-20261016-capitaland-chennai-capacity
+site_id: null
+site_hint: "CapitaLand Chennai data center — Chennai, India"
+attribute: capacity_mw
+value: "53MW"
+source_url: https://www.datacenterdynamics.com/en/news/capitaland-to-launch-53mw-data-center-in-chennai-india-before-the-end-of-the-year/
+source_title: "CapitaLand to launch 53MW data center in Chennai, India, before the end of the year"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
