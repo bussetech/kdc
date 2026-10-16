@@ -1,0 +1,13 @@
+id: sig-20261016-drax-selby-capacity
+site_id: null
+site_hint: "Drax biomass-powered data center (Selby) — Selby, North Yorkshire, UK"
+attribute: capacity_mw
+value: "1.2GW"
+source_url: https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire/
+source_title: "UK gov’t rejects AI Growth Zone bid to power data center with Drax biomass plant in Selby, North Yorkshire"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Applicants claimed it would be the largest 'carbon negative data center'"

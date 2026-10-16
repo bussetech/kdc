@@ -1,0 +1,12 @@
+id: sig-20261016-carrier-connect-alpharetta-capacity
+site_id: null
+site_hint: "Carrier Connect Alpharetta data center (former GE facility) — Alpharetta, GA"
+attribute: capacity_mw
+value: "4MW"
+source_url: https://www.datacenterdynamics.com/en/news/carrier-connect-leases-4mw-data-center-in-alpharetta-georgia/
+source_title: "Carrier Connect leases 4MW data center in Alpharetta, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
