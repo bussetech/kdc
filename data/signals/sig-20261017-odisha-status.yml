@@ -1,0 +1,12 @@
+id: sig-20261017-odisha-status
+site_id: null
+site_hint: "Odisha government-approved disaster-recovery data center — Odisha, India"
+attribute: status
+value: "Odisha gov't approves data center project; will serve as a disaster recovery data center"
+source_url: https://www.datacenterdynamics.com/en/news/indias-odisha-govt-approves-1862m-data-center-project/
+source_title: "India's Odisha gov't approves $18.62m data center project"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-17"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
