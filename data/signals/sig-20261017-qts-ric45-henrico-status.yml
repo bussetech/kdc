@@ -1,0 +1,12 @@
+id: sig-20261017-qts-ric45-henrico-status
+site_id: qts-ric45-henrico
+attribute: status
+value: "QTS is constructing three data centers across Elko Road in eastern Henrico; construction began roughly six months ago (early 2026), per neighbor account"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/henrico-man-says-data-center-construction-is-causing-his-home-to-rattle-what-are-we-supposed-to-do
+source_title: "Henrico man says data center construction is causing his home to rattle: 'What are we supposed to do?'"
+publisher: WTVR CBS 6
+source_date: "2026-10-16"
+observed_date: "2026-10-17"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Article is a construction-nuisance story; it names QTS and an eastern-Henrico/Elko Road location but not a specific campus/phase. Attributed to the QTS RIC4/RIC5 Henrico expansion as the active build; could instead belong to the broader QTS White Oak/Richmond campus — status match is inferential."

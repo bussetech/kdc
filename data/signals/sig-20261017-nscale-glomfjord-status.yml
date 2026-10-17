@@ -1,0 +1,13 @@
+id: sig-20261017-nscale-glomfjord-status
+site_id: null
+site_hint: "Nscale Glomfjord data center — Glomfjord, Norway"
+attribute: status
+value: "Data center delayed; site suffered leaks in cooling system and a fire"
+source_url: https://www.datacenterdynamics.com/en/news/nscales-glomfjord-data-center-delayed-site-suffers-leaks-in-cooling-system-and-a-fire/
+source_title: "Nscale's Glomfjord data center delayed, site suffers leaks in cooling system and a fire"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline plus one-line subtitle only; delay/incident reported without detail."
