@@ -1,0 +1,12 @@
+id: sig-20261018-lightedge-boone-land-acres
+site_id: null
+site_hint: "LightEdge data center (Boone, outside Des Moines) — Boone County, IA"
+attribute: land_acres
+value: "Looking to buy ten acres in Boone for the project."
+source_url: https://www.datacenterdynamics.com/en/news/lightedge-eyes-data-center-project-outside-des-moines-iowa/
+source_title: "LightEdge eyes data center project outside Des Moines, Iowa"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

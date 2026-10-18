@@ -1,0 +1,12 @@
+id: sig-20261018-qts-ric45-henrico-buildings
+site_id: qts-ric45-henrico
+attribute: buildings
+value: "Three data centers QTS is putting in (per resident across Elko Road)."
+source_url: https://www.wtvr.com/news/local-news/henrico-county/henrico-man-says-data-center-construction-is-causing-his-home-to-rattle-what-are-we-supposed-to-do
+source_title: "Henrico man says data center construction is causing his home to rattle: 'What are we supposed to do?'"
+publisher: WTVR CBS 6
+source_date: "2026-10-16"
+observed_date: "2026-10-18"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Building count attributed to a neighboring resident, not QTS or the county; specific QTS campus not named in source."
