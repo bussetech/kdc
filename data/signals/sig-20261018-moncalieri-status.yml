@@ -1,0 +1,12 @@
+id: sig-20261018-moncalieri-status
+site_id: null
+site_hint: "Moncalieri data center (billed as Italy's 'largest') — Moncalieri, Italy"
+attribute: status
+value: "Plans for the data center put on hold by the town mayor; application halted. Project was billed as Italy's 'largest' data center."
+source_url: https://www.datacenterdynamics.com/en/news/plans-for-data-center-in-moncalieri-italy-put-on-hold-by-town-mayor/
+source_title: "Plans for data center in Moncalieri, Italy, put on hold by town mayor"
+publisher: Data Center Dynamics
+source_date: "2026-10-17"
+observed_date: "2026-10-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

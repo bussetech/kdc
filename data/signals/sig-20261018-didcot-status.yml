@@ -1,0 +1,12 @@
+id: sig-20261018-didcot-status
+site_id: null
+site_hint: "Proposed data centers near Didcot Power Station — Oxfordshire, UK"
+attribute: status
+value: "Data centers proposed near Didcot Power Station; UK council launching a heat-network feasibility study (by Nordic Energy, results published March of next year)."
+source_url: https://www.datacenterdynamics.com/en/news/uk-council-launches-heat-network-feasibility-study-for-proposed-data-centers-near-didcot-power-station-in-oxfordshire/
+source_title: "UK council launches heat network feasibility study for proposed data centers near Didcot Power Station in Oxfordshire"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

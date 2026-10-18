@@ -1,0 +1,12 @@
+id: sig-20261018-odisha-investment
+site_id: null
+site_hint: "Odisha disaster-recovery data center — Odisha, India"
+attribute: investment_usd
+value: "$18.62m data center project (per headline)"
+source_url: https://www.datacenterdynamics.com/en/news/indias-odisha-govt-approves-1862m-data-center-project/
+source_title: "India's Odisha gov't approves $18.62m data center project"
+publisher: Data Center Dynamics
+source_date: "2026-10-16"
+observed_date: "2026-10-18"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
