@@ -1,0 +1,12 @@
+id: sig-20261019-stack-lancaster-tx-buildings
+site_id: null
+site_hint: "Stack Lancaster campus — ?, TX"
+attribute: buildings
+value: "Stack files for second building at Lancaster campus"
+source_url: https://www.datacenterdynamics.com/en/news/stack-files-for-second-building-at-lancaster-campus-texas/
+source_title: "Stack files for second building at Lancaster campus, Texas"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low

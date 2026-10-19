@@ -1,0 +1,13 @@
+id: sig-20261019-curtis-hall-cardiff-status
+site_id: null
+site_hint: "Curtis Hall Cardiff data center campus — Cardiff, Wales"
+attribute: status
+value: "Curtis Hall proposes temporary 49.9MW gas power plant for Cardiff data center campus; capacity just under the threshold required for Welsh gov't approval"
+source_url: https://www.datacenterdynamics.com/en/news/curtis-hall-proposes-temporary-499mw-gas-power-plant-for-cardiff-data-center-campus-report/
+source_title: "Curtis Hall proposes temporary 49.9MW gas power plant for Cardiff data center campus - report"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "49.9MW figure refers to a proposed on-site gas power plant, not data center IT capacity; reported secondhand ('report')."

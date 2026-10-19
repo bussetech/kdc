@@ -1,0 +1,12 @@
+id: sig-20261019-everwind-nova-scotia-status
+site_id: null
+site_hint: "EverWind data center project (Anthropic customer) — ?, NS"
+attribute: status
+value: "Data center is in pre-construction stages; Anthropic named as customer of EverWind's Nova Scotia project"
+source_url: https://www.datacenterdynamics.com/en/news/anthropic-named-as-customer-of-everwinds-data-center-project-in-nova-scotia/
+source_title: "Anthropic named as customer of EverWind's data center project in Nova Scotia"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low

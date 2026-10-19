@@ -1,0 +1,13 @@
+id: sig-20261019-alcoa-ny-smelter-developer
+site_id: null
+site_hint: "Alcoa NY aluminum smelter data center conversion — ?, NY"
+attribute: developer
+value: "Buyer not named; signs point to cryptominer NYDIG"
+source_url: https://www.datacenterdynamics.com/en/news/alcoa-sells-new-york-aluminum-smelter-to-data-center-developer-for-315-million/
+source_title: "Alcoa sells New York aluminum smelter to data center developer for $315 million"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Buyer unconfirmed — source states Alcoa did not name the buyer."

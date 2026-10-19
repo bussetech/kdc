@@ -1,0 +1,13 @@
+id: sig-20261019-canada-ontario-status
+site_id: null
+site_hint: "Government of Canada data center (Ontario, Advanced Procurement Notice) — ?, ON"
+attribute: status
+value: "Canada puts out Advanced Procurement Notice for data center in Ontario"
+source_url: https://www.datacenterdynamics.com/en/news/canada-puts-out-advanced-procurement-notice-for-data-center-in-ontario/
+source_title: "Canada puts out Advanced Procurement Notice for data center in Ontario"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item; content limited to title plus cost blurb."

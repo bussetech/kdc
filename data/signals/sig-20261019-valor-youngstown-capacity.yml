@@ -1,0 +1,12 @@
+id: sig-20261019-valor-youngstown-capacity
+site_id: null
+site_hint: "Valor Energy Youngstown computing site — ?, OH"
+attribute: capacity_mw
+value: "18MW site"
+source_url: https://www.datacenterdynamics.com/en/news/valor-energy-acquires-computing-site-in-youngstown-ohio/
+source_title: "Valor Energy acquires computing site in Youngstown, Ohio"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low

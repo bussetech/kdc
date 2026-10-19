@@ -1,0 +1,12 @@
+id: sig-20261019-google-roanoke-status
+site_id: null
+site_hint: "Google data center at Wood Haven Technology Park — Roanoke County, VA"
+attribute: status
+value: "Google explores data center site in Roanoke County; evaluates the Wood Haven Technology Park as a site for the project"
+source_url: https://www.datacenterdynamics.com/en/news/google-explores-data-center-site-in-roanoke-county-virginia/
+source_title: "Google explores data center site in Roanoke County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
