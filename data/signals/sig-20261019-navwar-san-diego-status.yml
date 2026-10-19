@@ -1,0 +1,12 @@
+id: sig-20261019-navwar-san-diego-status
+site_id: null
+site_hint: "Data center at old Navy cyber site / NAVWAR HQ — San Diego, CA"
+attribute: status
+value: "Data center eyed at old Navy cyber site; Manchester Financial Group exploring potential at NAVWAR HQ"
+source_url: https://www.datacenterdynamics.com/en/news/400mw-data-center-eyed-at-old-navy-cyber-site-in-san-diego-california/
+source_title: "400MW data center eyed at old Navy cyber site in San Diego, California"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low

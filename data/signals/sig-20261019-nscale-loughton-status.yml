@@ -1,0 +1,12 @@
+id: sig-20261019-nscale-loughton-status
+site_id: null
+site_hint: "Nscale data center (Loughton, Essex) — Essex, England"
+attribute: status
+value: "Microsoft pulls out of delayed Nscale data center in Loughton, Essex; would have been Nscale's anchor tenant"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-pulls-out-of-delayed-nscale-data-center-in-loughton-essex/
+source_title: "Microsoft pulls out of delayed Nscale data center in Loughton, Essex"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low

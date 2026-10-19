@@ -1,0 +1,12 @@
+id: sig-20261019-carrier-connect-atlanta-capacity
+site_id: null
+site_hint: "Carrier Connect data center (outside Atlanta) — ?, GA"
+attribute: capacity_mw
+value: "4MW"
+source_url: https://www.datacenterdynamics.com/en/news/carrier-connect-secures-customer-for-4mw-data-center-outside-atlanta-georgia/
+source_title: "Carrier Connect secures customer for 4MW data center outside Atlanta, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-10-19"
+observed_date: "2026-10-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
