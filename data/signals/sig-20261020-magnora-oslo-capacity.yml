@@ -1,0 +1,12 @@
+id: sig-20261020-magnora-oslo-capacity
+site_id: null
+site_hint: "Magnora Data Center Oslo facility — Oslo, Norway"
+attribute: capacity_mw
+value: "2MW facility"
+source_url: https://www.datacenterdynamics.com/en/news/magnora-data-center-acquires-2mw-facility-in-oslo-norway/
+source_title: "Magnora Data Center acquires 2MW facility in Oslo, Norway"
+publisher: Data Center Dynamics
+source_date: "2026-10-20"
+observed_date: "2026-10-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

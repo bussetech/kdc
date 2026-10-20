@@ -1,0 +1,12 @@
+id: sig-20261020-norfolk-uk-status
+site_id: null
+site_hint: "1GW data center co-located with solar farm — Norfolk, UK"
+attribute: status
+value: "Proposed (alongside what would be UK's largest solar park)"
+source_url: https://www.datacenterdynamics.com/en/news/1gw-data-center-proposed-alongside-solar-farm-in-norfolk-uk/
+source_title: "1GW data center proposed alongside solar farm in Norfolk, UK"
+publisher: Data Center Dynamics
+source_date: "2026-10-20"
+observed_date: "2026-10-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
