@@ -1,0 +1,12 @@
+id: sig-20261020-datavault-auckland-operator
+site_id: null
+site_hint: "DataVault Auckland data center — Auckland, New Zealand"
+attribute: operator
+value: "DataVault"
+source_url: https://www.datacenterdynamics.com/en/news/datavault-plans-3mw-data-center-in-auckland-new-zealand/
+source_title: "DataVault plans 3MW data center in Auckland, New Zealand"
+publisher: Data Center Dynamics
+source_date: "2026-10-20"
+observed_date: "2026-10-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20261020-datagroup-kyiv-status
+site_id: null
+site_hint: "Datagroup data center — Kyiv, Ukraine"
+attribute: status
+value: "Left inoperable by a ballistic strike in Kyiv"
+source_url: https://www.datacenterdynamics.com/en/news/ballistic-strike-in-kyiv-ukraine-leaves-datagroup-data-center-inoperable/
+source_title: "Ballistic strike in Kyiv, Ukraine, leaves Datagroup data center inoperable"
+publisher: Data Center Dynamics
+source_date: "2026-10-20"
+observed_date: "2026-10-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
