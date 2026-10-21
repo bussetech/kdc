@@ -1,0 +1,12 @@
+id: sig-20261021-northc-geneva-capacity
+site_id: null
+site_hint: "NorthC data center, Geneva — Switzerland"
+attribute: capacity_mw
+value: "4.5MW facility (first phase)"
+source_url: https://www.datacenterdynamics.com/en/news/northc-breaks-ground-on-data-center-in-geneva-switzerland/
+source_title: "NorthC breaks ground on data center in Geneva, Switzerland"
+publisher: Data Center Dynamics
+source_date: "2026-10-21"
+observed_date: "2026-10-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20261021-aws-gwu-ashburn-status
+site_id: null
+site_hint: "Amazon data center campus at GWU site, Ashburn — Loudoun, VA"
+attribute: status
+value: "Amazon withdraws application for data center campus at GWU site in Ashburn; cloud giant backs off proposals after pushback from Loudoun County officials"
+source_url: https://www.datacenterdynamics.com/en/news/amazon-withdraws-application-for-data-center-campus-at-gwu-site-in-ashburn-virginia/
+source_title: "Amazon withdraws application for data center campus at GWU site in Ashburn, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-10-21"
+observed_date: "2026-10-21"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
