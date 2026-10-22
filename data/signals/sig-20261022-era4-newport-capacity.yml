@@ -1,0 +1,12 @@
+id: sig-20261022-era4-newport-capacity
+site_id: null
+site_hint: "Era4 hyperscale data center (former steelworks) — Newport, Wales"
+attribute: capacity_mw
+value: "could eventually reach 1GW"
+source_url: https://www.datacenterdynamics.com/en/news/era4-reveals-details-of-hyperscale-data-center-planned-for-former-steelworks-in-newport-wales/
+source_title: "Era4 reveals details of hyperscale data center planned for former steelworks in Newport, Wales"
+publisher: Data Center Dynamics
+source_date: "2026-10-22"
+observed_date: "2026-10-22"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
