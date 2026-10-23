@@ -1,0 +1,12 @@
+id: sig-20261023-kt-ansan-capacity
+site_id: null
+site_hint: "KT Ansan data center — Ansan, South Korea"
+attribute: capacity_mw
+value: "50MW"
+source_url: https://www.datacenterdynamics.com/en/news/kt-breaks-ground-on-50mw-data-center-in-ansan-south-korea/
+source_title: "KT breaks ground on 50MW data center in Ansan, South Korea"
+publisher: Data Center Dynamics
+source_date: "2026-10-23"
+observed_date: "2026-10-23"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
