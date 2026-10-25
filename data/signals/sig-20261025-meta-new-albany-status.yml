@@ -1,0 +1,11 @@
+id: sig-20261025-meta-new-albany-status
+site_id: meta-new-albany
+attribute: status
+value: "Meta details Ohio Prometheus data center campus, with first phase live; has already been used to train Muse"
+source_url: https://www.datacenterdynamics.com/en/news/meta-details-ohio-prometheus-data-center-campus-with-first-phase-live/
+source_title: "Meta details Ohio Prometheus data center campus, with first phase live"
+publisher: Data Center Dynamics
+source_date: "2026-10-23"
+observed_date: "2026-10-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

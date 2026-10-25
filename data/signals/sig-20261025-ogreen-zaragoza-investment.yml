@@ -1,0 +1,13 @@
+id: sig-20261025-ogreen-zaragoza-investment
+site_id: null
+site_hint: "O-Green data center campus — San Mateo de Gállego, Zaragoza, Spain"
+attribute: investment_usd
+value: "€7.4 billion planned investment"
+source_url: https://www.datacenterdynamics.com/en/news/o-green-plans-data-center-campus-in-zaragoza-spain/
+source_title: "O-Green plans data center campus in Zaragoza, Spain"
+publisher: Data Center Dynamics
+source_date: "2026-10-23"
+observed_date: "2026-10-25"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Figure reported in EUR, not USD; developer-stated planned investment."
