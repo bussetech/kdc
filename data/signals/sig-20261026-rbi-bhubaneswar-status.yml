@@ -1,0 +1,12 @@
+id: sig-20261026-rbi-bhubaneswar-status
+site_id: null
+site_hint: "Reserve Bank of India data center — Bhubaneswar, Odisha, India"
+attribute: status
+value: "Reserve Bank of India launches data center in Bhubaneswar, Odisha; 700-rack facility to support primary data center in Navi Mumbai"
+source_url: https://www.datacenterdynamics.com/en/news/reserve-bank-of-india-launches-data-center-in-bhubaneswar-odisha/
+source_title: "Reserve Bank of India launches data center in Bhubaneswar, Odisha"
+publisher: Data Center Dynamics
+source_date: "2026-10-26"
+observed_date: "2026-10-26"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

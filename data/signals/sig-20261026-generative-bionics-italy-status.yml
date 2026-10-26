@@ -1,0 +1,13 @@
+id: sig-20261026-generative-bionics-italy-status
+site_id: null
+site_hint: "Generative Bionics AI data center — Italy"
+attribute: status
+value: "Generative Bionics plans AI data center and humanoid robotics factory in Italy; could form first part of physical AI factory network"
+source_url: https://www.datacenterdynamics.com/en/news/humanoid-robot-factory-ai-data-center-generative-bionics-italy/
+source_title: "Generative Bionics plans AI data center and humanoid robotics factory in Italy"
+publisher: Data Center Dynamics
+source_date: "2026-10-26"
+observed_date: "2026-10-26"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item; no location granularity beyond country."
