@@ -1,0 +1,11 @@
+id: sig-20261027-stargate-jupiter-status
+site_id: openai-dona-ana
+attribute: status
+value: "First building at Project Jupiter topped out — structural work on first building complete, three more to go"
+source_url: https://www.datacenterdynamics.com/en/news/first-building-at-project-jupiter-data-center-campus-in-new-mexico-topped-out/
+source_title: "First building at Project Jupiter data center campus in New Mexico topped out"
+publisher: Data Center Dynamics
+source_date: "2026-10-27"
+observed_date: "2026-10-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

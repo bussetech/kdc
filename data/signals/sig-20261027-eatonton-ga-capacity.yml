@@ -1,0 +1,12 @@
+id: sig-20261027-eatonton-ga-capacity
+site_id: null
+site_hint: "Eatonton data center — Putnam County, GA"
+attribute: capacity_mw
+value: "520MW"
+source_url: https://www.datacenterdynamics.com/en/news/520mw-data-center-planned-in-eatonton-georgia/
+source_title: "520MW data center planned in Eatonton, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-10-27"
+observed_date: "2026-10-27"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
