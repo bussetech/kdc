@@ -1,0 +1,13 @@
+id: sig-20261028-us-signal-hillsboro-operator
+site_id: null
+site_hint: "US Signal data center (Hillsboro, former Oracle facility) — Washington, OR"
+attribute: operator
+value: "US Signal acquires data center in Hillsboro, Oregon; takes over facility previously occupied by Oracle"
+source_url: https://www.datacenterdynamics.com/en/news/us-signal-acquires-data-center-in-hillsboro-oregon/
+source_title: "US Signal acquires data center in Hillsboro, Oregon"
+publisher: Data Center Dynamics
+source_date: "2026-10-28"
+observed_date: "2026-10-28"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-level item; content only restates acquisition of former Oracle facility. Distinct from the existing Stack Portland/Hillsboro campus record."
