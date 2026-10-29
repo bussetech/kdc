@@ -1,0 +1,12 @@
+id: sig-20260629-google-west-creek-operator
+site_id: null
+site_hint: "Google West Creek data center campus — Goochland, VA"
+attribute: operator
+value: "Google"
+source_url: https://www.wtvr.com/news/local-news/google-eyeing-data-center-campus-in-goochlands-west-creek
+source_title: "Google eyeing data center campus in Goochland’s West Creek"
+publisher: WTVR CBS 6
+source_date: "2026-10-28"
+observed_date: "2026-10-29"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

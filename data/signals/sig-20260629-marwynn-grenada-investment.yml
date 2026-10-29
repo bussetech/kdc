@@ -1,0 +1,12 @@
+id: sig-20260629-marwynn-grenada-investment
+site_id: null
+site_hint: "Marwynn AI data center and solar farm — Grenada"
+attribute: investment_usd
+value: "up to $500m"
+source_url: https://www.datacenterdynamics.com/en/news/marwynn-plots-up-to-500m-ai-data-center-and-solar-farm-in-grenada/
+source_title: "Marwynn plots up to $500m AI data center and solar farm in Grenada"
+publisher: Data Center Dynamics
+source_date: "2026-10-29"
+observed_date: "2026-10-29"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
