@@ -1,0 +1,12 @@
+id: sig-20261030-powerbank-ontario-status
+site_id: null
+site_hint: "PowerBank modular data center — Ontario, Canada"
+attribute: status
+value: "Planned (PowerBank plans modular data center); signs first lease with AI cloud partner"
+source_url: https://www.datacenterdynamics.com/en/news/powerbank-plans-2mw-modular-data-center-in-ontario-canada/
+source_title: "PowerBank plans 2MW modular data center in Ontario, Canada"
+publisher: Data Center Dynamics
+source_date: "2026-10-30"
+observed_date: "2026-10-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
