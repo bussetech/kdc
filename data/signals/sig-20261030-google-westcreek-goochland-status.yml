@@ -1,0 +1,12 @@
+id: sig-20261030-google-westcreek-goochland-status
+site_id: null
+site_hint: "Google fourth Central Virginia campus (West Creek) — Goochland, VA"
+attribute: status
+value: "Eyeing a fourth Central Virginia campus in Goochland's West Creek, on land already zoned for data centers (news broke week of Oct 27, 2026)"
+source_url: https://www.richmonder.org/a-chesterfield-employee-who-helped-bring-google-to-the-county-now-works-for-the-tech-giant/
+source_title: "A Chesterfield employee who helped bring Google to the county now works for the tech giant"
+publisher: The Richmonder
+source_date: "2026-10-29"
+observed_date: "2026-10-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

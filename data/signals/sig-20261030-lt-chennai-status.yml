@@ -1,0 +1,12 @@
+id: sig-20261030-lt-chennai-status
+site_id: null
+site_hint: "L&T second Chennai data center — Chennai, India"
+attribute: status
+value: "Breaks ground (under construction)"
+source_url: https://www.datacenterdynamics.com/en/news/indias-lt-breaks-ground-on-second-chennai-data-center/
+source_title: "India's L&T breaks ground on second Chennai data center"
+publisher: Data Center Dynamics
+source_date: "2026-10-30"
+observed_date: "2026-10-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

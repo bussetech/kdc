@@ -1,0 +1,12 @@
+id: sig-20261030-google-peanut-chesterfield-investment
+site_id: google-peanut-chesterfield
+attribute: investment_usd
+value: "$9 billion"
+source_url: https://www.richmonder.org/a-chesterfield-employee-who-helped-bring-google-to-the-county-now-works-for-the-tech-giant/
+source_title: "A Chesterfield employee who helped bring Google to the county now works for the tech giant"
+publisher: The Richmonder
+source_date: "2026-10-29"
+observed_date: "2026-10-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Reported as a '$9 billion statewide investment' celebrated in August 2025 — a statewide Google figure, not confirmed site-specific to Project Peanut."

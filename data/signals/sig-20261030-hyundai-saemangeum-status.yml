@@ -1,0 +1,12 @@
+id: sig-20261030-hyundai-saemangeum-status
+site_id: null
+site_hint: "Hyundai data center (Saemangeum) — Saemangeum, South Korea"
+attribute: status
+value: "To develop (Hyundai to develop data center at Saemangeum energy and robotics megaproject campus, offering GPU services)"
+source_url: https://www.datacenterdynamics.com/en/news/south-koreas-hyundai-to-develop-data-center-in-saemangeum-offer-gpu-services/
+source_title: "South Korea's Hyundai to develop data center in Saemangeum, offer GPU services"
+publisher: Data Center Dynamics
+source_date: "2026-10-30"
+observed_date: "2026-10-30"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
