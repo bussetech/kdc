@@ -1,0 +1,12 @@
+id: sig-20261031-tekova-perho-status
+site_id: null
+site_hint: "Tekova data center — Perho, Finland"
+attribute: status
+value: "Finnish firm Tekova plans 50MW data center in Perho"
+source_url: https://www.datacenterdynamics.com/en/news/google-buys-56-hectares-in-hamina-finland-amid-ongoing-issues-over-muhos-tree-felling/
+source_title: "Google buys 56 hectares in Hamina, Finland, amid ongoing issues over Muhos tree-felling"
+publisher: Data Center Dynamics
+source_date: "2026-10-30"
+observed_date: "2026-10-31"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
