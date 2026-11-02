@@ -1,0 +1,12 @@
+id: sig-20261102-microsoft-dallas-iowa-land-acres
+site_id: null
+site_hint: "Microsoft Dallas County data center — Dallas County, IA"
+attribute: land_acres
+value: "616 acres"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-buys-616-acres-for-955m-in-dallas-county-iowa/
+source_title: "Microsoft buys 616 acres for $95.5m in Dallas County, Iowa"
+publisher: Data Center Dynamics
+source_date: "2026-11-02"
+observed_date: "2026-11-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,13 @@
+id: sig-20261102-envision-ulanqab-status
+site_id: null
+site_hint: "Envision 800VDC data center (Ulanqab) — ?, China"
+attribute: status
+value: "Envision claims to be running the world's first 800VDC data center in Ulanqab, China (i.e. operational)"
+source_url: https://www.datacenterdynamics.com/en/news/envision-claims-to-be-running-the-worlds-first-800vdc-data-center-in-ulanqab-china/
+source_title: "Envision claims to be running the world's first 800VDC data center in Ulanqab, China"
+publisher: Data Center Dynamics
+source_date: "2026-11-02"
+observed_date: "2026-11-02"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only item; body is a single promotional tagline with no corroborating detail."
