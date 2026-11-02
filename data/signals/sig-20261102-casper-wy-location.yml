@@ -1,0 +1,12 @@
+id: sig-20261102-casper-wy-location
+site_id: null
+site_hint: "Gigawatt-scale data center (Casper) — ?, WY"
+attribute: location
+value: "Casper, Wyoming"
+source_url: https://www.datacenterdynamics.com/en/news/prometheus-hyperscale-pulls-out-of-gigawatt-scale-data-center-project-in-casper-wyoming/
+source_title: "Prometheus Hyperscale pulls out of gigawatt-scale data center project in Casper, Wyoming"
+publisher: Data Center Dynamics
+source_date: "2026-11-02"
+observed_date: "2026-11-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

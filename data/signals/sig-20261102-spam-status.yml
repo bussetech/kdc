@@ -1,0 +1,12 @@
+id: sig-20261102-spam-status
+site_id: null
+site_hint: "Colossus 2 campus 'Spam' — ?, MS"
+attribute: status
+value: "New data center campus (dubbed Spam) launching in Mississippi to expand Colossus 2; will be operational by end of 2026, Musk claimed"
+source_url: https://www.datacenterdynamics.com/en/news/spacexai-launching-two-additional-data-center-campuses-in-mississippi-to-further-expand-colossus-2/
+source_title: "SpaceXAI launching two additional data center campuses in Mississippi to further expand Colossus 2"
+publisher: Data Center Dynamics
+source_date: "2026-11-02"
+observed_date: "2026-11-02"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
