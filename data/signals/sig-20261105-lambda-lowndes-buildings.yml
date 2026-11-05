@@ -1,0 +1,12 @@
+id: sig-20261105-lambda-lowndes-buildings
+site_id: null
+site_hint: "Lambda four-building data center campus — Lowndes County, AL"
+attribute: buildings
+value: "four buildings"
+source_url: https://www.datacenterdynamics.com/en/news/lambda-to-develop-four-building-data-center-campus-in-lowndes-county-alabama/
+source_title: "Lambda to develop four-building data center campus in Lowndes County, Alabama"
+publisher: Data Center Dynamics
+source_date: "2026-11-05"
+observed_date: "2026-11-05"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
