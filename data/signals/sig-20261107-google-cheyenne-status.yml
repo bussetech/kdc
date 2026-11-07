@@ -1,0 +1,12 @@
+id: sig-20261107-google-cheyenne-status
+site_id: null
+site_hint: "Google Cheyenne data center campus — Laramie, WY"
+attribute: status
+value: "Announced $17bn data center campus in Cheyenne, Wyoming; set to be powered via fuel cells and gas generation, coupled with CCS"
+source_url: https://www.datacenterdynamics.com/en/news/google-announces-17bn-data-center-campus-in-cheyenne-wyoming/
+source_title: "Google announces $17bn data center campus in Cheyenne, Wyoming"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-07"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
