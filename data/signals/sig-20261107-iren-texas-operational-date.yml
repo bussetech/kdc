@@ -1,0 +1,13 @@
+id: sig-20261107-iren-texas-operational-date
+site_id: null
+site_hint: "Iren data center (Microsoft tenant) — ?, TX"
+attribute: operational_date
+value: "Online date now targeting January, delayed by a Microsoft design change; $4bn ARR"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-design-change-delays-irens-data-center-delivery-in-texas/
+source_title: "Microsoft design change delays Iren's data center delivery in Texas"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-07"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Location within Texas not specified in the item; year of targeted January online date not stated."
