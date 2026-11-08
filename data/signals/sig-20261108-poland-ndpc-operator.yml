@@ -1,0 +1,12 @@
+id: sig-20261108-poland-ndpc-operator
+site_id: null
+site_hint: "Poland National Data Processing Center (NASK) — ?, Poland"
+attribute: operator
+value: "NASK (Polish research and development institute)"
+source_url: https://www.datacenterdynamics.com/en/news/plans-for-polands-national-data-processing-center-fleshed-out-by-nask/
+source_title: "Plans for Poland’s National Data Processing Center fleshed out by NASK"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-08"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

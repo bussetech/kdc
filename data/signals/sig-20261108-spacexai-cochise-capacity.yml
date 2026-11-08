@@ -1,0 +1,13 @@
+id: sig-20261108-spacexai-cochise-capacity
+site_id: null
+site_hint: "SpaceXAI data center (Cochise County) — Cochise, AZ"
+attribute: capacity_mw
+value: "6 GW (6,000 MW), per the firm's claim"
+source_url: https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/
+source_title: "SpaceXAI plans data center in Arizona, Musk's firm claims it will have 6GW capacity"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-08"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Capacity is the firm's own claim ('claims it will have 6GW'), unverified; headline-level reporting."
