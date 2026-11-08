@@ -1,0 +1,13 @@
+id: sig-20261108-microsoft-amsterdam-status
+site_id: null
+site_hint: "Microsoft data center (Amsterdam) — ?, Netherlands"
+attribute: status
+value: "Under construction — protesters broke into Microsoft data center construction site in Amsterdam"
+source_url: https://www.datacenterdynamics.com/en/news/more-than-100-protesters-break-into-microsoft-data-center-construction-site-in-amsterdam/
+source_title: "More than 100 protesters break into Microsoft data center construction site in Amsterdam"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-08"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Site status inferred from a protest report; article is about the break-in, not a project update."

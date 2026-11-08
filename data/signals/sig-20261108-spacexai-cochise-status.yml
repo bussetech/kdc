@@ -1,0 +1,12 @@
+id: sig-20261108-spacexai-cochise-status
+site_id: null
+site_hint: "SpaceXAI data center (Cochise County) — Cochise, AZ"
+attribute: status
+value: "Planned/announced — SpaceXAI plans data center in Cochise County, Arizona; construction could start March 2027"
+source_url: https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/
+source_title: "SpaceXAI plans data center in Arizona, Musk's firm claims it will have 6GW capacity"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-08"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

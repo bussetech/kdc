@@ -1,0 +1,12 @@
+id: sig-20261108-playmobil-dietenhofen-capacity
+site_id: null
+site_hint: "Playmobil-owner data center (Dietenhofen) — ?, Germany"
+attribute: capacity_mw
+value: "up to 100 MW"
+source_url: https://www.datacenterdynamics.com/en/news/playmobil-owner-to-enter-data-center-market-with-new-facility-in-dietenhofen-germany/
+source_title: "Playmobil owner to enter data center market with new facility in Dietenhofen, Germany"
+publisher: Data Center Dynamics
+source_date: "2026-11-06"
+observed_date: "2026-11-08"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
