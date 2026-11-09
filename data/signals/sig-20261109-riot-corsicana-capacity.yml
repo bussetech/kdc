@@ -1,0 +1,13 @@
+id: sig-20261109-riot-corsicana-capacity
+site_id: null
+site_hint: "Riot Platforms Corsicana data center — Corsicana, TX"
+attribute: capacity_mw
+value: "910MW agreement signed with an unnamed frontier AI lab; capacity to be provided at Riot's Corsicana, Texas data center"
+source_url: https://www.datacenterdynamics.com/en/news/riot-platforms-signs-910mw-agreement-with-unnamed-frontier-ai-lab/
+source_title: "Riot Platforms signs 910MW agreement with unnamed frontier AI lab"
+publisher: Data Center Dynamics
+source_date: "2026-11-09"
+observed_date: "2026-11-09"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "910MW is a contracted offtake/agreement figure, not confirmed built capacity; counterparty unnamed. Feed item is headline plus one-line blurb only."
