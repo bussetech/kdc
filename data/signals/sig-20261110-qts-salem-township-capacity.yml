@@ -1,0 +1,13 @@
+id: sig-20261110-qts-salem-township-capacity
+site_id: null
+site_hint: "QTS Salem Township project — Salem Township, PA"
+attribute: capacity_mw
+value: "2GW (PPL agrees terms for QTS project in Salem Township)"
+source_url: https://www.datacenterdynamics.com/en/news/ppl-advanced-stage-data-center-pipeline-hits-35gw-in-pennsylvania/
+source_title: "PPL advanced stage data center pipeline hits 35GW in Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-11-10"
+observed_date: "2026-11-10"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Operator named as QTS; may or may not be distinct from the existing AWS Salem Township (Luzerne County) record — Salem Township recurs across multiple PA counties, so left unmatched."
