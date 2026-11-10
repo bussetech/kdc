@@ -1,0 +1,12 @@
+id: sig-20261110-fluidstack-wythe-land-acres
+site_id: null
+site_hint: "Fluidstack Wythe County campus — Wythe County, VA"
+attribute: land_acres
+value: "99 acres"
+source_url: https://www.datacenterdynamics.com/en/news/fluidstack-begins-construction-of-99-acre-data-center-campus-in-wythe-county-virginia/
+source_title: "Fluidstack begins construction of 99-acre data center campus in Wythe County, Virginia"
+publisher: Data Center Dynamics
+source_date: "2026-11-10"
+observed_date: "2026-11-10"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
