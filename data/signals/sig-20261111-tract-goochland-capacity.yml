@@ -1,0 +1,12 @@
+id: sig-20261111-tract-goochland-capacity
+site_id: tract-goochland
+attribute: capacity_mw
+value: "A 900-megawatt data center proposed near Henrico County's Tuckahoe area is already moving through Goochland's public approval process"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/goochland-henrico-residents-pack-meeting-over-potential-google-data-center
+source_title: "Goochland, Henrico residents pack meeting over potential Google data center"
+publisher: WTVR CBS 6
+source_date: "2026-11-11"
+observed_date: "2026-11-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Identity match to Tuckahoe Technology Park inferred from 'Tuckahoe area, Goochland' description; confirm before resolving."

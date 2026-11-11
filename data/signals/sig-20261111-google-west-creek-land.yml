@@ -1,0 +1,12 @@
+id: sig-20261111-google-west-creek-land
+site_id: null
+site_hint: "Google West Creek data center campus (West Creek Business Park) — Goochland, VA"
+attribute: land_acres
+value: "Roughly 1,000 acres in West Creek Business Park"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/goochland-henrico-residents-pack-meeting-over-potential-google-data-center
+source_title: "Goochland, Henrico residents pack meeting over potential Google data center"
+publisher: WTVR CBS 6
+source_date: "2026-11-11"
+observed_date: "2026-11-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

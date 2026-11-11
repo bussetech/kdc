@@ -1,0 +1,12 @@
+id: sig-20261111-ottawa-ks-hyperscale-status
+site_id: null
+site_hint: "Hyperscale data center project (Ottawa) — Franklin County, KS"
+attribute: status
+value: "The hyperscale project that sparked protests had already been canned (10-year data center moratorium approved in Ottawa, Kansas)"
+source_url: https://www.datacenterdynamics.com/en/news/10-year-data-center-moratorium-approved-in-ottawa-kansas/
+source_title: "10-year data center moratorium approved in Ottawa, Kansas"
+publisher: Data Center Dynamics
+source_date: "2026-11-11"
+observed_date: "2026-11-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

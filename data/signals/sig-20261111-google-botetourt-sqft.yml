@@ -1,0 +1,11 @@
+id: sig-20261111-google-botetourt-sqft
+site_id: google-botetourt
+attribute: building_sqft
+value: "About 921,000 square feet across three buildings (per Jan. VA DEQ permit application)"
+source_url: https://virginiabusiness.com/botetourt-google-data-center-foia-lawsuit/
+source_title: "FOIA lawsuit over Google data center in Virginia can proceed"
+publisher: Virginia Business
+source_date: "2026-11-10"
+observed_date: "2026-11-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
