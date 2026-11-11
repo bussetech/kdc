@@ -1,0 +1,12 @@
+id: sig-20261111-kraft-sutton-developer
+site_id: null
+site_hint: "Kraft Group data center campus (Sutton) — Worcester County, MA"
+attribute: developer
+value: "Kraft Group"
+source_url: https://www.datacenterdynamics.com/en/news/kraft-group-could-build-900mw-data-center-campus-in-sutton-massachusetts-investing-16-billion/
+source_title: "Kraft Group could build 900MW data center campus in Sutton, Massachusetts, investing $16 billion"
+publisher: Data Center Dynamics
+source_date: "2026-11-11"
+observed_date: "2026-11-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

@@ -1,0 +1,12 @@
+id: sig-20261111-google-west-creek-status
+site_id: null
+site_hint: "Google West Creek data center campus (West Creek Business Park) — Goochland, VA"
+attribute: status
+value: "Google is conducting due diligence on the property; has not committed to purchasing the land or submitted a site plan to Goochland County"
+source_url: https://www.wtvr.com/news/local-news/henrico-county/goochland-henrico-residents-pack-meeting-over-potential-google-data-center
+source_title: "Goochland, Henrico residents pack meeting over potential Google data center"
+publisher: WTVR CBS 6
+source_date: "2026-11-11"
+observed_date: "2026-11-11"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
