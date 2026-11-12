@@ -1,0 +1,13 @@
+id: sig-20261112-swansea-inference-status
+site_id: null
+site_hint: "Inference point facility (proposed) — Swansea, Massachusetts"
+attribute: status
+value: "proposed"
+source_url: https://www.datacenterdynamics.com/en/news/developers-propose-inference-point-facility-in-swansea-massachusetts/
+source_title: "Developers propose “inference point facility” in Swansea, Massachusetts"
+publisher: Data Center Dynamics
+source_date: "2026-11-12"
+observed_date: "2026-11-12"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item."
