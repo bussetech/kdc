@@ -1,0 +1,13 @@
+id: sig-20261112-openai-effingham-investment
+site_id: null
+site_hint: "OpenAI data center — Effingham County, GA"
+attribute: investment_usd
+value: "$30bn"
+source_url: https://www.datacenterdynamics.com/en/news/openai-faces-civil-racketeering-charges-over-30bn-data-center-planned-in-effingham-county-georgia/
+source_title: "OpenAI faces civil racketeering charges over $30bn data center planned in Effingham County, Georgia"
+publisher: Data Center Dynamics
+source_date: "2026-11-12"
+observed_date: "2026-11-12"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item; investment figure from title only."

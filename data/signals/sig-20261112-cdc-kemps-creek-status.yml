@@ -1,0 +1,13 @@
+id: sig-20261112-cdc-kemps-creek-status
+site_id: null
+site_hint: "CDC Kemps Creek campus — Kemps Creek, Australia"
+attribute: status
+value: "filed to develop (refiled plans)"
+source_url: https://www.datacenterdynamics.com/en/news/cdc-files-to-develop-14gw-data-center-campus-in-kemps-creek-australia/
+source_title: "CDC files to develop 1.4GW data center campus in Kemps Creek, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-11-12"
+observed_date: "2026-11-12"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item; international site."

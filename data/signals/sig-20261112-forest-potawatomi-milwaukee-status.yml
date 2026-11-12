@@ -1,0 +1,13 @@
+id: sig-20261112-forest-potawatomi-milwaukee-status
+site_id: null
+site_hint: "Forest County Potawatomi Community Milwaukee data center — Milwaukee, WI"
+attribute: status
+value: "seeks to expand"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-pledges-to-cover-power-costs-for-data-center-buildout/
+source_title: "Forest County Potawatomi Community seeks to expand Milwaukee data center"
+publisher: Data Center Dynamics
+source_date: "2026-11-12"
+observed_date: "2026-11-12"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline-only feed item; expansion of existing Milwaukee facility distinct from the cancelled former-Walmart site."
