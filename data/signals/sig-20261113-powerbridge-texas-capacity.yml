@@ -1,0 +1,12 @@
+id: sig-20261113-powerbridge-texas-capacity
+site_id: null
+site_hint: "PowerBridge gigawatt-scale powered land campus — ?, TX"
+attribute: capacity_mw
+value: "Gigawatt-scale campus; first 300MW due live in 2027"
+source_url: https://www.datacenterdynamics.com/en/news/powerbridge-breaks-ground-on-gigawatt-scale-powered-land-campus-in-texas/
+source_title: "PowerBridge breaks ground on gigawatt-scale powered land campus in Texas"
+publisher: Data Center Dynamics
+source_date: "2026-11-13"
+observed_date: "2026-11-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

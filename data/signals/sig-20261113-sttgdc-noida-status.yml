@@ -1,0 +1,12 @@
+id: sig-20261113-sttgdc-noida-status
+site_id: null
+site_hint: "STTGDC data center (Noida) — ?, India"
+attribute: status
+value: "STTGDC launches 22MW data center in Noida, India; Neocloud Neysa to lease capacity"
+source_url: https://www.datacenterdynamics.com/en/news/sttgdc-launches-22mw-data-center-in-noida-india/
+source_title: "STTGDC launches 22MW data center in Noida, India"
+publisher: Data Center Dynamics
+source_date: "2026-11-13"
+observed_date: "2026-11-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

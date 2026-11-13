@@ -1,0 +1,12 @@
+id: sig-20261113-syntys-qatar-capacity
+site_id: null
+site_hint: "Syntys 20MW data center — ?, Qatar"
+attribute: capacity_mw
+value: "20MW"
+source_url: https://www.datacenterdynamics.com/en/news/syntys-breaks-ground-on-20mw-data-center-in-qatar/
+source_title: "Syntys breaks ground on 20MW data center in Qatar"
+publisher: Data Center Dynamics
+source_date: "2026-11-13"
+observed_date: "2026-11-13"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
