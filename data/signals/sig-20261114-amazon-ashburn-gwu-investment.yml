@@ -1,0 +1,13 @@
+id: sig-20261114-amazon-ashburn-gwu-investment
+site_id: null
+site_hint: "Amazon Ashburn data centers (GWU Virginia Science and Technology Campus) — Loudoun, VA"
+attribute: investment_usd
+value: "~$427 million"
+source_url: https://virginiabusiness.com/amazon-buys-fairfax-county-land-data-centers/
+source_title: "Amazon buys 13 acres in Fairfax County for $72M"
+publisher: Virginia Business
+source_date: "2026-11-13"
+observed_date: "2026-11-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
+notes: "Figure is what Amazon paid for the 122 acres, not a stated total project investment."

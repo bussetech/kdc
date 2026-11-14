@@ -1,0 +1,12 @@
+id: sig-20261114-amazon-dulles-operator
+site_id: null
+site_hint: "Amazon data center near Dulles International Airport — ?, VA"
+attribute: operator
+value: "Amazon"
+source_url: https://virginiabusiness.com/amazon-buys-fairfax-county-land-data-centers/
+source_title: "Amazon buys 13 acres in Fairfax County for $72M"
+publisher: Virginia Business
+source_date: "2026-11-13"
+observed_date: "2026-11-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
