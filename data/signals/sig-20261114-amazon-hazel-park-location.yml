@@ -1,0 +1,12 @@
+id: sig-20261114-amazon-hazel-park-location
+site_id: null
+site_hint: "Amazon Data Services Hazel Park Court data center site — Fairfax, VA"
+attribute: location
+value: "4305, 4311 and 4321 Hazel Park Court, Fairfax County, VA; near U.S. Route 50; zoned I-5 (allows data centers by right)"
+source_url: https://virginiabusiness.com/amazon-buys-fairfax-county-land-data-centers/
+source_title: "Amazon buys 13 acres in Fairfax County for $72M"
+publisher: Virginia Business
+source_date: "2026-11-13"
+observed_date: "2026-11-14"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
