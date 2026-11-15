@@ -1,0 +1,12 @@
+id: sig-20261115-amazon-hazel-park-land
+site_id: null
+site_hint: "Amazon Data Services Hazel Park Court site — Fairfax, VA"
+attribute: land_acres
+value: "13 acres (4305, 4311 and 4321 Hazel Park Court)"
+source_url: https://virginiabusiness.com/amazon-buys-fairfax-county-land-data-centers/
+source_title: "Amazon buys 13 acres in Fairfax County for $72M"
+publisher: Virginia Business
+source_date: "2026-11-13"
+observed_date: "2026-11-15"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
