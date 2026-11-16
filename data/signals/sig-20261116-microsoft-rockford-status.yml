@@ -1,0 +1,12 @@
+id: sig-20261116-microsoft-rockford-status
+site_id: null
+site_hint: "Microsoft Rockford data center — Rockford, IL"
+attribute: status
+value: "Microsoft looks to develop a data center in Rockford, Illinois (company already has a presence in nearby Cherry Valley)"
+source_url: https://www.datacenterdynamics.com/en/news/microsoft-looks-to-develop-data-center-in-rockford-illinois/
+source_title: "Microsoft looks to develop data center in Rockford, Illinois"
+publisher: Data Center Dynamics
+source_date: "2026-11-16"
+observed_date: "2026-11-16"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
