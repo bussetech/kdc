@@ -1,0 +1,12 @@
+id: sig-20261117-haifa-status
+site_id: null
+site_hint: "Haifa data center project — Haifa, Israel"
+attribute: status
+value: "planned"
+source_url: https://www.datacenterdynamics.com/en/news/150mw-data-center-project-planned-in-haifa-israel/
+source_title: "150MW data center project planned in Haifa, Israel"
+publisher: Data Center Dynamics
+source_date: "2026-11-17"
+observed_date: "2026-11-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low

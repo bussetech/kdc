@@ -1,0 +1,13 @@
+id: sig-20261117-patmos-birmingham-capacity
+site_id: null
+site_hint: "Patmos data center (former Walmart conversion) — Jefferson County, AL"
+attribute: capacity_mw
+value: "50MW"
+source_url: https://www.datacenterdynamics.com/en/news/patmos-plans-50mw-data-center-outside-birmingham-alabama/
+source_title: "Patmos plans 50MW data center outside Birmingham, Alabama"
+publisher: Data Center Dynamics
+source_date: "2026-11-17"
+observed_date: "2026-11-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/summary only in feed; full article not fetched."
