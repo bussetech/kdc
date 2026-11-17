@@ -1,0 +1,13 @@
+id: sig-20261117-macquarie-sydney-capacity
+site_id: null
+site_hint: "Macquarie Data Centres Sydney campus — Macquarie Park, Sydney, Australia"
+attribute: capacity_mw
+value: "200MW"
+source_url: https://www.datacenterdynamics.com/en/news/macquarie-data-centres-eyes-200mw-campus-in-sydney-australia/
+source_title: "Macquarie Data Centres eyes 200MW campus in Sydney, Australia"
+publisher: Data Center Dynamics
+source_date: "2026-11-17"
+observed_date: "2026-11-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/summary only in feed."

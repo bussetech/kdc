@@ -1,0 +1,13 @@
+id: sig-20261117-pace-bedfordshire-status
+site_id: null
+site_hint: "Pace DC data center — Bedfordshire, UK"
+attribute: status
+value: "planned (Pace DC plans project in Bedfordshire)"
+source_url: https://www.datacenterdynamics.com/en/news/100mw-data-center-planned-in-sussex-uk/
+source_title: "100MW data center planned in Sussex, UK"
+publisher: Data Center Dynamics
+source_date: "2026-11-17"
+observed_date: "2026-11-17"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Distinct subject from the Sussex project; mentioned only in subtitle."
