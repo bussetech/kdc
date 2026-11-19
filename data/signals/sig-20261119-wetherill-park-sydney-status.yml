@@ -1,0 +1,13 @@
+id: sig-20261119-wetherill-park-sydney-status
+site_id: null
+site_hint: "Wetherill Park data center (Stockland) — Sydney, NSW, Australia"
+attribute: status
+value: "PDG and Stockland filed to develop Sydney data centers; Stockland targets Wetherill Park"
+source_url: https://www.datacenterdynamics.com/en/news/pdg-and-stockland-file-to-develop-sydney-data-centers/
+source_title: "PDG and Stockland file to develop Sydney data centers"
+publisher: Data Center Dynamics
+source_date: "2026-11-19"
+observed_date: "2026-11-19"
+collected_by: gn_info_scout/1.0.0
+confidence: low
+notes: "Headline/snippet only; no detail on capacity, phase, or exact filing beyond 'filed to develop'. International site surfaced via trade press."
