@@ -1,0 +1,12 @@
+id: sig-20261120-5c-mount-carmel-developer
+site_id: null
+site_hint: "5C data center (Mount Carmel, former FIT Energy site) — ?, PA"
+attribute: developer
+value: "5C"
+source_url: https://www.datacenterdynamics.com/en/news/amd-set-to-lease-planned-5c-data-center-in-pennsylvania/
+source_title: "AMD set to lease planned 5C data center in Pennsylvania"
+publisher: Data Center Dynamics
+source_date: "2026-11-20"
+observed_date: "2026-11-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
