@@ -1,0 +1,12 @@
+id: sig-20261120-cyrusone-osaka-status
+site_id: null
+site_hint: "CyrusOne/KEP Osaka data center (Japanese JV) — Osaka, Japan"
+attribute: status
+value: "topped out (first facility under CyrusOne/KEP Japanese joint venture)"
+source_url: https://www.datacenterdynamics.com/en/news/cyrusone-and-kep-top-out-48mw-data-center-in-osaka-japan/
+source_title: "CyrusOne and KEP top out 48MW data center in Osaka, Japan"
+publisher: Data Center Dynamics
+source_date: "2026-11-20"
+observed_date: "2026-11-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium

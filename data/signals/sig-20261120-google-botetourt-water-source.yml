@@ -1,0 +1,11 @@
+id: sig-20261120-google-botetourt-water-source
+site_id: google-botetourt
+attribute: water_source
+value: "air-cooling technology for the first Botetourt data center; cooling methods for buildings two and three still under evaluation"
+source_url: https://virginiabusiness.com/google-awards-3-9m-in-virginia-watershed-grants/
+source_title: "Google awards $3.9M in Virginia watershed grants"
+publisher: Virginia Business
+source_date: "2026-11-19"
+observed_date: "2026-11-20"
+collected_by: gn_info_scout/1.0.0
+confidence: medium
